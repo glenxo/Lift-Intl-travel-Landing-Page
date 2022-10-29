@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.friendlymailer.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.friendlymailer.com/collections/all.atom"/>
+  <title>Friendly Mailer</title>
+  <updated>2022-02-11T11:58:31-05:00</updated>
+  <author>
+    <name>Friendly Mailer</name>
+  </author>
+  <entry>
+    <id>https://www.friendlymailer.com/products/7233764950187</id>
+    <published>2022-02-11T11:58:31-05:00</published>
+    <updated>2022-02-11T11:58:31-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/plant-based-compostable-mailers"/>
+    <title>Plant Based Compostable Mailers</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/Lying23.png?v=1644505857"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            12.50 - 285.00
+            <a href="https://www.friendlymailer.com/products/plant-based-compostable-mailers">(15 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day </p>
+<p><br>Our new eco-friendly, plant based, compostable mailers are paving the way for the future as your standard plastic poly mailers are becoming a thing of the past.</p>
+<ul>
+<li>Tear proof</li>
+<li>Strong</li>
+<li>Water resistant</li>
+<li>Made with plant based materials</li>
+<li>1 year lifespan</li>
+<li>Home compostable</li>
+<li>All over print</li>
+</ul>
+<p> </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Small (17cm x 30cm) / 50</title>
+      <s:price currency="USD">12.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Small (17cm x 30cm) / 100</title>
+      <s:price currency="USD">22.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>1100</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Small (17cm x 30cm) / 200</title>
+      <s:price currency="USD">37.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>3000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Small (17cm x 30cm) / 500</title>
+      <s:price currency="USD">70.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>6000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Small (17cm x 30cm) / 1000</title>
+      <s:price currency="USD">110.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Medium (25cm x 35cm) / 50</title>
+      <s:price currency="USD">22.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Medium (25cm x 35cm) / 100</title>
+      <s:price currency="USD">37.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>2200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Medium (25cm x 35cm) / 200</title>
+      <s:price currency="USD">47.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>5000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Medium (25cm x 35cm) / 500</title>
+      <s:price currency="USD">92.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>10000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Medium (25cm x 35cm) / 1000</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Large (37cm x 50cm) / 50</title>
+      <s:price currency="USD">30.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Large (37cm x 50cm) / 100</title>
+      <s:price currency="USD">42.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>4000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Large (37cm x 50cm) / 200</title>
+      <s:price currency="USD">77.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>10000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Large (37cm x 50cm) / 500</title>
+      <s:price currency="USD">147.50</s:price>
+      <s:sku></s:sku>
+      <s:grams>20000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/7233764950187</id>
+      <title>Large (37cm x 50cm) / 1000</title>
+      <s:price currency="USD">285.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>40000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/6736038428843</id>
+    <published>2021-06-18T12:56:04-04:00</published>
+    <updated>2021-06-18T12:56:04-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/biodegradable-friendly-tape"/>
+    <title>Biodegradable Friendly Tape</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/tapemockup_7e4dcea5-a834-4706-af2d-57d218582935.png?v=1623071443"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            20.00 - 60.00
+            <a href="https://www.friendlymailer.com/products/biodegradable-friendly-tape">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Our new Eco-Friendly, 100% biodegradable friendly tape is finally here! </p>
+<p>Size: 48mm * 50m </p>
+<ul>
+<li>Strong adhesive</li>
+<li>Tough &amp; Durable</li>
+<li>100% biodegradable </li>
+<li>2 year shelf life </li>
+</ul>
+<p>Need more then 20 rolls? Email us at info@friendlymailer.com for a quote. </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>tape</s:tag>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6736038428843</id>
+      <title>5</title>
+      <s:price currency="USD">20.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>925</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6736038428843</id>
+      <title>10</title>
+      <s:price currency="USD">35.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1850</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6736038428843</id>
+      <title>20</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/6734221705387</id>
+    <published>2021-06-06T11:47:17-04:00</published>
+    <updated>2021-06-06T11:47:17-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/custom-stickers"/>
+    <title>Custom Stickers</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/1.jpg?v=1622991796"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            47.00 - 122.00
+            <a href="https://www.friendlymailer.com/products/custom-stickers">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p style="text-align: center;">Spice up your packaging with these premium, matte custom stickers. They're printed and shipped from right here in Canada, which means you get them fast, fast, fast!</p>
+<p style="text-align: center;">*These stickers can be recycled!*</p>
+<p style="text-align: center;">The sticker size is 2 inches.</p>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"></div>
+<div style="text-align: center;"></div>
+<p style="text-align: center;"> Design your stickers below and view your mockup in real time!</p>
+<meta charset="UTF-8">
+<p><span>Need more then 500 stickers? Email us at info@friendlymailer.com for a quote. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6734221705387</id>
+      <title>50</title>
+      <s:price currency="USD">47.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6734221705387</id>
+      <title>100</title>
+      <s:price currency="USD">72.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6734221705387</id>
+      <title>200</title>
+      <s:price currency="USD">97.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6734221705387</id>
+      <title>500</title>
+      <s:price currency="USD">122.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>100</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/6697569484971</id>
+    <published>2021-05-25T15:28:48-04:00</published>
+    <updated>2021-05-25T15:28:48-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/custom-mailer"/>
+    <title>Custom Biodegradable Mailers</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/Lying2.jpg?v=1655642558"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            243.00 - 796.00
+            <a href="https://www.friendlymailer.com/products/custom-mailer">(96 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div style="text-align: left;"><strong>LIMITED TIME FREE SHIPPING</strong></div>
+<div style="text-align: left;">Take your business to the next level with custom mailers.</div>
+<div style="text-align: left;">Easily design your mailer online by adding your logo to one of our templates.</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / White</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Black</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Blue</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Green</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Pink</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Purple</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Red</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 200 / Yellow</title>
+      <s:price currency="USD">243.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / White</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Black</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Blue</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Green</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Pink</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Purple</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Red</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 300 / Yellow</title>
+      <s:price currency="USD">275.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / White</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Black</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Blue</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Green</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Pink</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Purple</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Red</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 500 / Yellow</title>
+      <s:price currency="USD">338.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / White</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Black</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Blue</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Green</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Pink</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Purple</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Red</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Small (17cm x 30cm) / 1000 / Yellow</title>
+      <s:price currency="USD">496.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / White</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Black</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Blue</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Green</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Pink</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Purple</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Red</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 200 / Yellow</title>
+      <s:price currency="USD">259.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / White</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Black</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Blue</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Green</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Pink</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Purple</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Red</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 300 / Yellow</title>
+      <s:price currency="USD">296.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / White</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Black</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Blue</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Green</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Pink</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Purple</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Red</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 500 / Yellow</title>
+      <s:price currency="USD">384.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / White</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Black</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Blue</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Green</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Pink</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Purple</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Red</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Medium (25cm x 35cm) / 1000 / Yellow</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / White</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Black</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Blue</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Green</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Pink</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Purple</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Red</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 200 / Yellow</title>
+      <s:price currency="USD">345.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / White</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Black</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Blue</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Green</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Pink</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Purple</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Red</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 300 / Yellow</title>
+      <s:price currency="USD">392.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / White</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Black</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Blue</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Green</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Pink</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Purple</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Red</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 500 / Yellow</title>
+      <s:price currency="USD">550.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / White</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Black</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Blue</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Green</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Pink</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Purple</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Red</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6697569484971</id>
+      <title>Large (38cm x 52cm) / 1000 / Yellow</title>
+      <s:price currency="USD">796.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/6557913972907</id>
+    <published>2021-03-09T15:05:17-05:00</published>
+    <updated>2021-03-09T15:05:17-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-blue"/>
+    <title>Eco Friendly Biodegradable Mailers (Turquoise)</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/Lying21.png?v=1616177289"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            25.00 - 570.00
+            <a href="https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-blue">(15 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day </p>
+<p><br>Our new eco-friendly, 100% biodegradable mailers are paving the way for the future as your standard plastic poly mailers are becoming a thing of the past.</p>
+<ul>
+<li>Tear proof</li>
+<li>Strong</li>
+<li>Water resistant</li>
+<li>Made with D2W biodegradable materials</li>
+<li>2 year lifespan</li>
+<li>Label friendly</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Small (17cm x 30cm) / 50</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Small (17cm x 30cm) / 100</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Small (17cm x 30cm) / 200</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Small (17cm x 30cm) / 500</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Small (17cm x 30cm) / 1000</title>
+      <s:price currency="USD">220.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Medium (25cm x 35cm) / 50</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Medium (25cm x 35cm) / 100</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Medium (25cm x 35cm) / 200</title>
+      <s:price currency="USD">95.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>5000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Medium (25cm x 35cm) / 500</title>
+      <s:price currency="USD">185.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>10000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Medium (25cm x 35cm) / 1000</title>
+      <s:price currency="USD">360.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Large (37cm x 50cm) / 50</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Large (37cm x 50cm) / 100</title>
+      <s:price currency="USD">85.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Large (37cm x 50cm) / 200</title>
+      <s:price currency="USD">155.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Large (37cm x 50cm) / 500</title>
+      <s:price currency="USD">295.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/6557913972907</id>
+      <title>Large (37cm x 50cm) / 1000</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>28000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/4790539223145</id>
+    <published>2020-09-09T17:39:53-04:00</published>
+    <updated>2020-09-09T17:39:53-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-v4-white"/>
+    <title>Eco Friendly Biodegradable Mailers v4 (White)</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/Lying22.png?v=1616177464"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            25.00 - 870.00
+            <a href="https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-v4-white">(20 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day</p>
+<p><br>Our new eco-friendly, 100% biodegradable mailers are paving the way for the future as your standard plastic poly mailers are becoming a thing of the past.</p>
+<p> </p>
+<ul>
+<li>Tear proof</li>
+<li>Strong</li>
+<li>Water resistant</li>
+<li>Made with D2W biodegradable materials</li>
+<li>2 year lifespan</li>
+<li>Label friendly</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Small (17cm x 30cm) / 50</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Small (17cm x 30cm) / 100</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Small (17cm x 30cm) / 200</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Small (17cm x 30cm) / 500</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Small (17cm x 30cm) / 1000</title>
+      <s:price currency="USD">220.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Medium (25cm x 35cm) / 50</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Medium (25cm x 35cm) / 100</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Medium (25cm x 35cm) / 200</title>
+      <s:price currency="USD">95.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>5000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Medium (25cm x 35cm) / 500</title>
+      <s:price currency="USD">185.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>10000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Medium (25cm x 35cm) / 1000</title>
+      <s:price currency="USD">360.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Large (37cm x 50cm) / 50</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Large (37cm x 50cm) / 100</title>
+      <s:price currency="USD">85.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Large (37cm x 50cm) / 200</title>
+      <s:price currency="USD">155.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Large (37cm x 50cm) / 500</title>
+      <s:price currency="USD">295.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Large (37cm x 50cm) / 1000</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>28000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Extra Large (45cm x 64cm) / 50</title>
+      <s:price currency="USD">80.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Extra Large (45cm x 64cm) / 100</title>
+      <s:price currency="USD">125.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Extra Large (45cm x 64cm) / 200</title>
+      <s:price currency="USD">235.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>9000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Extra Large (45cm x 64cm) / 500</title>
+      <s:price currency="USD">450.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>15000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790539223145</id>
+      <title>Extra Large (45cm x 64cm) / 1000</title>
+      <s:price currency="USD">870.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/4790312599657</id>
+    <published>2020-09-09T17:10:18-04:00</published>
+    <updated>2020-09-09T17:10:18-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black"/>
+    <title>Eco Friendly Biodegradable Mailers (Black)</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/Lying2.png?v=1616177163"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            25.00 - 570.00
+            <a href="https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black">(15 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day </p>
+<p><br>Our new eco-friendly, 100% biodegradable mailers are paving the way for the future as your standard plastic poly mailers are becoming a thing of the past.</p>
+<ul>
+<li>Tear proof</li>
+<li>Strong</li>
+<li>Water resistant</li>
+<li>Made with D2W biodegradable materials</li>
+<li>2 year lifespan</li>
+<li>Label friendly</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Small (17cm x 30cm) / 50</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Small (17cm x 30cm) / 100</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Small (17cm x 30cm) / 200</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Small (17cm x 30cm) / 500</title>
+      <s:price currency="USD">140.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Small (17cm x 30cm) / 1000</title>
+      <s:price currency="USD">220.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Medium (25cm x 35cm) / 50</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>900</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Medium (25cm x 35cm) / 100</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Medium (25cm x 35cm) / 200</title>
+      <s:price currency="USD">95.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>5000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Medium (25cm x 35cm) / 500</title>
+      <s:price currency="USD">185.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>10000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Medium (25cm x 35cm) / 1000</title>
+      <s:price currency="USD">360.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>20000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Large (37cm x 50cm) / 50</title>
+      <s:price currency="USD">60.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1600</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Large (37cm x 50cm) / 100</title>
+      <s:price currency="USD">85.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2800</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Large (37cm x 50cm) / 200</title>
+      <s:price currency="USD">155.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Large (37cm x 50cm) / 500</title>
+      <s:price currency="USD">295.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>14000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4790312599657</id>
+      <title>Large (37cm x 50cm) / 1000</title>
+      <s:price currency="USD">570.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>28000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/4767230001257</id>
+    <published>2020-08-04T18:17:21-04:00</published>
+    <updated>2020-08-04T18:17:21-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/bubble-biodegradable-mailers"/>
+    <title>Bubble Biodegradable Mailers</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/TopFront1.png?v=1616176779"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            65.00 - 950.00
+            <a href="https://www.friendlymailer.com/products/bubble-biodegradable-mailers">(15 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day </p>
+<p><br>Our new eco-friendly, 100% biodegradable mailers are paving the way for the future as your standard plastic poly mailers are becoming a thing of the past.<br><a href="https://www.friendlymailer.com/collections/mailers/products/eco-friendly-biodegradable-mailers-v4-white"><br></a></p>
+<ul>
+<li>Tear proof</li>
+<li>Strong</li>
+<li>Water resistant</li>
+<li>Made with D2W biodegradable materials</li>
+<li>2 year lifespan</li>
+<li>Label friendly</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Small (17cm x 30cm) / 50 mailers</title>
+      <s:price currency="USD">65.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Small (17cm x 30cm) / 100 mailers</title>
+      <s:price currency="USD">98.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Small (17cm x 30cm) / 200 mailers</title>
+      <s:price currency="USD">180.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>6000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Small (17cm x 30cm) / 500 mailers</title>
+      <s:price currency="USD">450.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>12000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Small (17cm x 30cm) / 1000 mailers</title>
+      <s:price currency="USD">720.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>24000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Medium (25cm x 35cm) / 50 mailers</title>
+      <s:price currency="USD">95.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>1600</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Medium (25cm x 35cm) / 100 mailers</title>
+      <s:price currency="USD">135.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Medium (25cm x 35cm) / 200 mailers</title>
+      <s:price currency="USD">240.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>7000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Medium (25cm x 35cm) / 500 mailers</title>
+      <s:price currency="USD">720.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>15000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Medium (25cm x 35cm) / 1000 mailers</title>
+      <s:price currency="USD">950.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30400</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Large (37cm x 50cm) / 50 mailers</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>3250</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Large (37cm x 50cm) / 100 mailers</title>
+      <s:price currency="USD">125.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>6500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Large (37cm x 50cm) / 200 mailers</title>
+      <s:price currency="USD">215.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>15000</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Large (37cm x 50cm) / 500 mailers</title>
+      <s:price currency="USD">490.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>30200</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4767230001257</id>
+      <title>Large (37cm x 50cm) / 1000 mailers</title>
+      <s:price currency="USD">680.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>68000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.friendlymailer.com/products/4376407081065</id>
+    <published>2019-11-19T15:00:58-05:00</published>
+    <updated>2019-11-19T15:00:58-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack"/>
+    <title>Sample Pack (FREE after included coupon redemption)</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/newsample.jpg?v=1644918033"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            25.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day </p>
+<p><br>Want to check the quality of our mailers? We've put together this sample pack for you to try out with a one time use coupon included to cover the cost of it, making it free after you redeem the coupon on an order of our <a href="https://www.friendlymailer.com/products/compostable-mailers" target="_blank">Eco Friendly Biodegradable Mailers</a>, <a href="https://www.friendlymailer.com/products/bubble-biodegradable-mailers" data-mce-fragment="1" target="_blank">Eco Friendly Bubble Mailers</a>, and/or <a href="https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers" target="_blank">Plant Based Compostable Mailers</a>.</p>
+<p> </p>
+<p> </p>
+<p>Includes one of each:</p>
+<ul>
+<li>17cm x 30cm Eco Friendly Biodegradable Mailer Bag</li>
+<li>25cm x 35cm Eco Friendly Biodegradable Mailer Bag</li>
+<li>37cm x 50cm Eco Friendly Biodegradable Mailer Bag</li>
+<li>45cm x 64cm Eco Friendly Biodegradable Mailer Bag </li>
+<li>17cm x 30cm Compostable Plant Based Mailer Bag</li>
+<li>25cm x 35cm <span data-mce-fragment="1">Compostable Plant Based</span> Mailer Bag</li>
+<li>37cm x 50cm <span data-mce-fragment="1">Compostable Plant Based</span> Mailer Bag</li>
+<li>17cm x 30cm Eco Friendly Biodegradable Bubble Mailer</li>
+<li>25cm x 35cm Eco Friendly Biodegradable Bubble Mailer</li>
+<li>37cm x 50cm Eco Friendly Biodegradable Bubble Mailer</li>
+<li>1 Roll of Biodegradable Tape</li>
+<li>A Discount Card For The Full Cost Of The Sample Pack</li>
+</ul>
+<p>*Discount card is single use per customer/location*</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4376407081065</id>
+      <title>Default Title</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+</feed>

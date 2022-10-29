@@ -1,2 +1,2 @@
 # mailing-website
-Mailing website to initialize  pawnshop proyect
+Mailing website to initialize  pawnshop proyect.

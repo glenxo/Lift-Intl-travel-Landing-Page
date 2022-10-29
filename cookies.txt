@@ -1,0 +1,20 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+friendlymailer.com	TRUE	/	FALSE	1999999999	_landing_page	%2F
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	_secure_session_id	9f61033ca3088cbc51db906e1146559d
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	cart	1c355cbd676b31770f2d5b51528de802
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	cart_ts	1667001825
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	checkout_session_token__c__1c355cbd676b31770f2d5b51528de802	%7B%22token%22%3A%22aSttalE3OWpLNUhoWnE2Ykt2T3FSbEFMM2tvQVNOQTAydS9lVjc1QzZHYldqTmpzWnZNTEEvVFA5YzRoY0MvbVg3ZmpWM3RDVXhNVmxDV0cwMlIvbHdmM1YrSkNoR2ErQ2t0d3BvTXpWNzMzcWhyTjJMb0JPS2tEdkhDaERIRE5pMTBJcm9DRWVtbDcvS3AxZENSVVFKT1NYM0d5R09HbUVvcFp6ZmFSaG9NcFMzSUVFL2NZUXpRcG1xRDFZekErNXdhRVp1ZUZqRXdmdk5aZ25yZ3FBMkdLRnRocTM3WFh1QWVkc1dOQytLdmlxWVBjTlM5NHdXQmoxUkt2U1EzWlE2MTdkL1NqNlVOZE9aNWVjQT09LS15QkM4dVZ5RHp0blNqWlF4LS1hSCtNYWFLb0NBeTVud2E1VWxZMDZnPT0%22%2C%22locale%22%3A%22en-US%22%7D
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	checkout_session_lookup	%7B%22version%22%3A1%2C%22keys%22%3A%5B%7B%22source_id%22%3A%221c355cbd676b31770f2d5b51528de802%22%2C%22checkout_session_identifier%22%3A%228563a20aab6cf9ae6f761584befcfd9f%22%2C%22source_type_abbrev%22%3A%22c%22%2C%22updated_at%22%3A%222022-10-29T00%3A03%3A45.611Z%22%7D%5D%7D
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	checkout_one_experiment	eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJZ0lIQVhzaVpYaHdaWEpwYldWdWRGOXVZVzFsSWpvaVl6RmZZV0pmZEdWemRGOHhOaUlzSW1sdVgzUmxjM1JmWjNKdmRYQWlPblJ5ZFdVc0ltTmhjblJmZEc5clpXNGlPaUl4WXpNMU5XTmlaRFkzTm1Jek1UYzNNR1l5WkRWaU5URTFNamhrWlRnd01pSXNJbk4xWW1wbFkzUmZhV1FpT2lJNE5UWXpZVEl3WVdGaU5tTm1PV0ZsTm1ZM05qRTFPRFJpWldaalptUTVaaUlzSW5OMFlYSjBhVzVuWDJ4dlkyRnNaU0k2SW1WdUxWVlRJaXdpZG1WeWMybHZiaUk2SW1NeExtRmlYMlY0Y0dWeWFXMWxiblJmWTI5dmEybGxYM1psY25OcGIyNHVNUzQySWl3aVpYaHdhWEpsY3lJNklqSXdNakl0TVRFdE1ERlVNREE2TURNNk5EVXVOakU0V2lKOUJqb0dSVlE9IiwiZXhwIjoiMjAyMi0xMS0wMVQwMDowMzo0NS42MThaIiwicHVyIjoiY29va2llLmNoZWNrb3V0X29uZV9leHBlcmltZW50In19--f971dda0eddfb69588e8ee9d73f06d260e49bda7
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	cart_sig	c1261e599bcc540fe67b0ec5b7383c85
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	cart_ver	gcp-us-east1%3A11
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	localization	US
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	cart_currency	USD
+friendlymailer.com	TRUE	/	FALSE	1999999999	_y	46669332-5fe8-4619-9904-91f728552b1a
+friendlymailer.com	TRUE	/	FALSE	1999999999	_s	6477a798-b01a-4baa-bbf7-41b92fa10b96
+friendlymailer.com	TRUE	/	FALSE	1999999999	_shopify_y	46669332-5fe8-4619-9904-91f728552b1a
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+friendlymailer.com	TRUE	/	FALSE	1999999999	_shopify_s	6477a798-b01a-4baa-bbf7-41b92fa10b96
+www.friendlymailer.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

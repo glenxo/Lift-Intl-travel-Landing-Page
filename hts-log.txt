@@ -1,0 +1,191 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Fri, 28 Oct 2022 19:00:12 at https://www.friendlymailer.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.friendlymailer.com/ -O "/home/glenxo/websites/friendlymailer.com" -n -t -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:01:13	Error: 	"Not Found" (404) at link https://monorail-edge.shopifysvc.com/ (from https://www.friendlymailer.com/)
+19:01:13	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/POST (from https://www.friendlymailer.com/)
+19:04:02	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/POST (from https://www.friendlymailer.com/collections/all)
+19:07:11	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/pages/POST (from https://www.friendlymailer.com/pages/about-1)
+19:07:11	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/account/POST (from https://www.friendlymailer.com/account/login?return_url=%2Faccount)
+19:07:11	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/products/POST (from https://www.friendlymailer.com/products/custom-mailer)
+19:07:11	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/products/compostable-mailers (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/products/"https://www.friendlymailer.com/products/compostable-mailers" (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/products/"https://www.friendlymailer.com/products/bubble-biodegradable-mailers" (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/products/"https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers" (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/all/products/POST (from https://www.friendlymailer.com/collections/all/products/plant-based-compostable-mailers)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/all/products/"https://www.friendlymailer.com/collections/mailers/products/eco-friendly-biodegradable-mailers-v4-white"><br></a></p> (from https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/all/products/"https://www.friendlymailer.com/products/compostable-mailers" (from https://www.friendlymailer.com/collections/all/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/all/products/"https://www.friendlymailer.com/products/bubble-biodegradable-mailers" (from https://www.friendlymailer.com/collections/all/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/all/products/"https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers" (from https://www.friendlymailer.com/collections/all/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/mailers/products/POST (from https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/mailers/products/"https://www.friendlymailer.com/collections/mailers/products/eco-friendly-biodegradable-mailers-v4-white"><br></a></p> (from https://www.friendlymailer.com/collections/mailers/products/bubble-biodegradable-mailers)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/customize-it/products/POST (from https://www.friendlymailer.com/collections/customize-it/products/custom-mailer)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/sample-packs/products/POST (from https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/sample-packs/products/"https://www.friendlymailer.com/products/compostable-mailers" (from https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/sample-packs/products/"https://www.friendlymailer.com/products/bubble-biodegradable-mailers" (from https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/sample-packs/products/"https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers" (from https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/collections/clearance/products/POST (from https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers)
+19:07:12	Error: 	"Not Found" (404) at link https://www.friendlymailer.com/products/"https://www.friendlymailer.com/collections/mailers/products/eco-friendly-biodegradable-mailers-v4-white"><br></a></p> (from https://www.friendlymailer.com/products/bubble-biodegradable-mailers)
+19:07:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/vendor.js?v=25410465201280584561664971230
+19:07:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-c31d2fa4962d2ef90b673e945ee33f4f87302b97d0882cd8e83a629b84b30dab.js?v=20220906
+19:07:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-ab38017af3cf759db0af0bbd1e75229f6a189f5bf1f2db42169630998b969021.js
+19:07:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/theme.js?v=157537847374962509491664971230
+19:07:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js
+19:07:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/extensions/928e3a46-9877-4122-96c5-d5c7113bc53c/0.79.0/assets/LivIconsEvo.bundle.js
+19:07:24	Warning: 	HTML file (127705 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/cart
+19:07:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/extensions/928e3a46-9877-4122-96c5-d5c7113bc53c/0.79.0/assets/lazysizes.js
+19:07:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/extensions/928e3a46-9877-4122-96c5-d5c7113bc53c/0.79.0/assets/buddha-megamenu.js
+19:07:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/trekkie.storefront.959f71dbd7e992c48a2a5941c6de2c0cf3fc27c6.min.js
+19:07:27	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js
+19:07:28	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js
+19:07:31	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/cart (from https://www.friendlymailer.com/)
+19:07:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/all.atom
+19:07:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/all.oembed
+19:07:36	Warning: 	HTML file (168185 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all
+19:07:43	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all (from https://www.friendlymailer.com/)
+19:07:43	Warning: 	HTML file (298239 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/custom-mailer
+19:07:54	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/custom-mailer (from https://www.friendlymailer.com/)
+19:07:54	Warning: 	HTML file (186787 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack
+19:08:03	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack (from https://www.friendlymailer.com/)
+19:09:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/mailers.atom
+19:09:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/mailers.oembed
+19:09:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/customize-it.atom
+19:09:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/sample-packs.atom
+19:09:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/customize-it.oembed
+19:09:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/sample-packs.oembed
+19:09:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/clearance.atom
+19:09:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/collections/clearance.oembed
+19:09:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/shopifycloud/shopify/assets/themes_support/shopify_common-8ea6ac3faf357236a97f5de749df4da6e8436ca107bc3a4ee805cbf08bc47392.js
+19:09:31	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/custom-mailer.oembed
+19:09:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack.oembed
+19:09:39	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/plant-based-compostable-mailers.oembed
+19:09:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/bubble-biodegradable-mailers.oembed
+19:09:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-blue.oembed
+19:09:55	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/POST
+19:09:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-v4-white.oembed
+19:10:02	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/POST (from https://www.friendlymailer.com/collections/all)
+19:10:02	Warning: 	HTML file (203451 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers
+19:10:11	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers (from https://www.friendlymailer.com/collections/all)
+19:10:11	Warning: 	HTML file (200397 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-blue
+19:10:21	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-blue (from https://www.friendlymailer.com/collections/all)
+19:10:21	Warning: 	HTML file (211266 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-v4-white
+19:10:30	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-v4-white (from https://www.friendlymailer.com/collections/all)
+19:10:30	Warning: 	HTML file (200949 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black
+19:10:40	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black (from https://www.friendlymailer.com/collections/all)
+19:11:42	Warning: 	HTML file (298673 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/custom-mailer
+19:11:52	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/custom-mailer (from https://www.friendlymailer.com/collections/all)
+19:12:38	Warning: 	HTML file (200851 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers
+19:12:47	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers (from https://www.friendlymailer.com/collections/mailers)
+19:12:47	Warning: 	HTML file (298709 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/customize-it/products/custom-mailer
+19:12:57	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/customize-it/products/custom-mailer (from https://www.friendlymailer.com/collections/customize-it)
+19:12:57	Warning: 	HTML file (187170 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack
+19:13:06	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack (from https://www.friendlymailer.com/collections/sample-packs)
+19:13:06	Warning: 	HTML file (200859 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers
+19:13:15	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers (from https://www.friendlymailer.com/collections/clearance)
+19:13:15	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/account/POST
+19:13:23	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/account/POST (from https://www.friendlymailer.com/account/login?return_url=%2Faccount)
+19:13:23	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/POST
+19:13:30	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/POST (from https://www.friendlymailer.com/products/custom-mailer)
+19:13:32	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black.oembed
+19:15:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/biodegradable-friendly-tape.oembed
+19:16:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.friendlymailer.com/products/custom-stickers.oembed
+19:16:49	Warning: 	HTML file (127705 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/cart
+19:16:56	Warning: 	HTML file (168185 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all
+19:17:01	Warning: 	HTML file (298239 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/custom-mailer
+19:17:03	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/compostable-mailers
+19:17:05	Warning: 	HTML file (186787 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack
+19:17:11	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/compostable-mailers (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:17:12	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/POST
+19:17:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/fa-brands-400.eot?
+19:17:20	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/POST (from https://www.friendlymailer.com/collections/all/products/plant-based-compostable-mailers)
+19:17:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/fa-regular-400.eot
+19:17:20	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/fa-regular-400.eot?
+19:18:22	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/fa-solid-900.eot
+19:18:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.shopify.com/s/files/1/0272/4593/6745/t/14/assets/fa-solid-900.eot?
+19:18:59	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/POST
+19:19:00	Warning: 	HTML file (200581 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black
+19:19:06	Warning: 	HTML file (203451 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers
+19:19:09	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black (from https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black)
+19:19:09	Warning: 	HTML file (200397 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-blue
+19:19:15	Warning: 	HTML file (211266 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-v4-white
+19:19:18	Warning: 	HTML file (200949 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black
+19:19:25	Warning: 	HTML file (165529 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/custom-stickers
+19:19:28	Warning: 	HTML file (298673 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/custom-mailer
+19:19:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/custom-stickers (from https://www.friendlymailer.com/collections/all/products/custom-stickers)
+19:19:34	Warning: 	HTML file (200851 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers
+19:19:38	Warning: 	HTML file (298709 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/customize-it/products/custom-mailer
+19:19:43	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/cart (from https://www.friendlymailer.com/)
+19:19:43	Warning: 	HTML file (187170 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack
+19:19:49	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all (from https://www.friendlymailer.com/)
+19:19:49	Warning: 	HTML file (200859 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers
+19:19:52	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/custom-mailer (from https://www.friendlymailer.com/)
+19:19:52	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/account/POST
+19:19:58	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack (from https://www.friendlymailer.com/)
+19:20:00	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/POST
+19:20:08	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/compostable-mailers
+19:20:11	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/POST
+19:20:15	Warning: 	HTML file (200581 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black
+19:20:19	Warning: 	HTML file (165529 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/custom-stickers
+19:20:22	Warning: 	HTML file (127705 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/cart
+19:20:24	Warning: 	HTML file (168185 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all
+19:20:28	Warning: 	HTML file (298239 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/custom-mailer
+19:20:29	Warning: 	HTML file (186787 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack
+19:20:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/POST (from https://www.friendlymailer.com/collections/all)
+19:20:34	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/POST
+19:20:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers (from https://www.friendlymailer.com/collections/all)
+19:20:34	Warning: 	HTML file (203451 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers
+19:20:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-blue (from https://www.friendlymailer.com/collections/all)
+19:20:34	Warning: 	HTML file (200397 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-blue
+19:20:34	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-v4-white (from https://www.friendlymailer.com/collections/all)
+19:20:34	Warning: 	HTML file (211266 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-v4-white
+19:20:42	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black (from https://www.friendlymailer.com/collections/all)
+19:20:42	Warning: 	HTML file (200949 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black
+19:20:44	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/custom-mailer (from https://www.friendlymailer.com/collections/all)
+19:20:44	Warning: 	HTML file (298673 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/custom-mailer
+19:20:44	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers (from https://www.friendlymailer.com/collections/mailers)
+19:20:44	Warning: 	HTML file (200851 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers
+19:20:44	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/customize-it/products/custom-mailer (from https://www.friendlymailer.com/collections/customize-it)
+19:20:44	Warning: 	HTML file (298709 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/customize-it/products/custom-mailer
+19:20:51	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack (from https://www.friendlymailer.com/collections/sample-packs)
+19:20:51	Warning: 	HTML file (187170 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack
+19:20:54	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers (from https://www.friendlymailer.com/collections/clearance)
+19:20:54	Warning: 	HTML file (200859 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers
+19:20:55	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/account/POST (from https://www.friendlymailer.com/account/login?return_url=%2Faccount)
+19:20:55	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/account/POST
+19:20:55	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/POST (from https://www.friendlymailer.com/products/custom-mailer)
+19:20:55	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/POST
+19:21:00	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/compostable-mailers (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:21:00	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/compostable-mailers
+19:21:02	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/collections/all/products/POST (from https://www.friendlymailer.com/collections/all/products/plant-based-compostable-mailers)
+19:21:02	Warning: 	HTML file (127331 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/collections/all/products/POST
+19:21:04	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black (from https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black)
+19:21:04	Warning: 	HTML file (200581 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black
+19:21:04	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.friendlymailer.com/products/custom-stickers (from https://www.friendlymailer.com/collections/all/products/custom-stickers)
+19:21:04	Warning: 	HTML file (165529 bytes) retransferred due to lack of cache: https://www.friendlymailer.com/products/custom-stickers
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/cart (from https://www.friendlymailer.com/)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all (from https://www.friendlymailer.com/)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/products/custom-mailer (from https://www.friendlymailer.com/)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack (from https://www.friendlymailer.com/)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/POST (from https://www.friendlymailer.com/collections/all)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all/products/bubble-biodegradable-mailers (from https://www.friendlymailer.com/collections/all)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-blue (from https://www.friendlymailer.com/collections/all)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-v4-white (from https://www.friendlymailer.com/collections/all)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black (from https://www.friendlymailer.com/collections/all)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all/products/custom-mailer (from https://www.friendlymailer.com/collections/all)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers (from https://www.friendlymailer.com/collections/mailers)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/customize-it/products/custom-mailer (from https://www.friendlymailer.com/collections/customize-it)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/sample-packs/products/eco-friendly-mailer-sample-pack (from https://www.friendlymailer.com/collections/sample-packs)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/collections/clearance/products/plant-based-compostable-mailers (from https://www.friendlymailer.com/collections/clearance)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/account/POST (from https://www.friendlymailer.com/account/login?return_url=%2Faccount)
+19:21:04	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/products/POST (from https://www.friendlymailer.com/products/custom-mailer)
+19:21:05	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/products/compostable-mailers (from https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack)
+19:21:05	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://www.friendlymailer.com/collections/all/products/POST (from https://www.friendlymailer.com/collections/all/products/plant-based-compostable-mailers)
+19:21:05	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/products/eco-friendly-biodegradable-mailers-black (from https://www.friendlymailer.com/collections/all/products/eco-friendly-biodegradable-mailers-black)
+19:21:05	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.friendlymailer.com/products/custom-stickers (from https://www.friendlymailer.com/collections/all/products/custom-stickers)
+
+HTTrack Website Copier/3.49-2 mirror complete in 20 minutes 53 seconds : 250 links scanned, 278 files written (52725929 bytes overall) [36692133 bytes received at 29283 bytes/sec], 16011768 bytes transferred using HTTP compression in 147 files, ratio 27%, 2.8 requests per connection
+(44 errors, 136 warnings, 0 messages)

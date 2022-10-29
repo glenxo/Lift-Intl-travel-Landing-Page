@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.friendlymailer.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.friendlymailer.com/collections/sample-packs.atom"/>
+  <title>Friendly Mailer</title>
+  <updated>2019-11-19T15:00:58-05:00</updated>
+  <author>
+    <name>Friendly Mailer</name>
+  </author>
+  <entry>
+    <id>https://www.friendlymailer.com/products/4376407081065</id>
+    <published>2019-11-19T15:00:58-05:00</published>
+    <updated>2019-11-19T15:00:58-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.friendlymailer.com/products/eco-friendly-mailer-sample-pack"/>
+    <title>Sample Pack (FREE after included coupon redemption)</title>
+    <s:type></s:type>
+    <s:vendor>Friendly Mailer</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0272/4593/6745/products/newsample.jpg?v=1644918033"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Friendly Mailer<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            25.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Ships same or next business day </p>
+<p><br>Want to check the quality of our mailers? We've put together this sample pack for you to try out with a one time use coupon included to cover the cost of it, making it free after you redeem the coupon on an order of our <a href="https://www.friendlymailer.com/products/compostable-mailers" target="_blank">Eco Friendly Biodegradable Mailers</a>, <a href="https://www.friendlymailer.com/products/bubble-biodegradable-mailers" data-mce-fragment="1" target="_blank">Eco Friendly Bubble Mailers</a>, and/or <a href="https://www.friendlymailer.com/collections/mailers/products/plant-based-compostable-mailers" target="_blank">Plant Based Compostable Mailers</a>.</p>
+<p> </p>
+<p> </p>
+<p>Includes one of each:</p>
+<ul>
+<li>17cm x 30cm Eco Friendly Biodegradable Mailer Bag</li>
+<li>25cm x 35cm Eco Friendly Biodegradable Mailer Bag</li>
+<li>37cm x 50cm Eco Friendly Biodegradable Mailer Bag</li>
+<li>45cm x 64cm Eco Friendly Biodegradable Mailer Bag </li>
+<li>17cm x 30cm Compostable Plant Based Mailer Bag</li>
+<li>25cm x 35cm <span data-mce-fragment="1">Compostable Plant Based</span> Mailer Bag</li>
+<li>37cm x 50cm <span data-mce-fragment="1">Compostable Plant Based</span> Mailer Bag</li>
+<li>17cm x 30cm Eco Friendly Biodegradable Bubble Mailer</li>
+<li>25cm x 35cm Eco Friendly Biodegradable Bubble Mailer</li>
+<li>37cm x 50cm Eco Friendly Biodegradable Bubble Mailer</li>
+<li>1 Roll of Biodegradable Tape</li>
+<li>A Discount Card For The Full Cost Of The Sample Pack</li>
+</ul>
+<p>*Discount card is single use per customer/location*</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.friendlymailer.com/products/4376407081065</id>
+      <title>Default Title</title>
+      <s:price currency="USD">25.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>200</s:grams>
+    </s:variant>
+  </entry>
+</feed>
