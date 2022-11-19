@@ -7,7 +7,7 @@
 */
 :root{
     --orange: #ff0028;
-    --black: #05020a;
+    --black: #1e1c23;
     --light-color:#777;
     --border:.1rem solid rgba(0,0,0,.2);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -38,14 +38,38 @@
   i {
     color: #ff0028;
   }
+  
+  h1 {
+      color: #ffff;
+  }
+
+  h2 {
+    color: #ffff;
+  }
+  
+  h3 {
+    color: #ffff;
+  }
+
+  span {
+      color: #ffff;
+  }
 
 
+  p {
+      color: #ffff;
+  }
+
+
+  a {
+    color: #ffff;
+  }
   
   .btn{
     margin-top: 1rem;
     display: inline-block;
     background:var(--black);
-    color:#1e1c23;
+    color: #c0bfc2;
     border-radius: .5rem;
     padding:.9rem 3rem;
     cursor: pointer;
@@ -54,6 +78,7 @@
   
   .btn:hover{
     background:var(--orange);
+    color: #05020a;
   }
   
   .header{
@@ -94,7 +119,7 @@
     line-height:4.5rem;
     width:4.5rem;
     text-align: center;
-    color:var(--black);
+    color: #c0bfc2;
     background: #ffff;
     border-radius: 50%;
     margin-left: .7rem;
@@ -131,7 +156,7 @@
     border-radius: .5rem;
     padding:1rem;
     font-size: 1.7rem;
-    color:var(--black);
+    color: #c0bfc2;
     height: 100%;
   }
   
@@ -153,7 +178,7 @@
   
   .banner{
     min-height: 80vh;
-    background:url(../images/banner.png) no-repeat;
+    background:url(https://images.pexels.com/photos/1457812/pexels-photo-1457812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
     background-size: cover;
     background-position: center;
     display: grid;
@@ -163,7 +188,7 @@
   
   .banner .content{
     text-align: center;
-    background:#fff;
+    background:rgb(14, 11, 11);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     padding:3rem;
@@ -172,7 +197,7 @@
   
   .banner .content h3{
     font-size: 4rem;
-    color:var(--black);
+    color: #c0bfc2;
     text-transform: uppercase;
   }
   
@@ -248,7 +273,7 @@
   
   .container .posts-container .links a i{
     padding-right: .2rem;
-    color:var(--black);
+    color:var(--white);
   }
   
   .container .posts-container .links a:hover{
@@ -326,7 +351,7 @@
   .container .sidebar .box .category a{
     padding:.4rem 0;
     font-size: 1.5rem;
-    color:var(--black);
+    color: #c0bfc2;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -357,7 +382,7 @@
   }
   
   .container .sidebar .box .p-post a h3{
-    color:var(--black);
+    color:#c0bfc2;
     font-size: 2rem;
     padding-bottom: 1rem;
   }
@@ -395,7 +420,7 @@
   }
   
   .contact{
-    background:url(../images/contact-bg.jpg) no-repeat;
+    background:url(https://images.pexels.com/photos/5193169/pexels-photo-5193169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
