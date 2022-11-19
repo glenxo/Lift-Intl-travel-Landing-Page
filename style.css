@@ -493,7 +493,7 @@ section {
 }
 
 .review .box-container .box:hover {
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #df5708;
 }
 
 .review .box-container .box p {
@@ -571,7 +571,7 @@ section {
 }
 
 .blogs .box-container .box .content .link:hover {
-  color: #29d9d5;
+  color: #df5708;
 }
 
 .blogs .box-container .box .content p {
@@ -600,12 +600,12 @@ section {
 }
 
 .blogs .box-container .box .content .icon a:hover {
-  color: #29d9d5;
+  color: #d97229;
 }
 
 .blogs .box-container .box .content .icon a i {
   padding-right: .5rem;
-  color: #29d9d5;
+  color: #d93e29;
 }
 
 .banner {
@@ -620,7 +620,7 @@ section {
 
 .banner .content span {
   font-size: 2rem;
-  color: #29d9d5;
+  color: #d9a429;
 }
 
 .banner .content h3 {
@@ -668,7 +668,7 @@ section {
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #29d9d5;
+  color: #d93e29;
 }
 
 .footer .box-container .box .share {
@@ -682,14 +682,14 @@ section {
   font-size: 2rem;
   border-radius: 50%;
   font-size: 1.7rem;
-  border: 0.2rem solid #29d9d5;
-  color: #29d9d5;
+  border: 0.2rem solid #d93e29;
+  color: #d93e29;
   margin-right: .5rem;
   text-align: center;
 }
 
 .footer .box-container .box .share a:hover {
-  background: #29d9d5;
+  background: #d93e29;
   color: #111;
 }
 
@@ -701,7 +701,7 @@ section {
 }
 
 .footer .box-container .box .links:hover {
-  color: #29d9d5;
+  color: #d93e29;
 }
 
 .footer .box-container .box .links:hover i {
@@ -710,13 +710,13 @@ section {
 
 .footer .box-container .box .links i {
   padding-right: .5rem;
-  color: #29d9d5;
+  color: #d93e29;
 }
 
 .footer .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
-  border: 0.2rem solid #29d9d5;
+  border: 0.2rem solid #d93e29;
   background: none;
   font-size: 1.5rem;
   text-transform: none;
@@ -734,7 +734,7 @@ section {
 }
 
 .credit span {
-  color: #29d9d5;
+  color: #d93e29;
 }
 
 @media (max-width: 991px) {
