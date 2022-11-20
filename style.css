@@ -600,12 +600,12 @@ section {
 }
 
 .blogs .box-container .box .content .icon a:hover {
-  color: #d97229;
+  color: #ff0028;
 }
 
 .blogs .box-container .box .content .icon a i {
   padding-right: .5rem;
-  color: #d93e29;
+  color: #ff0028;
 }
 
 .banner {
@@ -620,7 +620,7 @@ section {
 
 .banner .content span {
   font-size: 2rem;
-  color: #d9a429;
+  color: #ff0028;
 }
 
 .banner .content h3 {
@@ -668,7 +668,7 @@ section {
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #d93e29;
+  color: #ff0028;
 }
 
 .footer .box-container .box .share {
@@ -683,13 +683,13 @@ section {
   border-radius: 50%;
   font-size: 1.7rem;
   border: 0.2rem solid #d93e29;
-  color: #d93e29;
+  color: #ff0028;
   margin-right: .5rem;
   text-align: center;
 }
 
 .footer .box-container .box .share a:hover {
-  background: #d93e29;
+  background: #ff0028;
   color: #111;
 }
 
@@ -701,7 +701,7 @@ section {
 }
 
 .footer .box-container .box .links:hover {
-  color: #d93e29;
+  color: #ff0028;
 }
 
 .footer .box-container .box .links:hover i {
@@ -716,7 +716,7 @@ section {
 .footer .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
-  border: 0.2rem solid #d93e29;
+  border: 0.2rem solid #ff0028;
   background: none;
   font-size: 1.5rem;
   text-transform: none;
@@ -734,7 +734,7 @@ section {
 }
 
 .credit span {
-  color: #d93e29;
+  color: #ff0028;
 }
 
 @media (max-width: 991px) {
