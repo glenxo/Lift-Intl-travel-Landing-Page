@@ -47,6 +47,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  font-size: xx-large;
+}
+
 section {
   padding: 3rem 9%;
 }
