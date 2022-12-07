@@ -17,7 +17,7 @@
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  -webkit-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
 
@@ -42,8 +42,19 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 
+h1 {
+  margin-top:100px;
+  margin-bottom: 100px;
+  font-size: xx-large;
+}
+
 body {
-  background: #111;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
+  background-position: top center;
+  background-attachment:scroll;
+  scroll-behavior: smooth;
+  background-size: cover;
   overflow-x: hidden;
 }
 
