@@ -6,6 +6,12 @@
 #df5708 -orangerish
 #05020a -dark
 */
+
+:root {
+  --color-light: #ffff;
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 * {
   font-family: 'Poppins', sans-serif;
@@ -34,7 +40,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #05020a;
+  background; var(--color-light);
 }
 
 html::-webkit-scrollbar-thumb {
@@ -53,7 +59,7 @@ body {
   background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
-  background-attachment:  ;
+  background-attachment:  fixed;
   background-repeat: no-repeat;
   background-size: cover;
   min-height:400px; 
@@ -156,8 +162,8 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;*/
   background-size: cover;
   background-position: center;
   display: -webkit-box;
