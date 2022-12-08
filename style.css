@@ -1,14 +1,21 @@
 /*pallete
-#c0bfc2 -gray
-#1e1c23 -dusty
-#ffff -plain white
-#ff0028 -amberish
-#df5708 -orangerish
-#05020a -dark
+#ff7b89 -geraldine
+#8a5082 -strikemaster
+#6f5f90 -kimberly 
+#758eb7 -ship cove
+#a5cad2 -casper
+#100c13 -dark
 */
 
 :root {
-  --color-light: #ffff;
+  --color-geraldine: #ff7b89;
+  --color-geraldine1: #ff7b88c2;
+  --color-strikemaster: #8a5082;
+  --color-kimberly: #6f5f90;
+  --color-ship-cove: #758eb7;
+  --color-casper: #a5cad2;
+  --color-dark: #262229;
+
 }
 
 
@@ -40,7 +47,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background; var(--color-light);
+  background: var(--color-ship-cove);
 }
 
 html::-webkit-scrollbar-thumb {
@@ -79,13 +86,13 @@ section {
 }
 
 .heading span {
-  color: #c0bfc2;
+  color: var(--color-ship-cove);
   font-size: 2rem;
 }
 
 .heading h1 {
   font-size: 6rem;
-  color: #c0bfc2;
+  color: var(--color-ship-cove);
 }
 
 .btn {
@@ -93,16 +100,16 @@ section {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.7rem;
-  color: #c0bfc2;
-  border: 0.2rem solid #ff0028;
+  color: var(--color-ship-cove);
+  border: 0.2rem solid var(--color-ship-cove);
   border-radius: 5rem;
   cursor: pointer;
   background: none;
 }
 
 .btn:hover {
-  background: #df5708;
-  color: #111;
+  background: var(--color-geraldine1);
+  color: var(--color-dark);
 }
 
 .header {
@@ -111,7 +118,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #222;
+  background: var(--color-dark);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,13 +133,13 @@ section {
 
 .header .navbar a {
   font-size: 1.7rem;
-  color: #aaa;
+  color: var(--color-ship-cove);
   display: inline-block;
   margin: 0 1rem;
 }
 
 .header .navbar a:hover {
-  color: #ff0028;
+  color: var(--color-geraldine);
 }
 
 .header .btn {
@@ -141,12 +148,12 @@ section {
 
 .logo {
   font-size: 2.7rem;
-  color: #c0bfc2;
+  color: var(--color-ship-cove);
   font-weight: bolder;
 }
 
 .logo i {
-  color: #ff0028;
+  color: var(--color-ship-cove);
   padding-right: .5rem;
 }
 
