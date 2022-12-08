@@ -194,29 +194,29 @@ section {
 .home .content span {
   font-weight: bolder;
   color: transparent;
-  -webkit-text-stroke: 0.1rem #fff;
+  -webkit-text-stroke: 0.2rem var(--color-ship-cove);
   font-size: 4vw;
   display: block;
 }
 
 .home .content h3 {
   font-size: 6vw;
-  color: #fff;
+  color: var(--color-ship-cove);
 }
 
 .home .content p {
   max-width: 60rem;
   margin: 1rem auto;
   font-size: 1.4rem;
-  color: #aaa;
+  color: var(--color-ship-cove);
   line-height: 2;
 }
 
 .book-form {
   width: 80%;
   margin: 1rem auto;
-  margin-top: -5rem;
-  background: #222;
+  margin-top: 8rem;
+  background: var(--color-dark);
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
           box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
@@ -243,14 +243,14 @@ section {
 
 .book-form form .inputBox span {
   font-size: 1.4rem;
-  color: #aaa;
+  color: var(--color-dark);
 }
 
 .book-form form .inputBox input {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;
-  border: 0.2rem solid #df5708;
+  border: 0.2rem solid var(--color-geraldine);
   font-size: 1.6rem;
   color: #aaa;
   text-transform: none;
