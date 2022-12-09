@@ -147,6 +147,17 @@ section {
   margin-top: 0;
 }
 
+.menuToggle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: url(media/waive_2-removebg-preview\ \(1\).png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
 .logo {
   font-size: 2.7rem;
   color: var(--color-ship-cove);
