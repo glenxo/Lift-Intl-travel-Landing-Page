@@ -35,6 +35,7 @@
 }
 
 
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -51,7 +52,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #df5708;
+  background: var(--color-geraldine1);
   border-radius: 5rem;
 }
 
@@ -448,6 +449,7 @@ section {
 }
 
 .gallery .box-container .box img {
+  
   width: 100%;
   border-radius: 1rem;
   margin-bottom: 1rem;
@@ -498,9 +500,7 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
-.container-1 {
-  text-ali
-}
+
 
 .review .box-container {
   -webkit-box-flex: 1;
