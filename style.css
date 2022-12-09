@@ -344,7 +344,7 @@ section {
 .destination .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
-  background: #222;
+  background: var(--color-dark);
 }
 
 .destination .box-container .box:hover img {
@@ -353,7 +353,7 @@ section {
 }
 
 .destination .box-container .box .image {
-  height: 20rem;
+  height: 40rem;
   overflow: hidden;
   width: 100%;
 }
@@ -363,6 +363,7 @@ section {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  
 }
 
 .destination .box-container .box .content {
@@ -371,14 +372,14 @@ section {
 }
 
 .destination .box-container .box .content h3 {
-  font-size: 2rem;
-  color: #fff;
+  font-size: 2.5rem;
+  color: var(--color-geraldine1);
 }
 
 .destination .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: #aaa;
+  color: var(--color-casper);
   line-height: 2;
 }
 
@@ -386,7 +387,7 @@ section {
 
 .destination .box-container .box .content a {
   font-size: 1.7rem;
-  color: #ff0028;
+  color: var(--color-geraldine);
 }
 
 .destination .box-container .box .content a:hover i {
