@@ -119,7 +119,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: var(--color-dark);
+  /*background: var(--color-dark);*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
