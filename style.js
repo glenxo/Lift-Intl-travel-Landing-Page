@@ -1,3 +1,6 @@
+const menuToggle = document.querySelector('.menuToggle');
+const navigation = document.querySelector('.navigation');
+
 (function(){
 
   var parallax = document.querySelectorAll("body"),
@@ -16,6 +19,16 @@
 
 })();
 
+menuToggle.onclick = function(){
+  menuToggle.classList.toggle('active');
+  navigation.classList.toggle('active');
+
+}
+
+window.addEventListener('scroll', function (){
+  const header = document.querySelector('header');
+  header.classList.toggle('sticky', this.window.scrollY > 0);
+})  
 
 let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
