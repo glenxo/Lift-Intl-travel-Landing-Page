@@ -19,20 +19,14 @@ const navigation = document.querySelector('.navigation');
 
 })();
 
-menuToggle.onclick = function(){
-  menuToggle.classList.toggle('active');
-  navigation.classList.toggle('active');
+let menu = document.querySelector('#menu-btn');
+let header = document.querySelector('.header');
 
-}
-
-window.addEventListener('scroll', function (){
-  const header = document.querySelector('header');
-  header.classList.toggle('sticky', this.window.scrollY > 0);
-})  
-
-let menu = document.querySelector('#menu-bars');
-let navbar = document.querySelector('.navbar');
-
+menu.onclick = () =>{
+  menu.classList.toggle('fa-times');
+  header.classList.toggle('active');
+  document.body.classList.toggle('active');
+};
 
 menu.onclick = () =>{
   menu.classList.toggle('fa-times');

@@ -113,40 +113,71 @@ section {
   color: var(--color-dark);
 }
 
+
 .header {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: -31rem;
+  height: 100%;
+  width: 30rem;
+  background: #f5b350;
+  padding: 2rem;
   z-index: 1000;
-  /*background: var(--color-dark);*/
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1.5rem 9%;
+}
+
+.header.active {
+  left: 0;
+}
+
+.header .logo {
+  font-size: 4.3rem;
+  color: #3ea399;
+  font-weight: 1000;
+}
+
+.header .navbar {
+  padding: 30% 0;
 }
 
 .header .navbar a {
-  font-size: 1.7rem;
-  color: var(--color-ship-cove);
-  display: inline-block;
-  margin: 0 1rem;
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: #487772;
 }
 
 .header .navbar a:hover {
-  color: var(--color-geraldine);
+  text-decoration: underline;
+  text-underline-offset: .7rem;
 }
 
-.header .btn {
-  margin-top: 0;
+.header .share {
+  text-align: center;
 }
 
+.header .share a {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 8%;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: #5e9c96de;
+  background: rgb(255, 156, 8);
+  margin: 0 .3rem;
+}
+
+.header .share a:hover {
+  background: rgb(60, 155, 131);
+  color: rgb(241, 154, 71);
+}
+
+.header .credit {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 3rem;
+  line-height: 1.5;
+}
 
 .menuToggle {
   position: relative;
@@ -200,6 +231,15 @@ section {
   padding-bottom: 5rem;
 }
 
+.branding img {
+  padding: 2rem;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
 .home .content {
   text-align: center;
 }
@@ -208,12 +248,12 @@ section {
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 0.2rem var(--color-ship-cove);
-  font-size: 4vw;
+  font-size: 12vw;
   display: block;
 }
 
 .home .content h3 {
-  font-size: 6vw;
+  font-size: 2vw;
   color: var(--color-ship-cove);
 }
 
