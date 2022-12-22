@@ -887,4 +887,104 @@ section {
     font-size: 2.7rem;
   }
 }
-/*# sourceMappingURL=style.css.map */ 
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 0.4rem 10rem;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    }
+  
+  
+  }
+
+  .navbar  {
+    margin-top: -8rem;
+    font-size: 2rem;
+    display: block;
+  }
+
+  img .fade {
+    opacity: 0.7%;
+    margin-top: 2%;
+  }
+
+  #Video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  max-height: 100%;
+    z-index: -1;
+}
+
+  .home {
+    margin-top: 7rem;
+  }
+  .home .content span {
+    font-size: 16vw;
+  }
+  .home .content h3 {
+      letter-spacing: 10px;
+    font-size: 2vw;
+  }
+  
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .banner .content h3 {
+    font-size: 2.7rem;
+  }
+}
+
+
+
+
+@media (max-width: 780px) {
+  @media (max-width: 1199px) {
+    body {
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg.jpg) no-repeat;
+      background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
+          background-position: center;  
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: auto;
+      min-height:400px; 
+    }
+
+  body.active {
+    padding-left: 0;
+  }
+  
+  header.active {
+    -webkit-box-shadow: 0 0 0 100vw var(--color-dark);
+            box-shadow: 0 0 0 100vw var(--color-light3);
+  }
+}
+
+
+}

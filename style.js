@@ -36,9 +36,13 @@ searchIcon.onclick = () => {
   navbar.classList.remove('active');
 };
 
+
+
 window.onscroll = () => {
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
   searchIcon.classList.remove('fa-times');
   searchForm.classList.remove('active');
 };
+
+
