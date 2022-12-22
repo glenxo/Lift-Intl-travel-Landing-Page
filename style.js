@@ -1,53 +1,44 @@
-const menuToggle = document.querySelector('.menuToggle');
-const navigation = document.querySelector('.navigation');
+(function() {
+  // select the elements you want to apply the parallax effect to
+  var parallaxElements = document.querySelectorAll(".parallax");
 
-(function(){
+  // the function that will be called on scroll event
+  function parallax() {
+    // get the current scroll position
+    var scrollTop = window.pageYOffset;
 
-  var parallax = document.querySelectorAll("body"),
-      speed = 0.5;
+    // loop through all the parallax elements
+    for (var i = -0; i < parallaxElements.length; i++) {
+      // get the current parallax element
+      var element = parallaxElements[i];
 
-  window.onscroll = function(){
-    [].slice.call(parallax).forEach(function(el,i){
+      // get the element's speed
+      var speed = element.getAttribute("data-parallax-speed");
 
-      var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+      // set the element's background position using the scroll position and the speed
+      element.style.backgroundPositionY = scrollTop * speed + "px";
+    }
+  }
 
-      el.style.backgroundPosition = elBackgrounPos;
-
-    });
-  };
-
+  // listen for the scroll event
+  window.addEventListener("scroll", parallax);
 })();
 
-let menu = document.querySelector('#menu-btn');
-let header = document.querySelector('.header');
 
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  header.classList.toggle('active');
-  document.body.classList.toggle('active');
-};
-
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  navbar.classList.toggle('active');
-  searchIcon.classList.remove('fa-times');
-  searchForm.classList.remove('active');
-}
 
 let searchIcon = document.querySelector('#search-icon');
 let searchForm = document.querySelector('.search-form');
 
-searchIcon.onclick = () =>{
+searchIcon.onclick = () => {
   searchIcon.classList.toggle('fa-times');
   searchForm.classList.toggle('active');
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
-}
+};
 
-window.onscroll = () =>{
+window.onscroll = () => {
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
   searchIcon.classList.remove('fa-times');
   searchForm.classList.remove('active');
-}
+};

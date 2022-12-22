@@ -71,7 +71,6 @@ body {
   background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
-  background-attachment:  fixed;
   background-repeat: no-repeat;
   background-size: cover;
   min-height:400px; 
