@@ -202,13 +202,13 @@ section {
 .home .content span {
   font-weight: bolder;
   color: transparent;
-  -webkit-text-stroke: 0.4rem var(--color-ship-cove);
-  font-size: 16vw;
+  -webkit-text-stroke: 0.6rem var(--color-ship-cove);
+  font-size: 8vw;
   display: block;
 }
 
 .home .content h3 {
-  font-size: 2vw;
+  font-size: 4vw;
   color: var(--color-ship-cove);
 }
 
