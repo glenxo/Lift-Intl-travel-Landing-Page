@@ -1,4 +1,30 @@
-(function() {
+let menu = document.querySelector("#menu-btn");
+let header = document.querySelector(".header");
+
+menu.onclick = () => {
+  console.log("Menu clicked");
+  menu.classList.toggle("fa-times");
+  header.classList.toggle("active");
+  document.body.classList.toggle("active");
+};
+
+header.addEventListener("click", (event) => {
+  if (event.currentTarget.matches("a, tag, anchor")) {
+    menu.classList.remove("fa-times");
+    header.classList.remove("active");
+    document.body.classList.remove("active");
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth < 1200) {
+    menu.classList.remove("fa-times");
+    header.classList.remove("active");
+    document.body.classList.remove("active");
+  }
+});
+
+(function () {
   // select the elements you want to apply the parallax effect to
   var parallaxElements = document.querySelectorAll(".parallax");
 
@@ -8,7 +34,7 @@
     var scrollTop = window.pageYOffset;
 
     // loop through all the parallax elements
-    for (var i = -0; i < parallaxElements.length; i++) {
+    for (var i = 0; i < parallaxElements.length; i++) {
       // get the current parallax element
       var element = parallaxElements[i];
 
@@ -23,26 +49,4 @@
   // listen for the scroll event
   window.addEventListener("scroll", parallax);
 })();
-
-
-
-let searchIcon = document.querySelector('#search-icon');
-let searchForm = document.querySelector('.search-form');
-
-searchIcon.onclick = () => {
-  searchIcon.classList.toggle('fa-times');
-  searchForm.classList.toggle('active');
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-};
-
-
-
-window.onscroll = () => {
-  menu.classList.remove('fa-times');
-  navbar.classList.remove('active');
-  searchIcon.classList.remove('fa-times');
-  searchForm.classList.remove('active');
-};
-
 

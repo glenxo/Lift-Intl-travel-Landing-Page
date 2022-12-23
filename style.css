@@ -16,6 +16,17 @@
   --color-casper: #a5cad2;
   --color-dark: #262229;
   --color-darker: #26222993;
+
+    --color-dark: #1c0e01;
+  --color-dark2: #1c0e01f3;
+  --color-dark3: #1c0e01b4;
+  --color-medium: rgb(32, 32, 32); /* 2D3954 */
+  --color-light: #f9e4ca;
+  --color-light1: #bba58a;
+  --color-light2: #cd8a39;
+  --color-light3: #cd8a39ec;
+  --color-gray:#636500;
+  --color-red:#b83d02;
 }
 
 
@@ -73,7 +84,7 @@ body {
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height:400px; 
+  min-height:500px; 
 }
 
 a {
@@ -119,70 +130,15 @@ section {
 }
 
 
-.header {
+.branding img {
+  padding: 2rem;
+  position: absolute;
   position: fixed;
   top: 0;
-  left: -31rem;
-  height: 100%;
-  width: 30rem;
-  background: #f5b350;
-  padding: 2rem;
-  z-index: 1000;
+  right: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
-.header.active {
-  left: 0;
-}
-
-.header .logo {
-  font-size: 4.3rem;
-  color: #3ea399;
-  font-weight: 1000;
-}
-
-.header .navbar {
-  padding: 30% 0;
-}
-
-.header .navbar a {
-  display: block;
-  margin: 2rem 0;
-  font-size: 2rem;
-  color: #487772;
-}
-
-.header .navbar a:hover {
-  text-decoration: underline;
-  text-underline-offset: .7rem;
-}
-
-.header .share {
-  text-align: center;
-}
-
-.header .share a {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 8%;
-  line-height: 5rem;
-  font-size: 2rem;
-  color: #5e9c96de;
-  background: rgb(255, 156, 8);
-  margin: 0 .3rem;
-}
-
-.header .share a:hover {
-  background: rgb(60, 155, 131);
-  color: rgb(241, 154, 71);
-}
-
-.header .credit {
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  margin-top: 3rem;
-  line-height: 1.5;
-}
 
 .menuToggle {
   position: relative;
@@ -270,6 +226,76 @@ section {
   color: var(--color-ship-cove);
   line-height: 2;
 }
+
+/*HEAD SECTION STARTS*/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: -31rem;
+  height: 100%;
+  width: 30rem;
+  background: var(--color-dark2);
+  padding: 2rem;
+  z-index: 1000;
+  }
+  
+  .header.active {
+  left: 0;
+  }
+  
+  .header .logo {
+  font-size: 4.3rem;
+  color: var(--color-light2);
+  font-weight: 1000;
+  }
+  
+  .header .navbar {
+  padding: 30% 0;
+  }
+  
+  .header .navbar a {
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: var(--color-light1);
+  }
+  
+  .header .navbar a:hover {
+  text-decoration: underline;
+  text-underline-offset: .7rem;
+  }
+  
+  .header .share {
+  text-align: center;
+  }
+  
+  .header .share a {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 8%;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: var(--color-medium);
+  background: var(--color-light1);
+  margin: 0 .3rem;
+  }
+  
+  .header .share a:hover {
+  background: var(--color-light2);
+  color: var(--color-light);
+  }
+  
+  .header .credit {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-light);
+  margin-top: 3rem;
+  line-height: 1.5;
+  }
+  
+  
+  /*HEADER SECTION ENDS*/
 
 .book-form {
   width: 80%;
@@ -731,6 +757,14 @@ section {
   line-height: 2;
 }
 
+.footer {
+  background-image: url(/media/el-valle-de-anton-pueblo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
 .footer .box-container {
   display: -ms-grid;
   display: grid;
@@ -831,6 +865,32 @@ section {
   color: #ff0028;
 }
 
+
+
+
+
+
+
+
+@media (max-width: 780px) {
+  body {
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 400px;
+  }
+
+  body.active {
+    padding-left: 0;
+  }
+  
+  header.active {
+    box-shadow: 0 0 0 100vw var(--color-light3);
+  }
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -853,12 +913,10 @@ section {
     left: 0;
     right: 0;
     background: #222;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .navbar.active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .navbar a {
     margin: 2rem;
@@ -889,21 +947,18 @@ section {
 }
 
 @media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
-  }
-  section {
-    padding: 3rem 2rem;
+  .btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 0.4rem 10rem;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    cursor: pointer;
   }
 }
 
 @media (max-width: 768px) {
-  #menu-btn {
-    display: inline-block;
-  }
+
 
   .btn {
     margin-top: 3rem;
@@ -928,14 +983,6 @@ section {
     margin-top: 2%;
   }
 
-  #Video {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  max-height: 100%;
-    z-index: -1;
-}
 
   .home {
     margin-top: 7rem;
@@ -947,44 +994,3 @@ section {
       letter-spacing: 10px;
     font-size: 2vw;
   }
-  
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-  .about .content h3 {
-    font-size: 3.5rem;
-  }
-  .banner .content h3 {
-    font-size: 2.7rem;
-  }
-}
-
-
-
-
-@media (max-width: 780px) {
-  @media (max-width: 1199px) {
-    body {
-      background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg.jpg) no-repeat;
-      background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
-          background-position: center;  
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: auto;
-      min-height:400px; 
-    }
-
-  body.active {
-    padding-left: 0;
-  }
-  
-  header.active {
-    -webkit-box-shadow: 0 0 0 100vw var(--color-dark);
-            box-shadow: 0 0 0 100vw var(--color-light3);
-  }
-}
-
-
-}
