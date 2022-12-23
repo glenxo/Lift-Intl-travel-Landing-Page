@@ -924,7 +924,7 @@ section {
     margin-top: 8rem;
   }
   .home .content span {
-    font-size: 20vw;
+    font-size: 2ovw;
   }
   .home .content h3 {
     font-size: 4vw;
@@ -985,7 +985,8 @@ section {
     margin-top: 7rem;
   }
   .home .content span {
-    font-size: 16vw;
+      -webkit-text-stroke: 0.3rem var(--color-ship-cove);
+    font-size: 8vw;
   }
   .home .content h3 {
       letter-spacing: 10px;
