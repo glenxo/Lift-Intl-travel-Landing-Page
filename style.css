@@ -227,7 +227,7 @@ section {
   line-height: 2;
 }
 
-/*HEAD SECTION STARTS*/
+/*HEADER SECTION STARTS*/
 
 .header {
   position: fixed;
@@ -869,7 +869,11 @@ section {
 
 
 
-
+@media (min-width: 1200px) {
+  .header {
+    left: 0;
+  }
+}
 
 
 @media (max-width: 780px) {
