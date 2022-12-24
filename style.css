@@ -69,7 +69,6 @@ h1 {
 .home h3 {
     letter-spacing: 20px;
 }
-
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg.jpg) no-repeat;
   background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
@@ -77,8 +76,11 @@ body {
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height:500px; 
+  min-height:500px;
+  position: relative; /* add this line to make the z-index property work */
 }
+
+
 
 a {
   font-size: xx-large;
@@ -86,6 +88,7 @@ a {
 
 section {
   padding: 3rem 9%;
+
 }
 
 li {
@@ -157,6 +160,8 @@ li {
   top: 0;
   right: 0;
   transition: transform 0.5s ease-in-out;
+  z-index: 1;
+
 }
 
 .bars img {
@@ -166,6 +171,8 @@ li {
   top: 0;
   left: 0;
   transition: transform 0.5s ease-in-out;
+  z-index: 1;
+
 }
 
 
@@ -568,6 +575,8 @@ li {
   width: 100%;
   border-radius: 1rem;
   margin-bottom: 1rem;
+  z-index: -10;
+
 }
 
 .gallery .box-container .box span {
@@ -913,10 +922,13 @@ li {
     background-repeat: no-repeat;
     background-size: auto;
     min-height: 400px;
+    z-index: 100;
   }
 
   body.active {
     padding-left: 0;
+    z-index: 10;
+
   }
   
   header.active {
