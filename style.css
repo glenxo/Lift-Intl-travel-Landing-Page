@@ -88,6 +88,33 @@ section {
   padding: 3rem 9%;
 }
 
+li {
+  list-style: none;
+  }
+  
+  
+  
+  .btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 0.7rem 13rem;
+    font-size: 1.7rem;
+    color: var(--color-light);
+    border: var(--color-light1);
+    border-radius: 5rem;
+    cursor: pointer;
+    background: var(--color-light3);
+    }
+  
+    .btn:hover {
+    background: var(--color-light2);
+    color: var(--color-dark);
+    border: var(--color-red);
+    border-radius: 5rem;
+  
+  
+  }
+
 .heading {
   text-align: center;
   margin-bottom: 2rem;
@@ -137,7 +164,7 @@ section {
   position: relative;
   width: 30px;
   height: 30px;
-  background: url(media/open.png);
+  background: url(m.);
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
