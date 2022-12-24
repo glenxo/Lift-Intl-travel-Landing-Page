@@ -160,7 +160,7 @@ li {
   top: 0;
   right: 0;
   transition: transform 0.5s ease-in-out;
-  z-index: 1;
+  z-index: 1;  opacity: 0.7; /* make the image transparent */
 
 }
 
@@ -172,8 +172,9 @@ li {
   left: 0;
   transition: transform 0.5s ease-in-out;
   z-index: 1;
-
+  opacity: 0.7; /* make the image transparent */
 }
+
 
 
 .menuToggle {
