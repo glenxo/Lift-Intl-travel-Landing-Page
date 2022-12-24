@@ -159,6 +159,15 @@ li {
   transition: transform 0.5s ease-in-out;
 }
 
+.bars img {
+  padding: 2rem;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
 
 .menuToggle {
   position: relative;
@@ -931,22 +940,7 @@ li {
   #menu-btn {
     display: inline-block;
   }
-  .header .navbar {
-    position: absolute;
-    top: 99%;
-    left: 0;
-    right: 0;
-    background: #222;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-  .header .navbar.active {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
-  .header .navbar a {
-    margin: 2rem;
-    font-size: 2rem;
-    display: block;
-  }
+
   .home {
     margin-top: 8rem;
   }
