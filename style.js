@@ -25,6 +25,14 @@ window.addEventListener("resize", () => {
 }); 
 
 
+const links = document.querySelectorAll("a");
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    header.classList.remove("active");
+  });
+});
+
 (function () {
   var parallaxElements = document.querySelectorAll(".parallax");
   function parallax() {
