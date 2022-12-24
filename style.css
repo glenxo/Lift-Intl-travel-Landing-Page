@@ -269,20 +269,20 @@ section {
   border-radius: 8%;
   line-height: 5rem;
   font-size: 2rem;
-  color: var(--color-medium);
-  background: var(--color-light1);
+  color: var(--color-kimberly);
+  background: var(--color-casper);
   margin: 0 .3rem;
   }
   
   .header .share a:hover {
-  background: var(--color-light2);
-  color: var(--color-light);
+  background: var(--color-strikemaster);
+  color: var(--color-ship-cove);
   }
   
   .header .credit {
   text-align: center;
   font-size: 2rem;
-  color: var(--color-light);
+  color: var(--color-geraldine);
   margin-top: 3rem;
   line-height: 1.5;
   }
