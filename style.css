@@ -987,8 +987,9 @@ section {
   .home .content span {
       -webkit-text-stroke: 0.3rem var(--color-ship-cove);
     font-size: 8vw;
+    margin-top: -5em;
   }
   .home .content h3 {
       letter-spacing: 10px;
-    font-size: 2vw;
+    font-size: 4vw;
   }
