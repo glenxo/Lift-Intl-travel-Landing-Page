@@ -914,7 +914,6 @@ li {
     height: 100%; /* make the element take up the full height of the viewport */
     width: 100%; /* make the element take up the full width of the viewport */
     background-attachment: fixed; /* make the background image stay in place while the content scrolls */
- 
 }
 
 
