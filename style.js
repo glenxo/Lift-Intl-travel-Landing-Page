@@ -33,17 +33,20 @@ links.forEach((link) => {
   });
 });
 
+
+
 (function () {
-  var parallaxElements = document.querySelectorAll(".parallax");
+  const parallaxElements = document.querySelectorAll(".parallax");
   function parallax() {
-    var scrollTop = window.pageYOffset;
-    for (var i = 0; i < parallaxElements.length; i++) {
-      var element = parallaxElements[i];
-      var speed = element.getAttribute("data-parallax-speed");
+    const scrollTop = window.pageYOffset;
+    for (let i = 0; i < parallaxElements.length; i++) {
+      const element = parallaxElements[i];
+      const speed = element.getAttribute("data-parallax-speed");
       element.style.backgroundPositionY = scrollTop * speed + "px";
     }
   }
 
   window.addEventListener("scroll", parallax);
 })();
+
 
