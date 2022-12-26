@@ -1,4 +1,14 @@
-/*pallete
+/*
+Website structure:
+
+Home
+Destination
+Booking
+Affiliates
+contact us
+
+Pallete
+
 #ff7b89 -geraldine
 #8a5082 -strikemaster
 #6f5f90 -kimberly 
@@ -69,13 +79,13 @@ h1 {
     letter-spacing: 20px;
 }
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg.jpg) no-repeat;
-  background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg.jpg) no-repeat;
+  min-height:1980px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg2.jpg) no-repeat;
+  background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg2.jpg) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height:500px;
   position: relative; /* add this line to make the z-index property work */
 }
 
@@ -1007,29 +1017,4 @@ li {
     }
   
   
-  }
-
-  .navbar  {
-    margin-top: -8rem;
-    font-size: 2rem;
-    display: block;
-  }
-
-  img .fade {
-    opacity: 0.7%;
-    margin-top: 2%;
-  }
-
-
-  .home {
-    margin-top: 7rem;
-  }
-  .home .content span {
-      -webkit-text-stroke: 0.3rem var(--color-ship-cove);
-    font-size: 8vw;
-    margin-top: -5em;
-  }
-  .home .content h3 {
-      letter-spacing: 10px;
-    font-size: 4vw;
   }
