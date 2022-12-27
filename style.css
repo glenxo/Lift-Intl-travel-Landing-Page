@@ -111,8 +111,14 @@ section {
 
 li {
   list-style: none;
+      text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
   }
   
+  a, li {
+    list-style: none;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
   
   
   .btn {
@@ -472,70 +478,6 @@ li {
   line-height: 2;
 }
 
-.destination .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 1.5rem;
-}
-
-.destination .box-container .box {
-  border-radius: 1rem;
-  overflow: hidden;
-  background: var(--color-dark);
-}
-
-.destination .box-container .box:hover img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.destination .box-container .box .image {
-  height: 40rem;
-  overflow: hidden;
-  width: 100%;
-}
-
-.destination .box-container .box .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  
-}
-
-.destination .box-container .box .content {
-  padding: 2rem;
-  text-align: center;
-}
-
-.destination .box-container .box .content h3 {
-  font-size: 2.5rem;
-  color: var(--color-geraldine1);
-}
-
-.destination .box-container .box .content p {
-  padding: 1rem 0;
-  font-size: 1.4rem;
-  color: var(--color-casper);
-  line-height: 2;
-}
-
-
-
-.destination .box-container .box .content a {
-  font-size: 1.7rem;
-  color: var(--color-geraldine);
-}
-
-.destination .box-container .box .content a:hover i {
-  padding-left: 1rem;
-}
-
-.destination .box-container .box .content a i {
-  padding-right: .5rem;
-}
 
 .services .box-container {
   display: -ms-grid;
@@ -584,7 +526,7 @@ li {
   line-height: 2;
 }
 
-.gallery .box-container {
+.destination .box-container {
   border-color: var(--color-geraldine1);
 
   -webkit-columns: 3 25rem;
@@ -593,13 +535,13 @@ li {
           column-gap: 1.5rem;
 }
 
-.gallery .box-container .box {
+.destination .box-container .box {
   margin-bottom: 1rem;
   -webkit-column-break-inside: avoid;
           break-inside: avoid;
 }
 
-.gallery .box-container .box img {
+.destination .box-container .box img {
   width: 100%;
   border-radius: 1rem;
   margin-bottom: 1rem;
@@ -607,47 +549,22 @@ li {
 
 }
 
-.gallery .box-container .box span {
+.destination .box-container .box span {
   font-size: 1.7rem;
   font-weight: 300;
   color: var(--color-ship-cove);
 }
 
-.gallery .box-container .box h3 {
+.destination .box-container .box h3 {
   margin-top: .5rem;
   font-size: 2.5rem;
   color: var(--color-geraldine1);
   ;
 }
 
-.banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/banner-bg.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 3rem 2rem;
-  background-attachment: fixed;
-  text-align: center;
-}
 
-.banner .content span {
-  font-size: 2rem;
-  color: #ff0028;
-}
 
-.banner .content h3 {
-  font-size: 4rem;
-  color: #fff;
-  margin-top: 1rem;
-}
-
-.banner .content p {
-  max-width: 60rem;
-  margin: 1rem auto;
-  font-size: 1.4rem;
-  color: #aaa;
-  line-height: 2;
-}
+/*  FOOTER SECTION STARTS*/
 
 .footer {
   background-image: url(/media/footerimg3.jpg);
@@ -662,7 +579,7 @@ li {
   display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
+  gap: 1.7rem;
 }
 
 .footer .box-container .box {
@@ -681,7 +598,7 @@ li {
 
 .footer .box-container .box p {
   font-size: 1.8rem;
-  color: rgb(255, 255, 255);
+  color: var(--color-casper2);
   padding: 1rem 0;
   line-height: 2;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997), -2px -2px 4px rgba(255,255,255,0.5);
@@ -717,7 +634,7 @@ li {
 
 .footer .box-container .box .links {
   font-size: 2.5rem;
-  color: #aaa;
+  color: var(--color-casper2);
   padding: 1rem 0;
   display: block;
 }
@@ -732,13 +649,13 @@ li {
 
 .footer .box-container .box .links i {
   padding-right: .5rem;
-  color: #d93e29;
+  color: var(--color-geraldine);
 }
 
 .footer .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
-  border: 0.2rem solid #ff0028;
+  border: 0.2rem solid var(--color-geraldine);
   background: none;
   font-size: 1.5rem;
   text-transform: none;
@@ -746,6 +663,9 @@ li {
   margin-bottom: 1rem;
   padding: 1.2rem 1.4rem;
 }
+
+/*FOOTER SECTION ENDS*/
+
 
 .credit {
   background: var(--color-dark);
