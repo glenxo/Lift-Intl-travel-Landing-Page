@@ -508,7 +508,8 @@ li {
 }
 
 .services .box-container .box i {
-  font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997), -2px -2px 4px rgba(255,255,255,0.5);
+  font-size: 5.5rem;
   color: var(--color-geraldine);
   margin-bottom: 2rem;
 }
