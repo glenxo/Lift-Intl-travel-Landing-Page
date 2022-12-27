@@ -567,7 +567,7 @@ li {
 /*  FOOTER SECTION STARTS*/
 
 .footer {
-  background-image: url(/media/footerimg3.jpg);
+  background-image: url(media/footerimg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -753,9 +753,6 @@ li {
     background-image: none; /* hide the background image */
   }
 }
-
-
-
 
 
 @media (max-width: 450px) {
