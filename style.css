@@ -748,6 +748,16 @@ li {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .footer {
+    background-image: none; /* hide the background image */
+  }
+}
+
+
+
+
+
 @media (max-width: 450px) {
   html {
     font-size: 50%;
