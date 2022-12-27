@@ -76,6 +76,14 @@ h1 {
   font-size: xx-large;
 }
 
+h3 {
+  text-shadow: 2px 2px 4px var(--color-dark);
+}
+
+p {
+  text-shadow: 2px 2px 4px var(--color-dark);
+}
+
 .home h3 {
     letter-spacing: 20px;
 }
@@ -642,11 +650,11 @@ li {
 }
 
 .footer {
-  background-image: url(/media/vecteezy_beautiful-sunset-on-the-beach-with-palm-tree-for-travel-and_12168187_785.jpeg);
+  background-image: url(/media/footerimg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 
 
 .footer .box-container {
@@ -672,10 +680,11 @@ li {
 }
 
 .footer .box-container .box p {
-  font-size: 1.4rem;
-  color: #aaa;
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
   padding: 1rem 0;
   line-height: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997), -2px -2px 4px rgba(255,255,255,0.5);
 }
 
 .footer .box-container .box p i {
