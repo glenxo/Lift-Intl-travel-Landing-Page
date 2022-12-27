@@ -120,7 +120,28 @@ li {
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
   }
   
+  .bar-menu {
+    margin-top: 0;
+    position: fixed;
+    background-color: #262229;   
+    z-index: 1;
+  }
+
+  .bar-menu a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #758eb7;
+    
+  }  
   
+
+  .bar-menu a:hover {
+    background-color: #ddd;
+  }
+
+
   .btn {
     margin-top: 3rem;
     display: inline-block;
