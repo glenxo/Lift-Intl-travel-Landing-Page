@@ -729,7 +729,7 @@ li {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 400%;  /* zoom out the image by 50% */
+    background-size: 250%;  /* zoom out the image by 50% */
     min-height: 400px;
     z-index: 100;
   }
