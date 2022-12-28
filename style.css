@@ -89,7 +89,7 @@ p {
 }
 body {
   min-height:1800px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg3.png) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbody3.png) no-repeat;
   background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg3.png) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
