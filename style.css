@@ -132,7 +132,9 @@ li {
 
   .bar-menu a {
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
+    margin-top: 2em;
+    margin-bottom: 2em;
     text-decoration: none;
     font-size: 17px;
     color: #758eb7;
@@ -757,10 +759,49 @@ li {
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
   #menu-btn {
     display: inline-block;
   }
+
+  .bar-menu {
+    display: none; 
+  }
+
+}
+
+@media only screen and (max-width: 1380px) {
+  .bar-menu {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #262229;   
+    z-index: 1;
+  }
+
+  .bar-menu a {
+    text-align: center;
+    padding: 4px 6px;
+    font-size: 15px;
+
+    
+  }  
+}
+
+@media only screen and (max-width: 1340px) {
+  .bar-menu a {
+    text-align: center;
+    padding: 4px 6px;
+    font-size: 14px;
+
+    
+  }  
+}
+
+@media (max-width: 768px) {
+
 
   .home {
     margin-top: 8rem;
@@ -791,6 +832,7 @@ li {
     font-size: 2.7rem;
   }
 }
+
 
 @media (max-width: 991px) {
   .btn {
