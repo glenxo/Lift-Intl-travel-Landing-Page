@@ -729,7 +729,7 @@ li {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 380%;  /* zoom out the image by 50% */
     min-height: 400px;
     z-index: 100;
   }
@@ -738,6 +738,8 @@ li {
     padding-left: 0;
     z-index: 10;
   }
+}
+
   
   header.active {
     box-shadow: 0 0 0 100vw var(--color-light3);
