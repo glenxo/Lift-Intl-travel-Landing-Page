@@ -802,10 +802,12 @@ li {
     margin-top: 8rem;
   }
   .home .content span {
-    font-size: 12vw;
+    color: transparent;
+    -webkit-text-stroke: 0.3rem var(--color-ship-cove);  
+    font-size: 8vw;
   }
   .home .content h3 {
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
 }
 
