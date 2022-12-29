@@ -19,7 +19,7 @@ Pallete
 
 :root {
   --color-geraldine: #fa6ca2;
-  --color-geraldine1: #ff7b88c2;
+  --color-geraldine1: #eb569cc2;
   --color-strikemaster: #8a5082;
   --color-strikemaster2: #8a50825f;
   --color-kimberly: #6f5f90;
@@ -126,14 +126,13 @@ li {
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   text-stroke: 1px rgb(6, 247, 247);
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
-
 }
   
-  a, li {
-    list-style: none;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-    text-stroke: 1px rgb(6, 247, 247);
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+a, li {
+  list-style: none;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  text-stroke: 1px rgb(6, 247, 247);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
   
 /*BAR MENU SECTION START*/
@@ -147,8 +146,12 @@ li {
     top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(228, 91, 198, 0.7), rgba(108, 201, 224, 0));
+    background: linear-gradient(to right, #8a4bc5,#1498c0cc,#7346afc0, #add8e600);
     z-index: 1;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    text-stroke: 1px rgb(6, 247, 247);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  
   }
 
   .bar-menu a {
@@ -337,7 +340,9 @@ li {
   -webkit-text-stroke: 0.6rem var(--color-ship-cove);
   font-size: 8vw;
   display: block;
+  
 }
+
 
 .home .content h3 {
   font-size: 4vw;
@@ -370,6 +375,8 @@ li {
   .header.active {
   left: 0;
   }
+
+
   
   .header .logo {
   font-size: 4.3rem;
