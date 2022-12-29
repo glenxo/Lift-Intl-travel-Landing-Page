@@ -18,7 +18,7 @@ Pallete
 */
 
 :root {
-  --color-geraldine: #ff7b89;
+  --color-geraldine: #fa6ca2;
   --color-geraldine1: #ff7b88c2;
   --color-strikemaster: #8a5082;
   --color-strikemaster2: #8a50825f;
@@ -339,7 +339,7 @@ li {
   left: -31rem;
   height: 100%;
   width: 30rem;
-  background: linear-gradient(to right, #e4969ef9, rgba(173, 216, 230, 0));
+  background: linear-gradient(to right, #7019c2,#1498c0c9,#7346afc0, #add8e600);
   padding: 2rem;
   z-index: 1000;
 }
@@ -356,14 +356,19 @@ li {
   }
   
   .header .navbar {
+  margin-top: -12em;
   padding: 30% 0;
   }
   
   .header .navbar a {
   display: block;
   margin: 2rem 0;
-  font-size: 2.5rem;
-  color: var(--color-casper);
+  font-size: 2.7rem;
+  color: #cd6cf3;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  text-stroke: 1px rgb(6, 247, 247);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
   }
   
   .header .navbar a:hover {
@@ -382,12 +387,12 @@ li {
   line-height: 5rem;
   font-size: 2rem;
   color: var(--color-kimberly);
-  background: var(--color-casper);
+  background: var(--color-geraldine);
   margin: 0 .3rem;
   }
   
   .header .share a:hover {
-  background: var(--color-strikemaster);
+  background: var(--color-kimberly2);
   color: var(--color-ship-cove);
   }
   
