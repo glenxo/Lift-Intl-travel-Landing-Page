@@ -95,6 +95,7 @@ p {
 .home h3 {
     letter-spacing: 20px;
 }
+
 body {
   min-height:1800px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbody3.png) no-repeat;
