@@ -96,8 +96,8 @@ p {
 }
 
 img {
-    filter: grayscale(10%) hue-rotate(15deg);
-
+    filter: grayscale(-10%) hue-rotate(5deg);
+    filter: brightness(80%);
 }
 
 body {
