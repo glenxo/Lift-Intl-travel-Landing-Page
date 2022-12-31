@@ -47,7 +47,11 @@ Pallete
   transition: all .2s linear;
 }
 
-
+  .parallax {
+    height: 100%; /* make the element take up the full height of the viewport */
+    width: 100%; /* make the element take up the full width of the viewport */
+    background-attachment: local;/* make the background image stay in place while the content scrolls */
+}
 
 
 html {
@@ -97,13 +101,13 @@ p {
 }
 
 body {
-  min-height:1800px;
+  min-height:400px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbody3.png) no-repeat;
   background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg3.png) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: cover;  /* zoom out the image by 50% */
+  background-size: 245%;  /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
 
