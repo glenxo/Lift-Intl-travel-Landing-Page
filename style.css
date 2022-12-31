@@ -47,11 +47,6 @@ Pallete
   transition: all .2s linear;
 }
 
-  .parallax {
-    height: 100%; /* make the element take up the full height of the viewport */
-    width: 100%; /* make the element take up the full width of the viewport */
-    background-attachment: local;/* make the background image stay in place while the content scrolls */
-}
 
 
 html {
@@ -98,6 +93,11 @@ p {
 
 .home h3 {
     letter-spacing: 20px;
+}
+
+img {
+    filter: grayscale(10%) hue-rotate(15deg);
+
 }
 
 body {
