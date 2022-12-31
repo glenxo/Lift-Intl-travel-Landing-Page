@@ -327,7 +327,7 @@ a, li {
   border: 1px solid rgba(204, 204, 204, 0);
   text-align: center;
   color: #6f5f90;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .home .content {
@@ -790,7 +790,7 @@ a, li {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 290%;  /* zoom out the image by 50% */
+    background-size: 320%;  /* zoom out the image by 50% */
     min-height: 400px;
     z-index: 100;
   }
