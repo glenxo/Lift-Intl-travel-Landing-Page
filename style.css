@@ -380,20 +380,20 @@ a, li {
 
   
   .header .logo {
-  font-size: 4.3rem;
+  font-size: 4.0rem;
   color: var(--color-geraldine);
   font-weight: 1000;
   }
   
   .header .navbar {
-  margin-top: -12em;
+  margin-top: -18em;
   padding: 30% 0;
   }
   
   .header .navbar a {
   display: block;
-  margin: 2rem 0;
-  font-size: 2.7rem;
+  margin: 1.7rem 0;
+  font-size: 2.5rem;
   color: var(--color-strikemaster);
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   text-stroke: 1px rgb(6, 247, 247);
