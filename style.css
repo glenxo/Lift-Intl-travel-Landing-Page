@@ -103,7 +103,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 220%;  /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
 
