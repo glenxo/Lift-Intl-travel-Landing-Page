@@ -95,10 +95,6 @@ p {
     letter-spacing: 20px;
 }
 
-img {
-    filter: grayscale(-10%) hue-rotate(5deg);
-    filter: brightness(80%);
-}
 
 body {
   min-height:400px;
@@ -636,6 +632,7 @@ a, li {
   border-radius: 1rem;
   margin-bottom: 1rem;
   z-index: -10;
+  filter: brightness(85%);
 
 }
 
