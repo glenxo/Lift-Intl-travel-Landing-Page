@@ -817,8 +817,8 @@ a, li {
 }
 
 .destination .box-container .box h3 {
-  margin-top: .5rem;
-  font-size: 1.2rem;
+  margin-top: -.8rem;
+  font-size: 1.4rem;
   color: var(--color-geraldine1);
   ;
 }
