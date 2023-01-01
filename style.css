@@ -812,7 +812,7 @@ a, li {
 
 .destination .box-container .box span {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 250;
   color: var(--color-ship-cove);
 }
 
@@ -820,22 +820,18 @@ a, li {
   margin-top: -.8rem;
   font-size: 1.4rem;
   color: var(--color-geraldine1);
-  ;
 }
-
-
-
 
   .destination .box-container {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
   .destination .box-container .box {
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
 
     flex: 0 0 calc(33.3333% - 1rem);
-  }
+}
 
 
 .destination .box-container .box img {
