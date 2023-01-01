@@ -792,7 +792,7 @@ a, li {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 320%;  /* zoom out the image by 50% */
+    background-size: 210%;  /* zoom out the image by 50% */
     min-height: 400px;
     z-index: 100;
   }
