@@ -807,6 +807,8 @@ a, li {
   
   }
 
+  
+
 
 .destination .box-container .box span {
   font-size: 1rem;
@@ -816,7 +818,7 @@ a, li {
 
 .destination .box-container .box h3 {
   margin-top: .5rem;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: var(--color-geraldine1);
   ;
 }
@@ -830,12 +832,14 @@ a, li {
   }
 
   .destination .box-container .box {
+    margin-top: 2.5rem;
+
     flex: 0 0 calc(33.3333% - 1rem);
   }
 
 
 .destination .box-container .box img {
-  max-height: 100%;
+  max-height: 80%;
   max-width: 100%;
   border-radius: 1rem;
   margin-bottom: 1rem;
@@ -892,8 +896,6 @@ a, li {
     text-align: center;
     padding: 4px 6px;
     font-size: 15px;
-
-    
   }  
 }
 
@@ -905,9 +907,6 @@ a, li {
       -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   text-stroke: 1px rgb(6, 247, 247);
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
-
-
-    
   }  
 }
 
