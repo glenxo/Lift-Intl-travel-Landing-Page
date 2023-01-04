@@ -908,14 +908,6 @@ a, li {
 
 @media (max-width: 768px) {
 
-  .destination .box-container {
-    border-color: var(--color-geraldine1);
-  
-    -webkit-columns: 3 25rem;
-            columns: 3 25rem;
-    -webkit-column-gap: 1.5rem;
-            column-gap: 1.5rem;
-  }
 
   .destination .box-container .box img {
     width: 100%; /* reduce the width of the images to 50% */
