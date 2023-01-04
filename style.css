@@ -803,8 +803,7 @@ a, li {
   }
 
     span {
-    display: none;
-  
+      
   }
 
   
@@ -827,11 +826,6 @@ a, li {
     flex-wrap: wrap;
 }
 
-  .destination .box-container .box {
-    margin-top: 3.5rem;
-
-    flex: 0 0 calc(33.3333% - 1rem);
-}
 
 
 .destination .box-container .box img {
@@ -909,13 +903,6 @@ a, li {
 @media (max-width: 768px) {
 
 
-  .destination .box-container .box img {
-    width: 100%; /* reduce the width of the images to 50% */
-    height: 100%; /* reduce the height of the images to 50% */
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-    z-index: -10;
-  }
 
   .home {
     margin-top: 8rem;
