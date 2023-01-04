@@ -358,6 +358,24 @@ a, li {
   line-height: 2;
 }
 
+.home-inner {
+  display: flex;
+  width: 100%;
+}
+
+.home-inner video {
+  width: 50%;
+  height: 100%;
+}
+
+.home-inner .content {
+  width: 50%;
+  text-align: center;
+  align-self: center;
+}
+
+
+
 /* HOME SECTION ENDS */
 /*HEADER SECTION STARTS*/
 
