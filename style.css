@@ -339,14 +339,14 @@ a, li {
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 0.6rem var(--color-ship-cove);
-  font-size: 8vw;
+  font-size: 5vw;
   display: block;
   
 }
 
 
 .home .content h3 {
-  font-size: 4vw;
+  font-size: 1vw;
   color: var(--color-ship-cove);
 }
 
@@ -364,8 +364,11 @@ a, li {
 }
 
 .home-inner video {
-  width: 50%;
+  justify-content: center;
+  margin-left: 20%;
+  width: 100%;
   height: 100%;
+  border-radius: 2%;
 }
 
 .home-inner .content {
