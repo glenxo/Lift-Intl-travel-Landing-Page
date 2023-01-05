@@ -790,7 +790,7 @@ a, li {
 
 
 
-
+/*MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 
 
 @media (min-width: 720px) and (max-width: 780px) and (min-height: 1480px) and (max-height: 1540px) {
@@ -801,13 +801,9 @@ a, li {
     height: 100%; 
     width: 100%; 
 }
-
-
 @media (max-width: 780px) {
   }
 }
-
-
 @media (max-width: 780px) {
   body {
     background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbody3.png) no-repeat;
@@ -824,18 +820,13 @@ a, li {
     z-index: 10;
   }
 
-
-  
-  
-
-
-.destination .box-container .box span {
+  .destination .box-container .box span {
   font-size: 1rem;
   font-weight: 250;
   color: var(--color-ship-cove);
 }
 
-.destination .box-container .box h3 {
+  .destination .box-container .box h3 {
   margin-top: -.8rem;
   font-size: 1.4rem;
   color: var(--color-geraldine1);
@@ -846,23 +837,15 @@ a, li {
     flex-wrap: wrap;
 }
 
-
-
-.destination .box-container .box img {
+  .destination .box-container .box img {
   max-height: 80%;
   max-width: 100%;
   border-radius: 1rem;
   margin-bottom: 1rem;
   z-index: -10;
   filter: brightness(85%);
-  
-  
-
+  }
 }
-}
-
-
-  
   header.active {
     box-shadow: 0 0 0 100vw var(--color-light3);
   }
@@ -872,9 +855,11 @@ a, li {
   html {
     font-size: 55%;
   }
+
   .header {
     padding: 1.5rem 2rem;
   }
+
   section {
     padding: 3rem 2rem;
   }
@@ -888,7 +873,6 @@ a, li {
   .bar-menu {
     display: none; 
   }
-
 }
 
 @media only screen and (max-width: 1380px) {
@@ -922,16 +906,16 @@ a, li {
 
 @media (max-width: 768px) {
 
-
-
   .home {
     margin-top: 8rem;
   }
+
   .home .content span {
     color: transparent;
     -webkit-text-stroke: 0.3rem var(--color-ship-cove);  
     font-size: 8vw;
   }
+
   .home .content h3 {
     font-size: 2.5vw;
   }
@@ -954,18 +938,13 @@ a, li {
     height: 100%;
     border-radius: 2%;
   }
-
-
 }
-
-
 
 @media only screen and (max-width: 480px) {
   .footer {
     background-image: none; /* hide the background image */
   }
 }
-
 
 @media (max-width: 450px) {
   html {
@@ -979,7 +958,6 @@ a, li {
   }
 }
 
-
 @media (max-width: 991px) {
   .btn {
     margin-top: 3rem;
@@ -992,8 +970,6 @@ a, li {
 }
 
 @media (max-width: 768px) {
-
-
   .btn {
     margin-top: 3rem;
     display: inline-block;
@@ -1001,67 +977,47 @@ a, li {
     font-size: 1.2rem;
     border-radius: 5rem;
     cursor: pointer;
-    }
-  
-  
+    }  
   }
 
-
-/* styles for small phones go here */
-@media only screen and (max-width: 479px) {
-  /* add your styles here */
-}
-
-/* styles for medium phones go here */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* add your styles here */
-}
-
-/* styles for large phones go here */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* add your styles here */.home-outer video {
+  .home-outer video {
   display: none;
 }
 }
 
-/* styles for extra large phones go here */
 @media only screen and (min-width: 1024px) {
-  /* add your styles here */.home-outer video {
+  .home-outer video {
   display: none;
 }
 }
 
-/* styles for small tablets go here */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* add your styles here */.home-outer video {
+  .home-outer video {
   display: none;
 }
 }
 
-/* styles for large tablets go here */
 @media only screen and (min-width: 1024px) {
-  /* add your styles here */.home-outer video {
+  .home-outer video {
   display: none;
 }
 }
 
-/* styles for small desktop go here */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-  /* add your styles here */.home-outer video {
+.home-outer video {
   display: none;
 }
 }
 
-/* styles for medium desktop go here */
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {
-  /* add your styles here */.home-outer video {
+.home-outer video {
   display: none;
 }
 }
 
-/* styles for large desktop go here */
 @media only screen and (min-width: 1440px) {
-  /* add your styles here */.home-outer video {
+  .home-outer video {
   display: none;
 }
 }
