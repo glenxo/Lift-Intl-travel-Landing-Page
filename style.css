@@ -49,6 +49,65 @@ Pallete
 
 
 
+
+
+
+/*
+.swiper-container .swiper-wrapper {
+  border-color: var(--color-geraldine1);
+
+  -webkit-columns: 3 25rem;
+          columns: 3 25rem;
+  -webkit-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  z-index: -10;
+  filter: brightness(85%);
+
+}
+
+.swiper-container .swiper-wrapper .swiper-slide span {
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: var(--color-ship-cove);
+}
+
+.swiper-container .swiper-wrapper .swiper-slide h3 {
+  margin-top: .5rem;
+  font-size: 2.5rem;
+  color: var(--color-geraldine1);
+  ;
+}
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
