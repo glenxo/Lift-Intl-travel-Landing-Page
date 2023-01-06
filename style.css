@@ -75,9 +75,21 @@ Pallete
   z-index: -10;
   filter: brightness(85%);
   padding: 2%;
-
-
 }
+
+.swiper-container .swiper-wrapper .swiper-slide {
+    position: relative;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide h3,
+.swiper-container .swiper-wrapper .swiper-slide span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 
 .swiper-container .swiper-wrapper .swiper-slide span {
   font-size: 1.7rem;
@@ -92,7 +104,10 @@ Pallete
   ;
 }
 
-
+.box-container {
+  position: fixed;
+  position: sticky;
+}
 
 
 
@@ -966,6 +981,7 @@ a, li {
 }
 
 @media (max-width: 768px) {
+  
 
   .home {
     margin-top: -12rem;
