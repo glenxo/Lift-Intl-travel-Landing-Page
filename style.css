@@ -52,7 +52,7 @@ Pallete
 
 
 
-/
+
 .swiper-container .swiper-wrapper {
   border-color: var(--color-geraldine1);
 
@@ -92,26 +92,36 @@ Pallete
 
 
 .swiper-container .swiper-wrapper .swiper-slide span {
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-weight: 300;
   color: var(--color-ship-cove);
 }
 
 .swiper-container .swiper-wrapper .swiper-slide h3 {
   margin-top: .5rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--color-geraldine1);
   ;
 }
 
-.box-container {
-  position: fixed;
-  position: sticky;
+
+
+.container h4 {
+  font-size: 1.5rem;
+  color: var(--color-ship-cove);
 }
 
 
 
-*/
+.container {
+  margin-bottom: 3rem;
+  margin-top: .5rem;
+  font-size: 1.5rem;
+  color: var(--color-geraldine1);
+}
+
+
+
 
 
 
