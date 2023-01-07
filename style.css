@@ -427,9 +427,9 @@ a, li {
 
 .home .content span {
   font-weight: bolder;
-  color: transparent;
-  -webkit-text-stroke: 0.6rem var(--color-ship-cove);
-  font-size: 5vw;
+  color: var(--color-dark);
+  -webkit-text-stroke: 0.3rem var(--color-ship-cove);
+  font-size: 3vw;
   display: block;
   
 }
