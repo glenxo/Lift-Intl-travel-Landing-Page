@@ -1139,6 +1139,7 @@ a, li {
 @media only screen and (min-width: 164px) and (max-width: 780px) {
   .destination {
     display: none;
+    padding: none;
   }
 
 
@@ -1147,7 +1148,7 @@ a, li {
 
 
 
-  
+
 }
 
 
