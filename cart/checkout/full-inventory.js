@@ -21,7 +21,7 @@ document.body.appendChild(my_element);
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
   
     // If we need pagination
@@ -57,3 +57,17 @@ window.onscroll = () =>{
     document.body.classList.remove('active');
   };
 };
+
+(function () {
+  const parallaxElements = document.querySelectorAll(".parallax");
+  function parallax() {
+    const scrollTop = window.pageYOffset;
+    for (let i = 0; i < parallaxElements.length; i++) {
+      const element = parallaxElements[i];
+      const speed = element.getAttribute("data-parallax-speed");
+      element.style.backgroundPositionY = scrollTop * speed + "px";
+    }
+  }
+
+  window.addEventListener("scroll", parallax);
+})();
