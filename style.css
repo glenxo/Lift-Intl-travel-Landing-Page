@@ -181,10 +181,6 @@ p {
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.home h3 {
-    letter-spacing: 20px;
-}
-
 
 body {
   min-height:400px;
@@ -434,6 +430,9 @@ a, li {
   
 }
 
+.home h3 {
+  letter-spacing: 20px;
+}
 
 .home .content h3 {
   font-size: 1vw;
