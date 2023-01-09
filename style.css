@@ -1100,16 +1100,12 @@ a, li {
 @media only screen and (min-width: 1024px) {
   .home-outer video {
   display: none;
-}.swiper-container {
-
-
-}	
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .home-outer video {
-
+    display: none;
 }
 
 }
@@ -1120,9 +1116,7 @@ a, li {
 }
 
 @media only screen and (min-width: 164px) and (max-width: 780px) {
-  .destination {
- 
-  }
+
   .swiper-container video {
     justify-content: center;
     width: 80%;
@@ -1134,7 +1128,6 @@ a, li {
 
 @media only screen and (min-width: 1024px) {
   .home-outer video {
-
+    display: none;
 }
-
-}
+}}
