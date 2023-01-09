@@ -4,9 +4,9 @@ let my_div = document.createElement('div');
 let button;
 let box;
 
-let message;
-message = '';
-alert(message);
+//let message;
+//message = '';
+//alert(message);
 
 my_element.appendChild(my_span);
 
