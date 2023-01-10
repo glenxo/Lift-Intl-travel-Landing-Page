@@ -1,29 +1,35 @@
-/*color pallet
-#a24502
-#cd8a39
-#595d2b
-#1d2a10
-#222
-#f9e4ca
-#96450d
-#b83d02
-#234851
-#182c37
+/*
+Website structure:
+
+Home
+Destination
+Booking
+Affiliates
+contact us
+
+Pallete
+
+#ff7b89 -geraldine
+#8a5082 -strikemaster
+#6f5f90 -kimberly 
+#758eb7 -ship cove
+#a5cad2 -casper
+#100c13 -dark
 */
 
-
-:root{
-    --color-dark: #1c0e01;
-    --color-dark2: #1c0e01f3;
-    --color-medium: rgb(32, 32, 32); /* 2D3954 */
-    --color-light: #f9e4ca;
-    --color-light1: #bba58a;
-    --color-light2: #cd8a39;
-    --color-light3: #cd8a39ec;
-    --color-gray:#636500;
-    --color-red:#b83d02;
-  
-  }
+:root {
+  --color-geraldine: #fa6ca2;
+  --color-geraldine1: #eb569cc2;
+  --color-strikemaster: #8a5082;
+  --color-strikemaster2: #8a50825f;
+  --color-kimberly: #6f5f90;
+  --color-kimberly2: #6f5f90d7;
+  --color-ship-cove: #758eb7;
+  --color-casper: #a5cad2;
+  --color-casper2: #dff9ff;
+  --color-dark: #262229;
+  --color-darker: #26222993;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
 * {
@@ -131,7 +137,7 @@ img {
 /*HEADING SECTION STARTS*/
 
 .heading {
-    margin-top: -200px;
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 16rem;
   }
@@ -204,11 +210,11 @@ img {
   }
 
 
-  .home-inner video {
+  .home .home-inner video {
     justify-content: center;
     /*margin-left: 0%;*/
-    max-width: 80%;
-    max-height: 40%;
+    
+    width: 80%;
     border-radius: 2%;
   }
   

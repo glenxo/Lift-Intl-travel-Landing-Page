@@ -1,21 +1,3 @@
-let my_element = document.createElement('h1');
-let my_span = document.createElement('span');
-let my_div = document.createElement('div');
-let button;
-let box;
-
-//let message;
-//message = '';
-//alert(message);
-
-my_element.appendChild(my_span);
-
-my_element.appendChild(my_div);
-
-my_element.classList.add('custom_class');
-
-document.body.appendChild(my_element);  
-
 
 
 const swiper = new Swiper('.swiper', {
@@ -39,19 +21,16 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-let menu = document.querySelector('#menu-btn');
-let header = document.querySelector('.header');
+(function () {
+  const parallaxElements = document.querySelectorAll(".parallax");
+  function parallax() {
+    const scrollTop = window.pageYOffset;
+    for (let i = 0; i < parallaxElements.length; i++) {
+      const element = parallaxElements[i];
+      const speed = element.getAttribute("data-parallax-speed");
+      element.style.backgroundPositionY = scrollTop * speed + "px";
+    }
+  }
 
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  header.classList.toggle('active');
-  document.body.classList.toggle('active');
-};
-
-window.onscroll = () =>{
-  if(window.innerWidth < 1200){
-    menu.classList.remove('fa-times');
-    header.classList.remove('active');
-    document.body.classList.remove('active');
-  };
-};
+  window.addEventListener("scroll", parallax);
+})();
