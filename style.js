@@ -22,8 +22,7 @@ window.addEventListener("resize", () => {
     header.classList.remove("active");
     document.body.classList.remove("active");
   }
-}); 
-
+});
 
 const links = document.querySelectorAll("a");
 
@@ -32,8 +31,6 @@ links.forEach((link) => {
     header.classList.remove("active");
   });
 });
-
-
 
 (function () {
   const parallaxElements = document.querySelectorAll(".parallax");
@@ -48,5 +45,3 @@ links.forEach((link) => {
 
   window.addEventListener("scroll", parallax);
 })();
-
-
