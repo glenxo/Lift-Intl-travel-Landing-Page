@@ -3,7 +3,7 @@ window.addEventListener("resize", () => {
     menu.classList.remove("fa-times");
     header.classList.remove("active");
     document.body.classList.remove("active");
-  }
+  }next
 });
 
 const swiper = new Swiper(".swiper", {
@@ -13,9 +13,9 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+    prevEl: ".swiper-button-next",
+    nextEl: ".swiper-button-prev",
+    },
   scrollbar: {
     el: ".swiper-scrollbar",
   },

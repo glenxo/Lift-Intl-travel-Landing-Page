@@ -291,14 +291,21 @@ img {
   border-radius: 2%;
 }
 
-.swiper {
-  width: 1200px;
-  height: 900px;
-}
+/*REVIEW SECTION STARTS*/
 
 .reviews .slide {
   text-align: center;
   padding: 3rem;
+}
+
+.reviews .swiper-button-prev {
+  width: max-content;
+  height: max-content;
+}
+
+.reviews .swiper-button-next {
+  width: max-content;
+  height: max-content;
 }
 
 .reviews .slide i {
@@ -338,6 +345,16 @@ img {
   margin-top: 1%;
   color: var(--color-casper2);
   text-transform: capitalize;
+}
+
+/*REVIEW SECTION ENDS*/
+/*swiper-scrollbar SECTION STARTS*/
+
+
+
+.swiper {
+  width: 1200px;
+  height: 900px;
 }
 
 .swiper-scrollbar .swiper-scrollbar-vertical {
