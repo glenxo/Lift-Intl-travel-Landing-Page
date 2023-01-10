@@ -426,13 +426,12 @@ li {
 }
 
 .home-inner {
-  display: flex;
+  margin-left: 200rem;
   width: 100%;
 }
 
 .home-inner video {
   justify-content: center;
-  margin-left: 20%;
   width: 100%;
   height: 100%;
   border-radius: 2%;
