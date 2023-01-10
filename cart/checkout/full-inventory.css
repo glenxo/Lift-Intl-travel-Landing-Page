@@ -309,8 +309,9 @@ img {
 }
 
 .reviews .slide p {
-  font-size: 1.5rem;
-  color: var(--color-casper2);  line-height: 2;
+  font-size: 4rem;
+  color: var(--color-casper2);  
+  line-height: 4;
   padding: 1rem 0;
 }
 
