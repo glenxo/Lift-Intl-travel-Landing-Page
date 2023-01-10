@@ -269,7 +269,7 @@ img {
   padding: 1rem 0;
   font-size: 1.7rem;
   color: var(--color-ship-cove) ;
-  line-height: 2;
+  line-height: 1.5;
   padding: 1rem 0;
 }
 
@@ -286,10 +286,16 @@ img {
   height: 330px;
 }
 
-.banner .home-inner video {
-  display: block;    
-  margin-left: 20%;
+.banner .home-inner {
+  justify-content: center;
+  right: 0;
   width: 30%;
+}
+
+.banner .home-inner video {
+  justify-content: center;
+  right: 0;
+  width: 60%;
   border-radius: 2%;
 }
 
