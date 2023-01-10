@@ -60,7 +60,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background:#edad2d;
+  background:#a8d6da;
 }
 
 
@@ -86,7 +86,8 @@ section {
 
 
 p {
-  color: var(--color-casper2);  font-size: 1.5em;
+  color: var(--color-casper2);  
+  font-size: 1.5em;
 }
 
 
@@ -108,15 +109,17 @@ img {
     display: inline-block;
     padding: 0.7rem 13rem;
     font-size: 1.7rem;
-    color: var(--color-casper2);    border: var(--color-light1);
+    color: var(--color-casper2);    
+    border: var(--color-strikemaster2);
     border-radius: 5rem;
     cursor: pointer;
     background: var(--color-light3);
     }
   
     .btn:hover {
-    background: var(--color-light2);
-    color: var(--color-casper2);    border: var(--color-red);
+    background: var(--color-strikemaster2);
+    color: var(--color-casper2);    
+    border: var(--color-strikemaster2);
     border-radius: 5rem;
   
   
@@ -190,14 +193,15 @@ img {
     font-weight: bolder;
     color: var(--color-dark) ;
     -webkit-text-stroke: 0.1rem var(--color-light1);
-    font-size: 8vw;
+    font-size: 7vw;
     display: block;
   }
   
   .home .content h3 {
     font-size: 2vw;
     letter-spacing: 20px;
-  color: var(--color-casper2);    -webkit-text-stroke: 0.1rem var(--color-light2);
+  color: var(--color-casper2);    
+  -webkit-text-stroke: 0.1rem var(--color-casper);
   }
 
 
@@ -213,8 +217,9 @@ img {
   position: fixed;
   top: 2rem;
   left: 2rem;
-  background: #4ac2b6;
-  color: var(--color-casper2);  height: 5rem;
+  background: var(--color-strikemaster2);     
+  color: var(--color-casper2);  
+  height: 5rem;
   width: 5rem;
   line-height: 5rem;
   font-size: 2.5rem;
@@ -324,17 +329,17 @@ img {
 }
 
 .swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: #20bdad00;
+  background-color: var(--color-strikemaster2);     
   color: var(--color-casper2);  border-color: #20bdad;
 }
 
 .swiper-scrollbar-vertical {
-  background-color: #20bdad;
+  background-color: var(--color-strikemaster2);     
   color: var(--color-casper2);  border-color: #20bdad;
 }
 
 .swiper-scrollbar {
-  background-color: #20bdad;
+  background-color: var(--color-strikemaster2);     
   color: var(--color-casper2);  border-color: #20bdad;
 }
 
@@ -357,11 +362,11 @@ div .swiper-pagination .swiper-pagination-bullets .swiper-pagination-vertical {
 }
 
 div .swiper-scrollbar-drag {
-  background-color: #bd742000;
+  background-color: #bd7420b6;
 }
 
 div .swiper-pagination-bullet  {
-  background-color: #45bd2000;
+  background-color: #bd2a2000; 
 }
 
 div.swiper-scrollbar.swiper-scrollbar-vertical {
