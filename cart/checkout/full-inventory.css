@@ -182,19 +182,24 @@ img {
 
 .home .content span {
   margin-top: -300px;
-  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad2a4, 0 0 10px #a5cad25b, 0 0 15px #a5cad252,
-    0 0 20px #a5cad252, 0 0 30px #a5cad24d, 0 0 40px #a5cad254,
-    0 0 50px #a5cad25e, 0 0 75px #a5cad267;
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad2a4, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
   font-weight: bolder;
-  color: var(--color-ship-cove);
+  color: var(--color-kimberly);
   font-size: 7vw;
   display: block;
 }
 
 .home .content h3 {
   font-size: 2vw;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
   color: var(--color-casper2);
   -webkit-text-stroke: 0.1rem var(--color-casper);
 }
@@ -224,6 +229,9 @@ img {
   left: 24rem;
 }
 
+/*BANNER SECTION STARTS ENDS*/
+/*BANNER SECTION STARTS*/
+
 .banner {
   margin-top: -500px;
   display: -webkit-box;
@@ -246,12 +254,22 @@ img {
 }
 
 .banner .content span {
-  font-size: 1.5rem;
+  font-size: 1.7vw;
+  font-weight: 100;
+  letter-spacing: 12px;
   color: var(--color-casper2);
+  -webkit-text-stroke: 0.1rem var(--color-geraldine);
 }
 
 .banner .content h3 {
   font-size: 7rem;
+  color: var(--color-casper2);
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+.banner .content h4 {
+  font-size: 2rem;
   color: var(--color-casper2);
   text-transform: capitalize;
   padding-top: 1rem;
@@ -291,6 +309,7 @@ img {
   border-radius: 2%;
 }
 
+/*BANNER SECTION ENDS*/
 /*REVIEW SECTION STARTS*/
 
 .reviews .slide {
