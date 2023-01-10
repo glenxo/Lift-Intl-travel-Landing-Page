@@ -71,7 +71,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 130%;  /* zoom out the image by 50% */
+  background-size: 150%;  /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
   
@@ -554,6 +554,19 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 }
 
 /*FOOTER SECTION ENDS*/
+
+.credit {
+  background: var(--color-dark);
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 2rem 1rem;
+  color: var(--color-casper);
+}
+
+.credit span {
+  color: var(--color-geraldine);
+}
+
 
 @media (max-width: 20px) { 
   .swiper .swiper-slide-active {
