@@ -163,16 +163,33 @@ h1 {
   margin-top: 70px;
   margin-bottom: 70px;
   font-size: xx-large;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-  text-stroke: 1px rgb(6, 247, 247);
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    text-shadow:  0 0 5px #a5cad288, 
+    0 0 10px #a5cad25b, 
+    0 0 15px #a5cad252, 
+    0 0 20px #a5cad252, 
+    0 0 30px #a5cad24d, 
+    0 0 40px #a5cad254, 
+    0 0 50px #a5cad23a, 
+    0 0 75px #a5cad241;
+    font-weight: bolder;
+    color: var(--color-dark);
 
 }
 
+
 h3 {
-  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-  text-stroke: 1px rgb(6, 247, 247);
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    text-shadow:  0 0 5px #a5cad215, 
+    0 0 10px #a5cad25b, 
+    0 0 15px #a5cad252, 
+    0 0 20px #a5cad252, 
+    0 0 30px #a5cad228, 
+    0 0 40px #a5cad234, 
+    0 0 50px #a5cad231, 
+    0 0 75px #a5cad21f;
+    font-weight: bolder;
+    color: var(--color-dark);
 }
 
 p {
@@ -423,8 +440,16 @@ a, li {
 
 .home .content span {
   font-weight: bolder;
-  color: var(--color-dark);
-  -webkit-text-stroke: 0.3rem var(--color-ship-cove);
+  text-shadow:  0 0 5px #a5cad246, 
+  0 0 10px #a5cad25b, 
+  0 0 15px #a5cad252, 
+  0 0 20px #a5cad252, 
+  0 0 30px #a5cad24d, 
+  0 0 40px #a5cad254, 
+  0 0 50px #a5cad23a, 
+  0 0 75px #a5cad241;
+  font-weight: bolder;
+  color: var(--color-dark) ;
   font-size: 3vw;
   display: block;
   

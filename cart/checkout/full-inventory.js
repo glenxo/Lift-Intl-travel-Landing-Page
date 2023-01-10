@@ -1,22 +1,22 @@
-
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= 1200) {
+    menu.classList.remove("fa-times");
+    header.classList.remove("active");
+    document.body.classList.remove("active");
+  }
+}); 
 
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
-  
-    // If we need pagination
-    pagination: {
+      pagination: {
       el: '.swiper-pagination',
     },
-  
-    // Navigation arrows
-    navigation: {
+      navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
+      scrollbar: {
       el: '.swiper-scrollbar',
     },
   });
