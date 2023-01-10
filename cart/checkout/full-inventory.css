@@ -23,7 +23,7 @@ Pallete
   --color-strikemaster: #8a5082;
   --color-strikemaster2: #8a50825f;
   --color-kimberly: #6f5f90;
-  --color-kimberly2: #6f5f90d7;
+  --color-kimberly2: #6f5f9077;
   --color-ship-cove: #758eb7;
   --color-casper: #a5cad2;
   --color-casper2: #dff9ff;
@@ -71,7 +71,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 150%;  /* zoom out the image by 50% */
+  background-size: 120%;  /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
   
@@ -86,7 +86,7 @@ section {
 
 
 p {
-  color: var(--color-casper2);  
+  color: var(--color-ship-cove);
   font-size: 1.5em;
 }
 
@@ -191,8 +191,7 @@ img {
     0 0 50px #a5cad25e, 
     0 0 75px #a5cad267;
     font-weight: bolder;
-    color: var(--color-dark) ;
-    -webkit-text-stroke: 0.1rem var(--color-light1);
+    color: var(--color-ship-cove) ;
     font-size: 7vw;
     display: block;
   }
@@ -267,7 +266,7 @@ img {
 .banner .content p {
   padding: 1rem 0;
   font-size: 1.7rem;
-  color: #407a74;
+  color: var(--color-ship-cove) ;
   line-height: 2;
   padding: 1rem 0;
 }
@@ -362,7 +361,7 @@ div .swiper-pagination .swiper-pagination-bullets .swiper-pagination-vertical {
 }
 
 div .swiper-scrollbar-drag {
-  background-color: #bd7420b6;
+  background-color: var(--color-geraldine) ;
 }
 
 div .swiper-pagination-bullet  {
