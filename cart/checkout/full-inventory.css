@@ -367,6 +367,12 @@ div.swiper-button-next::after {
   color: #20bdad00;
 }
 
+  .swiper-button-pre img {
+  padding-left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
 .reviews .swiper-pagination .swiper-button-prev img {
   margin-left: 20px;
 }
