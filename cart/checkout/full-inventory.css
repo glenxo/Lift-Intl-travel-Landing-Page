@@ -66,12 +66,12 @@ html::-webkit-scrollbar-thumb {
 
 body {
   min-height:400px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(/media/travelbody3.png) no-repeat;
-  background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(/media/travelbody3.png) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0)), to(rgba(17, 17, 17, 0))), url(/media/travelbody3.png) no-repeat;
+  background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)), url(/media/travelbody3.png) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 300%;  /* zoom out the image by 50% */
+  background-size: 150%;  /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
   
