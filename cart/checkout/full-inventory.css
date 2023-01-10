@@ -71,7 +71,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 120%;  /* zoom out the image by 50% */
+  background-size: 130%;  /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
   
@@ -377,58 +377,59 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 
 }
 
-/*BOOKING SECTION STARTS*/
+
 .book-form {
-    width: 80%;
-    margin: 1rem auto;
-    margin-top: 0rem;
-    background: #222;
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
-            box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
-    padding: 3rem 2rem;
-    }
-    
-    .book-form form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 1.5rem;
-    }
-    
-    .book-form form .inputBox {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 25rem;
-            flex: 1 1 25rem;
-    }
-    
-    .book-form form .inputBox span {
-    font-size: 1.4rem;
-    color: var(--color-light2);
-    }
-    
-    .book-form form .inputBox input {
-    width: 100%;
-    padding: 1.2rem 1.4rem;
-    border-radius: 5rem;
-    border: 0.2rem solid var(--color-red);
-    font-size: 1.6rem;
-  color: var(--color-casper2);    text-transform: none;
-    background: none;
-    margin-top: 1rem;
-    }
-    
-    .book-form form .btn {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 15rem;
-            flex: 1 1 15rem;
-    }
-    /*BOOKING SECTION ENDS*/
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: 12rem;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+          box-shadow: 0 0.5rem 1rem #1111114d;
+  padding: 3rem 2rem;
+}
+
+.book-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.book-form form .inputBox {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25rem;
+          flex: 1 1 25rem;
+}
+
+.book-form form .inputBox span {
+  font-size: 1.8rem;
+  color: var(--color-ship-cove);
+}
+
+.book-form form .inputBox input {             
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--color-geraldine);
+  font-size: 1.6rem;
+  color: var(--color-strikemaster);
+  text-transform: none;
+  background: none;
+  margin-top: 1rem;
+}
+
+.book-form form .btn {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 15rem;
+          flex: 1 1 15rem;
+}
+
 
 
 /*  FOOTER SECTION STARTS*/
