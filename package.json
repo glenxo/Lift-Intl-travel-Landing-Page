@@ -1,7 +1,6 @@
 {
   "name": "lift-intl-travel-landing-page",
   "version": "1.0.0",
-  "description": "",
   "main": "style.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,6 @@
   "homepage": "https://github.com/glenxo/Lift-Intl-travel-Landing-Page#readme",
   "devDependencies": {
     "prettier": "2.8.2"
-  }
+  },
+  "description": ""
 }

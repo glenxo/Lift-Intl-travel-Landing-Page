@@ -33,16 +33,16 @@ Pallete
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -60,21 +60,27 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background:#a8d6da;
+  background: #a8d6da;
 }
 
-
 body {
-  min-height:400px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0)), to(rgba(17, 17, 17, 0))), url(/media/travelbody3.png) no-repeat;
-  background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)), url(/media/travelbody3.png) no-repeat;
+  min-height: 400px;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(17, 17, 17, 0)),
+      to(rgba(17, 17, 17, 0))
+    ),
+    url(/media/travelbody3.png) no-repeat;
+  background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
+    url(/media/travelbody3.png) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 150%;  /* zoom out the image by 50% */
+  background-size: 150%; /* zoom out the image by 50% */
   position: relative; /* add this line to make the z-index property work */
 }
-  
 
 body.active {
   padding-left: 30rem;
@@ -84,12 +90,10 @@ section {
   padding: 5rem 9%;
 }
 
-
 p {
   color: var(--color-ship-cove);
   font-size: 1.5em;
 }
-
 
 h4 {
   font-size: 4em;
@@ -100,126 +104,112 @@ img {
   margin-left: 22px;
   max-width: 100%;
   max-height: 100%;
-  
-
 }
 
 .btn {
-    margin-top: 3rem;
-    display: inline-block;
-    padding: 0.7rem 13rem;
-    font-size: 1.7rem;
-    color: var(--color-casper2);    
-    border: var(--color-strikemaster2);
-    border-radius: 5rem;
-    cursor: pointer;
-    background: var(--color-light3);
-    }
-  
-    .btn:hover {
-    background: var(--color-strikemaster2);
-    color: var(--color-casper2);    
-    border: var(--color-strikemaster2);
-    border-radius: 5rem;
-  
-  
-  }
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 0.7rem 13rem;
+  font-size: 1.7rem;
+  color: var(--color-casper2);
+  border: var(--color-strikemaster2);
+  border-radius: 5rem;
+  cursor: pointer;
+  background: var(--color-light3);
+}
+
+.btn:hover {
+  background: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border: var(--color-strikemaster2);
+  border-radius: 5rem;
+}
 
 .branding img {
-    padding: 2rem;
-    position: absolute;
-    position: fixed;
-    top: 0;
-    right: 0;
-    transition: transform 0.5s ease-in-out;
-  }
+  padding: 2rem;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: transform 0.5s ease-in-out;
+}
 
 /*HEADING SECTION STARTS*/
 
 .heading {
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 16rem;
-  }
-  
-  .heading span {
-  color: var(--color-casper2);    font-size: 2rem;
-  }
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 16rem;
+}
 
-  /*HEADING SECTION ENDS*/
+.heading span {
+  color: var(--color-casper2);
+  font-size: 2rem;
+}
+
+/*HEADING SECTION ENDS*/
 
 /*HOME SECTION STARTS*/
 
 .home {
-    margin: 0 auto;
-    margin-top: 5rem;
-    margin-bottom: 100px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 100px;
 
-    width: 90%;
-    border-radius: 1rem;
-    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
+  width: 90%;
+  border-radius: 1rem;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
     background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url() no-repeat;*/
-    background-size: cover;
-    background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 80vh;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-bottom: 5rem;
-  }
-  
-  .home .content {
-    text-align: center;
-  }
-  
-  .home .content span {
-    margin-top: -300px;
-    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-    text-shadow:  0 0 5px #a5cad2a4, 
-    0 0 10px #a5cad25b, 
-    0 0 15px #a5cad252, 
-    0 0 20px #a5cad252, 
-    0 0 30px #a5cad24d, 
-    0 0 40px #a5cad254, 
-    0 0 50px #a5cad25e, 
-    0 0 75px #a5cad267;
-    font-weight: bolder;
-    color: var(--color-ship-cove) ;
-    font-size: 7vw;
-    display: block;
-  }
-  
-  .home .content h3 {
-    font-size: 2vw;
-    letter-spacing: 20px;
-  color: var(--color-casper2);    
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 80vh;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content span {
+  margin-top: -300px;
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad2a4, 0 0 10px #a5cad25b, 0 0 15px #a5cad252,
+    0 0 20px #a5cad252, 0 0 30px #a5cad24d, 0 0 40px #a5cad254,
+    0 0 50px #a5cad25e, 0 0 75px #a5cad267;
+  font-weight: bolder;
+  color: var(--color-ship-cove);
+  font-size: 7vw;
+  display: block;
+}
+
+.home .content h3 {
+  font-size: 2vw;
+  letter-spacing: 20px;
+  color: var(--color-casper2);
   -webkit-text-stroke: 0.1rem var(--color-casper);
-  }
+}
 
-
-
-
-
-  .fade {
-    opacity: 0.3;
-  }
-  
-
+.fade {
+  opacity: 0.3;
+}
 
 #menu-btn {
   border-radius: 6%;
   position: fixed;
   top: 2rem;
   left: 2rem;
-  background: var(--color-strikemaster2);     
-  color: var(--color-casper2);  
+  background: var(--color-strikemaster2);
+  color: var(--color-casper2);
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
@@ -240,48 +230,50 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 3rem;
   -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .banner .content {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
 }
 
 .banner .content span {
   font-size: 1.5rem;
-  color: var(--color-casper2);}
+  color: var(--color-casper2);
+}
 
 .banner .content h3 {
   font-size: 7rem;
-  color: var(--color-casper2);  text-transform: capitalize;
+  color: var(--color-casper2);
+  text-transform: capitalize;
   padding-top: 1rem;
 }
 
 .banner .content p {
   padding: 1rem 0;
   font-size: 1.7rem;
-  color: var(--color-ship-cove) ;
+  color: var(--color-ship-cove);
   line-height: 1.5;
   padding: 1rem 0;
 }
 
 .banner .image {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
 }
 
 .banner .image img {
   border-radius: 2%;
-  display: flex;;
+  display: flex;
   width: 550px;
   height: 330px;
 }
@@ -299,11 +291,9 @@ img {
   border-radius: 2%;
 }
 
-
 .swiper {
   width: 1200px;
   height: 900px;
-
 }
 
 .reviews .slide {
@@ -313,24 +303,25 @@ img {
 
 .reviews .slide i {
   font-size: 4rem;
-  color: var(--color-casper2);  margin-bottom: 1rem;
+  color: var(--color-casper2);
+  margin-bottom: 1rem;
 }
 
 .reviews span {
   font-size: 4rem;
-  color: var(--color-casper2);  
+  color: var(--color-casper2);
   line-height: 4;
 }
 
 .reviews h1 {
   font-size: 4rem;
-  color: var(--color-casper);  
+  color: var(--color-casper);
   line-height: 4;
 }
 
 .reviews .slide p {
   font-size: 4rem;
-  color: var(--color-casper2);  
+  color: var(--color-casper2);
   line-height: 4;
   padding: 1rem 0;
 }
@@ -345,22 +336,26 @@ img {
 .reviews .slide h3 {
   font-size: 3rem;
   margin-top: 1%;
-  color: var(--color-casper2);  text-transform: capitalize;
+  color: var(--color-casper2);
+  text-transform: capitalize;
 }
 
 .swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);     
-  color: var(--color-casper2);  border-color: #20bdad;
+  background-color: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border-color: #20bdad;
 }
 
 .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);     
-  color: var(--color-casper2);  border-color: #20bdad;
+  background-color: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border-color: #20bdad;
 }
 
 .swiper-scrollbar {
-  background-color: var(--color-strikemaster2);     
-  color: var(--color-casper2);  border-color: #20bdad;
+  background-color: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border-color: #20bdad;
 }
 
 div.swiper-button-prev::after {
@@ -368,13 +363,12 @@ div.swiper-button-prev::after {
 }
 
 div.swiper-button-next::after {
-    padding-left: 0%;
-    color: #20bdad00;
-
+  padding-left: 0%;
+  color: #20bdad00;
 }
 
 .reviews .swiper-pagination .swiper-button-prev img {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 div .swiper-pagination .swiper-pagination-bullets .swiper-pagination-vertical {
@@ -382,11 +376,11 @@ div .swiper-pagination .swiper-pagination-bullets .swiper-pagination-vertical {
 }
 
 div .swiper-scrollbar-drag {
-  background-color: var(--color-geraldine) ;
+  background-color: var(--color-geraldine);
 }
 
-div .swiper-pagination-bullet  {
-  background-color: #bd2a2000; 
+div .swiper-pagination-bullet {
+  background-color: #bd2a2000;
 }
 
 div.swiper-scrollbar.swiper-scrollbar-vertical {
@@ -395,9 +389,7 @@ div.swiper-scrollbar.swiper-scrollbar-vertical {
 
 div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   background-color: #bd202000;
-
 }
-
 
 .book-form {
   width: 80%;
@@ -406,7 +398,7 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   background: var(--color-darker);
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
-          box-shadow: 0 0.5rem 1rem #1111114d;
+  box-shadow: 0 0.5rem 1rem #1111114d;
   padding: 3rem 2rem;
 }
 
@@ -415,17 +407,17 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
 .book-form form .inputBox {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
+  -ms-flex: 1 1 25rem;
+  flex: 1 1 25rem;
 }
 
 .book-form form .inputBox span {
@@ -433,7 +425,7 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   color: var(--color-ship-cove);
 }
 
-.book-form form .inputBox input {             
+.book-form form .inputBox input {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;
@@ -447,11 +439,9 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 
 .book-form form .btn {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 15rem;
-          flex: 1 1 15rem;
+  -ms-flex: 1 1 15rem;
+  flex: 1 1 15rem;
 }
-
-
 
 /*  FOOTER SECTION STARTS*/
 
@@ -461,13 +451,11 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   background-size: cover;
 }
 
-
-
 .footer .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.7rem;
 }
 
@@ -490,11 +478,12 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   color: var(--color-casper2);
   padding: 1rem 0;
   line-height: 2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997), -2px -2px 4px rgba(255,255,255,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .footer .box-container .box p i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   color: #ff0028;
 }
 
@@ -511,8 +500,8 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   font-size: 1.7rem;
   border: 0.2rem solid var(--color-geraldine);
   color: var(--color-kimberly);
-    background: var(--color-geraldine);
-  margin-right: .5rem;
+  background: var(--color-geraldine);
+  margin-right: 0.5rem;
   text-align: center;
 }
 
@@ -537,7 +526,7 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 }
 
 .footer .box-container .box .links i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   color: var(--color-geraldine);
 }
 
@@ -567,50 +556,37 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   color: var(--color-geraldine);
 }
 
-
-@media (max-width: 20px) { 
+@media (max-width: 20px) {
   .swiper .swiper-slide-active {
     max-width: 30px;
     max-height: 150px;
     width: 30px;
     height: 15px;
-    
-  
   }
 }
 
-@media (max-width: 720px) { 
-    .swiper {
-        width: 350px;
-        height: 250px;
-      
-      }
-
-      .banner .image img {
-  border-radius: 2%;
-  display: flex;;
-  width: 150px;
-  height: 80px;
-}
+@media (max-width: 720px) {
+  .swiper {
+    width: 350px;
+    height: 250px;
   }
 
+  .banner .image img {
+    border-radius: 2%;
+    display: flex;
+    width: 150px;
+    height: 80px;
+  }
+}
 
-
-
-@media (max-width: 30px) { 
+@media (max-width: 30px) {
   .swiper-slide-active {
     max-width: 30px;
     max-height: 150px;
     width: 30px;
     height: 15px;
-
-    
-      
-      
-  
   }
 }
-
 
 @media (max-width: 991px) {
   html {
@@ -619,10 +595,9 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   section {
     padding: 3rem 2rem;
   }
-} 
+}
 
 @media (max-width: 70px) {
-
 }
 
 @media (max-width: 450px) {
