@@ -353,13 +353,22 @@ li {
 
 .home .content span {
   font-weight: bolder;
-  text-shadow: 0 0 5px #a5cad246, 0 0 10px #a5cad25b, 0 0 15px #a5cad252,
-    0 0 20px #a5cad252, 0 0 30px #a5cad24d, 0 0 40px #a5cad254,
-    0 0 50px #a5cad23a, 0 0 75px #a5cad241;
+  text-shadow: 0 0 5px #a5cad246, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad22c, 
+                0 0 30px #a5cad221, 
+                0 0 40px #a5cad23a,
+                0 0 50px #a5cad22a, 
+                0 0 75px #a5cad22c;
   font-weight: bolder;
   color: var(--color-dark);
   font-size: 3vw;
   display: block;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
 }
 
 .home h3 {
