@@ -182,7 +182,7 @@ img {
 
 
 .home .content span {
-  margin-top: -300px;
+  margin-top: -150px;
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
                 0 0 10px #a5cad25b, 
@@ -201,7 +201,7 @@ img {
 }
 
 .home .content h3 {
-  letter-spacing: 40px;
+  letter-spacing: 45px;
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad28f, 
                 0 0 10px #a5cad2a4, 
@@ -215,7 +215,7 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 2vw;
+  font-size: 1.7vw;
   display: block;
 }
 
@@ -291,11 +291,11 @@ img {
                 0 0 40px #a5cad217,
                 0 0 50px #a5cad227, 
                 0 0 75px #a5cad221;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(132, 0, 255, 0.514), rgb(2, 191, 248));
+  background: -webkit-linear-gradient(rgb(153, 243, 255),#ef78ffc2, rgb(2, 191, 248));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .banner .content h3 {
@@ -306,7 +306,7 @@ img {
 }
 
 .banner .content h4 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   -webkit-text-stroke: 0.7px rgb(124, 207, 255);
   color: var(--color-casper2);
   text-transform: capitalize;
@@ -392,23 +392,23 @@ img {
 }
 
 .reviews span {
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a0f86957, 
   0 0 10px #a5cad227, 
   0 0 15px #a5cad20c,
-  0 0 20px #a5cad285, 
-  0 0 30px #a5cad271, 
-  0 0 40px #a5cad24f,
-  0 0 50px #a5cad279, 
-  0 0 75px #a5cad285;
+  0 0 20px #a5cad23d, 
+  0 0 30px #a5cad23f, 
+  0 0 40px #a5cad234,
+  0 0 50px #a5cad23a, 
+  0 0 75px #a5cad227;
   text-align: center;
   font-size: 2.3rem;
   color: var(--color-casper2);
-  -webkit-text-stroke: 1.5px rgb(142, 241, 122);
+  -webkit-text-stroke: 1.5px rgb(186, 255, 130);
 }
 
 .reviews h1 {
-  letter-spacing: 20px;
+  letter-spacing: 15px;
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad211, 
   0 0 10px #a5cad227, 
@@ -424,7 +424,7 @@ img {
   font-weight: bolder;
   font-size: 4vw;
   margin-top: 20rem;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
   display: block;
 }
 
