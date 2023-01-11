@@ -216,7 +216,8 @@ img {
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
   font-size: 2vw;
-  display: block;}
+  display: block;
+}
 
 .fade {
   opacity: 0.3;
@@ -386,11 +387,28 @@ img {
   line-height: 4;
 }
 
+
 .reviews h1 {
-  font-size: 4rem;
-  color: var(--color-casper);
-  line-height: 4;
+  letter-spacing: 20px;
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad211, 
+  0 0 10px #a5cad227, 
+  0 0 15px #a5cad20c,
+  0 0 20px #a5cad21c, 
+  0 0 30px #a5cad213, 
+  0 0 40px #a5cad217,
+  0 0 50px #a5cad279, 
+  0 0 75px #a5cad25e;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 4vw;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  display: block;
 }
+
 
 .reviews .slide p {
   font-size: 4rem;
