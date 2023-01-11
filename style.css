@@ -206,8 +206,8 @@ li {
 .bar-menu a:hover {
   border-radius: 2%;
   -webkit-text-stroke: 1.2px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad2af, 
-                0 0 10px #a5cad2af, 
+  text-shadow: 0 0 5px #a5cad2fb, 
+                0 0 10px #a5cad2e7, 
                 0 0 15px #a5cad29f,
                 0 0 20px #a5cad2a8, 
                 0 0 30px #a5cad2b4, 

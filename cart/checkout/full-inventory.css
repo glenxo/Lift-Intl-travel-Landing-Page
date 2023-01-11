@@ -270,11 +270,20 @@ img {
 
 .banner .content span {
   left: 0;
-  font-size: 1.7vw;
-  font-weight: 100;
-  letter-spacing: 12px;
-  color: var(--color-casper2);
-  -webkit-text-stroke: 0.1rem var(--color-geraldine);
+  -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad211, 
+                0 0 10px #a5cad227, 
+                0 0 15px #a5cad20c,
+                0 0 20px #a5cad21c, 
+                0 0 30px #a5cad213, 
+                0 0 40px #a5cad217,
+                0 0 50px #a5cad227, 
+                0 0 75px #a5cad221;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(132, 0, 255, 0.514), rgb(2, 191, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5rem;
 }
 
 .banner .content h3 {
@@ -286,7 +295,8 @@ img {
 
 .banner .content h4 {
   font-size: 2rem;
-  color: var(--color-casper2);
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+  color: var(--color-casper);
   text-transform: capitalize;
   padding-top: 1rem;
 }
