@@ -323,7 +323,7 @@ img {
 
 
 .banner .content .btn {
-  border: 0.2rem solid var(--color-geraldine);
+  border: 0.2rem solid var(--color-strikemaster);
   font-size: 1.6rem;
   color: var(--color-strikemaster);
   margin-top: 1rem;
@@ -381,15 +381,23 @@ img {
   margin-bottom: 1rem;
 }
 
-.reviews span {
-  font-size: 4rem;
-  color: var(--color-casper2);
-  line-height: 4;
-}
+
 
 .reviews p {
+  text-align: center;
+
   font-size: 2rem;
   color: var(--color-casper2);
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+}
+
+.reviews span {
+  text-align: center;
+
+  font-size: 3rem;
+  line-height: 2;
+  color: var(--color-casper2);
+  -webkit-text-stroke: 1.5px rgb(142, 241, 122);
 }
 
 .reviews h1 {
