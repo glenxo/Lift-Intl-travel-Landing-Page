@@ -126,7 +126,7 @@ body {
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: 300%; /* zoom out the image by 50% */
-  position: relative; /* add this line to make the z-index property work */
+  position: relative; 
 }
 
 a {

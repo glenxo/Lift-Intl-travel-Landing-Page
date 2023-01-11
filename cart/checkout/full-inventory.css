@@ -79,7 +79,7 @@ body {
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: 170%; /* zoom out the image by 50% */
-  position: relative; /* add this line to make the z-index property work */
+  position: relative; 
 }
 
 body.active {
@@ -489,8 +489,8 @@ div.swiper-button-next::after {
 
   .swiper-button-pre img {
   padding-left: 0%;
-  width: 1800px;
-  height: 1200px;
+  width: 1600px;
+  height: 900px;
 }
 
 .reviews .swiper-pagination .swiper-button-prev img {
