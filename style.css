@@ -187,16 +187,38 @@ li {
   text-decoration: none;
   padding-right: 1%;
   padding-left: 1%;
-  font-size: 20px;
-  color: var(--color-casper);
-  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-  text-stroke: 1px rgb(6, 247, 247);
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad21a, 
+                0 0 10px #a5cad227, 
+                0 0 15px #a5cad223,
+                0 0 20px #a5cad21c, 
+                0 0 30px #a5cad227, 
+                0 0 40px #a5cad223,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(132, 0, 255, 0.514), rgb(2, 191, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 .bar-menu a:hover {
   border-radius: 2%;
-  color: var(--color-geraldine);
+  -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad2af, 
+                0 0 10px #a5cad2af, 
+                0 0 15px #a5cad29f,
+                0 0 20px #a5cad2a8, 
+                0 0 30px #a5cad2b4, 
+                0 0 40px #a5cad2c9,
+                0 0 50px #a5cad2ad, 
+                0 0 75px #a5cad2a9;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(132, 0, 255, 0.514), rgb(2, 191, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 /*BAR MENU SECTION ENDS*/
@@ -365,7 +387,7 @@ li {
   color: var(--color-dark);
   font-size: 3vw;
   display: block;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
@@ -610,6 +632,10 @@ li {
   line-height: 2;
 }
 
+
+/*SERVICES SECTION STARTS ENDS*/
+/*SERVICES SECTION STARTS*/
+
 .services .box-container {
   display: -ms-grid;
   display: grid;
@@ -651,6 +677,23 @@ li {
   color: var(--color-casper);
 }
 
+.services .heading h1 {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5vw;
+}
+
 .services .box-container .box p {
   padding: 1rem 0;
   font-size: 1.4rem;
@@ -658,6 +701,7 @@ li {
   line-height: 2;
 }
 
+/*SERVICES SECTION ENDS*/
 /*DESTINATION SECTION STARTS*/
 
 .destination .box-container {
@@ -690,9 +734,37 @@ li {
 }
 
 .destination .box-container .box h3 {
-  margin-top: 0.5rem;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.637);
+  text-shadow: 0 0 5px #a5cad21a, 
+                0 0 10px #a5cad227, 
+                0 0 15px #a5cad223,
+                0 0 20px #a5cad21c, 
+                0 0 30px #a5cad227, 
+                0 0 40px #a5cad223,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(132, 0, 255), rgb(2, 191, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
   font-size: 2.5rem;
-  color: var(--color-geraldine1);
+}
+
+.destination .heading h1 {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5vw;
 }
 
 /*DESTINATION SECTION ENDS*/
