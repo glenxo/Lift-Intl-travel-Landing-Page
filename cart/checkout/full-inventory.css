@@ -385,17 +385,24 @@ img {
 
 .reviews p {
   text-align: center;
-
-  font-size: 2rem;
+  font-size: 2.3rem;
+  line-height: 1.3;
   color: var(--color-casper2);
   -webkit-text-stroke: 0.7px rgb(255, 255, 255);
 }
 
 .reviews span {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a0f86957, 
+  0 0 10px #a5cad227, 
+  0 0 15px #a5cad20c,
+  0 0 20px #a5cad285, 
+  0 0 30px #a5cad271, 
+  0 0 40px #a5cad24f,
+  0 0 50px #a5cad279, 
+  0 0 75px #a5cad285;
   text-align: center;
-
-  font-size: 3rem;
-  line-height: 2;
+  font-size: 2.3rem;
   color: var(--color-casper2);
   -webkit-text-stroke: 1.5px rgb(142, 241, 122);
 }
@@ -417,7 +424,7 @@ img {
   font-weight: bolder;
   font-size: 4vw;
   margin-top: 20rem;
-  margin-bottom: 0rem;
+  margin-bottom: 6rem;
   display: block;
 }
 
@@ -449,7 +456,7 @@ img {
 
 
 .swiper {
-  width: 1200px;
+  width: 1600px;
   height: 900px;
 }
 
@@ -482,15 +489,18 @@ div.swiper-button-next::after {
 
   .swiper-button-pre img {
   padding-left: 0%;
-  width: 100%;
-  height: 100%;
+  width: 1800px;
+  height: 1200px;
 }
 
 .reviews .swiper-pagination .swiper-button-prev img {
   margin-left: 20px;
+  
 }
 
-div .swiper-pagination .swiper-pagination-bullets .swiper-pagination-vertical {
+div .swiper-pagination 
+.swiper-pagination-bullets 
+.swiper-pagination-vertical {
   background-color: #e06e6e00;
 }
 
