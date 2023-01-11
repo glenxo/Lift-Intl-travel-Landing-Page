@@ -60,7 +60,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #a8d6da;
+  background: rgb(36, 164, 175);
 }
 
 body {
