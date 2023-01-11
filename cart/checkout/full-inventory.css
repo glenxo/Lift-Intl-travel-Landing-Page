@@ -338,6 +338,7 @@ img {
 }
 
 .banner .home-inner video {
+  border: 0.1rem solid var(--color-casper2  );
   justify-content: center;
   right: 0;
   width: 60%;
