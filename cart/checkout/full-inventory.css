@@ -387,6 +387,10 @@ img {
   line-height: 4;
 }
 
+.reviews p {
+  font-size: 2rem;
+  color: var(--color-casper2);
+}
 
 .reviews h1 {
   letter-spacing: 20px;
@@ -405,7 +409,7 @@ img {
   font-weight: bolder;
   font-size: 4vw;
   margin-top: 20rem;
-  margin-bottom: 10rem;
+  margin-bottom: 0rem;
   display: block;
 }
 
