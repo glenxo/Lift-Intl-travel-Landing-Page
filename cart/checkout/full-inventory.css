@@ -115,7 +115,7 @@ img {
   border: var(--color-strikemaster2);
   border-radius: 5rem;
   cursor: pointer;
-  background: var(--color-light3);
+  color: var(--color-ship-cove);
 }
 
 .btn:hover {
@@ -295,8 +295,8 @@ img {
 
 .banner .content h4 {
   font-size: 2rem;
-  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-  color: var(--color-casper);
+  -webkit-text-stroke: 0.7px rgb(124, 207, 255);
+  color: var(--color-casper2);
   text-transform: capitalize;
   padding-top: 1rem;
 }
@@ -307,6 +307,15 @@ img {
   color: var(--color-ship-cove);
   line-height: 1.5;
   padding: 1rem 0;
+}
+
+
+.banner .content .btn {
+  border: 0.2rem solid var(--color-geraldine);
+  font-size: 1.6rem;
+  color: var(--color-strikemaster);
+  margin-top: 1rem;
+  color: var(--color-casper2);
 }
 
 .banner .image {
@@ -459,6 +468,9 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   background-color: #bd202000;
 }
 
+
+/*BOOK-FORM SECTION STARTS*/
+
 .book-form {
   width: 80%;
   margin: 1rem auto;
@@ -503,15 +515,12 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
   text-transform: none;
   background: none;
   margin-top: 1rem;
+  color: var(--color-casper2);
+
 }
 
-.book-form form .btn {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 15rem;
-  flex: 1 1 15rem;
-}
-
-/*  FOOTER SECTION STARTS*/
+/*BOOK-FORM SECTION ENDS*/
+/*FOOTER SECTION STARTS*/
 
 .footer {
   background-image: url(media/footerimg3.jpg);
