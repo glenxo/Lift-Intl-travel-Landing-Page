@@ -903,7 +903,7 @@ li {
 
 @media (max-width: 780px) {
   body {
-    background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
+    background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0)),
       url(media/travelbody3.png) no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -979,7 +979,7 @@ header.active {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #262229;
+    background-color: #26222900;
     z-index: 1;
   }
 
