@@ -358,7 +358,8 @@ li {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   position: absolute;
-  margin-top: 50%;
+  margin-top: 60%;
+  margin-botom: 10%;
 }
 
 .home .grid-item {
@@ -711,6 +712,7 @@ li {
   columns: 3 25rem;
   -webkit-column-gap: 1.5rem;
   column-gap: 1.5rem;
+  margin-top: 20%;
 }
 
 .destination .box-container .box {
