@@ -460,6 +460,12 @@ img {
   height: 900px;
 }
 
+.swiper img {
+  border: 0.1rem solid var(--color-casper2  );
+  width: 100px;
+  height: 300px;
+}
+
 .swiper-scrollbar .swiper-scrollbar-vertical {
   background-color: var(--color-strikemaster2);
   color: var(--color-casper2);
@@ -488,6 +494,7 @@ div.swiper-button-next::after {
 }
 
   .swiper-button-pre img {
+    
   padding-left: 0%;
   width: 1600px;
   height: 900px;
