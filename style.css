@@ -903,7 +903,7 @@ li {
 
 @media (max-width: 780px) {
   body {
-    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)),
+    background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
       url(media/travelbody3.png) no-repeat;
     background-position: center;
     background-attachment: fixed;

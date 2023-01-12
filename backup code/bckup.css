@@ -80,8 +80,8 @@ Pallete
   }
   body {
     min-height:1980px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg2.jpg) no-repeat;
-    background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg2.jpg) no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(media/travelbodybg3.jpg) no-repeat;
+    background: linear- gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(media/travelbodybg3.jpg) no-repeat;
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
