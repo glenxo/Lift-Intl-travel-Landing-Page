@@ -21,25 +21,19 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-(function () {
-  const parallaxElements = document.querySelectorAll(".parallax");
-  function parallax() {
-    const scrollTop = window.pageYOffset;
-    for (let i = 0; i < parallaxElements.length; i++) {
-      const element = parallaxElements[i];
-      const speed = element.getAttribute("data-parallax-speed");
-      element.style.backgroundPositionY = scrollTop * speed + "px";
-    }
-  }
-
-  window.addEventListener("scroll", parallax);
-})();
-
 document.addEventListener("DOMContentLoaded", function() {
+  let currentImg = null;
   const images = document.querySelectorAll("img");
   images.forEach(function(img) {
     img.addEventListener("click", function() {
-      img.style.filter = "blur(3px)";
+      if (currentImg) {
+        currentImg.style.filter = "none";
+      }
+      img.style.filter = "blur(1px)";
+      currentImg = img;
     });
   });
 });
+
+
+

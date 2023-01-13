@@ -47,10 +47,15 @@ links.forEach((link) => {
 })();
 
 document.addEventListener("DOMContentLoaded", function() {
+  let currentImg = null;
   const images = document.querySelectorAll("img");
   images.forEach(function(img) {
     img.addEventListener("click", function() {
+      if (currentImg) {
+        currentImg.style.filter = "none";
+      }
       img.style.filter = "blur(3px)";
+      currentImg = img;
     });
   });
 });
