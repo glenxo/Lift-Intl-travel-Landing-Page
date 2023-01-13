@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
       link.innerHTML = img.dataset.text;
       link.href = img.dataset.link;
       link.style.position = "absolute";
-      link.style.top = "50%";
+      link.style.top = "35%";
       link.style.left = "50%";
       link.style.transform = "translate(-50%, -50%)";
       link.style.textAlign = "center";
