@@ -457,12 +457,12 @@ img {
 
 
 .swiper {
-  width: 1600px;
-  height: 900px;
+  width: 1300px;
+  height: 700px;
 }
 
 .swiper img {
-  border: 0.1rem solid var(--color-casper2  );
+  border: 0.1rem solid var(--);
   width: 100px;
   height: 300px;
 }
