@@ -58,4 +58,11 @@ document.addEventListener("DOMContentLoaded", function() {
       currentImg = img;
     });
   });
+  
+  window.addEventListener("scroll", function() {
+    if (currentImg) {
+      currentImg.style.filter = "none";
+      currentImg = null;
+    }
+  });
 });
