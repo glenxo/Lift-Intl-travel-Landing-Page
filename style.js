@@ -69,38 +69,39 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
   let currentImg = null;
-  let currentP = null;
+  let currentLink = null;
   const images = document.querySelectorAll("img");
   images.forEach(function(img) {
     img.addEventListener("click", function() {
       if (currentImg) {
-        currentP.style.display = "none";
+        currentLink.style.display = "none";
         currentImg.style.filter = "none";
       }
       
-      //create and append the paragraph element
-      let p = document.createElement("p");
-      p.innerHTML = img.dataset.text;
-      p.style.position = "absolute";
-      p.style.top = "50%";
-      p.style.left = "50%";
-      p.style.transform = "translate(-50%, -50%)";
-      p.style.textAlign = "center";
-      p.style.color = "white";
-      img.parentNode.appendChild(p);
+      //create and append the link element
+      let link = document.createElement("a");
+      link.innerHTML = img.dataset.text;
+      link.href = img.dataset.link;
+      link.style.position = "absolute";
+      link.style.top = "50%";
+      link.style.left = "50%";
+      link.style.transform = "translate(-50%, -50%)";
+      link.style.textAlign = "center";
+      link.style.color = "white";
+      img.parentNode.appendChild(link);
       
       img.style.filter = "blur(3px)";
       currentImg = img;
-      currentP = p;
+      currentLink = link;
     });
   });
   
   window.addEventListener("scroll", function() {
     if (currentImg) {
-      currentP.style.display = "none";
+      currentLink.style.display = "none";
       currentImg.style.filter = "none";
       currentImg = null;
-      currentP = null;
+      currentLink = null;
     }
   });
 });
