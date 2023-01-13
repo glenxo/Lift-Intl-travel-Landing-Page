@@ -66,3 +66,41 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  let currentImg = null;
+  let currentP = null;
+  const images = document.querySelectorAll("img");
+  images.forEach(function(img) {
+    img.addEventListener("click", function() {
+      if (currentImg) {
+        currentP.style.display = "none";
+        currentImg.style.filter = "none";
+      }
+      
+      //create and append the paragraph element
+      let p = document.createElement("p");
+      p.innerHTML = img.dataset.text;
+      p.style.position = "absolute";
+      p.style.top = "50%";
+      p.style.left = "50%";
+      p.style.transform = "translate(-50%, -50%)";
+      p.style.textAlign = "center";
+      p.style.color = "white";
+      img.parentNode.appendChild(p);
+      
+      img.style.filter = "blur(3px)";
+      currentImg = img;
+      currentP = p;
+    });
+  });
+  
+  window.addEventListener("scroll", function() {
+    if (currentImg) {
+      currentP.style.display = "none";
+      currentImg.style.filter = "none";
+      currentImg = null;
+      currentP = null;
+    }
+  });
+});
