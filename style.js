@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function() {
         currentImg.style.filter = "none";
       }
       
-      //create and append the link element
       let link = document.createElement("a");
       link.innerHTML = img.dataset.text;
       link.href = img.dataset.link;
