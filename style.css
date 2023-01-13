@@ -786,7 +786,7 @@ li {
   columns: 3 25rem;
   -webkit-column-gap: 1.5rem;
   column-gap: 1.5rem;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .destination .box-container .box {
@@ -841,6 +841,7 @@ li {
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
   font-size: 5vw;
+  margin-top: 40%;
 }
 
 /*DESTINATION SECTION ENDS*/
