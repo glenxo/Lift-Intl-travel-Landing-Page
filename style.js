@@ -45,3 +45,12 @@ links.forEach((link) => {
 
   window.addEventListener("scroll", parallax);
 })();
+
+document.addEventListener("DOMContentLoaded", function() {
+  const images = document.querySelectorAll("img");
+  images.forEach(function(img) {
+    img.addEventListener("click", function() {
+      img.style.filter = "blur(3px)";
+    });
+  });
+});
