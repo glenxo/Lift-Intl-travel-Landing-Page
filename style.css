@@ -328,11 +328,93 @@ li {
   z-index: 1;
 }
 
+
+
+.pre-home {
+  margin: 0 auto;
+  margin-top: 20rem;
+  margin-bottom: 0px;
+
+  width: 90%;
+  border-radius: 1rem;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url() no-repeat;*/
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 80vh;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.pre-home .content {
+  text-align: center;
+}
+
+
+.pre-home .content span {
+  font-weight: bolder;
+  text-shadow: 0 0 5px #a5cad246, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad22c, 
+                0 0 30px #a5cad221, 
+                0 0 40px #a5cad23a,
+                0 0 50px #a5cad22a, 
+                0 0 75px #a5cad22c;
+  font-weight: bolder;
+  color: var(--color-dark);
+  font-size: 8vw;
+  display: block;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.pre-home .content h3 {
+  letter-spacing: 25px;
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad28f, 
+                0 0 10px #a5cad2a4, 
+                0 0 15px #a5cad29f,
+                0 0 20px #a5cad29c, 
+                0 0 30px #a5cad296, 
+                0 0 40px #a5cad294,
+                0 0 50px #a5cad298, 
+                0 0 75px #a5cad2a8;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 4%;
+  font-size: 1.7vw;
+  display: block;
+}
+
+
+.pre-home .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: var(--color-ship-cove);
+  line-height: 2;
+}
+
+
 /* HOME SECTION STARTS */
 
 .home {
   margin: 0 auto;
-  margin-top: 9rem;
+  margin-top: 0rem;
   width: 90%;
   border-radius: 1rem;
   /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
@@ -707,7 +789,6 @@ li {
 
 .destination .box-container {
   border-color: var(--color-geraldine1);
-
   -webkit-columns: 3 25rem;
   columns: 3 25rem;
   -webkit-column-gap: 1.5rem;

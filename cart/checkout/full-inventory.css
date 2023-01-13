@@ -106,6 +106,10 @@ img {
   max-height: 100%;
 }
 
+.fade {
+  opacity: 0.3;
+}
+
 .btn {
   margin-top: 3rem;
   display: inline-block;
@@ -202,7 +206,7 @@ img {
 
 .home .content h3 {
   letter-spacing: 45px;
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad28f, 
                 0 0 10px #a5cad2a4, 
                 0 0 15px #a5cad29f,
@@ -215,12 +219,9 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
+  margin-top: 4%;
   font-size: 1.7vw;
   display: block;
-}
-
-.fade {
-  opacity: 0.3;
 }
 
 #menu-btn {
