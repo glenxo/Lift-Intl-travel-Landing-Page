@@ -476,22 +476,15 @@ li {
   font-weight: bolder;
 }
 
-.home h3 {
-  letter-spacing: 20px;
-}
-
-.home .content h3 {
-  font-size: 1vw;
-  color: var(--color-ship-cove);
-}
 
 .home .content p {
   max-width: 60rem;
   margin: 1rem auto;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: var(--color-ship-cove);
   line-height: 2;
 }
+
 
 .home-inner {
   display: flex;
