@@ -125,7 +125,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 300%; /* zoom out the image by 50% */
+  background-size: 350%; /* zoom out the image by 50% */
   position: relative; 
 }
 
@@ -218,7 +218,7 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 /*BAR MENU SECTION ENDS*/
@@ -416,7 +416,8 @@ li {
   margin: 0 auto;
   margin-top: 0rem;
   width: 90%;
-  border-radius: 1rem;
+  border-radius: 1rem;  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+  box-shadow: 0 0.5rem 1rem #1111114d;
   /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
   background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;*/
   background-size: cover;
