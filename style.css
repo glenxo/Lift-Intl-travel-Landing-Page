@@ -440,8 +440,8 @@ li {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   position: absolute;
-  margin-top: 60%;
-  margin-botom: 10%;
+  margin-top: 80%;
+  margin-bottom: 10%;
 }
 
 .home .grid-item {
