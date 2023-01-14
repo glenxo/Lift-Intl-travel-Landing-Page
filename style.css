@@ -1160,8 +1160,26 @@ header.active {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     position: absolute;
-    margin-top: 100%;
+    margin-top: 110%;
     margin-bottom: 10%;
+  }  
+  
+  .preview .grid-container p {
+        margin-top: 3rem;
+    display: inline-block;
+    padding: 0.4rem 10rem;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    cursor: pointer;
+  }  
+  
+  .preview .grid-container span {
+        margin-top: 3rem;
+    display: inline-block;
+    padding: 0.4rem 10rem;
+    font-size: 2.8rem;
+    border-radius: 5rem;
+    cursor: pointer;
   }
 
 }
