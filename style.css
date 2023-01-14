@@ -459,26 +459,45 @@ li {
 .preview .content {
   text-align: center;
 }
-
-.preview .content span {
-  font-weight: bolder;
-  text-shadow: 0 0 5px #a5cad246, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
-                0 0 20px #a5cad22c, 
-                0 0 30px #a5cad221, 
-                0 0 40px #a5cad23a,
-                0 0 50px #a5cad22a, 
-                0 0 75px #a5cad22c;
-  font-weight: bolder;
-  color: var(--color-dark);
-  font-size: 3vw;
-  display: block;
-  background: -webkit-linear-gradient(#99f3ff,#5f97ff, #ff00ea);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
+  
+.preview .grid-container span {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.444);
+text-shadow: 0 0 5px #a5cad23b, 
+          0 0 10px #a5cad25b, 
+          0 0 15px #a5cad252,
+          0 0 20px #a5cad252, 
+          0 0 30px #a5cad24d, 
+          0 0 40px #a5cad254,
+          0 0 50px #a5cad25e, 
+          0 0 75px #a5cad267;
+background: -webkit-linear-gradient(rgb(153, 243, 255),#5f97ff, rgb(10, 132, 219), rgb(0, 255, 213));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bolder;
+border: 0.1rem solid;
+border-image: linear-gradient(to right, #99f3ff,#5f97ff, indigo, #ff00ea) 1;
+margin-top: 3rem;
+display: inline-block;
+padding: 0.4rem 10rem;
+font-size: 3rem;
 }
+  
+.preview .grid-container p {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.189);
+text-shadow: 0 0 5px #a5cad23b, 
+          0 0 10px #a5cad25b, 
+          0 0 20px #a5cad252, 
+          0 0 40px #a5cad227,
+          0 0 75px #a5cad218;
+background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 3rem;
+display: inline-block;
+padding: 0.4rem 10rem;
+font-size: 1.7rem;
+border-radius: 5rem;
+}  
 
 
 .preview .content p {
@@ -1242,7 +1261,6 @@ header.active {
     padding: 0.4rem 10rem;
     font-size: 1.7rem;
     border-radius: 5rem;
-    cursor: pointer;
   }  
   
   .preview .grid-container span {
@@ -1265,10 +1283,7 @@ header.active {
     display: inline-block;
     padding: 0.4rem 10rem;
     font-size: 3rem;
-    cursor: pointer;
   }
-  
-
 }
 
 @media only screen and (min-width: 1024px) {
