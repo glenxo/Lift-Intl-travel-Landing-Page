@@ -496,6 +496,8 @@ li {
 }
 
 .preview-inner video {
+  border: 0.5rem solid;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
   justify-content: center;
   margin-left: 20%;
   width: 100%;
