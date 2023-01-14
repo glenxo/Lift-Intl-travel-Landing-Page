@@ -246,6 +246,23 @@ img {
 }
 
 /*BANNER SECTION STARTS ENDS*/
+/* WIDGET SECTION STARTS */
+
+.TA_cdswritereviewlgvi401, 
+.TA_cdswritereviewlgvi {
+  padding: 18%;
+  height:18px;
+  width: 18px;
+
+}
+
+.TA_cdswritereviewlgvi401, 
+.TA_cdswritereviewlgvi img {
+  height:200px;
+  width: 200px;
+}
+
+/* WIDGET SECTION ENDS */
 /*BANNER SECTION STARTS*/
 
 .banner {
