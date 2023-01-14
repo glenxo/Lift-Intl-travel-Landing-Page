@@ -467,22 +467,7 @@ li {
 }
 
 
-.preview .grid-container {
-  width: 80%;
-  margin: 1rem auto;
-  margin-top: 12rem;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
-  box-shadow: 0 0.5rem 1rem #1111114d;
-  padding: 3rem 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  position: absolute;
-  margin-top: 110%;
-  margin-bottom: 10%;
-}
+
 
 .preview .grid-item {
 
@@ -493,13 +478,37 @@ li {
 
 .preview .content {
   text-align: center;
+  
 }
   
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
+.preview .grid-container {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: 16rem;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+  box-shadow: 0 0.5rem 1rem #1111114d;
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  position: absolute;
+  margin-top: 150%;
+  margin-bottom: 10%;
+}
+
+.preview .grid-container img {
+  margin-top: 15%;
+  height: 37%;
+  width: 70%;
+}
+
 .preview .grid-container span {
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.444);
-text-shadow: 0 0 5px #a5cad23b, 
+  text-shadow: 0 0 5px #a5cad23b, 
           0 0 10px #a5cad25b, 
           0 0 15px #a5cad252,
           0 0 20px #a5cad252, 
@@ -507,32 +516,31 @@ text-shadow: 0 0 5px #a5cad23b,
           0 0 40px #a5cad254,
           0 0 50px #a5cad25e, 
           0 0 75px #a5cad267;
-background: -webkit-linear-gradient(rgb(153, 243, 255),#5f97ff, rgb(10, 132, 219), rgb(0, 255, 213));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-weight: bolder;
-border: 0.1rem solid;
-border-image: linear-gradient(to right, #99f3ff,#5f97ff, indigo, #ff00ea) 1;
-margin-top: 3rem;
-display: inline-block;
-padding: 0.4rem 10rem;
-font-size: 3rem;
+  background: -webkit-linear-gradient(rgb(216, 241, 245),#ff5fbc, rgb(149, 56, 255), rgb(0, 217, 255)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 6rem;
+  display: inline-block;
+  padding: 0.4rem 10rem;
+  font-size: 5rem;
 }
   
 .preview .grid-container p {
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.189);
+  -webkit-text-stroke: 1px rgba(193, 251, 255, 0.692);
 text-shadow: 0 0 5px #a5cad23b, 
           0 0 10px #a5cad25b, 
           0 0 20px #a5cad252, 
           0 0 40px #a5cad227,
           0 0 75px #a5cad218;
-background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
+background: -webkit-linear-gradient(rgb(206, 248, 255),#d3e2fc, rgb(164, 214, 250), rgb(238, 207, 252));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 margin-top: 3rem;
+margin-bottom: 5em;
 display: inline-block;
-padding: 0.4rem 10rem;
-font-size: 1.7rem;
+padding: 0.2rem 8rem;
+font-size: 2.2rem;
 border-radius: 5rem;
 }  
 
@@ -571,7 +579,103 @@ border-radius: 5rem;
 
 
 /* PREVIEW SECTION ENDS */
+/*DESTINATION SECTION STARTS*/
 
+.destination .box-container {
+  border-color: var(--color-geraldine1);
+  -webkit-columns: 3 25rem;
+  columns: 3 25rem;
+  -webkit-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  margin-top: 10%;
+}
+
+.destiantion p, a {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.destination .box-container .box {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.destination .box-container .box img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  z-index: -10;
+  filter: brightness(85%);
+}
+
+.destination .box-container .box span {
+     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.864);
+    text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad252, 
+                0 0 40px #a5cad227,
+                0 0 75px #a5cad218;
+    background: -webkit-linear-gradient(rgb(120, 237, 255),#31eeff, rgb(140, 17, 255), rgb(251, 133, 239));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.destination .box-container .box h3 {
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.637);
+  text-shadow: 0 0 5px #a5cad21a, 
+                0 0 10px #a5cad227, 
+                0 0 15px #a5cad223,
+                0 0 20px #a5cad21c, 
+                0 0 30px #a5cad227, 
+                0 0 40px #a5cad223,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(132, 0, 255), rgb(2, 191, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.destination .heading h1 {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5vw;
+  margin-top: 100%;
+}
+
+/*DESTINATION SECTION ENDS*/
 /*HEADER SECTION STARTS*/
 
 .header {
@@ -827,103 +931,6 @@ border-radius: 5rem;
 }
 
 /*SERVICES SECTION ENDS*/
-/*DESTINATION SECTION STARTS*/
-
-.destination .box-container {
-  border-color: var(--color-geraldine1);
-  -webkit-columns: 3 25rem;
-  columns: 3 25rem;
-  -webkit-column-gap: 1.5rem;
-  column-gap: 1.5rem;
-  margin-top: 10%;
-}
-
-.destiantion p, a {
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
-                0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
-                0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
-                0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  font-size: 25px;
-}
-
-.destination .box-container .box {
-  margin-bottom: 1rem;
-  -webkit-column-break-inside: avoid;
-  break-inside: avoid;
-}
-
-.destination .box-container .box img {
-  width: 100%;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  z-index: -10;
-  filter: brightness(85%);
-}
-
-.destination .box-container .box span {
-     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.864);
-    text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #a5cad227,
-                0 0 75px #a5cad218;
-    background: -webkit-linear-gradient(rgb(120, 237, 255),#31eeff, rgb(140, 17, 255), rgb(251, 133, 239));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    font-size: 1.5rem;
-    border-radius: 5rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
-    text-transform: none;
-}
-
-.destination .box-container .box h3 {
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.637);
-  text-shadow: 0 0 5px #a5cad21a, 
-                0 0 10px #a5cad227, 
-                0 0 15px #a5cad223,
-                0 0 20px #a5cad21c, 
-                0 0 30px #a5cad227, 
-                0 0 40px #a5cad223,
-                0 0 50px #a5cad25e, 
-                0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(132, 0, 255), rgb(2, 191, 248));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  font-size: 2.5rem;
-}
-
-.destination .heading h1 {
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
-                0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
-                0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
-                0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  font-size: 5vw;
-  margin-top: 60%;
-}
-
-/*DESTINATION SECTION ENDS*/
 /*  FOOTER SECTION STARTS*/
 
 .footer {
@@ -1315,7 +1322,6 @@ header.active {
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
     border: 0.1rem solid;
-    border-image: linear-gradient(to right, #99f3ff,#5f97ff, indigo, #ff00ea) 1;
     margin-top: 3rem;
     display: inline-block;
     padding: 0.4rem 10rem;
