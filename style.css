@@ -414,28 +414,23 @@ li {
 /* PREVIEW SECTION STARTS */
 
 .preview {
-  margin: 0 auto;
-  margin-top: 0rem;
-  width: 90%;
-  border-radius: 1rem;  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+  margin: 1rem auto;
+  margin-top: 12rem;
+  width: 80%;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
   box-shadow: 0 0.5rem 1rem #1111114d;
-  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;*/
+  padding: 3rem 2rem;
   background-size: cover;
   background-position: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 80vh;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding-bottom: 5rem;
 }
+
 
 .preview .grid-container {
   width: 80%;
