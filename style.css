@@ -474,7 +474,7 @@ li {
   color: var(--color-dark);
   font-size: 3vw;
   display: block;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  background: -webkit-linear-gradient(#99f3ff,#5f97ff, #ff00ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
@@ -496,8 +496,8 @@ li {
 }
 
 .preview-inner video {
-  border: 0.5rem solid;
-  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  border: 0.1rem solid;
+  border-image: linear-gradient(to right, #99f3ff,#5f97ff, indigo, #ff00ea) 1;
   justify-content: center;
   margin-left: 20%;
   width: 100%;
