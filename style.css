@@ -610,6 +610,45 @@ li {
   padding: 3rem 2rem;
 }
 
+
+.book-form h2 {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5vw;
+}
+
+.book-form p {
+     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.576);
+    text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad252, 
+                0 0 40px #a5cad227,
+                0 0 75px #a5cad218;
+    background: -webkit-linear-gradient(rgb(152, 201, 208),#9df7ff, rgb(171, 220, 255), rgb(237, 198, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    padding: 0.4rem 10rem;
+    font-size: 2.2rem;
+    border-radius: 5rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
 .book-form form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -629,7 +668,18 @@ li {
 }
 
 .book-form form .inputBox span {
-  font-size: 1.8rem;
+     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
+    text-shadow: 0 0 5px #a5cad2aa, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad252, 
+                0 0 40px #c84bb54e,
+                0 0 75px #ed87e656;
+    background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  font-size: 2.2rem;
   color: var(--color-ship-cove);
 }
 
@@ -764,9 +814,22 @@ li {
 }
 
 .destination .box-container .box span {
-  font-size: 1.7rem;
-  font-weight: 300;
-  color: var(--color-ship-cove);
+     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.864);
+    text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad252, 
+                0 0 40px #a5cad227,
+                0 0 75px #a5cad218;
+    background: -webkit-linear-gradient(rgb(120, 237, 255),#31eeff, rgb(140, 17, 255), rgb(251, 133, 239));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    text-transform: none;
 }
 
 .destination .box-container .box h3 {
