@@ -1147,6 +1147,23 @@ header.active {
     border-radius: 2%;
   }
 
+  .preview .grid-container {
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: 12rem;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+    box-shadow: 0 0.5rem 1rem #1111114d;
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    position: absolute;
+    margin-top: 100%;
+    margin-bottom: 10%;
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
