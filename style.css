@@ -495,6 +495,8 @@ li {
   text-align: center;
 }
   
+/*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
+
 .preview .grid-container span {
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.444);
 text-shadow: 0 0 5px #a5cad23b, 
@@ -533,6 +535,8 @@ padding: 0.4rem 10rem;
 font-size: 1.7rem;
 border-radius: 5rem;
 }  
+
+/*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
 
 .preview .content p {
@@ -650,8 +654,6 @@ border-radius: 5rem;
 
 /*HEADER SECTION ENDS*/
 /*BOOK-FORM SECTION STARTS ENDS*/
-
-
 
 .book-form {
   width: 80%;
