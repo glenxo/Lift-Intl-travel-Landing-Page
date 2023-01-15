@@ -1177,6 +1177,9 @@ header.active {
   }
 }
 
+
+
+
 @media (max-width: 768px) {
   .home {
     margin-top: -12rem;
@@ -1191,9 +1194,20 @@ header.active {
   }
 
   .home .content span {
-    color: transparent;
-    -webkit-text-stroke: 0.3rem var(--color-ship-cove);
-    font-size: 8vw;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #a5cad28f, 
+                  0 0 10px #a5cad2a4, 
+                  0 0 15px #a5cad29f,
+                  0 0 20px #a5cad29c, 
+                  0 0 30px #a5cad296, 
+                  0 0 40px #a5cad294,
+                  0 0 50px #a5cad298, 
+                  0 0 75px #a5cad2a8;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    margin-top: 65rem;
   }
 
   .home .content h3 {
