@@ -1229,7 +1229,7 @@ header.active {
 
   .preview {
 
-    margin-top: 30rem;
+    margin-top: 40rem;
 
   }
 
@@ -1248,7 +1248,7 @@ header.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  margin-top: 4%;
+  margin-top: 4rem;
   font-size: 10vw;
   display: block;
 }
@@ -1303,8 +1303,8 @@ header.active {
 
 .preview .grid-container img {
   margin-top: 15%;
-  height: 37%;
-  width: 70%;
+  height: 17%;
+  width: 20%;
 }
 
 .preview .grid-container span {
@@ -1321,10 +1321,10 @@ header.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  margin-top: 6rem;
+  margin-top: 1rem;
   display: inline-block;
   padding: 0.4rem 10rem;
-  font-size: 5rem;
+  font-size: 1.7rem;
 }
   
 .preview .grid-container p {
@@ -1341,13 +1341,29 @@ margin-top: 3rem;
 margin-bottom: 5em;
 display: inline-block;
 padding: 0.2rem 8rem;
-font-size: 2.2rem;
+font-size: 1.2rem;
 border-radius: 5rem;
 }  
 
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
-  
+.destination .heading h1 {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5vw;
+  margin-top: 300%;
+}
 }
 
 @media only screen and (max-width: 480px) {
