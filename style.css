@@ -1315,8 +1315,8 @@ header.active {
 
 .preview .grid-container img {
   margin-top: 15%;
-  height: 47%;
-  width: 50%;
+  height: 57%;
+  width: 60%;
 }
 
 .preview .grid-container span {
@@ -1329,14 +1329,14 @@ header.active {
           0 0 40px #a5cad254,
           0 0 50px #a5cad25e, 
           0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(216, 241, 245),#ff5fbc, rgb(149, 56, 255), rgb(0, 217, 255)); 
+  background: -webkit-linear-gradient(rgb(216, 241, 245),#ff5fbc, rgb(56, 255, 179), rgb(0, 217, 255)); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
   margin-top: 1rem;
   display: inline-block;
   padding: 0.4rem 10rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
   
 .preview .grid-container p {
@@ -1363,9 +1363,102 @@ header.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 5vw;
+  font-size: 15vw;
   margin-top: 300%;
 }
+
+.book-form {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: 12rem;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+  box-shadow: 0 0.5rem 1rem #1111114d;
+  padding: 3rem 2rem;
+}
+
+
+.book-form h2 {
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad23b, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad252, 
+                0 0 30px #a5cad24d, 
+                0 0 40px #a5cad254,
+                0 0 50px #a5cad25e, 
+                0 0 75px #a5cad267;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 15vw;
+}
+
+.book-form p {
+  display: none;
+}
+
+.book-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.book-form form .inputBox {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 25rem;
+  flex: 1 1 25rem;
+}
+
+.book-form form .inputBox span {
+     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
+    text-shadow: 0 0 5px #a5cad2aa, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad252, 
+                0 0 40px #c84bb54e,
+                0 0 75px #ed87e656;
+    background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  font-size: 2.2rem;
+  color: var(--color-ship-cove);
+}
+
+.book-form form .inputBox input {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--color-geraldine);
+  font-size: 1.6rem;
+  color: var(--color-strikemaster);
+  text-transform: none;
+  background: none;
+  margin-top: 1rem;
+}
+
+.book-form form .btn {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 15rem;
+  flex: 1 1 15rem;
+}
+
+.services .heading h1 {
+  font-size: 15vw;
+}
+.footer h3 {
+  font-size: 15vw;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
