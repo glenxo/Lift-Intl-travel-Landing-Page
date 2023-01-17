@@ -1182,11 +1182,11 @@ header.active {
 
 @media (max-width: 768px) {
   .home {
-    margin-top: -12rem;
+    margin-top: -2rem;
   }
 
   .home .content {
-    margin-top: -30%;
+    margin-top: -20%;
   }
 
   .home .grid-container {
@@ -1227,9 +1227,13 @@ header.active {
     display: none;
   }
 
+  .home .content span {
+  margin-top: 2rem;
+}
+
   .preview {
 
-    margin-top: 40rem;
+    margin-top: 10rem;
 
   }
 
@@ -1304,8 +1308,8 @@ header.active {
   display: block;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  position: absolute;
-  margin-top: 550%;
+  position: absolute;  margin-top: -115%;
+  margin-top: 50%;
   margin-bottom: 10%;
 }
 
@@ -1340,6 +1344,10 @@ header.active {
 }  
 
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
+
+.review {
+  margin-top: -100rem
+}
 
 .destination .heading h1 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
