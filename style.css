@@ -1455,10 +1455,23 @@ header.active {
 .services .heading h1 {
   font-size: 15vw;
 }
-.footer h3 {
-  font-size: 15vw;
-}
 
+
+
+.footer .box-container .box h3 {
+       -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
+    text-shadow: 0 0 5px #a5cad2aa, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad252, 
+                0 0 40px #c84bb54e,
+                0 0 75px #ed87e656;
+    background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(196, 100, 255), rgb(225, 160, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 6.2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
 }
 
 @media only screen and (max-width: 480px) {
