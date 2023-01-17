@@ -1293,7 +1293,7 @@ header.active {
   -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
   box-shadow: 0 0.5rem 1rem #1111114d;
   padding: 3rem 2rem;
-  display: grid;
+  display: block;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   position: absolute;
@@ -1328,21 +1328,7 @@ header.active {
 }
   
 .preview .grid-container p {
-  -webkit-text-stroke: 1px rgba(193, 251, 255, 0.692);
-text-shadow: 0 0 5px #a5cad23b, 
-          0 0 10px #a5cad25b, 
-          0 0 20px #a5cad252, 
-          0 0 40px #a5cad227,
-          0 0 75px #a5cad218;
-background: -webkit-linear-gradient(rgb(206, 248, 255),#d3e2fc, rgb(164, 214, 250), rgb(238, 207, 252));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-margin-top: 3rem;
-margin-bottom: 5em;
-display: inline-block;
-padding: 0.2rem 8rem;
-font-size: 1.2rem;
-border-radius: 5rem;
+  display: none;
 }  
 
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
@@ -1414,61 +1400,6 @@ border-radius: 5rem;
     width: 80%;
     height: 100%;
     border-radius: 2%;
-  }
-
-  .preview .grid-container {
-    width: 80%;
-    margin: 1rem auto;
-    margin-top: 12rem;
-    background: var(--color-darker);
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
-    box-shadow: 0 0.5rem 1rem #1111114d;
-    padding: 3rem 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    position: absolute;
-    margin-top: 110%;
-    margin-bottom: 10%;
-  }  
-  
-  .preview .grid-container p {
-        -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.189);
-    text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #a5cad227,
-                0 0 75px #a5cad218;
-    background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 3rem;
-    display: inline-block;
-    padding: 0.4rem 10rem;
-    font-size: 1.7rem;
-    border-radius: 5rem;
-  }  
-  
-  .preview .grid-container span {
-        -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.444);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
-                0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
-                0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
-                0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),#5f97ff, rgb(10, 132, 219), rgb(0, 255, 213));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-    border: 0.1rem solid;
-    margin-top: 3rem;
-    display: inline-block;
-    padding: 0.4rem 10rem;
-    font-size: 3rem;
   }
 }
 
