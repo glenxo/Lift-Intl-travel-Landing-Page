@@ -1239,7 +1239,6 @@ header.active {
 
 .preview-inner video {
   border: 0.1rem solid;
-  border-image: linear-gradient(to right, #99f3ff,#5f97ff, indigo, #ff00ea) 1;
   justify-content: center;
   margin-left: 0px;
   width: 100%;
