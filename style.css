@@ -450,21 +450,7 @@ li {
   display: block;
 }
 
-.preview p {
-  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad242, 
-                0 0 10px #a5cad231, 
-                0 0 20px #a5cad23a, 
-                0 0 40px #a5cad234,
-                0 0 75px #a5cad24b;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 100;
-  margin-top: 4%;
-  font-size: 2.7vw;
-  display: block;
-}
+
 
 
 
@@ -622,15 +608,6 @@ border-radius: 5rem;
 }
 
 .destination .box-container .box span {
-     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.864);
-    text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #a5cad227,
-                0 0 75px #a5cad218;
-    background: -webkit-linear-gradient(rgb(120, 237, 255),#31eeff, rgb(140, 17, 255), rgb(251, 133, 239));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-top: 2rem;
     margin-bottom: 3rem;
     font-size: 1.5rem;
@@ -1097,13 +1074,12 @@ border-radius: 5rem;
   .destination .box-container .box span {
     font-size: 1rem;
     font-weight: 250;
-    color: var(--color-ship-cove);
+    color: var(--color-casper2);
   }
 
   .destination .box-container .box h3 {
     margin-top: -0.8rem;
     font-size: 1.4rem;
-    color: var(--color-geraldine1);
   }
 
   .destination .box-container {
@@ -1117,7 +1093,7 @@ border-radius: 5rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
     z-index: -10;
-    filter: brightness(85%);
+
   }
 }
 header.active {
@@ -1340,18 +1316,6 @@ header.active {
 }
 
 .destination .heading h1 {
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
-                0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
-                0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
-                0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: bolder;
   font-size: 15vw;
   margin-top: 300%;
@@ -1514,19 +1478,6 @@ header.active {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .preview-outer video {
-    display: none;
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .preview-outer video {
-      display: none;
-    }
-  }
-
-  @media only screen and (min-width: 780px) and (max-width: 2820px) {
-  }
 
   @media only screen and (min-width: 164px) and (max-width: 780px) {
     .swiper-container video {
@@ -1537,9 +1488,5 @@ header.active {
     }
   }
 
-  @media only screen and (min-width: 1024px) {
-    .preview-outer video {
-      display: none;
-    }
-  }
-}
+
+
