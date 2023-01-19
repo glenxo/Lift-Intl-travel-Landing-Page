@@ -482,7 +482,7 @@ li {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   position: absolute;
-  margin-top: 150%;
+  margin-top: 50%;
   margin-bottom: 10%;
 }
 
@@ -1237,6 +1237,14 @@ header.active {
   display: block;
 }
 
+  .preview p {
+  font-weight: bolder;
+  margin-top: 4%;
+  font-size: 3vw;
+  color: var(--color-casper2);
+  display: block;
+}
+
 .preview-inner video {
   border: 0.1rem solid;
   justify-content: center;
@@ -1246,14 +1254,6 @@ header.active {
   border-radius: 2%;
 }
 
-  .preview p {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  margin-top: 4%;
-  font-size: 3vw;
-  display: block;
-}
 
   .preview-outer video {
     display: none;
