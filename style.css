@@ -170,12 +170,14 @@ li {
   left: 0;
   right: 0;
   background: linear-gradient(
-    to right,
-    #8a4bc5,
-    #1498c0cc,
-    #7346afc0,
-    #add8e600
-  );
+    to right, #c088f5,
+    #c088f5, 
+    #6813b8,
+     #c088f5,
+      #c088f5,
+       #feb585cc,
+        #7346afc0,
+         #add8e600);
   z-index: 1;
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   text-stroke: 1px rgb(6, 247, 247);
