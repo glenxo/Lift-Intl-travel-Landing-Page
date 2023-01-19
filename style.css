@@ -450,13 +450,8 @@ li {
   display: block;
 }
 
-
-
-
-
-
 .preview .grid-item {
-
+  padding: 3rem 2rem;
   text-align: center;
   color: #6f5f90;
   font-size: 10px;
@@ -1078,9 +1073,20 @@ border-radius: 5rem;
   }
 
   .destination .box-container .box h3 {
-    margin-top: -0.8rem;
-    font-size: 1.4rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    font-size: 3.4rem;
+  } 
+  
+  .destination .box-container .box h2 {
+    font-size: 2.5rem;
+    font-weight: 250;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    color: var(--color-casper2);
   }
+
+
 
   .destination .box-container {
     display: flex;
@@ -1208,10 +1214,12 @@ header.active {
 }
 
   .preview {
-
+    padding: 0%;
     margin-top: 10rem;
+    display: block;
+    margin-bottom: 15rem;
 
-  }
+}
 
 
   .preview span {
@@ -1233,9 +1241,7 @@ header.active {
   display: block;
 }
 
-.preview {
-  display: block;
-}
+
 
   .preview p {
   font-weight: bolder;
@@ -1261,21 +1267,23 @@ header.active {
 
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
+
+
 .preview .grid-container {
+
   width: 80%;
-  margin: 1rem auto;
-  margin-top: 16rem;
   background: var(--color-darker);
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
   box-shadow: 0 0.5rem 1rem #1111114d;
-  padding: 3rem 2rem;
+  padding-right: 3em;
+  background-size: cover;
+  background-position: center;
   display: block;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  position: absolute;  margin-top: -115%;
-  margin-top: 50%;
-  margin-bottom: 10%;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
 }
 
 .preview .grid-container img {
@@ -1288,7 +1296,7 @@ header.active {
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.224);
   text-shadow: 0 0 5px #a5cad23b, 
           0 0 10px #a5cad25b, 
-          0 0 15px #a5cad252,
+          0 0 15px #a5cad2  52,
           0 0 20px #a5cad252, 
           0 0 30px #a5cad24d, 
           0 0 40px #a5cad254,
@@ -1299,7 +1307,7 @@ header.active {
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
   margin-top: 1rem;
-  display: inline-block;
+  display: block;
   padding: 0.4rem 10rem;
   font-size: 3.5rem;
 }
@@ -1314,10 +1322,21 @@ header.active {
   margin-top: -100rem
 }
 
+.destination .heading h3 {
+  font-weight: bolder;
+  font-size: 35vw;
+  margin-top: 10%;
+}
+
 .destination .heading h1 {
   font-weight: bolder;
   font-size: 15vw;
   margin-top: 300%;
+}
+
+
+.destination .heading span {
+  display: none;
 }
 
 .book-form {
