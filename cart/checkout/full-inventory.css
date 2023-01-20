@@ -895,7 +895,8 @@ header.active {
   }
 
   .home .content h3 {
-    font-size: 2.5vw;
+    font-size: 3vw;
+    padding: 2;
   }
 
   .home .content p {
