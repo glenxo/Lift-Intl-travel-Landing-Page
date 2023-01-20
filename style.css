@@ -1043,7 +1043,7 @@ border-radius: 5rem;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 2023px) {
   .preview-outer video {
     display: none;
   }
@@ -1130,7 +1130,7 @@ header.active {
   }
 }
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1380px) and (max-width: 1980px) {
   .bar-menu {
     position: absolute;
     position: fixed;
