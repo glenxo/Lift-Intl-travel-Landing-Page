@@ -1237,8 +1237,8 @@ header.active {
 
   .preview {
     padding: 0%;
-    margin-top: 10rem;
     display: block;
+    margin-top: 12rem;
     margin-bottom: 15rem;
 
 }
@@ -1266,6 +1266,7 @@ header.active {
 
 
   .preview p {
+  padding: 3%;
   font-weight: bolder;
   margin-top: 4%;
   font-size: 3vw;
@@ -1328,7 +1329,7 @@ header.active {
 }
 
 .preview .grid-container h2 {
-  -webkit-text-stroke: 1px rgba(240, 194, 248, 0.9);
+  -webkit-text-stroke: 1px rgba(194, 219, 248, 0.9);
   text-shadow: 0 0 5px #a5cad23b, 
           0 0 10px #a5cad25b, 
           0 0 15px #97c6ff  52,
