@@ -73,7 +73,7 @@ body {
       to(rgba(17, 17, 17, 0))
     ),
     url(/media/travelbody3.png) no-repeat;
-  background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
+  background: linear- gradient(rgb(17, 17, 17), rgbargba(17, 17, 17, 0.953)
     url(/media/travelbody3.png) no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
