@@ -477,7 +477,7 @@ li {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   position: absolute;
-  margin-top: 150%;
+  margin-top: 200%;
   margin-bottom: 10%;
 }
 
