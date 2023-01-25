@@ -1146,6 +1146,10 @@ header.active {
     padding: 4px 6px;
     font-size: 15px;
   }
+
+  .preview .grid-container h2 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1340px) {
@@ -1161,8 +1165,21 @@ header.active {
   .preview-outer video {
     display: none;
   }
+
+  .preview .grid-container h2, h1 {
+  display: none;
+}
 }
 
+@media only screen and (max-width: 1940px) {
+  .preview .grid-container h2 {
+    display: none;
+  }
+  
+  .preview .grid-container h1 {
+    display: none;
+  }
+}
 
 
 
@@ -1340,6 +1357,7 @@ header.active {
   letter-spacing: 0.4rem;
   line-height: 3;
 }
+
 
 .preview .grid-container img {
   margin-top: 3rem;
