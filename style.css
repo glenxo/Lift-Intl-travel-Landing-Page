@@ -1166,9 +1166,13 @@ header.active {
     display: none;
   }
 
-  .preview .grid-container h2, h1 {
-  display: none;
-}
+  .preview .grid-container h2 {
+    display: none;
+  }
+  
+  .preview .grid-container h1 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1940px) {
