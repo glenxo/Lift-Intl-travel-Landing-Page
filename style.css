@@ -1021,11 +1021,7 @@ border-radius: 5rem;
 
 
 
-.destination .heading h1 {
-  font-weight: bolder;
-  font-size: 15vw;
-  margin-top: 420%;
-}
+
 
 
 
@@ -1056,7 +1052,7 @@ border-radius: 5rem;
   .destination .heading h1 {
     font-weight: bolder;
     font-size: 15vw;
-    margin-top: 520%;
+    margin-top: 480%;
   }
   
 }
@@ -1410,9 +1406,6 @@ header.active {
   font-size: 30vw;
   margin-top: 5rem;
 }
-
-
-
 
 .destination .heading span {
   display: none;
