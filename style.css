@@ -1021,7 +1021,11 @@ border-radius: 5rem;
 
 
 
-
+.destination .heading h1 {
+  font-weight: bolder;
+  font-size: 15vw;
+  margin-top: 420%;
+}
 
 
 
@@ -1034,14 +1038,29 @@ border-radius: 5rem;
 @media (min-width: 720px) and (max-width: 780px) and (min-height: 1480px) and (max-height: 1540px) {
   .preview-outer video {
     display: none;
+    
   }
+
+  
   .parallax {
     height: 100%;
     width: 100%;
   }
+
+  
   @media (max-width: 780px) {
   }
 }
+
+@media (max-width: 580px) {
+  .destination .heading h1 {
+    font-weight: bolder;
+    font-size: 15vw;
+    margin-top: 520%;
+  }
+  
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 2023px) {
   .preview-outer video {
@@ -1338,7 +1357,7 @@ header.active {
   margin-bottom: 3rem;
   margin-left: rem;
   display: block;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   letter-spacing: 1.5rem;
 }
 
@@ -1366,9 +1385,9 @@ header.active {
 .preview .grid-container span {
   font-weight: bolder;
   margin-top: 0.5rem;
-  margin-left: -3rem;
+  margin-left: -5rem;
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   letter-spacing: 1.5rem;
 }
   
@@ -1392,11 +1411,7 @@ header.active {
   margin-top: 5rem;
 }
 
-.destination .heading h1 {
-  font-weight: bolder;
-  font-size: 15vw;
-  margin-top: 420%;
-}
+
 
 
 .destination .heading span {
@@ -1571,16 +1586,3 @@ header.active {
     border-radius: 2%;
   }
 }
-
-
-  @media only screen and (min-width: 164px) and (max-width: 780px) {
-    .swiper-container video {
-      justify-content: center;
-      width: 80%;
-      height: 80%;
-      border-radius: 2%;
-    }
-  }
-
-
-
