@@ -482,6 +482,7 @@ li {
 }
 
 .preview .grid-container img {
+  padding-right: 3rem;
   margin-top: 15%;
   height: 37%;
   width: 70%;
