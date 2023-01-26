@@ -1126,13 +1126,8 @@ border-radius: 5rem;
 }
 
 body {
-
-  background-size: 400%; /* zoom out the image by 50% */
-
+  background-size: 400%;
 }
-
-
-
 }
 
 
