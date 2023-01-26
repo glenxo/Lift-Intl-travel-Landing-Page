@@ -481,12 +481,17 @@ li {
   margin-bottom: 10%;
 }
 
-.preview .grid-container img {
-  padding-right: 3rem;
-  margin-top: 15%;
-  height: 37%;
-  width: 70%;
+.grid-container  {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+  margin: 10px;
 }
+
+
+
+
 
 .preview .grid-container span {
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.444);
