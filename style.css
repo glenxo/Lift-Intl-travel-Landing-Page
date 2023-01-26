@@ -125,7 +125,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 350%; /* zoom out the image by 50% */
+  background-size: 400%; /* zoom out the image by 50% */
   position: relative; 
 }
 
@@ -769,11 +769,8 @@ border-radius: 5rem;
 }
 
 .book-form p {
-     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.576);
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.576);
     text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #a5cad227,
                 0 0 75px #a5cad218;
     background: -webkit-linear-gradient(rgb(152, 201, 208),#9df7ff, rgb(171, 220, 255), rgb(237, 198, 255));
     -webkit-background-clip: text;
@@ -782,8 +779,7 @@ border-radius: 5rem;
     margin-bottom: 3rem;
     display: inline-block;
     padding: 0.4rem 10rem;
-    font-size: 2.2rem;
-    border-radius: 5rem;
+    font-size: 1.7rem;
     line-height: 3rem;
     letter-spacing: 2px;
     text-transform: none;
@@ -1129,14 +1125,31 @@ border-radius: 5rem;
   border-radius: 2%;
 }
 
+body {
+
+  background-size: 400%; /* zoom out the image by 50% */
+
+}
+
+
 
 }
 
 
 
 
+@media only screen and (min-width: 868px) and (max-width: 1283px) {
 
 
+body {
+
+  background-size: 480%; /* zoom out the image by 50% */
+
+}
+
+
+
+}
 
 
 
