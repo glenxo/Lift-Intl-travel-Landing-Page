@@ -111,7 +111,18 @@ p {
 }
 
 strong {
-    color: rgb(0, 255, 42);
+  -webkit-text-stroke: 1px rgb(57, 255, 17);
+  text-shadow: 0 0 5px #a5cad21a, 
+                0 0 10px #a5cad227, 
+                0 0 15px #a5cad223,
+                0 0 20px #a5cad21c, 
+                0 0 30px #a5cad227, 
+                0 0 40px #0aff8523,
+                0 0 50px #0bff695e, 
+                0 0 75px #0cff7167;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(2, 238, 255, 0.514), rgb(2, 248, 55));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -1228,6 +1239,10 @@ body {
     margin-top: 1rem;
     margin-bottom: 2rem;
     color: var(--color-casper2);
+    -webkit-text-stroke: 0.3px rgb(17, 227, 255);
+    text-shadow: 0 0 5px #a5cad21a, 
+                  0 0 10px #a5cad227, 
+                  0 0 75px #0cff7167;
   }
 
 
