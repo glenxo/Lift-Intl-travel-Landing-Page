@@ -519,10 +519,10 @@ li {
 
 
 .preview .grid-container span {
-  -webkit-text-stroke: 1.5px rgba(114, 113, 113, 0.444);
+  -webkit-text-stroke: 1.5px rgba(192, 188, 188, 0.78);
   text-shadow: 0 0 5px #a5cad23b, 
           0 0 75px #a5cad267;
-          background: -webkit-linear-gradient(rgba(67, 68, 68, 0.668),rgba(170, 169, 171, 0.655), rgba(104, 105, 105, 0.655));
+          background: -webkit-linear-gradient(rgba(67, 68, 68, 0.931),rgba(170, 169, 171, 0.655), rgba(104, 105, 105, 0.655));
           -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
