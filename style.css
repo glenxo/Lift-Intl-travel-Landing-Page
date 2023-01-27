@@ -418,6 +418,13 @@ li {
 /* PRE-HOME SECTION ENDS*/
 /* PREVIEW SECTION STARTS */
 
+
+
+.preview .preview-inner #video {
+
+  border-radius: 2.5rem;
+}
+
 .preview {
   margin: 1rem auto;
   margin-top: 12rem;
