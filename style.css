@@ -519,16 +519,10 @@ li {
 
 
 .preview .grid-container span {
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.444);
+  -webkit-text-stroke: 1.5px rgba(114, 113, 113, 0.444);
   text-shadow: 0 0 5px #a5cad23b, 
-          0 0 10px #a5cad25b, 
-          0 0 15px #a5cad252,
-          0 0 20px #a5cad252, 
-          0 0 30px #a5cad24d, 
-          0 0 40px #a5cad254,
-          0 0 50px #a5cad25e, 
           0 0 75px #a5cad267;
-          background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(0, 238, 255));
+          background: -webkit-linear-gradient(rgba(67, 68, 68, 0.668),rgba(170, 169, 171, 0.655), rgba(104, 105, 105, 0.655));
           -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
@@ -1211,7 +1205,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 320%; /* zoom out the image by 50% */
+    background-size: 350%; /* zoom out the image by 50% */
     min-height: 400px;
     z-index: 100;
   }
@@ -1464,10 +1458,15 @@ header.active {
 
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
-
+.grid-container  {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+  margin: 10px;
+}
 
 .preview .grid-container {
-
   width: 80%;
   background: var(--color-darker);
   border-radius: 1rem;
@@ -1525,9 +1524,10 @@ header.active {
 .preview .grid-container span {
   font-weight: bolder;
   margin-top: 0.5rem;
-  margin-left: -5rem;
-  display: block;
-  font-size: 2.3rem;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 3.3rem;
   letter-spacing: 1.5rem;
 }
   
