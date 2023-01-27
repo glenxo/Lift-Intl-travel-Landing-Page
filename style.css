@@ -1385,12 +1385,27 @@ header.active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    margin-top: 65rem;
+    margin-top: 5rem;
     }
 
   .home .content h3 {
-    font-size: 2.5vw;
-  }
+    letter-spacing: 15px;
+    -webkit-text-stroke: 0.4px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #a5cad28f, 
+                  0 0 10px #a5cad2a4, 
+                  0 0 15px #a5cad29f,
+                  0 0 20px #a5cad29c, 
+                  0 0 30px #a5cad296, 
+                  0 0 40px #a5cad294,
+                  0 0 50px #a5cad298, 
+                  0 0 75px #a5cad2a8;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    margin-top: 4%;
+    font-size: 2.3vw;
+    display: block;  }
 
   .home .content p {
     display: none;
@@ -1404,9 +1419,6 @@ header.active {
     display: none;
   }
 
-  .home .content span {
-  margin-top: 2rem;
-}
 
   .preview {
     padding: 0%;
