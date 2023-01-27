@@ -110,6 +110,11 @@ p {
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
+strong {
+    color: rgb(0, 255, 42);
+}
+
+
 body {
   min-height: 400px;
   background: -webkit-gradient(
