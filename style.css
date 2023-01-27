@@ -395,6 +395,7 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
+  margin-top: -20%;
 }
 
 .home .content h3 {
@@ -1346,7 +1347,7 @@ header.active {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad25b, 
                   0 0 75px #a5cad225;
-    background: -webkit-linear-gradient(rgb(156, 255, 153),rgb(161, 74, 243), rgb(255, 157, 0));
+    background: -webkit-linear-gradient(rgb(156, 255, 153),rgba(174, 100, 244, 0.692), rgb(255, 157, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 4rem;
