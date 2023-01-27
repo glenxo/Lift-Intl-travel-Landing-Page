@@ -64,22 +64,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  min-height: 400px;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(17, 17, 17, 0)),
-      to(rgba(17, 17, 17, 0))
-    ),
-    url(/media/travelbody3.png) no-repeat;
-  background: linear- gradient(rgb(17, 17, 17), rgbargba(17, 17, 17, 0.953)
-    url(/media/travelbody3.png) no-repeat;
-  background-position: bottom;
-  scroll-behavior: smooth;
+  /*background-image: linear-gradient(to right, #584023d2 , rgba(218, 166, 87, 0.466) , #583b2cc5);  */
+  background: url(/cart/checkout/travelbody3.png) right bottom no-repeat,  
+              url(/cart/checkout/travelbody3.png) left top repeat;
+  background-position: center;  
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 190%; /* zoom out the image by 50% */
-  position: relative; 
+  background-size: auto;
+  min-height:400px;   
 }
 
 body.active {
@@ -1173,12 +1165,12 @@ header.active {
 @media (max-width: 780px) {
   body {
     background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0)),
-      url(media/travelbody3.png) no-repeat;
+      url(/cart/checkout/travelbody3.png) no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 320%; /* zoom out the image by 50% */
-    min-height: 400px;
+    background-size: 520%; /* zoom out the image by 50% */
+    min-height: 600px;
     z-index: 100;
   }
 
