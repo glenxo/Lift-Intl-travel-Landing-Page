@@ -63,16 +63,27 @@ html::-webkit-scrollbar-thumb {
   background: rgb(36, 164, 175);
 }
 
+
+
 body {
-  /*background-image: linear-gradient(to right, #584023d2 , rgba(218, 166, 87, 0.466) , #583b2cc5);  */
-  background: url(/cart/checkout/travelbody3.png) right bottom no-repeat,  
-              url(/cart/checkout/travelbody3.png) left top repeat;
-  background-position: center;  
-  background-attachment: fixed;
+  min-height: 400px;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(17, 17, 17, 0)),
+      to(rgba(17, 17, 17, 0))
+    ),
+    url(/cart/checkout/travelbody3.png) no-repeat;
+  background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
+    url(/cart/checkout/travelbody3.png) no-repeat;
+  background-position: bottom;
+  scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: auto;
-  min-height:400px;   
+  background-size: 400%; /* zoom out the image by 50% */
+  position: relative; 
 }
+
 
 body.active {
   padding-left: 30rem;
@@ -1148,6 +1159,34 @@ header.active {
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 720px) and (max-width: 780px) and (min-height: 1480px) and (max-height: 1540px) {
   .preview-outer video {
     display: none;
@@ -1168,14 +1207,22 @@ header.active {
 
 @media (max-width: 780px) {
   body {
-    background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0)),
+    min-height: 400px;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(17, 17, 17, 0)),
+        to(rgba(17, 17, 17, 0))
+      ),
       url(/cart/checkout/travelbody3.png) no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
+      url(/cart/checkout/travelbody3.png) no-repeat;
+    background-position: bottom;
+    scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 520%; /* zoom out the image by 50% */
-    min-height: 600px;
-    z-index: 100;
+    background-size: 1000%; /* zoom out the image by 50% */
+    position: relative; 
   }
 
   body.active {
@@ -1183,42 +1230,7 @@ header.active {
     z-index: 10;
   }
 
-  .destination .box-container .box span {
-    font-size: 1rem;
-    font-weight: 250;
-    color: var(--color-casper2);
-  }
 
-  .destination .box-container .box h3 {
-    margin-top: 2.8rem;
-    margin-bottom: 2rem;
-    font-size: 3.4rem;
-  } 
-  
-  .destination .box-container .box h2 {
-    font-size: 1.5rem;
-    font-weight: 250;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    color: var(--color-casper2);
-  }
-
-
-
-  .destination .box-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .destination .box-container .box img {
-    max-height: 80%;
-    max-width: 100%;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-    z-index: -10;
-
-  }
-}
 header.active {
   box-shadow: 0 0 0 100vw var(--color-light3);
 }
@@ -1405,102 +1417,12 @@ header.active {
     display: none;
   }
 
-/*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
-
-
-
-.preview .grid-container {
-
-  width: 80%;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
-  box-shadow: 0 0.5rem 1rem #1111114d;
-  padding-right: 3em;
-  background-size: cover;
-  background-position: center;
-  display: block;
-  min-height: 80vh;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 5rem;
-  margin-top: 12rem;
-}
-
-.preview .grid-container h1 {
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.9);
-  text-shadow: 0 0 5px #a5cad23b, 
-          0 0 10px #a5cad25b, 
-          0 0 15px #97c6ff  52,
-          0 0 75px #a5cad267;
-  background: -webkit-linear-gradient(rgb(216, 241, 245),#ff5fbc, rgb(56, 238, 255), rgb(0, 200, 255)); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  margin-top: 0.5rem;
-  margin-bottom: 3rem;
-  margin-left: rem;
-  display: block;
-  font-size: 4.5rem;
-  letter-spacing: 1.5rem;
-}
-
-.preview .grid-container h2 {
-  -webkit-text-stroke: 1px rgba(194, 219, 248, 0.9);
-  text-shadow: 0 0 5px #a5cad23b, 
-          0 0 10px #a5cad25b, 
-          0 0 15px #97c6ff  52,
-          0 0 75px #a5cad267;
-  font-weight: 100;
-  margin-top: -0.8rem;
-  display: block;
-  font-size: 1.5rem;
-  letter-spacing: 0.4rem;
-  line-height: 3;
-}
-
-.preview .grid-container img {
-  margin-top: 3rem;
-  height: 87%;
-  width: 90%;
-  z-index: -1;
-}
-
-.preview .grid-container span {
-  font-weight: bolder;
-  margin-top: 0.5rem;
-  margin-left: -3rem;
-  display: block;
-  font-size: 2.5rem;
-  letter-spacing: 1.5rem;
-}
-  
-.preview .grid-container p {
-  display: none;
-}  
-
-/*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
 .review {
   margin-top: -100rem
 }
 
-.destination .heading h3 {
-  font-weight: bolder;
-  font-size: 35vw;
-  margin-top: 10%;
-}
 
-.destination .heading h1 {
-  font-weight: bolder;
-  font-size: 15vw;
-  margin-top: 420%;
-}
-
-
-.destination .heading span {
-  display: none;
-}
 
 .book-form {
   width: 80%;
@@ -1594,7 +1516,7 @@ header.active {
 
 
 .footer .box-container .box h3 {
-       -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
     text-shadow: 0 0 5px #a5cad2aa, 
                 0 0 10px #a5cad25b, 
                 0 0 20px #a5cad252, 
@@ -1626,48 +1548,4 @@ header.active {
     font-size: 2.7rem;
   }
 }
-
-@media (max-width: 991px) {
-  .btn {
-    margin-top: 3rem;
-    display: inline-block;
-    padding: 0.4rem 10rem;
-    font-size: 1.2rem;
-    border-radius: 5rem;
-    cursor: pointer;
-  }
-}
-
-@media (max-width: 768px) {
-  .btn {
-    margin-top: 3rem;
-    display: inline-block;
-    padding: 0.4rem 10rem;
-    font-size: 1.2rem;
-    border-radius: 5rem;
-    cursor: pointer;
-  }
-}
-
-
-@media only screen and (min-width: 864px) and (max-width: 1536px) {
-  .preview-inner video {
-    justify-content: center;
-    width: 80%;
-    height: 100%;
-    border-radius: 2%;
-  }
-}
-
-
-  @media only screen and (min-width: 164px) and (max-width: 780px) {
-    .swiper-container video {
-      justify-content: center;
-      width: 80%;
-      height: 80%;
-      border-radius: 2%;
-    }
-  }
-
-
 
