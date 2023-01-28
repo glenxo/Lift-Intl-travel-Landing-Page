@@ -34,5 +34,3 @@ const swiper = new Swiper(".swiper", {
 
   window.addEventListener("scroll", parallax);
 })();
-
-
