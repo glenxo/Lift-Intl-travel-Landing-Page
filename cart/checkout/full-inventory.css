@@ -1375,8 +1375,40 @@ header.active {
     padding-bottom: 5rem;
   }
   
-  .home .content {
+  .banner {
+    margin-top: -60px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+    box-shadow: 0 0.5rem 1rem #1111114d;
+    padding: 3rem 2rem;
+  }
+  
+  .banner .content {
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+  }
+
+  .banner .content span {
+    font-size: 4rem;
+  }  
+  
+  .banner .content h4 {
+    font-size: 2rem;
   }
   
   
@@ -1395,7 +1427,7 @@ header.active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    font-size: 8vw;
+    font-size: 10vw;
     padding: 0;
     display: block; 
     justify-content: center; 
@@ -1419,9 +1451,11 @@ header.active {
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     margin-top: 4%;
-    font-size: 1.7vw;
+    font-size: 3vw;
     display: block;
-  }
+  }  
+  
+
 
   .preview {
     padding: 0%;
