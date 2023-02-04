@@ -94,7 +94,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 400%; /* zoom out the image by 50% */
+  background-size: 150%; /* zoom out the image by 50% */
   position: relative; 
 }
 
