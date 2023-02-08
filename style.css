@@ -953,6 +953,19 @@ border-radius: 5rem;
 .footer .box-container .box {
   padding: 1rem 0;
 }
+.footer .box-container .box form .email {
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--color-geraldine);
+  background: none;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: #aaa;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.4rem;
+} 
+
+
 
 .footer .box-container .box .logo {
   padding-bottom: 10rem;
@@ -978,7 +991,7 @@ border-radius: 5rem;
   font-size: 2.3rem;
   color: var(--color-casper2);
   padding: 1rem 0;
-  line-height: 2;
+  line-height: 1.5;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
     -2px -2px 4px rgb(218, 183, 252);
 }
@@ -1031,17 +1044,7 @@ border-radius: 5rem;
   color: var(--color-geraldine);
 }
 
-.footer .box-container .box form .email {
-  width: 100%;
-  border-radius: 5rem;
-  border: 0.2rem solid var(--color-geraldine);
-  background: none;
-  font-size: 1.5rem;
-  text-transform: none;
-  color: #aaa;
-  margin-bottom: 1rem;
-  padding: 1.2rem 1.4rem;
-}
+
 
 /*FOOTER SECTION ENDS*/
 
@@ -1178,26 +1181,7 @@ body {
   background-size: 480%; /* zoom out the image by 50% */
 
 }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 780px) {
   body {
