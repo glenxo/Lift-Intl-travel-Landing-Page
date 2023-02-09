@@ -383,12 +383,17 @@ Pallete
     right: 0;
     width: 30%;
   }
+
+  .outer {
+    display: none;
+  }
   
-  .banner .home-inner video {
+  .banner .home-inner #image {
     border: 0.1rem solid var(--color-casper2  );
     justify-content: center;
-    right: 0;
-    width: 60%;
+    margin-left: -10%;
+    width: 100%;
+    height: 130%;
     border-radius: 2%;
   }
   
@@ -1529,7 +1534,7 @@ html body.parallax section div#enterDetails input#enterAmount {
   }
   
   
-    .preview-outer video {
+    .outer #Image {
       border: 0.1rem solid;
       justify-content: center;
       margin-left: 0px;
