@@ -1357,8 +1357,8 @@ header.active {
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad25b, 
-                  0 0 75px #a5cad225;
-    background: -webkit-linear-gradient(rgb(156, 255, 153),rgba(174, 100, 244, 0.692), rgb(255, 157, 0));
+                 0 0 75px #a5cad225;
+    background: -webkit-linear-gradient(rgb(156, 255, 153),rgba(174, 100, 244, 0.692), rgb(255, 123, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 4rem;
@@ -1643,7 +1643,7 @@ header.active {
 }
 
 .book-form form .inputBox span {
-     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
     text-shadow: 0 0 5px #a5cad2aa, 
                 0 0 10px #a5cad25b, 
                 0 0 20px #a5cad252, 
