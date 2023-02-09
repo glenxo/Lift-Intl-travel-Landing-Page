@@ -43,7 +43,7 @@
 
       <div class="content">
         <span data-aos="fade-up" data-aos-delay="250"
-          >Los Cajones de Chame</span>
+          >City/Canal tour</span>
         <h3 data-aos="fade-up" data-aos-delay="400">Lift-International</h3>        
       </div>
     </section>
@@ -53,13 +53,13 @@
       <div class="banner" id="banner">
       <div class="content">
         <span
-        ><br/>Tube Rafting at the Rapids</span>
+        ><br/>A 4 hour tour trough the city including the Panama Canal</span>
         
           <h4   
-            > <strong>$250.00 </strong> for 2 pax, <br/>
-            4 hours 45 minutes and up. <br/>"The tube" and helmet, <br/>
-            the cooler with iced waterbottles<br/> and seasonal fresh fruit <br/>
-            are included as a courtesy <br/> Client pays +$5.00 fee each ride down the rapids.</h4>
+            > <strong>$100.00 </strong> x1 or 2 guests <br/>
+            + $20 after the 3rd · aprox. <br/> 4 hours 15 minutes and up. <br/>
+            An average of 4 places in 4 hours, including: <br/> Panama Canal  <br/>
+            Panama Canal (Miraflores locks), Casco Antiguo, <br/>  Causeway, sites and monuments.</h4>
       </div>
 
       <div class="home-inner" data-aos="fade-up" data-aos-delay="800">
@@ -283,7 +283,7 @@
   
       let insertBtn = document.querySelector("#insert");
   function InsertData() {
-      set(ref(db, "Bookings/" + enterName.value), {
+      set(ref(db, "Canal Tour/" + enterName.value), {
           Date: enterDate.value,
           Time: enterTime.value,
           Email: enterEmail.value,
@@ -299,7 +299,7 @@
           enterName.value = "";
           enterAmount.value = "";
           enterText.value = "";
-          window.location.replace("https://glenxo.github.io/Lift-Intl-cart/");
+          window.location.replace("http://127.0.0.1:5501/city%20canal%20tour/canaltour.html");
       })
       .catch(error => {
           alert(error);

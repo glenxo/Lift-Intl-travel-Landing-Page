@@ -83,9 +83,9 @@ Pallete
         from(rgba(17, 17, 17, 0)),
         to(rgba(17, 17, 17, 0))
       ),
-      url(cart/checkout/travelbody3.png) no-repeat;
+      url(/media/travelbody3.png) no-repeat;
     background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
-      url(cart/checkout/travelbody3.png) no-repeat;
+      url(/media/travelbody3.png) no-repeat;
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
