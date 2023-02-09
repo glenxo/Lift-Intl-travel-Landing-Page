@@ -994,7 +994,9 @@ html body.parallax section div#enterDetails input#enterAmount {
 
 }
 
-
+.outer {
+  display: none;
+}
 
 
 
@@ -1028,11 +1030,6 @@ html body.parallax section div#enterDetails input#enterAmount {
     h6.logo > i:nth-child(1) > img:nth-child(1) {
       display: none;
     }
-
-        .outer {
-      display: none;
-    }
-
   }
   
   @media only screen and (max-width: 1380px) and (max-width: 1980px) {
@@ -1271,7 +1268,11 @@ html body.parallax section div#enterDetails input#enterAmount {
     }
     @media (max-width: 780px) {
     }
-  }
+
+
+  }  
+  
+
   
   @media (max-width: 780px) {
   
