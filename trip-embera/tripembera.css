@@ -378,23 +378,20 @@ Pallete
     height: 330px;
   }
   
+
   .banner .home-inner {
     justify-content: center;
     right: 0;
     width: 30%;
   }
-
-
   
-  .banner .home-inner #image {
+  .banner .home-inner video {
     border: 0.1rem solid var(--color-casper2  );
     justify-content: center;
-    margin-left: -10%;
-    width: 100%;
-    height: 130%;
+    right: 0;
+    width: 60%;
     border-radius: 2%;
   }
-  
   /*BANNER SECTION ENDS*/
   /*REVIEW SECTION STARTS*/
   
