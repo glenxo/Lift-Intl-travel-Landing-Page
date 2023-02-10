@@ -320,7 +320,7 @@
   
       let insertBtn = document.querySelector("#insert");
   function InsertData() {
-      set(ref(db, "Canal Tour/" + enterName.value), {
+      set(ref(db, "Walking Tour/" + enterName.value), {
           Date: enterDate.value,
           Time: enterTime.value,
           Email: enterEmail.value,
@@ -336,7 +336,7 @@
           enterName.value = "";
           enterAmount.value = "";
           enterText.value = "";
-          window.location.replace("http://127.0.0.1:5501/city-canal-tour/canaltour.html");
+          window.location.replace("http://127.0.0.1:5501/walking%20tours/walkingtour.html");
       })
       .catch(error => {
           alert(error);
