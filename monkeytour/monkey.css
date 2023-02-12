@@ -89,7 +89,7 @@ Pallete
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 210%; /* zoom out the image by 50% */
+    background-size: 240%; /* zoom out the image by 50% */
     position: relative; 
   }
   
@@ -213,7 +213,7 @@ Pallete
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    font-size: 8vw;
+    font-size: 6.5vw;
     padding: 0;
     display: block; 
     justify-content: center; 
@@ -330,7 +330,7 @@ Pallete
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    font-size: 6rem;
+    font-size: 5rem;
   }
   
   .banner .content h3 {
@@ -341,11 +341,12 @@ Pallete
   }
   
   .banner .content h4 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     -webkit-text-stroke: 0.7px rgb(124, 207, 255);
     color: var(--color-casper2);
     text-transform: capitalize;
     padding-top: 1rem;
+    padding: 3%;
   }
   
   .banner .content p {
@@ -521,7 +522,7 @@ Pallete
   .swiper img {
     border: 0.1rem solid var(--);
     width: 100px;
-    height: 300px;
+    height: 100px;
   }
   
   .swiper-scrollbar .swiper-scrollbar-vertical {
@@ -554,7 +555,7 @@ Pallete
     .swiper-button-pre img {
     padding-left: 0%;
     width: 1600px;
-    height: 900px;
+    height: 1200px;
   }
   
   .reviews .swiper-pagination .swiper-button-prev img {
