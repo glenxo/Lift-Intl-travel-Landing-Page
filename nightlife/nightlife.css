@@ -43,6 +43,71 @@ Pallete
     transition: all 0.2s linear;
   }
   
+
+
+
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .article img {
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 3%;
+  }
+  
+  .article p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .article {
+      flex-direction: column-reverse;
+    }
+    
+    .article img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .article p {
+      font-size: 14px;
+      line-height: 1.2;
+      text-align: justify;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   html {
     font-size: 62.5%;
     overflow-x: hidden;
