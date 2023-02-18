@@ -392,7 +392,7 @@ div.branding:nth-child(6) > span:nth-child(1) {
 }
 
 .banner-container .banner{
-  background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
+  background:linear-gradient(-55deg, rgb(120, 190, 255) 29%, #c830d6 29.1%, #a9ebfc 68%, #d375ff 68.1%);
   border-radius: 5px;
   margin:10px;
   display: flex;
