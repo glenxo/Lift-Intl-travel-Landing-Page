@@ -508,6 +508,15 @@ div.branding:nth-child(6) > span:nth-child(1) {
   font-size: 10px;
 }
 
+.preview .grid-items {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #6f5f90;
+  font-size: 10px;
+  width: 50%;
+  height: 50%;
+}
+
 .preview .content {
   text-align: center;
   
