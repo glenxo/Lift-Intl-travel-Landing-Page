@@ -376,12 +376,35 @@ div.branding:nth-child(6) > span:nth-child(1) {
 .text{
   padding:40px;
   background:#eeeeee1c;
+  display: list-item;
 }
 
 .text h3{
   text-align: center;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
+  padding:10px;
+  font-weight: bolder;
+  text-shadow: 0 0 5px #a5cad246, 
+                0 0 10px #a5cad25b, 
+                0 0 15px #a5cad252,
+                0 0 20px #a5cad22c, 
+                0 0 30px #a5cad221, 
+                0 0 40px #a5cad23a,
+                0 0 50px #a5cad22a, 
+                0 0 75px #a5cad22c;
+  font-weight: bolder;
+  color: var(--color-dark);
+  display: block;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+.text p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5px;
   padding:10px;
 }
 
@@ -392,7 +415,7 @@ div.branding:nth-child(6) > span:nth-child(1) {
 }
 
 .banner-container .banner{
-  background:linear-gradient(-55deg, rgb(120, 190, 255) 29%, #c830d6 29.1%, #a9ebfc 68%, #d375ff 68.1%);
+  background:linear-gradient(-55deg, #95ccff 29%, #6f1dbb 29.1%, #95ccff 68%, #ae5ef9 68.1%);
   border-radius: 5px;
   margin:10px;
   display: flex;
