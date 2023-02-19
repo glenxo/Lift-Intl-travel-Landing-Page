@@ -375,25 +375,21 @@ div.branding:nth-child(6) > span:nth-child(1) {
 /* BANNER SECTION STARTS*/
 .text{
   padding:40px;
-  background:#eeeeee1c;
+  background:rgba(238, 238, 238, 0.12);
   display: list-item;
 }
+
 
 .text h3{
   text-align: center;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   padding:10px;
-  font-weight: bolder;
-  text-shadow: 0 0 5px #a5cad246, 
+  text-shadow: 0 0 5px #a5cad2ab, 
                 0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
                 0 0 20px #a5cad22c, 
-                0 0 30px #a5cad221, 
                 0 0 40px #a5cad23a,
-                0 0 50px #a5cad22a, 
                 0 0 75px #a5cad22c;
-  font-weight: bolder;
   color: var(--color-dark);
   display: block;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
@@ -401,10 +397,11 @@ div.branding:nth-child(6) > span:nth-child(1) {
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
 }
+
 .text p{
   text-align: center;
   text-transform: uppercase;
-  font-size: 5px;
+  font-size: 15px;
   padding:10px;
 }
 
@@ -444,17 +441,56 @@ div.branding:nth-child(6) > span:nth-child(1) {
 }
 
 .banner-container .banner .content span{
-  color:#eee;
+  text-align: center;
+  text-transform: uppercase;
   font-size: 25px;
+  padding:10px;
+  text-shadow: 0 0 5px #2383c7ab, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad22c, 
+                0 0 40px #a5cad23a,
+                0 0 75px #a5cad22c;
+  color: var(--color-dark);
+  display: block;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 70px;
 }
 
 .banner-container .banner .content h3{
-  color:#fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding:10px;
+  text-shadow: 0 0 5px #2383c7ab, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad22c, 
+                0 0 40px #a5cad23a,
+                0 0 75px #a5cad22c;
+  color: var(--color-dark);
+  display: block;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
   font-size: 40px;
 }
 
 .banner-container .banner .content p{
-  color:#eee;
+  text-align: center;
+  text-shadow: 0 0 5px #2383c7ab, 
+                0 0 10px #a5cad25b, 
+                0 0 20px #a5cad22c, 
+                0 0 40px #a5cad23a,
+                0 0 75px #a5cad22c;
+  color: var(--color-dark);
+  display: block;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
   font-size: 20px;
   padding:10px 0;
 }
