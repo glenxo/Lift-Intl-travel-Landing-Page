@@ -496,10 +496,10 @@ div.branding:nth-child(6) > span:nth-child(1) {
 .banner-container .banner .content .btn{
   display: block;
   height: 50px;
-  width: 300px;
+  width: 800px;
   color:#c72020;
   margin:5px auto;
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   text-decoration: none;
 }
 
@@ -514,11 +514,6 @@ div.branding:nth-child(6) > span:nth-child(1) {
   width:100%;
 }
 
-@media (max-width:768px){
-  .banner-container .banner .women{
-      display: none;
-  }
-}
 
 
 /* PRE-HOME SECTION STARTS*/
@@ -1322,6 +1317,21 @@ border-radius: 5rem;
 
 
 
+@media (max-width:768px){
+  .banner-container .banner .women{
+      display: none;
+  }
+
+  .banner-container .banner .content .btn{
+    display: block;
+    height: 50px;
+    width: 300px;
+    color:#c72020;
+    margin:5px auto;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+}
 
 
 
@@ -1534,7 +1544,11 @@ header.active {
   }
 
   .home .content {
-    margin-top: -20%;
+    margin-top: 60%;
+  }  
+  
+  .home .content {
+    margin-bottom: 130%;
   }
 
   .home .grid-container {
