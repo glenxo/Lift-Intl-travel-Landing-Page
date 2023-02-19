@@ -375,8 +375,9 @@ div.branding:nth-child(6) > span:nth-child(1) {
 /* BANNER SECTION STARTS*/
 .text{
   padding:40px;
-  background:rgba(238, 238, 238, 0.12);
+  background:rgba(238, 238, 238, 0.381);
   display: list-item;
+  border-radius: 2%;
 }
 
 
