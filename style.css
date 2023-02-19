@@ -465,7 +465,7 @@ div.branding:nth-child(6) > span:nth-child(1) {
   text-transform: uppercase;
   font-size: 25px;
   padding:10px;
-  text-shadow: 0 0 5px #2383c7ab, 
+  text-shadow: 0 0 5px #061a29ab, 
                 0 0 10px #a5cad25b, 
                 0 0 20px #a5cad22c, 
                 0 0 40px #a5cad23a,
@@ -481,29 +481,25 @@ div.branding:nth-child(6) > span:nth-child(1) {
 
 .banner-container .banner .content p{
   text-align: center;
-  text-shadow: 0 0 5px #2383c7ab, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad22c, 
-                0 0 40px #a5cad23a,
-                0 0 75px #a5cad22c;
+  text-shadow: 0 0 5px #18a1b6f9, 
+                0 0 75px #c757e698;
   color: var(--color-dark);
   display: block;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 20px;
+  text-decoration: none;
+  font-size: 15px;
   padding:10px 0;
 }
 
 .banner-container .banner .content .btn{
   display: block;
-  height:40px;
-  width:150px;
-  line-height: 40px;
-  background: #fff;
-  color:#d63031;
+  height: 50px;
+  width: 300px;
+  color:#c72020;
   margin:5px auto;
+  font-size: 2.8rem;
   text-decoration: none;
 }
 
