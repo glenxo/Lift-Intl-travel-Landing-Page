@@ -6,6 +6,27 @@ window.addEventListener("resize", () => {
     }next
   });
   
+  var initialTransforms = {};
+
+  // Loop through each image
+  for (var i = 1; i <= 6; i++) {
+    var img = document.getElementById("image" + i);
+    initialTransforms["image" + i] = img.style.transform;
+
+    img.onclick = function() {
+      this.style.transform = "scale(2)";
+
+    };
+
+    
+    window.onscroll = function() {
+      for (var j = 1; j <= 6; j++) {
+        var img = document.getElementById("image" + j);
+        img.style.transform = initialTransforms["image" + j];
+        
+      }
+    };
+  }
   
   (function () {
     const parallaxElements = document.querySelectorAll(".parallax");
