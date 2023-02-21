@@ -540,6 +540,25 @@ Pallete
     align-items: center;
   }
 
+  div.article-container div.article-title h2 {
+    letter-spacing: 15px;
+    -webkit-text-stroke: 2.0px rgb(150, 240, 90);
+    text-shadow: 0 0 5px #a5cad211, 
+    0 0 10px #a5cad227, 
+    0 0 20px #a5cad21c, 
+    0 0 40px #a5cad217,
+    0 0 75px #a5cad25e;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(25, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    margin-top: -5%;
+    margin-bottom: 10%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 div.article div.article-text h2 {
     letter-spacing: 15px;
     -webkit-text-stroke: 2.0px rgb(150, 240, 90);
@@ -1296,7 +1315,7 @@ html body.parallax section div#enterDetails input#enterAmount {
       background-position: bottom;
       scroll-behavior: smooth;
       background-repeat: no-repeat;
-      background-size: 950%; /* zoom out the image by 50% */
+      background-size: 1600%; /* zoom out the image by 50% */
       position: relative; 
     }
   
@@ -1562,74 +1581,7 @@ html body.parallax section div#enterDetails input#enterAmount {
     }
     
   
-  
-  /*swiper-scrollbar SECTION STARTS*/
-  
-  .swiper {
-    width: 300px;
-    height: 400px;
-    margin-top: 20px;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 1rem;
-    -ms-flex-wrap: wrap-reverse;
-    flex-wrap: wrap-reverse;
-    background: var(--color-darker);
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-    box-shadow: 0 0.1rem 0.3rem #1111114d;
-    padding: 0.5rem 0.1rem;
-  }
-  
-  .swiper img {
-    border: 0.1rem solid var(--);
-    width: 20px;
-    height: 30px;
-    
-    
-  }
-  
-  .swiper-scrollbar .swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-  }
-  
-  .swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-  }
-  
-  .swiper-scrollbar {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-  }
-  
-  div.swiper-button-prev::after {
-    color: #20bdad00;
-  }
-  
-  div.swiper-button-next::after {
-    padding-left: 0%;
-    color: #20bdad00;
-  }
-  
-    .swiper-button-pre img {
-    padding-left: 0%;
-    width: 1600px;
-    height: 900px;
-  }
-  
-  .reviews .swiper-pagination .swiper-button-prev img {
-    margin-left: 20px;
-    
-  }
+
   
   .footer .box-container .box h3 {
       -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
