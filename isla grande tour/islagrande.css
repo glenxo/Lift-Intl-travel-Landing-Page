@@ -43,71 +43,6 @@ Pallete
     transition: all 0.2s linear;
   }
   
-
-
-
-
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .article img {
-    max-width: 50%;
-    margin-right: 20px;
-    border-radius: 3%;
-  }
-  
-  .article p {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: justify;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .article {
-      flex-direction: column-reverse;
-    }
-    
-    .article img {
-      max-width: 100%;
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
-    
-    .article p {
-      font-size: 14px;
-      line-height: 1.2;
-      text-align: justify;
-    }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -575,83 +510,38 @@ Pallete
   }
   
   /*REVIEW SECTION ENDS*/
-  /*swiper-scrollbar SECTION STARTS*/
-  
-  
-  
-  .swiper {
-    width: 1300px;
-    height: 700px;
+  /*ARTICLE SECTION STARTS*/
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
-  .swiper img {
-    border: 0.1rem solid var(--);
-    width: 100px;
-    height: 100px;
+  .article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
   }
   
-  .swiper-scrollbar .swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
+  .article img {
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 3%;
   }
   
-  .swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
+  .article p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
   }
   
-  .swiper-scrollbar {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-  }
-  
-  div.swiper-button-prev::after {
-    color: #20bdad00;
-  }
-  
-  div.swiper-button-next::after {
-    padding-left: 0%;
-    color: #20bdad00;
-  }
-  
-    .swiper-button-pre img {
-    padding-left: 0%;
-    width: 1600px;
-    height: 1600px;
-  }
-  
-  .reviews .swiper-pagination .swiper-button-prev img {
-    margin-left: 20px;
-    
-  }
-  
-  div .swiper-pagination 
-  .swiper-pagination-bullets 
-  .swiper-pagination-vertical {
-    background-color: #e06e6e00;
-  }
-  
-  div .swiper-scrollbar-drag {
-    background-color: var(--color-geraldine);
-  }
-  
-  div .swiper-pagination-bullet {
-    background-color: #bd2a2000;
-  }
-  
-  div.swiper-scrollbar.swiper-scrollbar-vertical {
-    background-color: #bd2a2000;
-  }
-  
-  div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
-    background-color: #bd202000;
-  }
-  
-  
-  /*BOOK-FORM SECTION STARTS*/
+    /*ARTICLE SECTION ENDS*/
+    /*BOOK-FORM SECTION STARTS*/
   #enterDetails {
     text-align: center;
     width: 60%;
@@ -1549,6 +1439,25 @@ html body.parallax section div#enterDetails input#enterAmount {
   }
   
   /*REVIEWS SECTION ENDS*/
+
+  @media screen and (max-width: 768px) {
+    .article {
+      flex-direction: column-reverse;
+    }
+    
+    .article img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .article p {
+      font-size: 14px;
+      line-height: 1.2;
+      text-align: justify;
+    }
+  }
+  
     
     
     .home .content span {
