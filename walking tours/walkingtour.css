@@ -530,12 +530,12 @@ Pallete
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
-    font-size: 8vw;
+    font-size: 4vw;
     margin-top: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   
   div.article-container div.article-title h2 {
@@ -554,7 +554,7 @@ Pallete
     margin-bottom: 10%;
     display: block;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   
   div.article div.article-text h2 {
@@ -573,7 +573,7 @@ Pallete
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   
   .article {
@@ -606,13 +606,19 @@ Pallete
   
   .swiper {
     width: 1300px;
-    height: 700px;
+    height: 800px;
   }
   
+  div.swiper-slide.slide.swiper-slide-active img {
+    width: 1200px;
+    height: 1400px;
+  }
+
+
   .swiper img {
     border: 0.1rem solid var(--);
-    width: 100px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
   }
   
   .swiper-scrollbar .swiper-scrollbar-vertical {
@@ -743,7 +749,7 @@ html body.parallax section div#enterDetails input#enterAmount {
     -webkit-text-fill-color: transparent;
     font-weight: 800;
     margin-top: 4%;
-    font-size: 5vw;
+    font-size: 3.5vw;
     display: block;
 }
 
@@ -1028,7 +1034,7 @@ html body.parallax section div#enterDetails input#enterAmount {
       letter-spacing: 7px;
       font-weight: 1000;
       margin-top: 4%;
-      font-size: 6rem;
+      font-size: 4.5rem;
       display: block;
   }
   
@@ -1661,7 +1667,7 @@ div.article-container div.article-title h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 8.5rem;
+  font-size: 5rem;
   margin-top: 20rem;
   display: flex;
   flex-direction: column;
