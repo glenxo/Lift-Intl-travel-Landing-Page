@@ -627,11 +627,11 @@ input {
   margin-top: 1rem;
 }
 
-
 html body.parallax section div#enterDetails input#enterName,
 html body.parallax section div#enterDetails input#enterTime,
 html body.parallax section div#enterDetails input#enterText,
 html body.parallax section div#enterDetails input#enterDestination,
+html body.parallax section div#enterDetails input#enterAddress,
 html body.parallax section div#enterDetails input#enterDate,
 html body.parallax section div#enterDetails input#enterEmail,
 html body.parallax section div#enterDetails input#enterAmount {

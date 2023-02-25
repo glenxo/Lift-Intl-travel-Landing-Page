@@ -632,6 +632,7 @@ html body.parallax section div#enterDetails input#enterName,
 html body.parallax section div#enterDetails input#enterTime,
 html body.parallax section div#enterDetails input#enterText,
 html body.parallax section div#enterDetails input#enterDestination,
+html body.parallax section div#enterDetails input#enterAddress,
 html body.parallax section div#enterDetails input#enterDate,
 html body.parallax section div#enterDetails input#enterEmail,
 html body.parallax section div#enterDetails input#enterAmount {
@@ -639,6 +640,7 @@ html body.parallax section div#enterDetails input#enterAmount {
     width: 80%;
     height: 2%;
 }
+
 
 #enterDetails > h1:nth-child(1){
     text-align: center;
