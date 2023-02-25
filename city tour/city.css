@@ -241,6 +241,21 @@ Pallete
     display: block;
   }
   
+  .home .content strong {
+    -webkit-text-stroke: 1.0px rgb(0, 255, 34);
+    text-shadow: 0 0 5px #a5cad28f, 
+                  0 0 10px #a5cad2a4, 
+                  0 0 20px #a5cad29c, 
+                  0 0 40px #a5cad294,
+                  0 0 75px #a5cad2a8;
+    background: -webkit-linear-gradient(rgb(18, 220, 247),rgb(74, 209, 243), rgb(9, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    margin-top: 4%;
+    font-size: 5rem;
+  }
+
   #menu-btn {
     border-radius: 6%;
     position: fixed;
@@ -419,7 +434,18 @@ Pallete
     margin-bottom: 1rem;
   }
   
-  
+  html body.parallax section#reviews.reviews img#images {
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5%;
+  }
   
   .reviews p {
     text-align: center;
@@ -1588,7 +1614,19 @@ html body.parallax section div#enterDetails input#enterAmount {
     margin-top: 20rem;
     margin-bottom: 8rem;
   }
-
+  
+  html body.parallax section#reviews.reviews img#images {
+    height: 70%;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5%;
+  }
+  
 
   .heading span {
     color: var(--color-casper2);

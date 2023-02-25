@@ -172,38 +172,41 @@
     <!-- booking form section starts  -->
 
     <section>
-    <div id="enterDetails">
-      <h1>Booking</h1>
-
-      <p>Upon booking, you will receive a confirmation email that includes 
-        the availability information for your requested date, as well as 
-        detailed information regarding the tour operator who will be facilitating your trip.</p>
-
-      <h4>Your Name</h4> 
-      <input id="enterName" placeholder="Enter your Name" type="text"> 
-
-      <h4>Date</h4> 
-      <input id="enterDate" type="date">
-
-      <h4>Best Time</h4> 
-      <input id="enterTime" type="time"> 
-
-      <h4>Email</h4> 
-      <input id="enterEmail" placeholder="Enter your Email" type="email">
-      
-      <h4>How Many Travelers</h4> 
-      <input id="enterAmount" placeholder="Amount of Travelers" type="number">
-
-      <h4>Let us Know!</h4> 
-      <p>
-        Customize your experience with us based on pre-designed activities. 
-        Type in the box what would you like to experience & we will take care.
-      </p>
-      <input id="enterText" placeholder="Customize your trip" type="text"> <br><br>
-      <button id="insert">Book this trip</button>
-  <br><br>
-  </div>
-    </section>    
+      <div id="enterDetails">
+        <h1>Book this Experience</h1>
+  
+        <p>Upon booking, you will receive a confirmation email that includes 
+          the availability information for your requested date, as well as 
+          detailed information regarding the tour operator who will be facilitating your trip.</p>
+  
+        <h4>Traveler Names</h4> 
+        <input id="enterName" placeholder="Enter your Name" type="text"> 
+  
+        <h4>Travel Date</h4> 
+        <input id="enterDate" type="date">
+  
+        <h4>Pick up Time</h4> 
+        <input id="enterTime" type="time"> 
+  
+        <h4>Email</h4> 
+        <input id="enterEmail" placeholder="Enter your Email" type="email">
+        
+        <h4>Amount of Travelers</h4> 
+        <input id="enterAmount" placeholder="Amount of Travelers" type="number">
+  
+        <h4>Location Pick Up</h4> 
+        <input id="enterAddress" placeholder="Hotel Pick Up" type="address">
+  
+        <h4>Let us Know!</h4> 
+        <p>
+          Customize your experience with us based on pre-designed activities. 
+          Type in the box what would you like to experience & we will take care.
+        </p>
+        <input id="enterText" placeholder="Customize your trip" type="text"> <br><br>
+        <button id="insert">Book this trip</button>
+    <br><br>
+    </div>
+      </section>    
     <!-- booking form section ends -->
     <!-- footer section starts  -->
 
@@ -270,17 +273,19 @@
       let enterTime = document.querySelector("#enterTime");
       let enterEmail = document.querySelector("#enterEmail");
       let enterAge = document.querySelector("#enterAmount");
+      let enterAddress = document.querySelector("#enterAddress");
       let enterText = document.querySelector("#enterText");
   
   
       let insertBtn = document.querySelector("#insert");
   function InsertData() {
-      set(ref(db, "Coronado Fishing trip/" + enterName.value), {
+      set(ref(db, "Coronado Fishing Trip/" + enterName.value), {
           Date: enterDate.value,
           Time: enterTime.value,
           Email: enterEmail.value,
           Name: enterName.value,
           Amount: enterAmount.value,
+          HotelPickup: enterAddress.value,
           Text: enterText.value
       })
       .then(() => {
@@ -290,6 +295,7 @@
           enterEmail.value = "";
           enterName.value = "";
           enterAmount.value = "";
+          enterAddress.value = "";
           enterText.value = "";
           window.location.replace("http://127.0.0.1:5501/pacific%20fishing/pacific.html");
       })
