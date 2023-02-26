@@ -272,23 +272,6 @@ img {
 }
 
 /*BANNER SECTION STARTS ENDS*/
-/* WIDGET SECTION STARTS */
-
-.TA_cdswritereviewlgvi401, 
-.TA_cdswritereviewlgvi {
-  padding: 18%;
-  height:18px;
-  width: 18px;
-
-}
-
-.TA_cdswritereviewlgvi401, 
-.TA_cdswritereviewlgvi img {
-  height:200px;
-  width: 200px;
-}
-
-/* WIDGET SECTION ENDS */
 /*BANNER SECTION STARTS*/
 
 .banner {
@@ -387,6 +370,8 @@ img {
   height: 430px;
 }
 
+
+
 .banner .home-inner {
   justify-content: center;
   right: 0;
@@ -431,8 +416,8 @@ img {
 }
 
 html body.parallax section#reviews.reviews img#images {
-  height: 30%;
-  width: 30%;
+  height: 70%;
+  width: 70%;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 40px;
