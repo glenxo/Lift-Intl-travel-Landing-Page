@@ -1750,8 +1750,9 @@ background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(25
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-weight: bolder;
-font-size: 6.5rem;
+font-size: 6rem;
 margin-top: 20rem;
+margin-left: 0rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
