@@ -65,12 +65,6 @@ strong {
   color: rgb(0, 255, 21);
   -webkit-text-stroke: 1.2px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad233,
-                0 0 20px #a5cad21e, 
-                0 0 30px #a5cad225, 
-                0 0 40px #a5cad227,
-                0 0 50px #a5cad22d, 
                 0 0 75px #a5cad22a;
 }
 
@@ -89,7 +83,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 410%; /* zoom out the image by 50% */
+  background-size: 500%; /* zoom out the image by 50% */
   position: relative; 
 }
 
@@ -213,7 +207,7 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 8vw;
+  font-size: 7.3vw;
   padding: 0;
   display: block; 
   justify-content: center; 
@@ -243,12 +237,12 @@ img {
 
 .home .content strong {
   -webkit-text-stroke: 1.0px rgb(0, 255, 34);
-  text-shadow: 0 0 5px #a5cad28f, 
-                0 0 10px #a5cad2a4, 
-                0 0 20px #a5cad29c, 
-                0 0 40px #a5cad294,
-                0 0 75px #a5cad2a8;
-  background: -webkit-linear-gradient(rgb(18, 220, 247),rgb(74, 209, 243), rgb(9, 255, 0));
+  text-shadow: 0 0 5px #a5cad22d, 
+                0 0 10px #a5cad244, 
+                0 0 20px #a5cad23b, 
+                0 0 40px #a5cad221,
+                0 0 75px #a5cad227;
+  background: -webkit-linear-gradient(rgb(195, 91, 255),rgb(74, 209, 243), rgb(9, 255, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
@@ -278,23 +272,6 @@ img {
 }
 
 /*BANNER SECTION STARTS ENDS*/
-/* WIDGET SECTION STARTS */
-
-.TA_cdswritereviewlgvi401, 
-.TA_cdswritereviewlgvi {
-  padding: 18%;
-  height:18px;
-  width: 18px;
-
-}
-
-.TA_cdswritereviewlgvi401, 
-.TA_cdswritereviewlgvi img {
-  height:200px;
-  width: 200px;
-}
-
-/* WIDGET SECTION ENDS */
 /*BANNER SECTION STARTS*/
 
 .banner {
@@ -393,6 +370,8 @@ img {
   height: 430px;
 }
 
+
+
 .banner .home-inner {
   justify-content: center;
   right: 0;
@@ -412,6 +391,8 @@ img {
 
 /*BANNER SECTION ENDS*/
 /*REVIEW SECTION STARTS*/
+
+
 
 .reviews .slide {
   text-align: center;
@@ -435,8 +416,8 @@ img {
 }
 
 html body.parallax section#reviews.reviews img#images {
-  height: 50%;
-  width: 50%;
+  height: 70%;
+  width: 70%;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -448,6 +429,7 @@ html body.parallax section#reviews.reviews img#images {
 }
 
 .reviews p {
+  
   text-align: center;
   font-size: 2.5rem;
   line-height: 1.3;
@@ -472,6 +454,7 @@ html body.parallax section#reviews.reviews img#images {
 }
 
 .reviews h1 {
+  
   letter-spacing: 15px;
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad211, 
@@ -497,11 +480,6 @@ html body.parallax section#reviews.reviews img#images {
   -webkit-text-stroke: 2.0px rgb(38, 255, 0);
   text-shadow: 0 0 5px #a5cad264, 
   0 0 10px #a5cad271, 
-  0 0 15px #a5cad26d,
-  0 0 20px #a5cad273, 
-  0 0 30px #a5cad26c, 
-  0 0 40px #a5cad276,
-  0 0 50px #a5cad279, 
   0 0 75px #a5cad290;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
   -webkit-background-clip: text;
@@ -545,6 +523,25 @@ html body.parallax section#reviews.reviews img#images {
 }
 
 div.article-container div.article-title h1 {
+  margin-top: -200px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 3rem;
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+  box-shadow: 0 0.5rem 1rem #11111131;
+  padding: 3rem 2rem;
   letter-spacing: 15px;
   -webkit-text-stroke: 2.0px rgb(41, 233, 73);
   text-shadow: 0 0 5px #a5cad211, 
@@ -556,9 +553,8 @@ div.article-container div.article-title h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 8rem;
   margin-top: 20rem;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -575,7 +571,7 @@ div.article-container div.article-title h2 {
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(25, 0, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-top: -5%;
   margin-bottom: 10%;
   display: block;
@@ -603,22 +599,28 @@ div.article div.article-text h2 {
 }
 
 .article {
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.116);
+  box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.075);
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .article img {
-  max-width: 40%;
+  max-width: 50%;
   margin-right: 20px;
   border-radius: 3%;
+  
 }
 
   div.article div.article-text p {
   -webkit-text-stroke: 1.5.0px rgb(150, 203, 207);
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-top: 0;
   line-height: 1.2;
   text-align: justify;
@@ -631,8 +633,8 @@ div.article div.article-text h2 {
 
 
 .swiper {
-  width: 1250px;
-  height: 850px;
+  width: 1270px;
+  height: 920px;
   margin-top: 20px;
   display: flex;
   -webkit-box-align: center;
@@ -652,7 +654,7 @@ div.article div.article-text h2 {
 
 
 div.swiper-slide.slide.swiper-slide-active img {
-  width: 1200px;
+  width: 1400px;
   height: 1400px;
 }
 
@@ -1009,6 +1011,14 @@ color: var(--color-geraldine);
     width: 100%;
   }
   @media (max-width: 780px) {
+    strong {
+      color: rgb(0, 255, 21);
+      -webkit-text-stroke: 1.2px rgb(255, 255, 255);
+      text-shadow: 0 0 5px #a5cad23b, 
+                    0 0 10px #a5cad25b, 
+                    0 0 75px #a5cad22a;
+    }
+    
   }
 }
 
@@ -1441,7 +1451,7 @@ display: none;
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 1950%; /* zoom out the image by 50% */
+    background-size: 2600%; /* zoom out the image by 50% */
     position: relative; 
   }
 
@@ -1527,6 +1537,23 @@ header.active {
     margin-top: 65rem;
     
   }
+
+    .home .content strong {
+  -webkit-text-stroke: 1.0px rgb(0, 255, 34);
+  text-shadow: 0 0 5px #a5cad22d, 
+                0 0 10px #a5cad244, 
+                0 0 20px #a5cad23b, 
+                0 0 40px #a5cad221,
+                0 0 75px #a5cad227;
+  background: -webkit-linear-gradient(rgb(195, 91, 255),rgb(74, 209, 243), rgb(9, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 4%;
+  font-size: 2rem;
+}
+
+
   .home {
     margin: 0 auto;
     margin-top: 5rem;
@@ -1604,10 +1631,6 @@ header.active {
   -webkit-text-stroke: 2.0px rgb(38, 255, 0);
   text-shadow: 0 0 5px #a5d2c764, 
   0 0 10px #a5cad271, 
-  0 0 15px #a5cad26d,
-  0 0 20px #a5cad273, 
-  0 0 30px #a5cad26c, 
-  0 0 40px #a5cad276,
   0 0 50px #a5cad279, 
   0 0 75px #a5cad290;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
@@ -1709,8 +1732,9 @@ html body.parallax section#reviews.reviews img#images {
 
 .article img {
   max-width: 100%;
-  margin-right: 0;
-  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 3%;
+  
 }
 
 
@@ -1726,8 +1750,9 @@ background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(25
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-weight: bolder;
-font-size: 5rem;
+font-size: 6rem;
 margin-top: 20rem;
+margin-left: 0rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
