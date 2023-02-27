@@ -1637,7 +1637,7 @@ header.active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 18vw;
+  font-size: 14vw;
   margin-top: 20rem;
   margin-bottom: 8rem;
 }
@@ -1750,13 +1750,13 @@ background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(25
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-weight: bolder;
-font-size: 6rem;
+font-size: 3.5rem;
 margin-top: 20rem;
 margin-left: 0rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+text-align: center;
 }
 
 div.article-container div.article-title h2 {
@@ -1810,73 +1810,6 @@ text-align: justify;
 /*ARTICLE SECTION ENDS*/
 }
 
-/*swiper-scrollbar SECTION STARTS*/
-
-.swiper {
-  width: 350px;
-  height: 350px;
-  margin-top: 20px;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-  box-shadow: 0 0.1rem 0.3rem #1111114d;
-  padding: 0.5rem 0.1rem;
-}
-
-.swiper img {
-  border: 0.1rem solid var(--);
-  width: 20px;
-  height: 30px;
-  
-  
-}
-
-  div.swiper-slide.slide.swiper-slide-active img {
-  width: 900px;
-  height: 1800px;
-}
-
-.swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-div.swiper-button-prev::after {
-  color: #20bdad00;
-}
-
-div.swiper-button-next::after {
-  padding-left: 0%;
-  color: #20bdad00;
-}
-
-  .swiper-button-pre img {
-  padding-left: 0%;
-  width: 1600px;
-  height: 900px;
-}
 
 .reviews .swiper-pagination .swiper-button-prev img {
   margin-left: 20px;
