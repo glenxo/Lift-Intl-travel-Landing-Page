@@ -512,6 +512,10 @@ html body.parallax section#reviews.reviews img#images {
   text-transform: capitalize;
 }
 
+html body.parallax section#reviews.reviews div p strong a {
+  font-size: 2.5rem;
+}
+
 /*REVIEW SECTION ENDS*/
 .container {
   max-width: 960px;
