@@ -1792,6 +1792,15 @@ html body.parallax section#reviews.reviews img#images {
 }
 
 
+html body.parallax section#reviews.reviews div.article-container div.article-title h1 {
+  font-size: 4.5rem;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+
+}
+
 div.article-container div.article-title h1 {
 letter-spacing: 10px;
 -webkit-text-stroke: 2.0px rgb(41, 233, 73);
@@ -1833,7 +1842,7 @@ text-align: center;
 }
 
 .reviews h1.heading strong {
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 
