@@ -114,11 +114,8 @@ p {
 strong {
   -webkit-text-stroke: 1px rgb(57, 255, 17);
   text-shadow: 0 0 5px #a5cad21a, 
-                0 0 10px #a5cad227, 
                 0 0 15px #a5cad223,
-                0 0 20px #a5cad21c, 
                 0 0 30px #a5cad227, 
-                0 0 40px #0aff8523,
                 0 0 50px #0bff695e, 
                 0 0 75px #0cff7167;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(2, 238, 255, 0.514), rgb(2, 248, 55));
@@ -177,28 +174,12 @@ li {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 div.branding:nth-child(6) > span:nth-child(1) {
   justify-content: center;
 
 
   margin-left: 50%;
 }
-
-
-
-
-
 
 
 
@@ -234,11 +215,8 @@ div.branding:nth-child(6) > span:nth-child(1) {
   -webkit-text-stroke: 1.2px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad21a, 
                 0 0 10px #a5cad227, 
-                0 0 15px #a5cad223,
                 0 0 20px #a5cad21c, 
-                0 0 30px #a5cad227, 
                 0 0 40px #a5cad223,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(132, 0, 255, 0.514), rgb(2, 191, 248));
   -webkit-background-clip: text;
@@ -252,11 +230,8 @@ div.branding:nth-child(6) > span:nth-child(1) {
   -webkit-text-stroke: 1.2px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad2fb, 
                 0 0 10px #a5cad2e7, 
-                0 0 15px #a5cad29f,
                 0 0 20px #a5cad2a8, 
-                0 0 30px #a5cad2b4, 
                 0 0 40px #a5cad2c9,
-                0 0 50px #a5cad273, 
                 0 0 75px #a5cad279;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgba(132, 0, 255, 0.514), rgb(2, 191, 248));
   -webkit-background-clip: text;
@@ -551,12 +526,9 @@ div.branding:nth-child(6) > span:nth-child(1) {
 .home .content span {
   font-weight: bolder;
   text-shadow: 0 0 5px #a5cad246, 
-                0 0 10px #a5cad25b, 
                 0 0 15px #a5cad252,
-                0 0 20px #a5cad22c, 
                 0 0 30px #a5cad221, 
                 0 0 40px #a5cad23a,
-                0 0 50px #a5cad22a, 
                 0 0 75px #a5cad22c;
   font-weight: bolder;
   color: var(--color-dark);
@@ -574,11 +546,8 @@ div.branding:nth-child(6) > span:nth-child(1) {
   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad28f, 
                 0 0 10px #a5cad2a4, 
-                0 0 15px #a5cad29f,
                 0 0 20px #a5cad29c, 
-                0 0 30px #a5cad296, 
                 0 0 40px #a5cad294,
-                0 0 50px #a5cad298, 
                 0 0 75px #a5cad2a8;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -630,11 +599,8 @@ div.branding:nth-child(6) > span:nth-child(1) {
   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad25b, 
                 0 0 10px #a5cad271, 
-                0 0 15px #a5cad265,
                 0 0 20px #a5cad26c, 
-                0 0 30px #a5cad265, 
                 0 0 40px #a5cad265,
-                0 0 50px #a5cad275, 
                 0 0 75px #a5cad25d;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -693,12 +659,6 @@ div.branding:nth-child(6) > span:nth-child(1) {
   margin: 10px;
 }
 
-
-
-
-
-
-
 .preview .grid-container span {
   -webkit-text-stroke: 1.5px rgba(192, 188, 188, 0.78);
   text-shadow: 0 0 5px #a5cad23b, 
@@ -718,7 +678,6 @@ div.branding:nth-child(6) > span:nth-child(1) {
 text-shadow: 0 0 5px #a5cad23b, 
           0 0 10px #a5cad25b, 
           0 0 20px #a5cad252, 
-          0 0 40px #a5cad227,
           0 0 75px #a5cad218;
 background: -webkit-linear-gradient(rgb(206, 248, 255),#d3e2fc, rgb(164, 214, 250), rgb(238, 207, 252));
 -webkit-background-clip: text;
@@ -780,12 +739,8 @@ border-radius: 5rem;
 .destiantion p, a {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
                 0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
                 0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -821,12 +776,8 @@ border-radius: 5rem;
 .destination .box-container .box h3 {
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.637);
   text-shadow: 0 0 5px #a5cad21a, 
-                0 0 10px #a5cad227, 
-                0 0 15px #a5cad223,
                 0 0 20px #a5cad21c, 
-                0 0 30px #a5cad227, 
                 0 0 40px #a5cad223,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(132, 0, 255), rgb(2, 191, 248));
   -webkit-background-clip: text;
@@ -838,19 +789,15 @@ border-radius: 5rem;
 .destination .heading h1 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
                 0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
                 0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
   font-size: 7vw;
-  margin-top: 100%;
+  margin-top: 90%;
 }
 
 /*DESTINATION SECTION ENDS*/
@@ -952,12 +899,9 @@ border-radius: 5rem;
 .book-form h2 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
                 0 0 15px #a5cad252,
                 0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
                 0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -1083,12 +1027,9 @@ border-radius: 5rem;
 .services .heading h1 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
                 0 0 15px #a5cad252,
                 0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
                 0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -1262,30 +1203,6 @@ border-radius: 5rem;
 /*MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 
 /*MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1525,7 +1442,7 @@ header.active {
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad25b, 
-                 0 0 75px #a5cad225;
+                  0 0 75px #a5cad225;
     background: -webkit-linear-gradient(rgb(156, 255, 153),rgba(174, 100, 244, 0.692), rgb(255, 123, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1559,11 +1476,8 @@ header.active {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad28f, 
                   0 0 10px #a5cad2a4, 
-                  0 0 15px #a5cad29f,
                   0 0 20px #a5cad29c, 
-                  0 0 30px #a5cad296, 
                   0 0 40px #a5cad294,
-                  0 0 50px #a5cad298, 
                   0 0 75px #a5cad2a8;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
@@ -1577,11 +1491,7 @@ header.active {
     -webkit-text-stroke: 0.4px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad28f, 
                   0 0 10px #a5cad2a4, 
-                  0 0 15px #a5cad29f,
-                  0 0 20px #a5cad29c, 
-                  0 0 30px #a5cad296, 
                   0 0 40px #a5cad294,
-                  0 0 50px #a5cad298, 
                   0 0 75px #a5cad2a8;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
@@ -1751,6 +1661,8 @@ header.active {
   display: none;
 }
 
+
+
 .destination .box-container .box h2 {
     margin-top: 0rem;
     margin-bottom: 5rem;
@@ -1779,11 +1691,8 @@ header.active {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad23b, 
                 0 0 10px #a5cad25b, 
-                0 0 15px #a5cad252,
                 0 0 20px #a5cad252, 
-                0 0 30px #a5cad24d, 
                 0 0 40px #a5cad254,
-                0 0 50px #a5cad25e, 
                 0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
