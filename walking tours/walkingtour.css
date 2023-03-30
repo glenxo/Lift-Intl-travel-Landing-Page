@@ -89,7 +89,7 @@ Pallete
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 410%; /* zoom out the image by 50% */
+    background-size: 510%; /* zoom out the image by 50% */
     position: relative; 
   }
   
@@ -1434,7 +1434,7 @@ html body.parallax section div#enterDetails input#enterAmount {
       background-position: bottom;
       scroll-behavior: smooth;
       background-repeat: no-repeat;
-      background-size: 1950%; /* zoom out the image by 50% */
+      background-size: 2950%; /* zoom out the image by 50% */
       position: relative; 
     }
   
