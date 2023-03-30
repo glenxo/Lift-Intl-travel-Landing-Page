@@ -1752,6 +1752,11 @@ html body.parallax section div#enterDetails input#enterAmount {
     
   }
 
+  
+  html body.parallax section#reviews.reviews div.article-container section.reviews div.article-title h1{
+    font-size: 2.5rem;
+
+  }
 
 div.article-container div.article-title h1 {
   letter-spacing: 10px;
@@ -1765,7 +1770,7 @@ div.article-container div.article-title h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 6.5rem;
+  font-size: 4.5rem;
   margin-top: 20rem;
   display: flex;
   flex-direction: column;
