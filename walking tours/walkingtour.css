@@ -486,6 +486,25 @@ Pallete
     margin-bottom: 8rem;
   }
   
+  html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong{
+    letter-spacing: 5px;
+    -webkit-text-stroke: 2.0px rgb(38, 255, 0);
+    text-shadow: 0 0 5px #a5cad264, 
+    0 0 10px #a5cad271, 
+    0 0 15px #a5cad26d,
+    0 0 20px #a5cad273, 
+    0 0 30px #a5cad26c, 
+    0 0 40px #a5cad276,
+    0 0 50px #a5cad279, 
+    0 0 75px #a5cad290;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-top: 20rem;
+    margin-bottom: 8rem;
+  }
   
   .reviews .slide p {
     font-size: 4rem;
@@ -1578,17 +1597,37 @@ html body.parallax section div#enterDetails input#enterAmount {
     -webkit-text-stroke: 2.0px rgb(38, 255, 0);
     text-shadow: 0 0 5px #a5d2c764, 
     0 0 10px #a5cad271, 
-    0 0 15px #a5cad26d,
+
     0 0 20px #a5cad273, 
-    0 0 30px #a5cad26c, 
+
     0 0 40px #a5cad276,
-    0 0 50px #a5cad279, 
+
     0 0 75px #a5cad290;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 18vw;
+    margin-top: 20rem;
+    margin-bottom: 8rem;
+  }
+
+    html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong{
+    letter-spacing: 5px;
+    -webkit-text-stroke: 2.0px rgba(166, 255, 0, 0.459);
+    text-shadow: 0 0 5px #a5cad264, 
+    0 0 10px #a5cad271, 
+    0 0 15px #a5cad26d,
+
+    0 0 30px #a5cad26c, 
+    0 0 40px #a5cad276,
+
+    0 0 75px #a5cad290;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 2.2rem;
     margin-top: 20rem;
     margin-bottom: 8rem;
   }
