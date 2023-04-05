@@ -1060,17 +1060,18 @@ border-radius: 5rem;
 
 
 html body.parallax div.payment.aos-init.aos-animate {
-
-  -webkit-text-stroke: 1.5px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #d4e5e9fb, 
-                0 0 10px #a5cad2, 
-                0 0 15px #a5cad2,
-                0 0 75px #a5cad2;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(252, 249, 255), rgb(255, 255, 255));
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #edf1f2fd, 
+              0 0 10px #eceff0f9, 
+              0 0 20px #f5f8f9, 
+              0 0 40px #c84bb5db,
+              0 0 75px #ed87e6b2;
+  background: -webkit-linear-gradient(rgb(244, 246, 247),#fbfbfb, rgb(243, 245, 247), rgb(245, 234, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bolder;
+font-weight: bolder;
   text-align: center;
+  span: 8px
   margin-top: 4%;
   margin-bottom: 4%;
   font-size: 1.5vw;
