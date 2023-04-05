@@ -1055,6 +1055,35 @@ border-radius: 5rem;
 }
 
 /*SERVICES SECTION ENDS*/
+
+
+
+
+html body.parallax div.payment.aos-init.aos-animate {
+
+  -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #d4e5e9fb, 
+                0 0 10px #a5cad2, 
+                0 0 15px #a5cad2,
+                0 0 75px #a5cad2;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(252, 249, 255), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 1.5vw;
+}
+
+html body.parallax div.payment.aos-init.aos-animate img{
+  width: 400px; /* Change the value to adjust the width */
+  height: 170px; }
+
+
+
+
+
 /*  FOOTER SECTION STARTS*/
 
 .footer {
