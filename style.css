@@ -1060,27 +1060,29 @@ border-radius: 5rem;
 
 
 html body.parallax div.payment.aos-init.aos-animate {
-  -webkit-text-stroke: 5px rgb(255, 255, 255);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
   text-shadow: 0 0 5px #edf1f2fd, 
-              0 0 10px #eceff0f9, 
-              0 0 20px #f5f8f9, 
-              0 0 40px #c84bb5db,
               0 0 75px #ed87e6b2;
   background: -webkit-linear-gradient(rgb(244, 246, 247),#fbfbfb, rgb(243, 245, 247), rgb(245, 234, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 font-weight: bolder;
   text-align: center;
-  span: 8px
+  padding-left: 500px;
+  padding-right: 500px;
   margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   font-size: 1.5vw;
 }
 
 html body.parallax div.payment.aos-init.aos-animate img{
-  width: 400px; /* Change the value to adjust the width */
-  height: 170px; }
+  width: 600px; /* Change the value to adjust the width */
+  height: 230px; }
 
+  html body.parallax div.payment.aos-init.aos-animate h3{
+    font-size: 1vw;
+
+  }
 
 
 
