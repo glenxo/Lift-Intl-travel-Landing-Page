@@ -1237,6 +1237,30 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
 
 
+/*removed text shadow*/
+
+
+@media (max-width: 768px) {
+  html body.parallax section#contact.footer div.box-container div.box.aos-init.aos-animate h3{
+    text-shadow: none !important;;
+  }
+
+  html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3{
+    text-shadow: none !important;;
+  }
+
+  html body.parallax section#services.services div.heading h1{
+    text-shadow: none !important;;
+
+  }
+
+  html body.parallax section#preview.preview div.content span.aos-init.aos-animate{
+    text-shadow: none !important;;
+
+  }
+}
+/*removed text shadow*/
+
 @media (min-width: 720px) and (max-width: 780px) and (min-height: 1480px) and (max-height: 1540px) {
   .preview-outer video {
     display: none;
