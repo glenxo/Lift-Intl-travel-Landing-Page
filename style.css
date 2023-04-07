@@ -1027,11 +1027,7 @@ border-radius: 5rem;
 
 .services .heading h1 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 15px #a5cad252,
-                0 0 20px #a5cad252, 
-                0 0 40px #a5cad254,
-                0 0 75px #a5cad267;
+
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1062,7 +1058,7 @@ border-radius: 5rem;
 
 /*PAYMENT INFO STARTS*/
 html body.parallax div.payment.aos-init.aos-animate {
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  -webkit-text-stroke: 0.5px rgb(255, 0, 0);
   background: -webkit-linear-gradient(rgb(244, 246, 247),#fbfbfb, rgb(243, 245, 247), rgb(245, 234, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1366,9 +1362,7 @@ body {
     margin-bottom: 2rem;
     color: var(--color-casper2);
     -webkit-text-stroke: 0.3px rgb(17, 227, 255);
-    text-shadow: 0 0 5px #a5cad21a, 
-                  0 0 10px #a5cad227, 
-                  0 0 75px #0cff7167;
+
   }
 
 
@@ -1476,8 +1470,7 @@ header.active {
 
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-    text-shadow: 0 0 5px #a5cad25b, 
-                  0 0 75px #a5cad225;
+
     background: -webkit-linear-gradient(rgb(156, 255, 153),rgba(174, 100, 244, 0.692), rgb(255, 123, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1509,11 +1502,7 @@ header.active {
 
   .home .content span {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-    text-shadow: 0 0 5px #a5cad28f, 
-                  0 0 10px #a5cad2a4, 
-                  0 0 20px #a5cad29c, 
-                  0 0 40px #a5cad294,
-                  0 0 75px #a5cad2a8;
+ 
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1524,10 +1513,7 @@ header.active {
   .home .content h3 {
     letter-spacing: 15px;
     -webkit-text-stroke: 0.4px rgb(255, 255, 255);
-    text-shadow: 0 0 5px #a5cad28f, 
-                  0 0 10px #a5cad2a4, 
-                  0 0 40px #a5cad294,
-                  0 0 75px #a5cad2a8;
+
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1560,9 +1546,6 @@ header.active {
 
   .preview span {
   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad25b, 
-
-                0 0 75px #a5cad25d;
                 background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(0, 238, 255));
                 -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1750,11 +1733,7 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
 .book-form h2 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #a5cad254,
-                0 0 75px #a5cad267;
+
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1786,11 +1765,7 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
 .book-form form .inputBox span {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
-    text-shadow: 0 0 5px #a5cad2aa, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #c84bb54e,
-                0 0 75px #ed87e656;
+
     background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1826,11 +1801,6 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
 .footer .box-container .box h3 {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
-    text-shadow: 0 0 5px #a5cad2aa, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #c84bb54e,
-                0 0 75px #ed87e656;
     background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(196, 100, 255), rgb(225, 160, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
