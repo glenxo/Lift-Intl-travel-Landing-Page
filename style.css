@@ -724,6 +724,7 @@ border-radius: 5rem;
 }
 
 
+
 /* PREVIEW SECTION ENDS */
 /*DESTINATION SECTION STARTS*/
 
@@ -1061,9 +1062,7 @@ border-radius: 5rem;
 
 /*PAYMENT INFO STARTS*/
 html body.parallax div.payment.aos-init.aos-animate {
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #edf1f2fd, 
-              0 0 75px #ed87e6b2;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
   background: -webkit-linear-gradient(rgb(244, 246, 247),#fbfbfb, rgb(243, 245, 247), rgb(245, 234, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1712,12 +1711,7 @@ header.active {
 }
 /*PAYMENT INFO STARTS*/
 html body.parallax div.payment.aos-init.aos-animate {
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #edf1f2fd, 
-              0 0 75px #ed87e6b2;
-  background: -webkit-linear-gradient(rgb(244, 246, 247),#fbfbfb, rgb(243, 245, 247), rgb(245, 234, 250));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
 font-weight: bolder;
   text-align: center;
   padding-left: 35px;

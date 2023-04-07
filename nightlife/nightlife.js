@@ -6,19 +6,13 @@ window.addEventListener("resize", () => {
   }next
 });
 
-const swiper = new Swiper(".swiper", {
-  direction: "horizontal",
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    prevEl: ".swiper-button-next",
-    nextEl: ".swiper-button-prev",
-    },
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
+const replyBtns = document.querySelectorAll(".reply-btn");
+
+replyBtns.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const replyForm = e.target.nextElementSibling;
+    replyForm.style.display = "block";
+  });
 });
 
 (function () {
