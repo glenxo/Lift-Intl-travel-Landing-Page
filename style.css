@@ -1717,7 +1717,7 @@ header.active {
   font-size: 3.4rem;
 }
 /*PAYMENT INFO STARTS*/
-html body.parallax div.payment.aos-init.aos-animate {
+html body.parallax div.payment {
 
 font-weight: bolder;
   text-align: center;
@@ -1739,8 +1739,9 @@ html body.parallax div.payment.aos-init.aos-animate img{
   }
 
 
-  html body.parallax div.payment.aos-init.aos-animate h3{
+  html body.parallax div.payment h3{
     text-shadow: none;
+    color: #ffffff;
         font-size: 2vw;
   }
 
