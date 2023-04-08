@@ -1964,10 +1964,10 @@ font-weight: bolder;
   text-align: center;
   padding-left: 35px;
   padding-right: 35px;
-  color: #18ff2b;
+  color: #ffffff;
   margin-top: 4%;
   margin-bottom: 2%;
-  font-size: 4.5vw;
+  font-size: 4vw;
   text-shadow: none;
 
 }
@@ -1976,17 +1976,17 @@ font-weight: bolder;
 
 html body.parallax section#reviews.reviews div.article-container div.payment img{
   width: 250px; 
-  height: 85px; 
+  height: 95px; 
 
 }
 
 html body.parallax section#reviews.reviews div.article-container div.payment h3{
-    font-size: 4vw;
+    font-size: 3vw;
     text-shadow: none;
   }
 
   html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
-    font-size: 4vw;
+    font-size: 3vw;
     text-shadow: none;
 
   }
