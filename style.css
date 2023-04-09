@@ -1061,7 +1061,6 @@ html body.parallax div.payment{
   -webkit-text-stroke: 1.5px rgb(157, 255, 0);
   background: -webkit-linear-gradient(rgb(244, 246, 247));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 font-weight: bolder;
   text-align: center;
   padding-left: 350px;
@@ -1069,18 +1068,29 @@ font-weight: bolder;
   margin-top: 4%;
   margin-bottom: 2%;
   font-size: 0.7vw;
+  color: #ffffff;
+
 }
 
 html body.parallax div.payment.aos-init.aos-animate img{
   width: 650px; /* Change the value to adjust the width */
   height: 200px; }
 
+  html body.parallax div.payment.aos-init.aos-animate h3{
+    color: #ffffff;
+
+  }
+
   html body.parallax section#reviews.reviews div.article-container div.payment h3{
     font-size: 1vw;
+    color: #ffffff;
+
   }
 
   html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
     font-size: 1vw;
+    color: #ffffff;
+
   }
   /*PAYMENT INFO ENDS*/
 
@@ -1718,14 +1728,14 @@ header.active {
 }
 /*PAYMENT INFO STARTS*/
 html body.parallax div.payment {
-
-font-weight: bolder;
+  font-weight: bolder;
   text-align: center;
   padding-left: 35px;
   padding-right: 35px;
   margin-top: 4%;
   margin-bottom: -25%;
   font-size: 2.5vw;
+      color: #ffffff;
 }
 
 
@@ -1736,8 +1746,14 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
   html body.parallax section#reviews.reviews div.article-container div.payment h3{
     font-size: 2vw;
+    color: #ffffff;
   }
 
+
+  html body.parallax div.payment.aos-init.aos-animate h3{
+    color: #ffffff;
+
+  }
 
   html body.parallax div.payment h3{
     text-shadow: none;
@@ -1747,6 +1763,8 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
   html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
     font-size: 2vw;
+    color: #ffffff;
+
   }
   /*PAYMENT INFO ENDS*/
 
