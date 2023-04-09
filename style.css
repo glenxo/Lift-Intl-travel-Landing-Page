@@ -1093,7 +1093,40 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
   }
   /*PAYMENT INFO ENDS*/
-
+  #presentation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #presentation h2 {
+    margin-bottom: 50px;
+  }
+  
+  .team-member {
+    margin: 30px;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .team-member p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
 
 
 /*  FOOTER SECTION STARTS*/
