@@ -1102,6 +1102,11 @@ html body.parallax div.payment.aos-init.aos-animate img{
   }
   
   #presentation h2 {
+    -webkit-text-stroke: 1.5px rgb(157, 255, 0);
+    background: -webkit-linear-gradient(rgb(244, 246, 247));
+    -webkit-background-clip: text;
+    font-size: 0.7vw;
+    color: #ffffff;
     margin-bottom: 50px;
   }
   
@@ -1110,8 +1115,8 @@ html body.parallax div.payment.aos-init.aos-animate img{
   }
   
   .team-member img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 50%;
   }
