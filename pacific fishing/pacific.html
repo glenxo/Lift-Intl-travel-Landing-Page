@@ -399,7 +399,7 @@
           Text: enterText.value
       })
       .then(() => {
-          alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected back to the main page.");
+        alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected back to PagueloFacil to make your payment.");
           enterDate.value = "";
           enterTime.value = "";
           enterEmail.value = "";
@@ -407,7 +407,7 @@
           enterAmount.value = "";
           enterAddress.value = "";
           enterText.value = "";
-          window.location.replace("http://127.0.0.1:5501/pacific%20fishing/pacific.html");
+          window.location.replace("https://checkout.paguelofacil.com/liftintl?fbclid=IwAR2MG7L_US22cuGXZmztOB9u2Hi6e6bCEdAHVCFMSSLHQL3ZObdm6lG_X7Q");
       })
       .catch(error => {
           alert(error);
