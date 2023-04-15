@@ -1093,6 +1093,9 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
   }
   /*PAYMENT INFO ENDS*/
+
+
+  
   #presentation {
     display: flex;
     flex-wrap: wrap;
@@ -1102,12 +1105,18 @@ html body.parallax div.payment.aos-init.aos-animate img{
   }
   
   #presentation h2 {
-    -webkit-text-stroke: 1.5px rgb(157, 255, 0);
-    background: -webkit-linear-gradient(rgb(244, 246, 247));
-    -webkit-background-clip: text;
-    font-size: 0.7vw;
-    color: #ffffff;
-    margin-bottom: 50px;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #69bff857, 
+    0 0 10px #a5cad227, 
+    0 0 15px #a5cad20c,
+    0 0 20px #a5cad23d, 
+    0 0 30px #a5cad23f, 
+    0 0 40px #a5cad234,
+    0 0 50px #a5cad23a, 
+    0 0 75px #a5cad227;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--color-casper2);
   }
   
   .team-member {
@@ -1130,6 +1139,37 @@ html body.parallax div.payment.aos-init.aos-animate img{
   .team-member p {
     font-size: 18px;
     line-height: 1.5;
+  }
+
+  html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3{
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #69bff857, 
+    0 0 10px #a5cad227, 
+    0 0 15px #a5cad20c,
+    0 0 20px #a5cad23d, 
+    0 0 30px #a5cad23f, 
+    0 0 40px #a5cad234,
+    0 0 50px #a5cad23a, 
+    0 0 75px #a5cad227;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--color-casper2);
+  }
+
+
+  html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate div.team-member p{
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #69bff857, 
+    0 0 10px #a5cad227, 
+    0 0 15px #a5cad20c,
+    0 0 20px #a5cad23d, 
+    0 0 30px #a5cad23f, 
+    0 0 40px #a5cad234,
+    0 0 50px #a5cad23a, 
+    0 0 75px #a5cad227;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--color-casper2);
   }
   
 
