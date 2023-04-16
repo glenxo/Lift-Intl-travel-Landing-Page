@@ -48,6 +48,48 @@ Pallete
 }
 
 
+.preloader {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #000000;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ffffff00;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Hide the content until the preloader is hidden */
+.content {
+  display: none;
+}
+
+/* Show the content after the preloader is hidden */
+.preloader:not(:hover) + .content {
+  display: block;
+}
+
+
 
 .container h4 {
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
