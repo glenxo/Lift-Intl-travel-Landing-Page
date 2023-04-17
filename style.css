@@ -1607,10 +1607,10 @@ header.active {
   }
 }
 
-/* Hide the content until the preloader is hidden */
+/* Hide the content until the preloader is hidden 
 .content {
-  display: ;
-}
+  display: none;
+}*/
 
 /* Show the content after the preloader is hidden */
 .preloader:not(:hover) + .content {
