@@ -1,0 +1,4 @@
+{
+    "prettier.arrowParens": "avoid",
+    "liveServer.settings.port": 5501
+}
