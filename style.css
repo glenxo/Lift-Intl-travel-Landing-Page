@@ -180,12 +180,6 @@ div.branding:nth-child(6) > span:nth-child(1) {
   margin-left: 50%;
 }
 
-.preloader img {
-  display: none;
-}
-
-
-
 
 /*BAR MENU SECTION START*/
 
@@ -203,7 +197,7 @@ div.branding:nth-child(6) > span:nth-child(1) {
     #8a4bc5,
     #1498c0cc,
     #7346afc0,
-    #add8e600
+    #add8e657
   );
   z-index: 1;
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
@@ -1685,11 +1679,6 @@ header.active {
   }
 }
 
-/* Hide the content until the preloader is hidden 
-.content {
-  display: none;
-}*/
-
 /* Show the content after the preloader is hidden */
 .preloader:not(:hover) + .content {
   display: block;
@@ -2131,7 +2120,6 @@ html body.parallax section#services.services div.box-container div.box.aos-init.
   font-size: 6.2rem;
   color: #fff;
   padding: 1rem 0;
-}
 }
 
 @media only screen and (max-width: 480px) {
