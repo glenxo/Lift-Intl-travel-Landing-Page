@@ -180,6 +180,11 @@ div.branding:nth-child(6) > span:nth-child(1) {
   margin-left: 50%;
 }
 
+.preloader img {
+  display: none;
+}
+
+
 
 
 /*BAR MENU SECTION START*/
