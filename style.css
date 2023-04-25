@@ -1111,7 +1111,8 @@ border-radius: 5rem;
   padding: 1rem 0;
   font-size: 1.4rem;
   color: var(--color-casper2);
-  line-height: 2;
+  margin-top: -2%;
+  line-height: 1.5;
 }
 
 .members .box-container .box a {
@@ -2034,6 +2035,17 @@ html body.parallax div.payment.aos-init.aos-animate img{
   font-size: 15vw;
 }
 
+html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate p a {
+  -webkit-text-stroke: 1.0px rgb(255, 0, 0);
+
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 3vw;
+}
+}
+
 /*MEMBERS SECTION STARTS*/
 
 .members .box-container {
@@ -2093,8 +2105,6 @@ html body.parallax div.payment.aos-init.aos-animate img{
   padding: 1rem 0;
   font-size: 1.4rem;
   color: var(--color-casper);
-  margin-top: -8%;
-  line-height: 1.5;
 }
 
 .members .box-container .box a {
