@@ -1516,7 +1516,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 350%; /* zoom out the image by 50% */
+    background-size: 360%; /* zoom out the image by 50% */
     min-height: 400px;
     z-index: 100;
   }
