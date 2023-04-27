@@ -1212,7 +1212,6 @@ display: none;
 }
 
 
-
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -1280,6 +1279,40 @@ display: none;
 
 
 @media (max-width: 768px) {
+
+  .preloader {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 105%;
+    overflow: visible;
+    background: #030202;
+    top: 0%;
+  }
+  
+  .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 75px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  /* Show the content after the preloader is hidden */
+  .preloader:not(:hover) + .content {
+    display: block;
+  }
 
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
@@ -1677,12 +1710,24 @@ header.active {
 
   /*REVIEWS SECTION STARTS*/
 
+  html body.parallax section#reviews.reviews div.article-container section.reviews div.article-title h1{
+    font-size: 3.5rem;
+
+  }
 .reviews h1 {
   margin-top: 50px;
   text-align: center;
   margin-bottom: 5rem;
-  font-size: 4rem;
+  margin-top: 5rem;
+  font-size: 2rem;
 
+}
+
+html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text h2 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2.7rem;
 }
 
 .reviews strong {
@@ -1713,6 +1758,9 @@ html body.parallax section#reviews.reviews img#images {
   border-radius: 1.5%;
 }
 
+html body.parallax section#reviews.reviews div p {
+  font-size: 3vw;
+}
 
 .heading span {
   color: var(--color-casper2);
@@ -1785,41 +1833,6 @@ html body.parallax section#reviews.reviews img#images {
 
 
 @media screen and (max-width: 768px) {
-
-  .preloader {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    height: 105%;
-    overflow: visible;
-    background: #030202;
-    top: 0%;
-  }
-  
-  .loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 75px;
-    animation: spin 2s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% {
-      transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100% {
-      transform: translate(-50%, -50%) rotate(360deg);
-    }
-  }
-  
-  /* Show the content after the preloader is hidden */
-  .preloader:not(:hover) + .content {
-    display: block;
-  }
-
 .article {
   flex-direction: column-reverse;
 }
@@ -1882,7 +1895,7 @@ text-align: center;
 }
 
 .reviews h1.heading strong {
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 
 
@@ -1967,78 +1980,6 @@ html body.parallax section.reviews div.article-title h1 {
 /*ARTICLE SECTION ENDS*/
 }
 
-/*swiper-scrollbar SECTION STARTS*/
-
-.swiper {
-  width: 350px;
-  height: 350px;
-  margin-top: 20px;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-  box-shadow: 0 0.1rem 0.3rem #1111114d;
-  padding: 0.5rem 0.1rem;
-}
-
-.swiper img {
-  border: 0.1rem solid var(--);
-  width: 20px;
-  height: 30px;
-  
-  
-}
-
-  div.swiper-slide.slide.swiper-slide-active img {
-  width: 900px;
-  height: 1800px;
-}
-
-.swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-div.swiper-button-prev::after {
-  color: #20bdad00;
-}
-
-div.swiper-button-next::after {
-  padding-left: 0%;
-  color: #20bdad00;
-}
-
-  .swiper-button-pre img {
-  padding-left: 0%;
-  width: 1600px;
-  height: 900px;
-}
-
-.reviews .swiper-pagination .swiper-button-prev img {
-  margin-left: 20px;
-  
-}
 
 .footer .box-container .box h3 {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
