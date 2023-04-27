@@ -628,104 +628,6 @@ div.article div.article-text h2 {
 }
 
   /*ARTICLE SECTION ENDS*/
-/*swiper-scrollbar SECTION STARTS*/
-
-
-
-.swiper {
-  width: 1050px;
-  height: 920px;
-  margin-top: 20px;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-  box-shadow: 0 0.1rem 0.3rem #1111114d;
-  padding: 0.5rem 0.1rem;
-}
-
-
-div.swiper-slide.slide.swiper-slide-active img {
-  width: 1400px;
-  height: 1400px;
-}
-
-
-
-.swiper img {
-  border: 0.1rem solid var(--);
-  width: 50px;
-  height: 50px;
-}
-
-.swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-div.swiper-button-prev::after {
-  color: #20bdad00;
-}
-
-div.swiper-button-next::after {
-  padding-left: 0%;
-  color: #20bdad00;
-}
-
-  .swiper-button-pre img {
-  padding-left: 0%;
-  width: 1600px;
-  height: 900px;
-}
-
-.reviews .swiper-pagination .swiper-button-prev img {
-  margin-left: 20px;
-  
-}
-
-div .swiper-pagination 
-.swiper-pagination-bullets 
-.swiper-pagination-vertical {
-  background-color: #e06e6e00;
-}
-
-div .swiper-scrollbar-drag {
-  background-color: var(--color-geraldine);
-}
-
-div .swiper-pagination-bullet {
-  background-color: #bd2a2000;
-}
-
-div.swiper-scrollbar.swiper-scrollbar-vertical {
-  background-color: #bd2a2000;
-}
-
-div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
-  background-color: #bd202000;
-}
-
 
 /*BOOK-FORM SECTION STARTS*/
 #enterDetails {
@@ -856,6 +758,31 @@ padding: 3rem 2rem;
   color: var(--color-geraldine);
 }
 /*BOOK-FORM SECTION ENDS*/
+/*PAYMENT INFO STARTS*/
+html body.parallax section#reviews.reviews div.article-container div.payment{
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(244, 246, 247));
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+}
+
+html body.parallax section#reviews.reviews div.article-container div.payment img{
+  width: 650px; /* Change the value to adjust the width */
+  height: 200px; }
+
+html body.parallax section#reviews.reviews div.article-container div.payment h3{
+    font-size: 1.3vw;
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
+    font-size: 1.3vw;
+  }
+  /*PAYMENT INFO ENDS*/
 /*  FOOTER SECTION STARTS*/
 
 .footer {
@@ -1171,6 +1098,8 @@ display: none;
 
 
 
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -1238,6 +1167,37 @@ display: none;
 
 
 @media (max-width: 768px) {
+
+
+/*PAYMENT INFO STARTS*/
+html body.parallax section#reviews.reviews div.article-container div.payment{
+  -webkit-text-stroke: 0.5px rgb(254, 221, 255);
+  background: -webkit-linear-gradient(rgb(244, 246, 247));
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+  color: #ffff;
+}
+
+html body.parallax section#reviews.reviews div.article-container div.payment img{
+  width: 650px; /* Change the value to adjust the width */
+  height: 100px; 
+  margin-left: 0%;
+
+}
+
+html body.parallax section#reviews.reviews div.article-container div.payment h3{
+    font-size: 2.3vw;
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
+    font-size: 2.3vw;
+  }
+  /*PAYMENT INFO ENDS*/
 
   .preloader {
     position: fixed;
@@ -1461,6 +1421,8 @@ display: none;
   color: #fff;
   padding: 1rem 0;
 }
+
+
 }
 
 
