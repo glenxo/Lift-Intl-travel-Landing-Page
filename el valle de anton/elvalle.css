@@ -1212,6 +1212,25 @@ display: none;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -1759,7 +1778,7 @@ html body.parallax section#reviews.reviews img#images {
 }
 
 html body.parallax section#reviews.reviews div p {
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 
 .heading span {
@@ -2021,6 +2040,10 @@ z-index: 1;
 opacity: 0.7;
 }
 
+html body.parallax section#reviews.reviews div.article-container div#footer.credit span{
+  font-size: 1.3rem;
+
+}
 .credit {
   background: var(--color-dark);
   text-align: center;
