@@ -1213,6 +1213,17 @@ display: none;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -1711,12 +1722,24 @@ header.active {
 
   /*REVIEWS SECTION STARTS*/
 
+  html body.parallax section#reviews.reviews div.article-container section.reviews div.article-title h1{
+    font-size: 3.5rem;
+
+  }
 .reviews h1 {
   margin-top: 50px;
   text-align: center;
   margin-bottom: 5rem;
-  font-size: 4rem;
+  margin-top: 5rem;
+  font-size: 2rem;
 
+}
+
+html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text h2 {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  font-size: 2.7rem;
 }
 
 .reviews strong {
@@ -1747,12 +1770,18 @@ html body.parallax section#reviews.reviews img#images {
   border-radius: 1.5%;
 }
 
+html body.parallax section#reviews.reviews div p {
+  font-size: 3vw;
+}
 
 .heading span {
   color: var(--color-casper2);
   font-size: 2rem;
 }
 
+html body.parallax section#reviews.reviews h1.heading{
+  padding: 8%;
+}
 /*REVIEWS SECTION ENDS*/
   
   
@@ -1881,7 +1910,7 @@ text-align: center;
 }
 
 .reviews h1.heading strong {
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 
 
@@ -1908,7 +1937,7 @@ text-align: center;
 
 div.article div.article-text p {
 -webkit-text-stroke: 1.5.0px rgb(150, 203, 207);
-font-size: 2.3rem;
+font-size: 2rem;
 margin-top: 0;
 line-height: 1.3;
 text-align: justify;
@@ -1921,18 +1950,18 @@ html body.parallax section#reviews.reviews div.article-container div.article-tit
   -ms-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
   background: var(--color-darker);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
   box-shadow: 0 0.5rem 1rem #11111131;
   padding: 3rem 2rem;
   letter-spacing: 6px;
-  -webkit-text-stroke: 2.0px rgb(237, 253, 240);
+  -webkit-text-stroke: 0.5px rgb(194, 184, 252);
   text-shadow: 0 0 5px #a5cad211, 
   0 0 75px #a5cad25e;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: -7rem;
   flex-direction: column;
   justify-content: center;
@@ -1966,78 +1995,6 @@ html body.parallax section.reviews div.article-title h1 {
 /*ARTICLE SECTION ENDS*/
 }
 
-/*swiper-scrollbar SECTION STARTS*/
-
-.swiper {
-  width: 350px;
-  height: 350px;
-  margin-top: 20px;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-  box-shadow: 0 0.1rem 0.3rem #1111114d;
-  padding: 0.5rem 0.1rem;
-}
-
-.swiper img {
-  border: 0.1rem solid var(--);
-  width: 20px;
-  height: 30px;
-  
-  
-}
-
-  div.swiper-slide.slide.swiper-slide-active img {
-  width: 900px;
-  height: 1800px;
-}
-
-.swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-div.swiper-button-prev::after {
-  color: #20bdad00;
-}
-
-div.swiper-button-next::after {
-  padding-left: 0%;
-  color: #20bdad00;
-}
-
-  .swiper-button-pre img {
-  padding-left: 0%;
-  width: 1600px;
-  height: 900px;
-}
-
-.reviews .swiper-pagination .swiper-button-prev img {
-  margin-left: 20px;
-  
-}
 
 .footer .box-container .box h3 {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
