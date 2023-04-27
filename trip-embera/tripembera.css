@@ -681,11 +681,6 @@ html body.parallax section.reviews div.article-title p {
   text-align: center;
 }
 
-html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong {
-  font-size: 2.3rem;
-
-}
-
   /*ARTICLE SECTION ENDS*/
 /*swiper-scrollbar SECTION STARTS*/
 
@@ -975,6 +970,10 @@ letter-spacing: 15px;
 text-shadow: 0 0 5px #a5cad211, 
 0 0 10px #a5cad227, 
 0 0 15px #a5cad20c,
+0 0 20px #a5cad21c, 
+0 0 30px #a5cad213, 
+0 0 40px #a5cad217,
+0 0 50px #a5cad279, 
 0 0 75px #a5cad25e;
 background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
 -webkit-background-clip: text;
@@ -1206,8 +1205,6 @@ height: 15%;
 .outer {
 display: none;
 }
-
-
 
 
 
