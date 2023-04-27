@@ -1836,7 +1836,7 @@ background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(93
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 2rem;
-margin-top: -5%;
+margin-top: 5%;
 margin-bottom: 10%;
 display: block;
 justify-content: center;
@@ -1985,6 +1985,16 @@ html body.parallax section.reviews div.article-title h1 {
   color: var(--color-geraldine);
   
   }
+
+  html body.parallax section#reviews.reviews div.article-container section#contact.footer div.box-container h4 {
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter;
+    font-size: 2vw;
+  }
   
   .footer .box-container .box h5 {
   letter-spacing: 5px;
@@ -1995,6 +2005,7 @@ html body.parallax section.reviews div.article-title h1 {
   font-weight: bolder;
   margin-bottom: -13%;
   font-size: 3vw;
+  top: 0%;
   }
   
   
@@ -2062,6 +2073,7 @@ html body.parallax section.reviews div.article-title h1 {
   padding: 1.2rem 1.4rem;
   }
   
+
   /*FOOTER SECTION ENDS*/
 
 
