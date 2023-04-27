@@ -681,12 +681,105 @@ html body.parallax section.reviews div.article-title p {
   text-align: center;
 }
 
-html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong {
-  font-size: 2.3rem;
+  /*ARTICLE SECTION ENDS*/
+/*swiper-scrollbar SECTION STARTS*/
 
+
+
+.swiper {
+  width: 1270px;
+  height: 920px;
+  margin-top: 20px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1rem;
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
+  box-shadow: 0 0.1rem 0.3rem #1111114d;
+  padding: 0.5rem 0.1rem;
 }
 
-  /*ARTICLE SECTION ENDS*/
+
+div.swiper-slide.slide.swiper-slide-active img {
+  width: 1400px;
+  height: 1400px;
+}
+
+
+
+.swiper img {
+  border: 0.1rem solid var(--);
+  width: 50px;
+  height: 50px;
+}
+
+.swiper-scrollbar .swiper-scrollbar-vertical {
+  background-color: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border-color: #20bdad;
+}
+
+.swiper-scrollbar-vertical {
+  background-color: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border-color: #20bdad;
+}
+
+.swiper-scrollbar {
+  background-color: var(--color-strikemaster2);
+  color: var(--color-casper2);
+  border-color: #20bdad;
+}
+
+div.swiper-button-prev::after {
+  color: #20bdad00;
+}
+
+div.swiper-button-next::after {
+  padding-left: 0%;
+  color: #20bdad00;
+}
+
+  .swiper-button-pre img {
+  padding-left: 0%;
+  width: 1600px;
+  height: 900px;
+}
+
+.reviews .swiper-pagination .swiper-button-prev img {
+  margin-left: 20px;
+  
+}
+
+div .swiper-pagination 
+.swiper-pagination-bullets 
+.swiper-pagination-vertical {
+  background-color: #e06e6e00;
+}
+
+div .swiper-scrollbar-drag {
+  background-color: var(--color-geraldine);
+}
+
+div .swiper-pagination-bullet {
+  background-color: #bd2a2000;
+}
+
+div.swiper-scrollbar.swiper-scrollbar-vertical {
+  background-color: #bd2a2000;
+}
+
+div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
+  background-color: #bd202000;
+}
+
 
 /*BOOK-FORM SECTION STARTS*/
 #enterDetails {
@@ -1112,10 +1205,6 @@ height: 15%;
 .outer {
 display: none;
 }
-
-
-
-
 
 
 
