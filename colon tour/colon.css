@@ -1249,7 +1249,7 @@ display: none;
   }
 
   html body.parallax section#reviews.reviews div.article-container div.payment h3 strong {
-      font-size: 1.5vw;
+      font-size: 3vw;
   color: rgb(0, 255, 21);
   -webkit-text-stroke: 0.7px rgb(255, 255, 255);
 }
@@ -1257,7 +1257,7 @@ display: none;
 
 /*PAYMENT INFO STARTS*/
 html body.parallax section#reviews.reviews div.article-container div.payment{
-  -webkit-text-stroke: 0.5px rgb(254, 221, 255);
+  -webkit-text-stroke: 0.5px rgb(233, 233, 233);
   background: -webkit-linear-gradient(rgb(244, 246, 247));
   font-weight: bolder;
   text-align: center;
@@ -1265,7 +1265,7 @@ html body.parallax section#reviews.reviews div.article-container div.payment{
   padding-right: 50px;
   margin-top: 4%;
   margin-bottom: 2%;
-  font-size: 1.5vw;
+  font-size: 4vw;
   color: #ffff;
 }
 
@@ -1277,7 +1277,7 @@ html body.parallax section#reviews.reviews div.article-container div.payment img
 }
 
 html body.parallax section#reviews.reviews div.article-container div.payment h3{
-    font-size: 2.3vw;
+    font-size: 3vw;
   }
 
   html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
@@ -1876,11 +1876,7 @@ text-align: justify;
 
 html body.parallax section#reviews.reviews div.article-container div.article-title p {
 
-  gap: 3rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 0.5rem;
+
   -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
   box-shadow: 0 0.5rem 1rem #1111115b;
   padding: 3rem 2rem;
@@ -1891,32 +1887,20 @@ html body.parallax section#reviews.reviews div.article-container div.article-tit
   -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
   margin-top: -7rem;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+
 }
 
 html body.parallax section.reviews div.article-title h1 {
-  gap: 3rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
+
   -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
   box-shadow: 0 0.5rem 1rem #11111156;
   padding: 3rem 2rem;
   letter-spacing: 6px;
-  -webkit-text-stroke: 1.0px rgb(237, 253, 240);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 75px #a5cad25e;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 5rem;
   margin-top: 7rem;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+
 }
 
 
