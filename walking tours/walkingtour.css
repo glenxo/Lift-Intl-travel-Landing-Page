@@ -1281,6 +1281,41 @@ display: none;
 
 @media (max-width: 768px) {
 
+
+  .preloader {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 105%;
+    overflow: visible;
+    background: #030202;
+  }
+  
+  .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 75px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  /* Show the content after the preloader is hidden */
+  .preloader:not(:hover) + .content {
+    display: block;
+  }
+  
+
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad25b, 
