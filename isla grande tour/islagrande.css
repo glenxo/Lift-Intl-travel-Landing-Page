@@ -63,9 +63,7 @@ html::-webkit-scrollbar-thumb {
 
 strong {
   color: rgb(0, 255, 21);
-  -webkit-text-stroke: 1.2px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad23b, 
-                0 0 75px #a5cad22a;
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
 }
 
 body {
@@ -83,7 +81,7 @@ body {
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
-  background-size: 500%; /* zoom out the image by 50% */
+  background-size: 650%; /* zoom out the image by 50% */
   position: relative; 
 }
 
@@ -237,11 +235,6 @@ img {
 
 .home .content strong {
   -webkit-text-stroke: 1.0px rgb(0, 255, 34);
-  text-shadow: 0 0 5px #a5cad22d, 
-                0 0 10px #a5cad244, 
-                0 0 20px #a5cad23b, 
-                0 0 40px #a5cad221,
-                0 0 75px #a5cad227;
   background: -webkit-linear-gradient(rgb(195, 91, 255),rgb(74, 209, 243), rgb(9, 255, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -478,10 +471,7 @@ html body.parallax section#reviews.reviews img#images {
 .reviews strong {
   letter-spacing: 5px;
   -webkit-text-stroke: 2.0px rgb(38, 255, 0);
-  text-shadow: 0 0 5px #a5cad264, 
-  0 0 10px #a5cad271, 
-  0 0 75px #a5cad290;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
+  background: -webkit-linear-gradient(rgb(217, 246, 250),rgb(74, 243, 83), rgb(77, 255, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -510,6 +500,10 @@ html body.parallax section#reviews.reviews img#images {
   margin-top: 1%;
   color: var(--color-casper2);
   text-transform: capitalize;
+}
+
+html body.parallax section#reviews.reviews div p strong a {
+  font-size: 2.5rem;
 }
 
 /*REVIEW SECTION ENDS*/
@@ -598,6 +592,10 @@ div.article div.article-text h2 {
   text-align: center;
 }
 
+html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p strong {
+  font-size: 2.5rem;
+}
+
 .article {
   background: var(--color-darker);
   border-radius: 1rem;
@@ -627,104 +625,59 @@ div.article div.article-text h2 {
   padding: 4%;
 }
 
-  /*ARTICLE SECTION ENDS*/
-/*swiper-scrollbar SECTION STARTS*/
-
-
-
-.swiper {
-  width: 1070px;
-  height: 920px;
-  margin-top: 20px;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1rem;
+html body.parallax section.reviews div.article-title h1 {
+  gap: 3rem;
   -ms-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
   background: var(--color-darker);
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-  box-shadow: 0 0.1rem 0.3rem #1111114d;
-  padding: 0.5rem 0.1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+  box-shadow: 0 0.5rem 1rem #11111131;
+  padding: 3rem 2rem;
+  letter-spacing: 6px;
+  -webkit-text-stroke: 2.0px rgb(237, 253, 240);
+  text-shadow: 0 0 5px #a5cad211, 
+  0 0 75px #a5cad25e;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7rem;
+  margin-top: 7rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-
-div.swiper-slide.slide.swiper-slide-active img {
-  width: 1400px;
-  height: 1400px;
+html body.parallax section.reviews div.article-title p {
+  gap: 3rem;
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+  background: var(--color-darker);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+  box-shadow: 0 0.5rem 1rem #11111131;
+  padding: 3rem 2rem;
+  letter-spacing: 6px;
+  -webkit-text-stroke: 2.0px rgb(237, 253, 240);
+  text-shadow: 0 0 5px #a5cad211, 
+  0 0 75px #a5cad25e;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 7rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
+html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong {
+  font-size: 2.3rem;
 
-
-.swiper img {
-  border: 0.1rem solid var(--);
-  width: 50px;
-  height: 50px;
 }
 
-.swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
+  /*ARTICLE SECTION ENDS*/
 
-.swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-div.swiper-button-prev::after {
-  color: #20bdad00;
-}
-
-div.swiper-button-next::after {
-  padding-left: 0%;
-  color: #20bdad00;
-}
-
-  .swiper-button-pre img {
-  padding-left: 0%;
-  width: 1600px;
-  height: 900px;
-}
-
-.reviews .swiper-pagination .swiper-button-prev img {
-  margin-left: 20px;
-  
-}
-
-div .swiper-pagination 
-.swiper-pagination-bullets 
-.swiper-pagination-vertical {
-  background-color: #e06e6e00;
-}
-
-div .swiper-scrollbar-drag {
-  background-color: var(--color-geraldine);
-}
-
-div .swiper-pagination-bullet {
-  background-color: #bd2a2000;
-}
-
-div.swiper-scrollbar.swiper-scrollbar-vertical {
-  background-color: #bd2a2000;
-}
-
-div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
-  background-color: #bd202000;
-}
 
 
 /*BOOK-FORM SECTION STARTS*/
@@ -786,10 +739,6 @@ html body.parallax section div#enterDetails input#enterAmount {
   text-align: center;
   letter-spacing: 15px;
   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad28f, 
-                0 0 20px #a5cad29c, 
-                0 0 40px #a5cad294,
-                0 0 75px #a5cad2a8;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -803,10 +752,6 @@ html body.parallax section div#enterDetails input#enterAmount {
 #enterDetails H4 {
       text-align: center;
   -webkit-text-stroke: 1.3px rgba(255, 255, 255, 0.485);
-  text-shadow: 0 0 5px #a5cad2aa, 
-              0 0 20px #a5cad252, 
-              0 0 40px #c84bb54e,
-              0 0 75px #ed87e656;
   background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -856,6 +801,36 @@ padding: 3rem 2rem;
   color: var(--color-geraldine);
 }
 /*BOOK-FORM SECTION ENDS*/
+
+/*PAYMENT INFO STARTS*/
+html body.parallax section#reviews.reviews div.article-container div.payment{
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(244, 246, 247));
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+}
+
+html body.parallax section#reviews.reviews div.article-container div.payment img{
+  width: 650px; /* Change the value to adjust the width */
+  height: 200px; }
+
+html body.parallax section#reviews.reviews div.article-container div.payment h3{
+    font-size: 1.3vw;
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
+    font-size: 1.3vw;
+  }
+  /*PAYMENT INFO ENDS*/
+
+
+
+
 /*  FOOTER SECTION STARTS*/
 
 .footer {
@@ -893,7 +868,7 @@ background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(25
 -webkit-text-fill-color: transparent;
 font-weight: bolder;
 margin-top: 2%;
-font-size: 3.5vw;
+font-size: 2.5vw;
 }
 
 .footer .box-container .box p {
@@ -908,6 +883,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
 .footer .box-container .box p i {
 padding-right: 0.5rem;
 color: var(--color-geraldine);
+
 }
 
 .footer .box-container .box h5 {
@@ -947,6 +923,14 @@ color: var(--color-kimberly);
 background: var(--color-geraldine);
 margin-right: 0.5rem;
 text-align: center;
+-webkit-text-stroke: 1.0px rgb(255, 255, 255);
+text-shadow: 0 0 5px #a5cad25b, 
+              0 0 10px #a5cad271, 
+              0 0 15px #a5cad265,
+              0 0 75px #a5cad25d;
+background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .footer .box-container .box .share a:hover {
@@ -987,6 +971,26 @@ padding: 1.2rem 1.4rem;
 }
 
 /*FOOTER SECTION ENDS*/
+
+
+html body.parallax section#reviews.reviews div.article-container section#contact.footer{
+  text-align: center;
+  width: 80%;
+  max-height: 5%;
+  margin: 1rem auto;
+  margin-top: 5rem;
+  color: var(--color-geraldine);
+  background: var(--color-darker);
+  border: 0.2rem solid var(--color-strikemaster);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
+  box-shadow: 0 0.5rem 1rem #1111114d;
+
+}
+
+
+
+
 
 .credit {
 background: var(--color-dark);
@@ -1164,6 +1168,12 @@ display: none;
 
 
 
+
+
+
+
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -1232,6 +1242,49 @@ display: none;
 
 @media (max-width: 768px) {
 
+  html body.parallax section#reviews.reviews h1.heading strong{
+          font-size: 5vw;
+  color: rgb(0, 255, 21);
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong {
+      font-size: 1.5vw;
+  color: rgb(0, 255, 21);
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+}
+
+
+/*PAYMENT INFO STARTS*/
+html body.parallax section#reviews.reviews div.article-container div.payment{
+  -webkit-text-stroke: 0.5px rgb(254, 221, 255);
+  background: -webkit-linear-gradient(rgb(244, 246, 247));
+  font-weight: bolder;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 1.5vw;
+  color: #ffff;
+}
+
+html body.parallax section#reviews.reviews div.article-container div.payment img{
+  width: 650px; /* Change the value to adjust the width */
+  height: 100px; 
+  margin-left: 0%;
+
+}
+
+html body.parallax section#reviews.reviews div.article-container div.payment h3{
+    font-size: 2.3vw;
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
+    font-size: 2.3vw;
+  }
+  /*PAYMENT INFO ENDS*/
+
   .preloader {
     position: fixed;
     z-index: 9999;
@@ -1298,12 +1351,6 @@ display: none;
   .home .content span {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad28f, 
-                  0 0 10px #a5cad2a4, 
-                  0 0 15px #a5cad29f,
-                  0 0 20px #a5cad29c, 
-                  0 0 30px #a5cad296, 
-                  0 0 40px #a5cad294,
-                  0 0 50px #a5cad298, 
                   0 0 75px #a5cad2a8;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
@@ -1346,12 +1393,6 @@ display: none;
   .preview span {
   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
   text-shadow: 0 0 5px #a5cad25b, 
-                0 0 10px #a5cad271, 
-                0 0 15px #a5cad265,
-                0 0 20px #a5cad26c, 
-                0 0 30px #a5cad265, 
-                0 0 40px #a5cad265,
-                0 0 50px #a5cad275, 
                 0 0 75px #a5cad25d;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -1414,12 +1455,6 @@ display: none;
 .preview .grid-container span {
   -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 5px #a5cad23b, 
-          0 0 10px #a5cad25b, 
-          0 0 15px #97c6ff  52,
-          0 0 20px #a5cad252, 
-          0 0 30px #a5cad24d, 
-          0 0 40px #a5cad254,
-          0 0 50px #a5cad25e, 
           0 0 75px #a5cad267;
   background: -webkit-linear-gradient(rgb(216, 241, 245),#ff5fbc, rgb(56, 238, 255), rgb(0, 200, 255)); 
   -webkit-background-clip: text;
@@ -1443,9 +1478,6 @@ display: none;
   .footer .box-container .box h3 {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
     text-shadow: 0 0 5px #a5cad2aa, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #c84bb54e,
                 0 0 75px #ed87e656;
     background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(196, 100, 255), rgb(225, 160, 255));
     -webkit-background-clip: text;
@@ -1454,6 +1486,8 @@ display: none;
   color: #fff;
   padding: 1rem 0;
 }
+
+
 }
 
 
@@ -1567,12 +1601,6 @@ header.active {
   .home .content span {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad28f, 
-                  0 0 10px #a5cad2a4, 
-                  0 0 15px #a5cad29f,
-                  0 0 20px #a5cad29c, 
-                  0 0 30px #a5cad296, 
-                  0 0 40px #a5cad294,
-                  0 0 50px #a5cad298, 
                   0 0 75px #a5cad2a8;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
@@ -1582,20 +1610,6 @@ header.active {
     
   }
 
-    .home .content strong {
-  -webkit-text-stroke: 1.0px rgb(0, 255, 34);
-  text-shadow: 0 0 5px #a5cad22d, 
-                0 0 10px #a5cad244, 
-                0 0 20px #a5cad23b, 
-                0 0 40px #a5cad221,
-                0 0 75px #a5cad227;
-  background: -webkit-linear-gradient(rgb(195, 91, 255),rgb(74, 209, 243), rgb(9, 255, 0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  margin-top: 4%;
-  font-size: 2rem;
-}
 
 
   .home {
@@ -1657,7 +1671,7 @@ header.active {
   }  
   
   .banner .content h4 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   /*REVIEWS SECTION STARTS*/
@@ -1685,10 +1699,6 @@ html body.parallax section#reviews.reviews div.article-container div.article.aos
 .reviews strong {
   letter-spacing: 5px;
   -webkit-text-stroke: 2.0px rgb(38, 255, 0);
-  text-shadow: 0 0 5px #a5d2c764, 
-  0 0 10px #a5cad271, 
-  0 0 50px #a5cad279, 
-  0 0 75px #a5cad290;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1729,12 +1739,6 @@ html body.parallax section#reviews.reviews h1.heading{
     margin-top: -150px;
     -webkit-text-stroke: 2.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad23b, 
-                  0 0 10px #a5cad25b, 
-                  0 0 15px #a5cad233,
-                  0 0 20px #a5cad21e, 
-                  0 0 30px #a5cad225, 
-                  0 0 40px #a5cad227,
-                  0 0 50px #a5cad22d, 
                   0 0 75px #a5cad22a;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
@@ -1752,12 +1756,6 @@ html body.parallax section#reviews.reviews h1.heading{
     letter-spacing: 15px;
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad28f, 
-                  0 0 10px #a5cad2a4, 
-                  0 0 15px #a5cad29f,
-                  0 0 20px #a5cad29c, 
-                  0 0 30px #a5cad296, 
-                  0 0 40px #a5cad294,
-                  0 0 50px #a5cad298, 
                   0 0 75px #a5cad2a8;
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
@@ -1801,7 +1799,7 @@ html body.parallax section#reviews.reviews h1.heading{
 
 
 html body.parallax section#reviews.reviews div.article-container div.article-title h1 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   display: flex;
 flex-direction: column;
 justify-content: center;
@@ -1814,8 +1812,6 @@ letter-spacing: 10px;
 -webkit-text-stroke: 2.0px rgb(41, 233, 73);
 text-shadow: 0 0 5px #a5cad211, 
 0 0 10px #a5cad227, 
-0 0 20px #a5cad21c, 
-0 0 40px #a5cad217,
 0 0 75px #a5cad25e;
 background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
 -webkit-background-clip: text;
@@ -1835,18 +1831,17 @@ letter-spacing: 5px;
 -webkit-text-stroke: 0.5px rgb(150, 240, 90);
 text-shadow: 0 0 5px #a5cad211, 
 0 0 10px #a5cad227, 
-0 0 20px #a5cad21c, 
-0 0 40px #a5cad217,
 0 0 75px #a5cad25e;
 background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(93, 196, 255));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-size: 2.7rem;
-margin-top: -5%;
+font-size: 2rem;
+margin-top: 5%;
 margin-bottom: 10%;
 display: block;
 justify-content: center;
 text-align: center;
+padding: 3%;
 }
 
 .reviews h1.heading strong {
@@ -1857,11 +1852,6 @@ text-align: center;
 div.article div.article-text h2 {
 letter-spacing: 8px;
 -webkit-text-stroke: 0.7px rgb(226, 255, 206);
-text-shadow: 0 0 5px #a5cad211, 
-0 0 10px #a5cad227, 
-0 0 20px #a5cad21c, 
-0 0 40px #a5cad217,
-0 0 75px #a5cad25e;
 background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(0, 153, 255));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -1892,13 +1882,11 @@ html body.parallax section#reviews.reviews div.article-container div.article-tit
   background: var(--color-darker);
   border-radius: 0.5rem;
   -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
-  box-shadow: 0 0.5rem 1rem #11111131;
+  box-shadow: 0 0.5rem 1rem #1111115b;
   padding: 3rem 2rem;
-  letter-spacing: 6px;
-  -webkit-text-stroke: 0.5px rgb(194, 184, 252);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
+  letter-spacing: 2.5px;
+  -webkit-text-stroke: 0.5px rgb(169, 155, 252);
+  background: -webkit-linear-gradient(rgb(214, 250, 255),rgb(218, 197, 238), rgb(255, 193, 250));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
@@ -1938,11 +1926,6 @@ html body.parallax section.reviews div.article-title h1 {
 
 .footer .box-container .box h3 {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
-    text-shadow: 0 0 5px #a5cad2aa, 
-                0 0 10px #a5cad25b, 
-                0 0 20px #a5cad252, 
-                0 0 40px #c84bb54e,
-                0 0 75px #ed87e656;
     background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(196, 100, 255), rgb(225, 160, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1950,6 +1933,149 @@ html body.parallax section.reviews div.article-title h1 {
   color: #fff;
   padding: 1rem 0;
 }
+
+
+/*  FOOTER SECTION STARTS*/
+
+.footer {
+  background-image: url(media/footerimg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .footer .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.7rem;
+  }
+  
+  .footer .box-container .box {
+  padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .logo {
+  padding-bottom: 10rem;
+  
+  }
+  
+  
+  .footer .box-container .box h3 {
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 2%;
+  font-size: 9vw;
+  }
+  
+  .footer .box-container .box p {
+  font-size: 2.3rem;
+  color: var(--color-casper2);
+  padding: 1rem 0;
+  line-height: 1.4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
+    -2px -2px 4px rgb(218, 183, 252);
+  }
+  
+  .footer .box-container .box p i {
+  padding-right: 0.5rem;
+  color: var(--color-geraldine);
+  
+  }
+
+  html body.parallax section#reviews.reviews div.article-container section#contact.footer div.box-container h4 {
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: lighter;
+    font-size: 2vw;
+  }
+  
+  .footer .box-container .box h5 {
+  letter-spacing: 5px;
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-bottom: -13%;
+  font-size: 3vw;
+  top: 0%;
+  }
+  
+  
+  
+  .footer .box-container .box .share {
+  padding-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  border: 0.2rem solid var(--color-geraldine);
+  color: var(--color-kimberly);
+  background: var(--color-geraldine);
+  margin-right: 0.5rem;
+  text-align: center;
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad25b, 
+                0 0 10px #a5cad271, 
+                0 0 15px #a5cad265,
+                0 0 75px #a5cad25d;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .footer .box-container .box .share a:hover {
+  background: var(--color-kimberly);
+  color: var(--color-casper);
+  }
+  
+  .footer .box-container .box .links {
+  font-size: 2.5rem;
+  color: var(--color-casper2);
+  padding: 1rem 0;
+  display: block;
+  }
+  
+  .footer .box-container .box .links:hover {
+  color: #ff0028;
+  }
+  
+  .footer .box-container .box .links:hover i {
+  padding-right: 2rem;
+  }
+  
+  .footer .box-container .box .links i {
+  padding-right: 0.5rem;
+  color: var(--color-geraldine);
+  }
+  
+  .footer .box-container .box form .email {
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--color-geraldine);
+  background: none;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: #aaa;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.4rem;
+  }
+  
+
+  /*FOOTER SECTION ENDS*/
+
 
 .btn {
   margin-top: 3rem;
@@ -1977,6 +2103,20 @@ html body.parallax section#reviews.reviews div.article-container div#footer.cred
   font-size: 1.3rem;
 
 }
+
+#enterDetails > h1:nth-child(1){
+  text-align: center;
+  letter-spacing: 15px;
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin-top: 4%;
+  font-size: 5.5vw;
+  display: block;
+}
+
 .credit {
   background: var(--color-dark);
   text-align: center;
