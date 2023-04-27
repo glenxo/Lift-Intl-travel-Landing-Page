@@ -1207,6 +1207,7 @@ display: none;
     height: 105%;
     overflow: visible;
     background: #030202;
+    top: 0%;
   }
   
   .loader {
@@ -1232,7 +1233,7 @@ display: none;
   .preloader:not(:hover) + .content {
     display: block;
   }
-  
+
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad25b, 
@@ -1633,8 +1634,16 @@ header.active {
   margin-top: 50px;
   text-align: center;
   margin-bottom: 5rem;
-  font-size: 4rem;
+  margin-top: 5rem;
+  font-size: 3rem;
 
+}
+
+html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text h2 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2.7rem;
 }
 
 .reviews strong {
@@ -1665,6 +1674,9 @@ html body.parallax section#reviews.reviews img#images {
   border-radius: 1.5%;
 }
 
+html body.parallax section#reviews.reviews div p {
+  font-size: 3vw;
+}
 
 .heading span {
   color: var(--color-casper2);
@@ -1799,7 +1811,7 @@ text-align: center;
 }
 
 .reviews h1.heading strong {
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 
 
