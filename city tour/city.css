@@ -1786,7 +1786,6 @@ html body.parallax section#reviews.reviews img#images {
 
 @media screen and (max-width: 768px) {
 
-
   .preloader {
     position: fixed;
     z-index: 9999;
@@ -1794,6 +1793,7 @@ html body.parallax section#reviews.reviews img#images {
     height: 105%;
     overflow: visible;
     background: #030202;
+    top: 0%;
   }
   
   .loader {
@@ -1819,7 +1819,7 @@ html body.parallax section#reviews.reviews img#images {
   .preloader:not(:hover) + .content {
     display: block;
   }
-  
+
 .article {
   flex-direction: column-reverse;
 }

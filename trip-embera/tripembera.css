@@ -1277,7 +1277,6 @@ display: none;
 
 @media (max-width: 768px) {
 
-
   .preloader {
     position: fixed;
     z-index: 9999;
@@ -1285,6 +1284,7 @@ display: none;
     height: 105%;
     overflow: visible;
     background: #030202;
+    top: 0%;
   }
   
   .loader {
@@ -1310,7 +1310,7 @@ display: none;
   .preloader:not(:hover) + .content {
     display: block;
   }
-  
+
   .header .navbar a {
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     text-shadow: 0 0 5px #a5cad25b, 
