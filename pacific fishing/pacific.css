@@ -803,7 +803,7 @@ padding: 3rem 2rem;
 /*BOOK-FORM SECTION ENDS*/
 
 /*PAYMENT INFO STARTS*/
-html body.parallax section#reviews.reviews div.article-container div.payment{
+html body.parallax div.payment{
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   background: -webkit-linear-gradient(rgb(244, 246, 247));
   font-weight: bolder;
@@ -813,6 +813,7 @@ html body.parallax section#reviews.reviews div.article-container div.payment{
   margin-top: 4%;
   margin-bottom: 2%;
   font-size: 1.5vw;
+  color: #ffff;
 }
 
 html body.parallax section#reviews.reviews div.article-container div.payment img{
@@ -1256,7 +1257,7 @@ display: none;
 
 
 /*PAYMENT INFO STARTS*/
-html body.parallax section#reviews.reviews div.article-container div.payment{
+html body.parallax div.payment{
   -webkit-text-stroke: 0.5px rgb(233, 233, 233);
   background: -webkit-linear-gradient(rgb(244, 246, 247));
   font-weight: bolder;
@@ -1269,14 +1270,14 @@ html body.parallax section#reviews.reviews div.article-container div.payment{
   color: #ffff;
 }
 
-html body.parallax section#reviews.reviews div.article-container div.payment img{
+html body.parallax div.payment img{
   width: 650px; /* Change the value to adjust the width */
   height: 100px; 
   margin-left: 0%;
 
 }
 
-html body.parallax section#reviews.reviews div.article-container div.payment h3{
+html body.parallax div.payment h3{
     font-size: 3vw;
   }
 
@@ -1653,7 +1654,7 @@ header.active {
     -ms-flex-wrap: wrap-reverse;
     flex-wrap: wrap-reverse;
     background: var(--color-darker);
-    line-height: 4em;
+    line-height: 3em;
     border-radius: 1rem;
     -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
     box-shadow: 0 0.5rem 1rem #1111114d;
@@ -1667,7 +1668,7 @@ header.active {
   }
 
   .banner .content span {
-    font-size: 4rem;
+    font-size: 3rem;
   }  
   
   .banner .content h4 {
@@ -1676,8 +1677,8 @@ header.active {
 
   /*REVIEWS SECTION STARTS*/
 
-  html body.parallax section#reviews.reviews div.article-container section.reviews div.article-title h1{
-    font-size: 3.5rem;
+  html body.parallax section.reviews div.article-title h1{
+    font-size: 3rem;
 
   }
 .reviews h1 {
@@ -1809,11 +1810,8 @@ text-align: center;
 
 div.article-container div.article-title h1 {
 letter-spacing: 10px;
--webkit-text-stroke: 2.0px rgb(41, 233, 73);
-text-shadow: 0 0 5px #a5cad211, 
-0 0 10px #a5cad227, 
-0 0 75px #a5cad25e;
-background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+-webkit-text-stroke: 1.0px rgb(41, 233, 73);
+background: -webkit-linear-gradient(rgb(223, 251, 255),rgb(208, 158, 255), rgb(255, 93, 241));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-weight: bolder;
@@ -1829,10 +1827,7 @@ text-align: center;
 div.article-container div.article-title h2 {
 letter-spacing: 5px;
 -webkit-text-stroke: 0.5px rgb(150, 240, 90);
-text-shadow: 0 0 5px #a5cad211, 
-0 0 10px #a5cad227, 
-0 0 75px #a5cad25e;
-background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(93, 196, 255));
+background: -webkit-linear-gradient(rgb(248, 254, 255),rgb(218, 245, 255), rgb(149, 216, 255));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 2rem;
@@ -1845,14 +1840,14 @@ padding: 3%;
 }
 
 .reviews h1.heading strong {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 
 div.article div.article-text h2 {
-letter-spacing: 8px;
--webkit-text-stroke: 0.7px rgb(226, 255, 206);
-background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(0, 153, 255));
+letter-spacing: 4px;
+-webkit-text-stroke: 0.7px rgb(255, 255, 255);
+background: -webkit-linear-gradient(rgb(226, 252, 255),rgb(162, 229, 255),rgb(179, 225, 255)));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 3.7rem;
@@ -1874,7 +1869,7 @@ text-align: justify;
 }
 
 
-html body.parallax section#reviews.reviews div.article-container div.article-title p {
+html body.parallax section.reviews div.article-title p {
 
 
   -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
@@ -1887,7 +1882,6 @@ html body.parallax section#reviews.reviews div.article-container div.article-tit
   -webkit-text-fill-color: transparent;
   font-size: 1.5rem;
   margin-top: -7rem;
-
 }
 
 html body.parallax section.reviews div.article-title h1 {
@@ -1902,11 +1896,21 @@ html body.parallax section.reviews div.article-title h1 {
   margin-top: 7rem;
 
 }
-
-
+}
 /*ARTICLE SECTION ENDS*/
 }
 
+html body.parallax section#contact.footer{
+  width: 100%;
+border-radius: 5rem;
+border: 0.2rem solid var(--color-geraldine);
+background: none;
+font-size: 1.5rem;
+text-transform: none;
+color: #aaa;
+margin-bottom: 1rem;
+padding: 3%;
+}
 
 .footer .box-container .box h3 {
     -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
@@ -1933,6 +1937,7 @@ html body.parallax section.reviews div.article-title h1 {
   -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.7rem;
+  
   }
   
   .footer .box-container .box {
@@ -1954,9 +1959,20 @@ html body.parallax section.reviews div.article-title h1 {
   margin-top: 2%;
   font-size: 9vw;
   }
-  
+
+
+
   .footer .box-container .box p {
   font-size: 2.3rem;
+  color: var(--color-casper2);
+  padding: 1rem;
+  line-height: 1.4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
+    -2px -2px 4px rgb(218, 183, 252);
+  }  
+  
+  html body.parallax section#contact.footer div.box-container div p {
+  font-size: 2rem;
   color: var(--color-casper2);
   padding: 1rem 0;
   line-height: 1.4;
@@ -1970,7 +1986,8 @@ html body.parallax section.reviews div.article-title h1 {
   
   }
 
-  html body.parallax section#reviews.reviews div.article-container section#contact.footer div.box-container h4 {
+
+  html body.parallax section#contact.footer div.box-container h4{
     letter-spacing: 3px;
     -webkit-text-stroke: 0.7px rgb(255, 255, 255);
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
