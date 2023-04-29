@@ -22,7 +22,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     loader.style.display = "none";
     content.style.display = "block";
-  }, 2000); // Change this value to control how long the pre-loader displays for
+  }, 1500); // Change this value to control how long the pre-loader displays for
 });
 
 
