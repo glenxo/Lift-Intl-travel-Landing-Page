@@ -418,29 +418,6 @@ img {
 /*BANNER SECTION ENDS*/
 /*REVIEW SECTION STARTS*/
 
-
-
-.reviews .slide {
-  text-align: center;
-  padding: 3rem;
-}
-
-.reviews .swiper-button-prev {
-  width: max-content;
-  height: max-content;
-}
-
-.reviews .swiper-button-next {
-  width: max-content;
-  height: max-content;
-}
-
-.reviews .slide i {
-  font-size: 4rem;
-  color: var(--color-casper2);
-  margin-bottom: 1rem;
-}
-
 html body.parallax section#reviews.reviews img#images {
   height: 70%;
   width: 70%;
@@ -1289,6 +1266,39 @@ display: none;
   -webkit-text-stroke: 0.7px rgb(255, 255, 255);
 }
 
+/*NAVIGATION DOTS START*/
+.fixed-nav {
+  position: fixed;
+  top: 28%;
+  right: 27px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.fixed-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-nav li {
+  margin-bottom: 10px;
+}
+
+.fixed-nav a {
+  display: block;
+  font-size: 40px;
+  color: #f700ff;
+  text-decoration: none;
+  opacity: 3.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fixed-nav a:hover {
+  opacity: 9;
+}
+
+/*NAVIGATION DOTS END*/
 
 /*PAYMENT INFO STARTS*/
 html body.parallax div.payment{
