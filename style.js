@@ -78,7 +78,7 @@ prevButton.addEventListener("click", prevSlide);
 function startSlider() {
   timerId = setInterval(() => {
     nextSlide();
-  }, 5000);
+  }, 3500);
 }
 
 function stopSlider() {
