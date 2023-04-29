@@ -530,7 +530,7 @@ div.branding:nth-child(6) > span:nth-child(1) {
                 0 0 75px #a5cad22c;
   font-weight: bolder;
   color: var(--color-dark);
-  font-size: 8vw;
+  font-size: 6vw;
   display: block;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
   -webkit-background-clip: text;
@@ -571,7 +571,7 @@ div.branding:nth-child(6) > span:nth-child(1) {
 .slider {
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 650px;
   border-radius: 1.3%;
   overflow: hidden;
 }
