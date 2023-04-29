@@ -264,7 +264,40 @@ img {
   left: 24rem;
 }
 
-/*BANNER SECTION STARTS ENDS*/
+/*HOME SECTION ENDS*/
+/*NAVIGATION DOTS START*/
+.fixed-nav {
+  position: fixed;
+  top: 22%;
+  right: 27px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.fixed-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-nav li {
+  margin-bottom: 10px;
+}
+
+.fixed-nav a {
+  display: block;
+  font-size: 40px;
+  color: #f700ff;
+  text-decoration: none;
+  opacity: 3.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fixed-nav a:hover {
+  opacity: 9;
+}
+
+/*NAVIGATION DOTS END*/
 /*BANNER SECTION STARTS*/
 
 .banner {
