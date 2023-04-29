@@ -1,6 +1,7 @@
 let menu = document.querySelector("#menu-btn");
 let header = document.querySelector(".header");
 
+
 menu.onclick = () => {
   console.log("Menu clicked");
   menu.classList.toggle("fa-times");
@@ -22,7 +23,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     loader.style.display = "none";
     content.style.display = "block";
-  }, 1500); // Change this value to control how long the pre-loader displays for
+  }, 1500);
 });
 
 
@@ -41,6 +42,54 @@ links.forEach((link) => {
     header.classList.remove("active");
   });
 });
+
+const slider = document.querySelector(".slider");
+const slides = slider.querySelector(".slides");
+const prevButton = slider.querySelector(".prev");
+const nextButton = slider.querySelector(".next");
+const slideWidth = slides.querySelector("img").clientWidth;
+let currentSlide = 0;
+let timerId;
+
+function goToSlide(slideIndex) {
+  slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+  currentSlide = slideIndex;
+}
+
+function nextSlide() {
+  currentSlide++;
+  if (currentSlide >= slides.children.length) {
+    currentSlide = 0;
+  }
+  goToSlide(currentSlide);
+}
+
+function prevSlide() {
+  currentSlide--;
+  if (currentSlide < 0) {
+    currentSlide = slides.children.length - 1;
+  }
+  goToSlide(currentSlide);
+}
+
+nextButton.addEventListener("click", nextSlide);
+prevButton.addEventListener("click", prevSlide);
+
+function startSlider() {
+  timerId = setInterval(() => {
+    nextSlide();
+  }, 5000);
+}
+
+function stopSlider() {
+  clearInterval(timerId);
+}
+
+startSlider();
+
+slider.addEventListener("mouseenter", stopSlider);
+slider.addEventListener("mouseleave", startSlider);
+
 
 (function () {
   const parallaxElements = document.querySelectorAll(".parallax");

@@ -123,6 +123,56 @@ strong {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  width: 300%;
+  height: 100%;
+}
+.slides img {
+  width: 33.33%;
+  height: 100%;
+}
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.controls button {
+  background: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+
+
 body {
   min-height: 400px;
   background: -webkit-gradient(
