@@ -887,6 +887,15 @@ color: var(--color-geraldine);
 
 }
 
+html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate {
+  color: var(--color-casper2);
+  padding: 1rem 0;
+  line-height: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
+    -2px -2px 4px rgb(218, 183, 252);
+  font-size: 2.3rem;
+}
+
 .footer .box-container .box h5 {
 letter-spacing: 15px;
 -webkit-text-stroke: 2.0px rgb(255, 255, 255);
@@ -1516,7 +1525,7 @@ html body.parallax div.payment h3{
 
 
   body {
-    min-height: 400px;
+    min-height: 100px;
     background: -webkit-gradient(
         linear,
         left top,
@@ -1530,7 +1539,7 @@ html body.parallax div.payment h3{
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 2600%; /* zoom out the image by 50% */
+    background-size: 1700%; /* zoom out the image by 50% */
     position: relative; 
   }
 
@@ -1870,18 +1879,13 @@ text-align: justify;
 
 
 html body.parallax section.reviews div.article-title p {
-
-
-  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
-  box-shadow: 0 0.5rem 1rem #1111115b;
-  padding: 3rem 2rem;
-  letter-spacing: 2.5px;
-  -webkit-text-stroke: 0.5px rgb(169, 155, 252);
-  background: -webkit-linear-gradient(rgb(214, 250, 255),rgb(218, 197, 238), rgb(255, 193, 250));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.3px rgba(218, 198, 255, 0.485);
+  text-align: center;
+  margin-top: -2rem;
+  padding: 3rem;
+  font-weight: 100;
   font-size: 1.5rem;
-  margin-top: -7rem;
+  color: var(--color-casper);
 }
 
 html body.parallax section.reviews div.article-title h1 {
@@ -1919,24 +1923,20 @@ padding: 3%;
     -webkit-text-fill-color: transparent;
   font-size: 6.2rem;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 
 /*  FOOTER SECTION STARTS*/
 
-.footer {
-  background-image: url(media/footerimg3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
-  
   .footer .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.7rem;
+  padding: 3rem;
+
   
   }
   
@@ -1988,12 +1988,11 @@ padding: 3%;
 
 
   html body.parallax section#contact.footer div.box-container h4{
-    letter-spacing: 3px;
-    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: lighter;
+    color: var(--color-casper2);
+    padding: 1rem 0;
+    line-height: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
+      -2px -2px 4px rgb(218, 183, 252);
     font-size: 2vw;
   }
   
