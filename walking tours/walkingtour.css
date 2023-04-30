@@ -1202,17 +1202,11 @@ display: none;
 
 @media (max-width: 768px) {
 
-  html body.parallax section#reviews.reviews h1.heading strong{
-          font-size: 5vw;
-  color: rgb(0, 255, 21);
-  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-  }
 
-  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong {
-      font-size: 3vw;
-  color: rgb(0, 255, 21);
-  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-}
+  html body.parallax section#reviews.reviews h1.heading strong{
+    font-size: 15px;
+
+  }
 
 html body.parallax section div#banner.banner div.home-inner img#image{
   display: none;
@@ -1505,8 +1499,8 @@ html body.parallax section#reviews.reviews div.article-container div.article.aos
   font-size: 2rem;
 }
 
-.reviews strong {
-  letter-spacing: 5px;
+html body.parallax section#reviews.reviews h1.heading strong{
+  letter-spacing: 1px;
   -webkit-text-stroke: 0.7px rgb(255, 255, 255);
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
   -webkit-background-clip: text;
