@@ -1497,6 +1497,10 @@ html body.parallax section#reviews.reviews div.article-container div.article.aos
   font-size: 2.7rem;
 }
 
+html body.parallax section#reviews.reviews h1.heading strong{
+  font-size: 5rem;
+}
+
 .reviews strong {
   letter-spacing: 5px;
   font-size: 7rem;
@@ -1717,14 +1721,14 @@ padding: 3%;
   padding: 1rem 0;
 }
 
-  html body.parallax section#contact.footer div.box-container h4{
+html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate{
     letter-spacing: 3px;
     -webkit-text-stroke: 0.7px rgb(255, 255, 255);
     background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 5vw;
   }
   
   /*FOOTER SECTION ENDS*/
