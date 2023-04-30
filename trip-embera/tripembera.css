@@ -891,7 +891,7 @@ color: var(--color-geraldine);
 
 }
 
-html body.parallax section section#contact.footer div.box-container h4.aos-init.aos-animate{
+html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate{
   letter-spacing: 3px;
 -webkit-text-stroke: 0.7px rgb(255, 255, 255);
 background: -webkit-linear-gradient(#f5f5f5,#dfbcff);
