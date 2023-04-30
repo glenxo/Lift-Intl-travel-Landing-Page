@@ -1769,8 +1769,8 @@ header.active {
 /*NAVIGATION DOTS START*/
 .fixed-nav {
   position: fixed;
-  top: 35%;
-  right: 15px;
+  top: 40%;
+  right: 2px;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -1788,7 +1788,7 @@ header.active {
 .fixed-nav a {
   display: block;
   font-size: 30px;
-  color: #f700ff00;
+  color: #d0ff0000;
   text-decoration: none;
   transition: opacity 0.2s ease-in-out;
 }
@@ -1877,9 +1877,9 @@ html body.parallax div.chatbox a.chat img {
   bottom: 0;
   right: 0;
   z-index: 1;
-  opacity: 75%;
-  width: 20%;
-  height:10%;
+  opacity: 80%;
+  width: 27%;
+  height:12%;
 }
 /*CHATBOX SECTION STARTS ENDS*/
 
