@@ -1333,7 +1333,7 @@ html body.parallax div.payment h3{
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 1950%; /* zoom out the image by 50% */
+    background-size: 2500%; /* zoom out the image by 50% */
     position: relative; 
   }
 
