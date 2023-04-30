@@ -979,6 +979,12 @@ margin-bottom: 1rem;
 padding: 1.2rem 1.4rem;
 }
 
+html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate a{
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 /*FOOTER SECTION ENDS*/
 
 
