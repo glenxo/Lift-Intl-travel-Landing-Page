@@ -303,6 +303,39 @@ div.branding:nth-child(6) > span:nth-child(1) {
   opacity: 0.7;
 }
 
+/*NAVIGATION DOTS START*/
+.fixed-nav {
+  position: fixed;
+  top: 27%;
+  right: 27px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.fixed-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-nav li {
+  margin-bottom: 1.3px;
+}
+
+.fixed-nav a {
+  display: block;
+  font-size: 30px;
+  color: #f700ff0c;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fixed-nav a:hover {
+  opacity: 9;
+}
+
+/*NAVIGATION DOTS END*/
+/*CHATBOX SECTION STARTS ENDS*/
 html body.parallax div.chatbox a.chat img {
   padding: 2rem;
   position: absolute;
@@ -311,9 +344,11 @@ html body.parallax div.chatbox a.chat img {
   right: 0;
   z-index: 1;
   opacity: 1;
-  width: 20%;
-  height: 10%;
+  width: 5%;
+  height:10%;
 }
+/*CHATBOX SECTION STARTS ENDS*/
+
 
 .bars img {
   padding: 2rem;
@@ -1461,10 +1496,7 @@ html body.parallax div.payment.aos-init.aos-animate img{
 /*removed text shadow*/
 
 @media (min-width: 720px) and (max-width: 780px) and (min-height: 1480px) and (max-height: 1540px) {
-  .preview-outer video {
-    display: none;
-    
-  }
+
 
   
   .parallax {
@@ -1517,7 +1549,10 @@ html body.parallax div.payment.aos-init.aos-animate img{
   .destination .box-container .box h2 {
     display: none;
 }
-
+ 
+html body.parallax nav.fixed-nav ul li a {
+  display: none;
+}
 
 
 .preview-inner video {
@@ -1630,6 +1665,8 @@ header.active {
   .bar-menu {
     display: none;
   }
+
+  
 }
 
 @media only screen and (max-width: 1380px) and (max-width: 1980px) {
@@ -1648,6 +1685,8 @@ header.active {
     padding: 4px 6px;
     font-size: 15px;
   }
+
+  
 
   .preview .grid-container h2 {
     display: none;
@@ -1675,6 +1714,7 @@ header.active {
   .preview .grid-container h1 {
     display: none;
   }
+
 }
 
 @media only screen and (max-width: 1940px) {
@@ -1685,6 +1725,8 @@ header.active {
   .preview .grid-container h1 {
     display: none;
   }
+
+
 }
 
 
@@ -1723,6 +1765,43 @@ header.active {
 .preloader:not(:hover) + .content {
   display: block;
 }
+
+/*NAVIGATION DOTS START*/
+.fixed-nav {
+  position: fixed;
+  top: 35%;
+  right: 15px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.fixed-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-nav li {
+  margin-bottom: -12px;
+}
+
+.fixed-nav a {
+  display: block;
+  font-size: 30px;
+  color: #f700ff00;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fixed-nav a:hover {
+  opacity: 9;
+}
+
+html body.parallax nav.fixed-nav ul li a{
+  opacity: 25%;
+}
+
+/*NAVIGATION DOTS END*/
 
 
   .header .navbar a {
@@ -1789,6 +1868,20 @@ header.active {
     display: none;
   }
 
+
+  /*CHATBOX SECTION STARTS ENDS*/
+html body.parallax div.chatbox a.chat img {
+  padding: 2rem;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 75%;
+  width: 20%;
+  height:10%;
+}
+/*CHATBOX SECTION STARTS ENDS*/
 
   .preview {
     padding: 0%;
