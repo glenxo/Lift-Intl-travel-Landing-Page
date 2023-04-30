@@ -153,7 +153,7 @@ img {
 
 .heading span {
   color: var(--color-casper2);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /*HEADING SECTION ENDS*/
@@ -581,7 +581,7 @@ html body.parallax section.reviews div.article-title h1 {
   text-align: center;
 }
 
-html body.parallax section section.reviews div.article-title p {
+html body.parallax section.reviews div.article-title p {
   gap: 3rem;
   -ms-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
@@ -817,7 +817,7 @@ color: var(--color-geraldine);
 
 }
 
-html body.parallax section section#contact.footer div.box-container h4.aos-init.aos-animate{
+html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate{
   letter-spacing: 3px;
 -webkit-text-stroke: 0.7px rgb(255, 255, 255);
 background: -webkit-linear-gradient(#f5f5f5,#dfbcff);
@@ -905,7 +905,7 @@ margin-bottom: 1rem;
 padding: 1.2rem 1.4rem;
 }
 
-html body.parallax section section#contact.footer div.box-container h4.aos-init.aos-animate a{
+html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate a{
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -1333,7 +1333,7 @@ html body.parallax section div.payment h3{
     background-position: bottom;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    background-size: 2070%; /* zoom out the image by 50% */
+    background-size: 2500%; /* zoom out the image by 50% */
     position: relative; 
   }
 
@@ -1498,12 +1498,11 @@ html body.parallax section#reviews.reviews div.article-container div.article.aos
 }
 
 html body.parallax section#reviews.reviews h1.heading strong{
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .reviews strong {
   letter-spacing: 5px;
-  font-size: 7rem;
   -webkit-text-stroke: 2.0px rgb(38, 255, 0);
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 243, 83), rgb(77, 255, 0));
   -webkit-background-clip: text;
@@ -1677,7 +1676,7 @@ html body.parallax section.reviews div.article-title h1 {
 /*ARTICLE SECTION ENDS*/
 
 /*BOOKING SECTION*/
-html body.parallax section section#booking div#enterDetails h4 {
+html body.parallax section#booking div#enterDetails h4 {
   font-size: 2.5rem;
 }
 
@@ -1705,7 +1704,7 @@ padding: 3%;
     -2px -2px 4px rgb(218, 183, 252);
   }
 
-  html body.parallax section section#contact.footer div.box-container div.box.aos-init.aos-animate h3 {
+  html body.parallax section#contact.footer div.box-container div.box.aos-init.aos-animate h3 {
     font-size: 4.5rem;
   }
 
@@ -1722,13 +1721,14 @@ padding: 3%;
 }
 
 html body.parallax section#contact.footer div.box-container h4.aos-init.aos-animate{
-    letter-spacing: 3px;
-    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: lighter;
-    font-size: 5vw;
+  letter-spacing: 3px;
+-webkit-text-stroke: 0.7px rgb(255, 255, 255);
+background: -webkit-linear-gradient(#f5f5f5,#dfbcff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 100;
+margin-top: 10%;
+font-size: 2rem;
   }
   
   /*FOOTER SECTION ENDS*/
