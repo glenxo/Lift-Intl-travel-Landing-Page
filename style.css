@@ -575,14 +575,12 @@ html body.parallax div.chatbox a.chat img {
                 0 0 30px #a5cad221, 
                 0 0 40px #a5cad23a,
                 0 0 75px #a5cad22c;
-  font-weight: bolder;
   color: var(--color-dark);
   font-size: 6vw;
   display: block;
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bolder;
   margin-top: -20%;
 }
 
@@ -1198,6 +1196,12 @@ border-radius: 5rem;
   line-height: 2;
 }
 
+html body.parallax section#members.members div.box-container div.box.aos-init.aos-animate div.team-member div.share a{
+  padding: 0.3rem;
+  opacity: 80%;
+  width: 3%;
+  height:12%;
+}
 /*MEMBERS SECTION ENDS*/
 
 
@@ -2259,6 +2263,13 @@ html body.parallax section#services.services div.box-container div.box.aos-init.
   text-stroke: 1px rgb(6, 247, 247);
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   line-height: 2;
+}
+
+html body.parallax section#members.members div.box-container div.box.aos-init.aos-animate div.team-member div.share a{
+  padding: 1.3rem;
+  opacity: 100%;
+  width: 3%;
+  height:12%;
 }
 
 /*MEMBERS SECTION ENDS*/
