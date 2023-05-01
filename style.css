@@ -1704,7 +1704,6 @@ header.active {
     font-size: 14px;
     -webkit-text-stroke: 0.5px rgb(255, 255, 255);
     text-stroke: 1px rgb(6, 247, 247);
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
   }
 
   .preview-outer video {
@@ -1773,7 +1772,7 @@ header.active {
 /*NAVIGATION DOTS START*/
 .fixed-nav {
   position: fixed;
-  top: 40%;
+  top: 50%;
   right: 2px;
   transform: translateY(-50%);
   z-index: 1;
@@ -1786,7 +1785,7 @@ header.active {
 }
 
 .fixed-nav li {
-  margin-bottom: -12px;
+  margin-bottom: 20px;
 }
 
 .fixed-nav a {
@@ -1802,7 +1801,7 @@ header.active {
 }
 
 html body.parallax nav.fixed-nav ul li a{
-  opacity: 25%;
+  opacity: 45%;
 }
 
 /*NAVIGATION DOTS END*/
@@ -1881,10 +1880,12 @@ html body.parallax div.chatbox a.chat img {
   bottom: 0;
   right: 0;
   z-index: 1;
-  opacity: 80%;
-  width: 27%;
-  height:12%;
+  opacity: 50%;
+  width: 25%;
+  height:10%;
 }
+
+
 /*CHATBOX SECTION STARTS ENDS*/
 
   .preview {
@@ -1953,10 +1954,6 @@ html body.parallax div.chatbox a.chat img {
 }
 
 
-  .preview-outer video {
-    display: none;
-  }
-
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
 
 .grid-container  {
@@ -1986,8 +1983,6 @@ html body.parallax div.chatbox a.chat img {
 
 .preview .grid-container h1 {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.9);
-  text-shadow: 0 0 5px #a5cad23b, 
-          0 0 75px #a5cad267;
           background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(0, 238, 255));
           -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2002,8 +1997,6 @@ html body.parallax div.chatbox a.chat img {
 
 .preview .grid-container h2 {
   -webkit-text-stroke: 1px rgba(194, 219, 248, 0.9);
-  text-shadow: 0 0 5px #a5cad23b, 
-          0 0 75px #a5cad267;
   font-weight: 100;
   margin-top: -0.8rem;
   display: block;
@@ -2038,6 +2031,10 @@ html body.parallax div.chatbox a.chat img {
 
 .review {
   margin-top: -100rem
+}
+
+html body.parallax section#preview.preview div#grid-container.grid-container div.grid-item.aos-init.aos-animate a h1{
+  text-shadow: none;
 }
 
 .destination .heading img {
@@ -2123,7 +2120,6 @@ html body.parallax div.payment.aos-init.aos-animate img{
 
 .book-form h2 {
   -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-
   background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2229,8 +2225,6 @@ html body.parallax section#services.services div.box-container div.box.aos-init.
 }
 
 .members .box-container .box i {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
-    -2px -2px 4px rgba(255, 255, 255, 0.5);
   font-size: 5.5rem;
   color: var(--color-geraldine);
   margin-bottom: 2rem;
@@ -2239,6 +2233,7 @@ html body.parallax section#services.services div.box-container div.box.aos-init.
 .members .box-container .box h3 {
   font-size: 2.5rem;
   color: var(--color-casper);
+  text-shadow: none;
 }
 
 .members .heading h1 {
@@ -2270,6 +2265,16 @@ html body.parallax section#members.members div.box-container div.box.aos-init.ao
   opacity: 100%;
   width: 3%;
   height:12%;
+}
+
+html body.parallax section#members.members div.box-container div.box.aos-init.aos-animate h4{
+  padding: 1rem 0;
+  font-size: 1.4rem;
+    color: var(--color-casper);
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  text-stroke: 1px rgb(6, 247, 247);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  line-height: 1.2;
 }
 
 /*MEMBERS SECTION ENDS*/
