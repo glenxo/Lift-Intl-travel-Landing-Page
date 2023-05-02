@@ -1579,12 +1579,8 @@ body {
 
 
 @media only screen and (min-width: 868px) and (max-width: 1283px) {
-
-
-body {
-
-  background-size: 480%; /* zoom out the image by 50% */
-
+  body {
+  background-size: 480%; 
 }
 }
 
@@ -1595,7 +1591,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 360%; /* zoom out the image by 50% */
+    background-size: 360%; 
     min-height: 400px;
     z-index: 100;
   }
