@@ -43,6 +43,32 @@ Pallete
   transition: all 0.2s linear;
 }
 
+
+.button-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-primary {
+  background-color: #6f5f9077;
+  color: #758eb7;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-secondary {
+  background-color: #758eb7;
+  color: #a5cad2;
+  padding: 5px 10px;
+  border: 1px solid #6f5f90;
+  border-radius: 5px;
+}
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -359,18 +385,18 @@ img {
 }
 
 .banner .content h4 {
-  font-size: 2rem;
+  font-size: 1rem;
   -webkit-text-stroke: 0.7px rgb(124, 207, 255);
   color: var(--color-casper2);
-  text-transform: capitalize;
-  padding-top: 1rem;
+
+
 }
 
 .banner .content p {
   padding: 1rem 0;
   font-size: 1.7rem;
   color: var(--color-ship-cove);
-  line-height: 1.5;
+  line-height: 1;
   padding: 1rem 0;
 }
 
@@ -1277,6 +1303,34 @@ display: none;
 
 @media (max-width: 768px) {
 
+
+  .button-container {
+    align-items: center;
+    justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.button-primary {
+  background-color: #6f5f9077;
+  color: #758eb7;
+  padding: 2px 7px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-secondary {
+  background-color: #758eb7;
+  color: #a5cad2;
+  padding: 2px 7px;
+  font-size: 1.5rem;
+  border: 1px solid #6f5f90;
+  border-radius: 5px;
+}
+
+
   html body.parallax section#reviews.reviews h1.heading strong{
           font-size: 8vw;
   color: rgb(0, 255, 21);
@@ -1558,7 +1612,7 @@ html body.parallax section#reviews.reviews div.article-container div.payment h3{
 
 
   body {
-    min-height: 400px;
+    min-height: 100px;
     background: -webkit-gradient(
         linear,
         left top,
@@ -1566,8 +1620,6 @@ html body.parallax section#reviews.reviews div.article-container div.payment h3{
         from(rgba(17, 17, 17, 0)),
         to(rgba(17, 17, 17, 0))
       ),
-      url(/media/travelbody3.png) no-repeat;
-    background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
       url(/media/travelbody3.png) no-repeat;
     background-position: bottom;
     scroll-behavior: smooth;
@@ -1653,12 +1705,14 @@ header.active {
     
   }
 
-
+  html body.parallax section div#banner.banner div.content span{
+    display: none;
+  }
 
   .home {
     margin: 0 auto;
     margin-top: 5rem;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   
     width: 90%;
     border-radius: 1rem;
@@ -1681,7 +1735,7 @@ header.active {
   }
   
   .banner {
-    margin-top: -50px;
+    margin-top: -300px;
     margin-left: 3rem;
     margin-right: 3rem;
     display: -webkit-box;
@@ -1696,7 +1750,6 @@ header.active {
     -ms-flex-wrap: wrap-reverse;
     flex-wrap: wrap-reverse;
     background: var(--color-darker);
-    line-height: 4em;
     border-radius: 1rem;
     -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
     box-shadow: 0 0.5rem 1rem #1111114d;
@@ -1715,6 +1768,8 @@ header.active {
   
   .banner .content h4 {
     font-size: 1.7rem;
+    line-height: none;
+
   }
 
 
@@ -1722,8 +1777,8 @@ header.active {
 /*NAVIGATION DOTS START*/
 .fixed-nav {
   position: fixed;
-  top: 28%;
-  right: 27px;
+  top: 50%;
+  right: 2px;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -1827,15 +1882,6 @@ html body.parallax section#reviews.reviews h1.heading{
 }
 
 
-  .banner .outer #Image {
-    border: 0.1rem solid;
-    justify-content: center;
-    margin-left: 0px;
-    margin-bottom: 40px;
-    width: 100%;
-    height: 100%;
-    border-radius: 2%;
-  }
   
       /*ARTICLE SECTION STARTS*/
 
