@@ -43,28 +43,42 @@ Pallete
   transition: all 0.2s linear;
 }
 
-
-.button-container {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 20px;
+/* Define the keyframes for the animation */
+@keyframes color-transform {
+  0% {
+    color: #0074D9;
+  }
+  50% {
+    color: #FF4136;
+  }
+  100% {
+    color: #0074D9;
+  }
 }
 
+/* Apply the animation to the button elements */
+.button-primary,
+.button-secondary {
+  animation-name: color-transform;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* Style the button elements as before */
 .button-primary {
-  background-color: #6f5f9077;
-  color: #758eb7;
-  padding: 5px 10px;
+  background-color: #0074D9;
+  color: #fff;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   margin-right: 10px;
 }
 
 .button-secondary {
-  background-color: #758eb7;
-  color: #a5cad2;
-  padding: 5px 10px;
-  border: 1px solid #6f5f90;
+  background-color: #fff;
+  color: #0074D9;
+  padding: 10px 20px;
+  border: 1px solid #0074D9;
   border-radius: 5px;
 }
 
@@ -1304,29 +1318,54 @@ display: none;
 @media (max-width: 768px) {
 
 
-  .button-container {
-    align-items: center;
-    justify-content: center;
-  display: flex;
-  margin-top: 20px;
+/* Define the keyframes for the animation */
+@keyframes color-transform {
+  0% {
+    color: #ffe600;
+  }
+  25% {
+    color: #63ce00;
+  }
+  45% {
+    color: #00d91d;
+  }  
+  65% {
+    color: #00cbd9;
+  }  
+  85% {
+    color: #a600d9;
+  }  
+  100% {
+    color: #ff0000;
+  }
 }
 
+/* Apply the animation to the button elements */
+.button-primary,
+.button-secondary {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  animation-name: color-transform;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+/* Style the button elements as before */
 .button-primary {
-  background-color: #6f5f9077;
-  color: #758eb7;
-  padding: 2px 7px;
-  border: none;
-  font-size: 1.5rem;
+  background-color: #160d4b;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #00ff6a;
   border-radius: 5px;
   margin-right: 10px;
 }
 
 .button-secondary {
-  background-color: #758eb7;
-  color: #a5cad2;
-  padding: 2px 7px;
-  font-size: 1.5rem;
-  border: 1px solid #6f5f90;
+  background-color: #160d4b;
+  color: #0074D9;
+  padding: 10px 20px;
+  border: 1px solid #00ff6a;
   border-radius: 5px;
 }
 
