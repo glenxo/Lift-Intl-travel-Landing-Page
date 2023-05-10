@@ -43,42 +43,52 @@ Pallete
   transition: all 0.2s linear;
 }
 
-/* Define the keyframes for the animation */
 @keyframes color-transform {
   0% {
-    color: #0074D9;
+    color: #ffe600;
   }
-  50% {
-    color: #FF4136;
+  25% {
+    color: #63ce00;
   }
+  45% {
+    color: #00d91d;
+  }  
+  65% {
+    color: #00cbd9;
+  }  
+  85% {
+    color: #a600d9;
+  }  
   100% {
-    color: #0074D9;
+    color: #ff0000;
   }
 }
 
 /* Apply the animation to the button elements */
 .button-primary,
 .button-secondary {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
   animation-name: color-transform;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 
-/* Style the button elements as before */
 .button-primary {
-  background-color: #0074D9;
+  background-color: #160d4b;
   color: #fff;
   padding: 10px 20px;
-  border: none;
+  border: 1px solid #00ff6a;
   border-radius: 5px;
   margin-right: 10px;
 }
 
 .button-secondary {
-  background-color: #fff;
+  background-color: #160d4b;
   color: #0074D9;
   padding: 10px 20px;
-  border: 1px solid #0074D9;
+  border: 1px solid #00ff6a;
   border-radius: 5px;
 }
 
@@ -1351,7 +1361,6 @@ display: none;
   animation-iteration-count: infinite;
 }
 
-/* Style the button elements as before */
 .button-primary {
   background-color: #160d4b;
   color: #fff;

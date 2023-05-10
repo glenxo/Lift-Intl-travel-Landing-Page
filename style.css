@@ -654,8 +654,7 @@ html body.parallax div.chatbox a.chat img {
   width: 80%;
   background: var(--color-darker);
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
-  box-shadow: 0 0.5rem 1rem #1111114d;
+
   padding: 3rem 2rem;
   background-size: cover;
   background-position: center;
@@ -1559,17 +1558,6 @@ html body.parallax nav.fixed-nav ul li a {
 }
 
 
-.preview-inner video {
-  border: 0.1rem solid;
-  border-image: linear-gradient(to right, #99f3ff,#5f97ff, indigo, #ff00ea);
-  justify-content: center;
-  margin-left: 0%;
-  padding: 2rem;
-  width: 100%;
-  height: 100%;
-  border-radius: 2%;
-}
-
 body {
   background-size: 400%;
 }
@@ -1586,7 +1574,7 @@ body {
 
 @media (max-width: 780px) {
   body {
-      url(media/travelbody3.png) no-repeat;
+      url(media /travelbody 3png) no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1786,7 +1774,7 @@ header.active {
 .fixed-nav a {
   display: block;
   font-size: 30px;
-  color: #d0ff0000;
+  color: #d0ff00;
   text-decoration: none;
   transition: opacity 0.2s ease-in-out;
 }
@@ -1886,8 +1874,13 @@ html body.parallax div.chatbox a.chat img {
   .preview {
     padding: 0%;
     display: block;
-    margin-top: 12rem;
-    margin-bottom: 15rem;
+    margin-top: 22rem;
+    margin-bottom: 25rem;
+
+}
+
+html body.parallax section#preview.preview div.content span.aos-init.aos-animate{
+  margin-bottom: -14%;
 
 }
 
@@ -1898,55 +1891,25 @@ html body.parallax div.chatbox a.chat img {
                 -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  margin-top: 4rem;
+  bottom: 20%;
   font-size: 10vw;
   display: block;
 }
 
-
+html body.parallax section#preview.preview div.content span.aos-init.aos-animate{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 
   .preview p {
   padding: 3%;
   font-weight: bolder;
-  margin-top: 4%;
+  margin-top: 8%;
   font-size: 3vw;
   color: var(--color-casper2);
   display: block;
 }
 
-.slider {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  border-radius: 1.3%;
-  overflow: hidden;
-}
-.slides {
-  display: flex;
-  width: 900%;
-  height: 100%;
-}
-.slides img {
-  width: 33.33%;
-  height: 100%;
-}
-.controls {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  
-}
-.controls button {
-  background: #ff5df134;
-  color: #11ff4d;
-  border: none;
-  cursor: pointer;
-  padding: 10px 15px;
-  font-size: 8px;
-  margin: 0 10px;
-  border-radius: 3%;
-}
 
 
 /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
@@ -1973,7 +1936,7 @@ html body.parallax div.chatbox a.chat img {
   align-items: center;
   justify-content: center;
   padding-bottom: 5rem;
-  margin-top: 12rem;
+  margin-top: 32rem;
 }
 
 .preview .grid-container h1 {
@@ -1997,7 +1960,7 @@ html body.parallax div.chatbox a.chat img {
   display: block;
   font-size: 1.5rem;
   letter-spacing: 0.4rem;
-  line-height: 3;
+  line-height: 2;
 }
 
 
@@ -2101,77 +2064,6 @@ html body.parallax div.payment.aos-init.aos-animate img{
   }
   /*PAYMENT INFO ENDS*/
 
-.book-form {
-  width: 80%;
-  margin: 1rem auto;
-  margin-top: 12rem;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111114d;
-  box-shadow: 0 0.5rem 1rem #1111114d;
-  padding: 3rem 2rem;
-}
-
-
-.book-form h2 {
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  font-size: 15vw;
-}
-
-.book-form p {
-  display: none;
-}
-
-.book-form form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.book-form form .inputBox {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 25rem;
-  flex: 1 1 25rem;
-}
-
-.book-form form .inputBox span {
-    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.485);
-    background: -webkit-linear-gradient(rgb(152, 201, 208),#9dbfff, rgb(100, 190, 255), rgb(225, 160, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 3rem;
-    margin-left: 5rem;
-  font-size: 2.2rem;
-  color: var(--color-ship-cove);
-}
-
-.book-form form .inputBox input {
-  width: 100%;
-  padding: 1.2rem 1.4rem;
-  border-radius: 5rem;
-  border: 0.2rem solid var(--color-geraldine);
-  font-size: 1.6rem;
-  color: var(--color-strikemaster);
-  text-transform: none;
-  background: none;
-  margin-top: 1rem;
-}
-
-.book-form form .btn {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 15rem;
-  flex: 1 1 15rem;
-}
 
 .services .heading h1 {
   font-size: 15vw;

@@ -42,69 +42,7 @@ links.forEach((link) => {
     header.classList.remove("active");
   });
 });
-
-const slider = document.querySelector(".slider");
-const slides = slider.querySelector(".slides");
-const prevButton = slider.querySelector(".prev");
-const nextButton = slider.querySelector(".next");
-const slideWidth = slides.querySelector("img").clientWidth;
-let currentSlide = 0;
-let timerId;
-
-function goToSlide(slideIndex) {
-  slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-  currentSlide = slideIndex;
-}
-
-function nextSlide() {
-  currentSlide++;
-  if (currentSlide >= slides.children.length) {
-    currentSlide = 0;
-  }
-  goToSlide(currentSlide);
-}
-
-function prevSlide() {
-  currentSlide--;
-  if (currentSlide < 0) {
-    currentSlide = slides.children.length - 1;
-  }
-  goToSlide(currentSlide);
-}
-
-nextButton.addEventListener("click", nextSlide);
-prevButton.addEventListener("click", prevSlide);
-
-function startSlider() {
-  timerId = setInterval(() => {
-    nextSlide();
-  }, 4000);
-}
-
-function stopSlider() {
-  clearInterval(timerId);
-}
-
-startSlider();
-
-slider.addEventListener("mouseenter", stopSlider);
-slider.addEventListener("mouseleave", startSlider);
-
-
-(function () {
-  const parallaxElements = document.querySelectorAll(".parallax");
-  function parallax() {
-    const scrollTop = window.pageYOffset;
-    for (let i = 0; i < parallaxElements.length; i++) {
-      const element = parallaxElements[i];
-      const speed = element.getAttribute("data-parallax-speed");
-      element.style.backgroundPositionY = scrollTop * speed + "px";
-    }
-  }
-
-  window.addEventListener("scroll", parallax);
-})();
-
+  
 document.addEventListener("DOMContentLoaded", function() {
   let currentImg = null;
   let currentLink = null;
