@@ -564,13 +564,13 @@ div.article-container div.article-title h1 {
 
 div.article-container div.article-title h2 {
   letter-spacing: 15px;
-  -webkit-text-stroke: 2.0px rgb(150, 240, 90);
+  -webkit-text-stroke: 0.7px rgb(252, 246, 255);
   text-shadow: 0 0 5px #a5cad211, 
   0 0 10px #a5cad227, 
   0 0 20px #a5cad21c, 
   0 0 40px #a5cad217,
   0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(25, 0, 255));
+  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243), rgb(160, 150, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.8rem;
@@ -583,17 +583,17 @@ div.article-container div.article-title h2 {
 
 div.article div.article-text h2 {
   letter-spacing: 15px;
-  -webkit-text-stroke: 2.0px rgb(150, 240, 90);
+  -webkit-text-stroke: 0.7px rgb(252, 246, 255);
   text-shadow: 0 0 5px #a5cad211, 
   0 0 10px #a5cad227, 
   0 0 20px #a5cad21c, 
   0 0 40px #a5cad217,
   0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(74, 195, 243), rgb(25, 0, 255));
+  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243), rgb(160, 150, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
-  margin-top: 0;
+  margin-top: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -623,6 +623,7 @@ html body.parallax section#reviews.reviews div.article-container div.article.aos
   border-radius: 3%;
   
 }
+
 
   div.article div.article-text p {
   -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -825,7 +826,6 @@ padding: 3rem 2rem;
   color: var(--color-geraldine);
 }
 /*BOOK-FORM SECTION ENDS*/
-
 /*PAYMENT INFO STARTS*/
 html body.parallax section#reviews.reviews div.article-container div.payment{
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
@@ -848,165 +848,156 @@ html body.parallax section#reviews.reviews div.article-container div.payment h3{
     font-size: 1.3vw;
   }
 
-  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong{
+  html body.parallax section#reviews.reviews div.article-container div.payment h3 strong {
     font-size: 1.3vw;
   }
   /*PAYMENT INFO ENDS*/
 
 
-
 /*  FOOTER SECTION STARTS*/
 
-.footer {
-background-image: url(media/footerimg3.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-}
 
-.footer .box-container {
-display: -ms-grid;
-display: grid;
--ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
-grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-gap: 1.7rem;
-}
+  
 
-.footer .box-container .box {
-padding: 1rem 0;
-}
 
+  
 .footer .box-container .box .logo {
-padding-bottom: 10rem;
+  padding-bottom: 8rem;
+  
+  }
+  
+  
+  .footer .box-container .box h3 {
+    letter-spacing: 5px;
+    -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 2%;
+  font-size: 8rem;
+  }
 
-}
+  html body.parallax section#reviews.reviews div.article-container section#contact.footer div.box-container div.box.aos-init.aos-animate p{
+    letter-spacing: 1px;
+    line-height: none;
 
+  }
+  
+  .footer .box-container .box p {
+    letter-spacing: 1px;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    background: -webkit-linear-gradient(#f5f5f5,#dfbcff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    margin-top: 3.5%;
+    font-size: 2rem;
+  }
+  
+  .footer .box-container .box p i {
+  padding-right: 0.5rem;
+  color: var(--color-geraldine);
+  
+  }
 
-.footer .box-container .box h3 {
--webkit-text-stroke: 1.0px rgb(255, 255, 255);
-text-shadow: 0 0 5px #a5cad25b, 
-              0 0 10px #a5cad271, 
-              0 0 15px #a5cad265,
-              0 0 75px #a5cad25d;
-background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-weight: bolder;
-margin-top: 2%;
-font-size: 2.5vw;
-}
-
-.footer .box-container .box p {
-font-size: 2.3rem;
-color: var(--color-casper2);
-padding: 1rem 0;
-line-height: 2;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
-  -2px -2px 4px rgb(218, 183, 252);
-}
-
-.footer .box-container .box p i {
-padding-right: 0.5rem;
-color: var(--color-geraldine);
-
-}
-
-html body.parallax section#reviews.reviews div.article-container section#contact.footer div.box-container div.box.aos-init.aos-animate h4.aos-init.aos-animate{
-  letter-spacing: 3px;
-  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-  background: -webkit-linear-gradient(#f5f5f5,#dfbcff);
+  html body.parallax section#reviews.reviews div.article-container section#contact.footer div.box-container h4.aos-init.aos-animate {
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    background: -webkit-linear-gradient(#f5f5f5,#dfbcff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    margin-top: 5%;
+    font-size: 1.8rem;
+  }
+  
+  .footer .box-container .box h5 {
+  letter-spacing: 5px;
+  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 100;
-  margin-top: 2%;
-  font-size: 1.8rem;
-}
+  font-weight: bolder;
+  margin-bottom: -13%;
+  margin-top: 5%;
+  font-size: 3vw;
+  top: 0%;
+  }
+  
+  
+  
+  .footer .box-container .box .share {
+  padding-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  border: 0.2rem solid var(--color-geraldine);
+  color: var(--color-kimberly);
+  background: var(--color-geraldine);
+  margin-right: 0.5rem;
+  text-align: center;
+  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+  text-shadow: 0 0 5px #a5cad25b, 
+                0 0 10px #a5cad271, 
+                0 0 15px #a5cad265,
+                0 0 75px #a5cad25d;
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .footer .box-container .box .share a:hover {
+  background: var(--color-kimberly);
+  color: var(--color-casper);
+  }
+  
+  .footer .box-container .box .links {
+  font-size: 2.5rem;
+  color: var(--color-casper2);
+  padding: 1rem 0;
+  display: block;
+  }
+  
+  .footer .box-container .box .links:hover {
+  color: #ff0028;
+  }
+  
+  .footer .box-container .box .links:hover i {
+  padding-right: 2rem;
+  }
+  
+  .footer .box-container .box .links i {
+  padding-right: 0.5rem;
+  color: var(--color-geraldine);
+  }
+  
+  .footer .box-container .box form .email {
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--color-geraldine);
+  background: none;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: #aaa;
+  margin-bottom: 1rem;
+  padding: 1.2rem 1.4rem;
+  }
 
-.footer .box-container .box h5 {
-letter-spacing: 15px;
--webkit-text-stroke: 2.0px rgb(255, 255, 255);
-text-shadow: 0 0 5px #a5cad211, 
-0 0 10px #a5cad227, 
-0 0 15px #a5cad20c,
-0 0 20px #a5cad21c, 
-0 0 30px #a5cad213, 
-0 0 40px #a5cad217,
-0 0 50px #a5cad279, 
-0 0 75px #a5cad25e;
-background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-weight: bolder;
-margin-bottom: -13%;
-font-size: 4vw;
-}
+  .footer .box-container h4 a{
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
 
-
-
-.footer .box-container .box .share {
-padding-top: 1rem;
-}
-
-.footer .box-container .box .share a {
-height: 4.5rem;
-width: 4.5rem;
-line-height: 4rem;
-font-size: 2rem;
-border-radius: 50%;
-font-size: 1.7rem;
-border: 0.2rem solid var(--color-geraldine);
-color: var(--color-kimberly);
-background: var(--color-geraldine);
-margin-right: 0.5rem;
-text-align: center;
--webkit-text-stroke: 1.0px rgb(255, 255, 255);
-text-shadow: 0 0 5px #a5cad25b, 
-              0 0 10px #a5cad271, 
-              0 0 15px #a5cad265,
-              0 0 75px #a5cad25d;
-background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-
-.footer .box-container .box .share a:hover {
-background: var(--color-kimberly);
-color: var(--color-casper);
-}
-
-.footer .box-container .box .links {
-font-size: 2.5rem;
-color: var(--color-casper2);
-padding: 1rem 0;
-display: block;
-}
-
-.footer .box-container .box .links:hover {
-color: #ff0028;
-}
-
-.footer .box-container .box .links:hover i {
-padding-right: 2rem;
-}
-
-.footer .box-container .box .links i {
-padding-right: 0.5rem;
-color: var(--color-geraldine);
-}
-
-.footer .box-container .box form .email {
-width: 100%;
-border-radius: 5rem;
-border: 0.2rem solid var(--color-geraldine);
-background: none;
-font-size: 1.5rem;
-text-transform: none;
-color: #aaa;
-margin-bottom: 1rem;
-padding: 1.2rem 1.4rem;
-}
-
-/*FOOTER SECTION ENDS*/
-
+  /*FOOTER SECTION ENDS*/
 
 html body.parallax section#reviews.reviews div.article-container section#contact.footer{
   text-align: center;
