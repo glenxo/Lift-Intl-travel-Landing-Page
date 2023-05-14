@@ -481,252 +481,252 @@ html body.parallax section#reviews.reviews img#images {
 
 .reviews h1 {
   
-  letter-spacing: 15px;
-  -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 10px #a5cad227, 
-  0 0 15px #a5cad20c,
-  0 0 20px #a5cad21c, 
-  0 0 30px #a5cad213, 
-  0 0 40px #a5cad217,
-  0 0 50px #a5cad279, 
-  0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  font-size: 4vw;
-  margin-top: 20rem;
-  margin-bottom: 8rem;
-  display: block;
-}
+    letter-spacing: 15px;
+    -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+    text-shadow: 0 0 5px #a5cad211, 
+    0 0 10px #a5cad227, 
+    0 0 15px #a5cad20c,
+    0 0 20px #a5cad21c, 
+    0 0 30px #a5cad213, 
+    0 0 40px #a5cad217,
+    0 0 50px #a5cad279, 
+    0 0 75px #a5cad25e;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 4vw;
+    margin-top: 20rem;
+    margin-bottom: 8rem;
+    display: block;
+  }
 
-.reviews strong {
-  letter-spacing: 5px;
-  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
-  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(226, 177, 255), rgb(245, 253, 242));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  font-size: 5vw;
-  margin-top: 20rem;
-  margin-bottom: 8rem;
-}
-
-
-.reviews .slide p {
-  font-size: 4rem;
-  color: var(--color-casper2);
-  line-height: 4;
-  padding: 1rem 0;
-}
-
-.reviews .slide img {
-  height: 600px;
-  width: 980px;
-  border-radius: 2%;
-  margin: 1rem 0;
-}
-
-.reviews .slide h3 {
-  font-size: 3rem;
-  margin-top: 1%;
-  color: var(--color-casper2);
-  text-transform: capitalize;
-}
-
-html body.parallax section#reviews.reviews div p strong a {
-  font-size: 2.5rem;
-}
-
-/*REVIEW SECTION ENDS*/
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-div.article-container div.article-title h1 {
-  margin-top: -200px;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 3rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
-  box-shadow: 0 0.5rem 1rem #11111131;
-  padding: 3rem 2rem;
-  letter-spacing: 15px;
-  -webkit-text-stroke: 2.0px rgb(41, 233, 73);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 10px #a5cad227, 
-  0 0 20px #a5cad21c, 
-  0 0 40px #a5cad217,
-  0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bolder;
-  font-size: 8rem;
-  margin-top: 20rem;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-div.article-container div.article-title h2 {
-  letter-spacing: 15px;
-  -webkit-text-stroke: 0.7px rgb(252, 246, 255);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 10px #a5cad227, 
-  0 0 20px #a5cad21c, 
-  0 0 40px #a5cad217,
-  0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243), rgb(160, 150, 255));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2.8rem;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  display: block;
-  justify-content: center;
-  text-align: center;
-}
-
-div.article div.article-text h2 {
-  letter-spacing: 15px;
-  -webkit-text-stroke: 0.7px rgb(252, 246, 255);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 10px #a5cad227, 
-  0 0 20px #a5cad21c, 
-  0 0 40px #a5cad217,
-  0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243), rgb(160, 150, 255));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 4rem;
-  margin-top: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p strong {
-  font-size: 2.5rem;
-}
-
-.article {
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.116);
-  box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.075);
-  padding: 3rem 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-}
-
-.article img {
-  max-width: 50%;
-  margin-right: 20px;
-  border-radius: 3%;
-  
-}
+  .reviews strong {
+    letter-spacing: 5px;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(226, 177, 255), rgb(245, 253, 242));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 5vw;
+    margin-top: 20rem;
+    margin-bottom: 8rem;
+  }
 
 
-  div.article div.article-text p {
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
-  font-size: 2.3rem;
-  margin-top: 0;
-  line-height: 1.2;
-  text-align: justify;
-  padding: 4%;
-}
+  .reviews .slide p {
+    font-size: 4rem;
+    color: var(--color-casper2);
+    line-height: 4;
+    padding: 1rem 0;
+  }
 
-html body.parallax section.reviews div.article-title h1 {
-  gap: 3rem;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
-  box-shadow: 0 0.5rem 1rem #11111131;
-  padding: 3rem 2rem;
-  letter-spacing: 6px;
-  -webkit-text-stroke: 2.0px rgb(237, 253, 240);
-  text-shadow: 0 0 5px #a5cad211, 
-  0 0 75px #a5cad25e;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 7rem;
-  margin-top: 7rem;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
+  .reviews .slide img {
+    height: 600px;
+    width: 980px;
+    border-radius: 2%;
+    margin: 1rem 0;
+  }
 
-html body.parallax section.reviews div.article-title p {
-  gap: 3rem;
-  padding: 2%;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
-  box-shadow: 0 0.5rem 1rem #11111131;
-  padding: 3rem 2rem;
-  letter-spacing: 3px;
-  -webkit-text-stroke: 0.7px rgb(237, 253, 240);
-  background: -webkit-linear-gradient(rgba(153, 243, 255, 0.267), rgba(255, 193, 250, 0.514));
-  -webkit-text-fill-color: transparent;
-  font-size: 2rem;
-  margin-top: 5rem;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
+  .reviews .slide h3 {
+    font-size: 3rem;
+    margin-top: 1%;
+    color: var(--color-casper2);
+    text-transform: capitalize;
+  }
 
-html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong {
-  font-size: 2.3rem;
+  html body.parallax section#reviews.reviews div p strong a {
+    font-size: 2.5rem;
+  }
 
-}
+  /*REVIEW SECTION ENDS*/
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-html body.parallax section.reviews div.article-title p strong{
-  gap: 3rem;
-  padding: 2%;
-  -ms-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-  background: var(--color-darker);
-  
-  padding: 1rem 1rem;
-  letter-spacing: 3.5px;
-  -webkit-text-stroke: 0.7px rgb(237, 253, 240);
-  margin-bottom: 5rem;
-  font-size: 2rem;
-  margin-top: 5rem;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
+  div.article-container div.article-title h1 {
+    margin-top: -200px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
+    letter-spacing: 15px;
+    -webkit-text-stroke: 2.0px rgb(41, 233, 73);
+    text-shadow: 0 0 5px #a5cad211, 
+    0 0 10px #a5cad227, 
+    0 0 20px #a5cad21c, 
+    0 0 40px #a5cad217,
+    0 0 75px #a5cad25e;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 8rem;
+    margin-top: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
-  /*ARTICLE SECTION ENDS*/
+  div.article-container div.article-title h2 {
+    letter-spacing: 15px;
+    -webkit-text-stroke: 0.7px rgb(252, 246, 255);
+    text-shadow: 0 0 5px #a5cad211, 
+    0 0 10px #a5cad227, 
+    0 0 20px #a5cad21c, 
+    0 0 40px #a5cad217,
+    0 0 75px #a5cad25e;
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243), rgb(160, 150, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  div.article div.article-text h2 {
+    letter-spacing: 15px;
+    -webkit-text-stroke: 0.7px rgb(252, 246, 255);
+    text-shadow: 0 0 5px #a5cad211, 
+    0 0 10px #a5cad227, 
+    0 0 20px #a5cad21c, 
+    0 0 40px #a5cad217,
+    0 0 75px #a5cad25e;
+    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(243, 243, 243), rgb(160, 150, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p strong {
+    font-size: 2.5rem;
+  }
+
+  .article {
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.116);
+    box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.075);
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .article img {
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 3%;
+    
+  }
+
+
+    div.article div.article-text p {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-size: 2.3rem;
+    margin-top: 0;
+    line-height: 1.2;
+    text-align: justify;
+    padding: 4%;
+  }
+
+  html body.parallax section.reviews div.article-title h1 {
+    gap: 3rem;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
+    letter-spacing: 6px;
+    -webkit-text-stroke: 2.0px rgb(237, 253, 240);
+    text-shadow: 0 0 5px #a5cad211, 
+    0 0 75px #a5cad25e;
+    background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(218, 197, 238), rgb(255, 193, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7rem;
+    margin-top: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  html body.parallax section.reviews div.article-title p {
+    gap: 3rem;
+    padding: 2%;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.7px rgb(237, 253, 240);
+    background: -webkit-linear-gradient(rgba(153, 243, 255, 0.267), rgba(255, 193, 250, 0.514));
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  html body.parallax section#reviews.reviews div.article-container div.article.aos-init.aos-animate div.article-text p a strong {
+    font-size: 2.3rem;
+
+  }
+
+  html body.parallax section.reviews div.article-title p strong{
+    gap: 3rem;
+    padding: 2%;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: var(--color-darker);
+    
+    padding: 1rem 1rem;
+    letter-spacing: 3.5px;
+    -webkit-text-stroke: 0.7px rgb(237, 253, 240);
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+    /*ARTICLE SECTION ENDS*/
 
 
 

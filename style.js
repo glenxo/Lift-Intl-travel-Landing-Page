@@ -23,7 +23,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     loader.style.display = "none";
     content.style.display = "block";
-  }, 1500);
+  }, 10500);
 });
 
 

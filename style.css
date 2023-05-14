@@ -132,15 +132,17 @@ body {
       from(rgba(17, 17, 17, 0)),
       to(rgba(17, 17, 17, 0))
     ),
-    url(media/travelbody3.png) no-repeat;
-  background: linear- gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.452)),
-    url(media/travelbody3.png) no-repeat;
+    url() no-repeat;
+  background: linear- gradient(rgb(255, 255, 255), rgb(17, 17, 17)),
+    url() no-repeat;
   background-position: bottom;
   scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-size: 400%; /* zoom out the image by 50% */
   position: relative; 
 }
+
+
 
 span {
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
@@ -570,15 +572,12 @@ html body.parallax div.chatbox a.chat img {
 
 .home .content span {
   font-weight: bolder;
-  text-shadow: 0 0 5px #a5cad246, 
-                0 0 15px #a5cad252,
-                0 0 30px #a5cad221, 
-                0 0 40px #a5cad23a,
-                0 0 75px #a5cad22c;
+  text-shadow: 0 0 5px #a5cad2e3, 
+                0 0 75px #a5cad2;
   color: var(--color-dark);
   font-size: 6vw;
   display: block;
-  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(95, 151, 255), rgb(255, 0, 234));
+  background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(162, 195, 255), rgb(255, 206, 251));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: -20%;
