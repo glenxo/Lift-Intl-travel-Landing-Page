@@ -1573,8 +1573,8 @@ Pallete
   
   @media (max-width: 780px) {
     body {
-        url(media /travelbody 3png) no-repeat;
-      background-position: center;
+
+        background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: 360%; 

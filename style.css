@@ -1,26 +1,27 @@
 body {
     font-family: "Poppins", sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 10%;
 }
 
 h1 {
     font-size: 150px;
     text-align: center;
+    
     animation: animate 1.5s infinite;
 }
 
 @keyframes animate {
     0% {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         transform: scale(1);
     }
     50% {
-        color: rgb(34, 34, 34);
+        color: #e9dfff;
         transform: scale(1.2);
     }
     100% {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         transform: scale(1);
     }
 }
@@ -28,7 +29,7 @@ h1 {
 p {
     font-size: 24px;
     text-align: center;
-    color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
 }
 
 img {
@@ -54,19 +55,20 @@ img {
     width: 100%;
     height: 100%;
     overflow: visible;
-    background: #fff;
+    background: #000000;
   }
   
   .loader {
     position: absolute;
-
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
-    border: 5px solid #333;
-    border-top-color: #fff;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
+    width: 70px;
+    height: 70px;
+    border: 15px solid #5e08ff;
+    border-top-color: #c9b1ff;
+    border-radius: 80%;
+    animation: spin 4s linear infinite;
   }
   
   @keyframes spin {
@@ -86,7 +88,7 @@ img {
 
 @media (max-width: 768px) {
     body {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
         padding: 10%;
     }
     
@@ -98,13 +100,13 @@ img {
     h1 {
         font-size: 50px;
         text-align: center;
-        animation: animate 1s infinite;
+        animation: animate 3s infinite;
     }
 
     p {
         font-size: 14px;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: #e9dfff;
     
     }
 
