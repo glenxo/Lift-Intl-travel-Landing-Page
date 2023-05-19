@@ -443,7 +443,7 @@ Pallete
   
   .preview {
     margin: 1rem auto;
-    margin-top: -16rem;
+    margin-top: -26rem;
     width: 80%;
     border-radius: 1rem;  
     padding: 3rem 2rem;
@@ -459,9 +459,9 @@ Pallete
   .preview span {
     -webkit-text-stroke: 1.0px rgb(151, 151, 151);
     color: #ffff;
-    font-weight: bolder;
+    font-weight: 100;
     margin-top: 4%;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     background-image: url(/main/pexels-richard-rojas-15097661.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -470,7 +470,7 @@ Pallete
   
   html body.parallax section#preview.preview p{
     -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: bolder;
+    color: #ffff;    font-weight: 500;
     margin-top: 1%;
     font-size: 1rem;
     line-height: -5;
@@ -515,7 +515,7 @@ Pallete
   }
   
   .destiantion p, a {
-    font-weight: bolder;
+    font-weight: 200;
     font-size: 25px;
   }
   
@@ -527,7 +527,7 @@ Pallete
   
   .destination .box-container .box img {
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     margin-bottom: 1rem;
     z-index: -10;
     filter: brightness(85%);
@@ -535,7 +535,7 @@ Pallete
   
   .destination .box-container .box span {
     -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: bolder;
+    color: #ffff;    font-weight: 100;
       margin-top: 2rem;
       margin-bottom: 3rem;
       font-size: 1rem;
@@ -547,17 +547,18 @@ Pallete
   
   .destination .box-container .box h3 {
     -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: bolder;
-    font-weight: bolder;
+    color: #ffff;    font-weight: 100;
+    font-weight: 100;
     font-size: 1.5rem;
   }
   
   .destination .heading h1 {
     -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: bolder;
-    font-weight: bolder;
+    color: #ffff;    font-weight: 100;
+    font-weight: 100;
     font-size: 3.5rem;
     margin-top: -15%;
+    margin-bottom: -7%;
   }
 
   html body.parallax section.destination div.heading h1#destination.aos-init.aos-animate{
