@@ -19,7 +19,7 @@ Pallete
 
 
 :root {
-    --color-geraldine: #fa6ca2;
+    --color-geraldine: #ff951c;
     --color-geraldine1: #eb569cc2;
     --color-strikemaster: #8a5082;
     --color-strikemaster2: #8a50825f;
@@ -49,10 +49,10 @@ Pallete
   
   
   .container h4 {
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-    text-stroke: 1px rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-    font-size: 1.5rem;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     color: var(--color-casper);
   }
   
@@ -93,7 +93,7 @@ Pallete
         to(rgba(17, 17, 17, 0))
       ),
       url() no-repeat;
-    background: #000000;
+    background: #ffffff;
       url() no-repeat;
     background-position: bottom;
     scroll-behavior: smooth;
@@ -117,10 +117,10 @@ Pallete
     margin-left: 50%;
   }
   
-  html body.parallax div.branding a.nav-brand img{
-    width: 8%;
+html body.parallax div.branding a.nav-brand img{
+    width: 10%;
   }
-
+  
   /*BAR MENU SECTION START*/
   
   .bar-menu {
@@ -155,7 +155,7 @@ Pallete
 
   html body.parallax section.bar-menu a{
         -webkit-text-stroke: 0.3px rgb(255, 255, 255);
-    color: rgba(230, 230, 230, 0.719);
+    color: rgba(255, 255, 255, 0.719);
 
 
 
@@ -163,7 +163,7 @@ Pallete
   
   .bar-menu a:hover {
     -webkit-text-stroke: 0.3px rgb(255, 255, 255);
-    color: rgb(230, 230, 230);
+    color: rgb(124, 124, 124);
     background: none;
     border-radius: 2%;
     font-weight: bolder;
@@ -488,6 +488,24 @@ html body.parallax section#home.home section#home h3{
   }
   
   .preview {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: 0 0.5rem 1rem #5e5e5e5e;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #80808028;
+    box-shadow: 0 0.5rem 1rem #5e5e5e31;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin: 10px;
     margin: 1rem auto;
     margin-top: -70rem;
     width: 80%;
@@ -503,8 +521,9 @@ html body.parallax section#home.home section#home h3{
   }
   
   .preview span {
-    -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;
+    -webkit-text-stroke: 1.0px rgba(49, 49, 49, 0.493);
+    color: #414141cc;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
     font-weight: 100;
     margin-top: 6%;
     margin-bottom: 6%;
@@ -512,8 +531,10 @@ html body.parallax section#home.home section#home h3{
   }
   
   html body.parallax section#preview.preview p{
-    -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: 500;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     margin-top: 1%;
     font-size: 1rem;
     padding-left: 20%;
@@ -532,36 +553,7 @@ html body.parallax section#home.home section#home h3{
   /*PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER - PREVIEW GRID-CONTAINER*/
   
   .preview {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 3rem;
-    background: #5e5e5e31;
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem #808080de;
-    box-shadow: 0 0.5rem 1rem #5e5e5ef6;
-    padding: 3rem 2rem;
-    text-align: center;
-    margin: 10px;
-    margin: 1rem auto;
-    margin-top: -70rem;
-    width: 80%;
-    border-radius: 1rem;  
-    padding: 3rem 2rem;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    min-height: 80vh;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 5rem;
+    
     padding: 5%;
   }
   
@@ -603,10 +595,10 @@ html body.parallax section#home.home section#home h3{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 3rem;
-    background: #5e5e5e31;
+    background: 0 0.5rem 1rem #5e5e5e31;
     border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem #808080de;
-    box-shadow: 0 0.5rem 1rem #5e5e5ef6;
+    -webkit-box-shadow: 0 0.5rem 1rem #80808028;
+    box-shadow: 0 0.5rem 1rem #5e5e5e31;
     padding: 3rem 2rem;
     text-align: center;
     margin: 10px;
@@ -615,12 +607,8 @@ html body.parallax section#home.home section#home h3{
     columns: 3 25rem;
     -webkit-column-gap: 1.5rem;
     column-gap: 1.5rem;
-    display: block;
-    -webkit-columns: 3 25rem;
-    columns: 3 25rem;
-    -webkit-column-gap: 1.5rem;
-    column-gap: 1.5rem;
     margin-top: 10%;
+    display: block;
   }
   
   .destiantion p, a {
@@ -643,8 +631,10 @@ html body.parallax section#home.home section#home h3{
   }
   
   .destination .box-container .box span {
-    -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: 100;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
       margin-top: 2rem;
       margin-bottom: 3rem;
       font-size: 1rem;
@@ -655,17 +645,20 @@ html body.parallax section#home.home section#home h3{
   }
   
   .destination .box-container .box h3 {
-    -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: 100;
-    font-weight: 100;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     font-size: 1.5rem;
   }
   
   .destination .heading h1 {
-    -webkit-text-stroke: 1.0px rgb(151, 151, 151);
-    color: #ffff;    font-weight: 100;
+    
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
     font-weight: 100;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: -5%;
   }
@@ -758,10 +751,6 @@ html body.parallax section#home.home section#home h3{
   }
   
   /*HEADER SECTION ENDS*/
-  /*BOOK-FORM SECTION STARTS ENDS*/
-
-  
-  /*BOOK-FORM SECTION ENDS*/
   /*SERVICES SECTION STARTS*/
   
   .services .box-container {
@@ -793,8 +782,10 @@ html body.parallax section#home.home section#home h3{
   }
   
   .services .box-container .box i {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.997),
-      -2px -2px 4px rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     font-size: 2rem;
     color: var(--color-geraldine);
     margin-bottom: 2rem;
@@ -806,10 +797,10 @@ html body.parallax section#home.home section#home h3{
   }
   
   .services .heading h1 {
-    -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-      -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     font-size: 5vw;
   }
   
@@ -823,9 +814,10 @@ html body.parallax section#home.home section#home h3{
   .services .box-container .box a {
     padding: 1rem 0;
     font-size: 1rem;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-    text-stroke: 1px rgb(6, 247, 247);
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     line-height: 2;
   }
   
@@ -850,13 +842,11 @@ html body.parallax section#home.home section#home h3{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 3rem;
-    background: #5e5e5e31;
+    background: 0 0.5rem 1rem #5e5e5e31;
     border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem #808080de;
-    box-shadow: 0 0.5rem 1rem #5e5e5ef6;
+    -webkit-box-shadow: 0 0.5rem 1rem #80808028;
+    box-shadow: 0 0.5rem 1rem #5e5e5e31;
     padding: 3rem 2rem;
-    text-align: center;
-    margin: 10px;
     text-align: center;
     margin: 10px;
   }
@@ -868,19 +858,14 @@ html body.parallax section#home.home section#home h3{
   
   .team-member h3, .team-member p {
     font-weight: bolder;
-    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-    color: #ffffffcc;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0); 
     font-size: 2.5vw;
     margin: 5px 0;
   }
   
 
-  .image-grid {
-    display: flex;
-    justify-content: center;
-  }
-  
   .image-grid img {
     width: 300px; /* Adjust the width as needed */
     height: auto;
@@ -891,31 +876,37 @@ html body.parallax section#home.home section#home h3{
   html body.parallax section#team-member.team-member div.image-grid h3{
 
   font-weight: bolder;
-  -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-  color: #ffffffcc;
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+  color: #414141cc;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+  font-weight: 200;
   font-size: 1vw;  }
 
   html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate h4{
-    font-weight: bolder;
-    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-    color: #ffffffcc;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 100;
     font-size: 1rem; 
+    padding-left: 20%;
+    padding-right: 20%;
+
   }
 
   html body.parallax section#team-member.team-member div.image-grid p{
     font-weight: bolder;
-    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-    color: #ffffffcc;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     font-size: 1vw;  }
-  
+
   html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate div.team-member div.share{
     font-weight: bolder;
-    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-    color: #ffffffcc;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     font-size: 2rem;
   }
   /*TEAM-MEMBERS SECTION ENDS*/
@@ -924,17 +915,17 @@ html body.parallax section#home.home section#home h3{
   
   /*PAYMENT INFO STARTS*/
   html body.parallax div.payment{
-    -webkit-text-stroke: 1.5px rgb(157, 255, 0);
-    background: -webkit-linear-gradient(rgb(244, 246, 247));
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
     -webkit-background-clip: text;
-  font-weight: bolder;
     text-align: center;
     padding-left: 350px;
     padding-right: 350px;
     margin-top: 4%;
     margin-bottom: 2%;
     font-size: 0.7vw;
-    color: #ffffff;
   
   }
   
@@ -958,77 +949,110 @@ html body.parallax section#home.home section#home h3{
       color: var(--color-casper2);
     }
     
-    .review {
+    .team-member {
       margin: 30px;
     }
     
-    .review img {
+    .team-member img {
       width: 100px;
       height: 100px;
       object-fit: cover;
       border-radius: 50%;
     }
     
-    .review h3 {
+    .team-member h3 {
       margin-top: 20px;
       margin-bottom: 10px;
       font-size: 3rem;
     }
     
-    .review p {
+    .team-member p {
       font-size: 8rem;
     }
-    
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review h3,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review.aos-init.aos-animate h3 {
-      margin-top: 2px;
-      margin-bottom: 2px;
-      font-size: 2rem;
-    }
-    
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review h4,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review.aos-init.aos-animate h4 {
-      -webkit-text-stroke: 1.0px rgba(255, 255, 255, 0.699);
-      color: #f8f8f8cc;
-      text-shadow: 1px 1px 3px rgb(0, 0, 0);
-      font-weight: 200;
-      font-size: 1rem;
-    }
-    
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review p,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review.aos-init.aos-animate p {
-      margin-top: -13%;
-      margin-bottom: -13%;
-      font-size: 1rem;
-    }
-    
-    html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3 {
+
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h3,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate h3{
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 2rem;
+      }
+
+      
+      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h4,
+      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate h4{ 
+        -webkit-text-stroke: 1.0px rgba(49, 49, 49, 0.699);
+        color: #414141cc;
+        text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+        font-weight: 200;
+        font-size: 1rem;
+
+      }
+
+
+      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member p,
+      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate p{
+        margin-top: -13%;
+        margin-bottom: -13%;
+        font-size: 1rem;
+      }
+  
+    html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3{
       text-align: center;
       font-size: 2.5rem;
       color: var(--color-casper2);
     }
-    
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-pinterest,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-whatsapp,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-youtube,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-linkedin,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-facebook-f,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-twitter,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review.aos-init.aos-animate div.share a.fab.fa-twitter,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.review div.share a.fab.fa-instagram {
-      height: 4rem;
-      width: 4rem;
-      line-height: 4rem;
-      font-size: 2rem;
-      border-radius: 50%;
-      font-size: 1.7rem;
-      border: 0.2rem solid var(--color-geraldine);
-      background: var(--color-kimberly);
-      color: var(--color-casper);
-      margin-right: 0.5rem;
-      text-align:
-    
+
+
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-youtube,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-linkedin,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-facebook-f,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-twitter,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate div.share a.fab.fa-twitter,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-instagram{
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        font-size: 1.7rem;
+        border: 0.2rem solid var(--color-geraldine);
+
+        background: var(--color-kimberly);
+        color: var(--color-casper);
+        margin-right: 0.5rem;
+        text-align: center;
+    }
+
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-youtube:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-linkedin:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-facebook-f:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-twitter:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate div.share a.fab.fa-twitter:hover,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-instagram:hover {
+        border: 0.2rem solid  var(--color-casper);
+        color: var(--color-kimberly);
+        background: var(--color-geraldine);
+      }
+
+    html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate i.fas.fa-globe{
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        font-size: 1.7rem;
+        border: 0.2rem solid var(--color-geraldine);
+        color: var(--color-kimberly);
+        background: var(--color-geraldine);
+        margin-right: 0.5rem;
+        text-align: center;
+    }
   
+    
   
   /*  FOOTER SECTION STARTS*/
   
@@ -1056,7 +1080,7 @@ html body.parallax section#home.home section#home h3{
     background: none;
     font-size: 1.5rem;
     text-transform: none;
-    color: #aaa;fade-in"
+    color: #aaa;
     margin-bottom: 1rem;
     padding: 1.2rem 1.4rem;
   } 
