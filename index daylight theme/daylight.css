@@ -968,7 +968,7 @@ html body.parallax section#home.home section#home h3{
     }
     
     .member img {
-      width: 200px; /* Adjust the width as needed */
+      width: 100px; /* Adjust the width as needed */
       height: auto;
     }
     
@@ -981,8 +981,7 @@ html body.parallax section#home.home section#home h3{
       margin: 5px 0;
     }
     
-    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal div#swiper-wrapper-2cf8c881108b31f9c.swiper-wrapper div.swiper-slide.swiper-slide-next div.member,
-    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal div#swiper-wrapper-2cf8c881108b31f9c.swiper-wrapper div.swiper-slide div.member.aos-init.aos-animate{
+    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal div#swiper-wrapper-10225f78bab9f3f69.swiper-wrapper div.swiper-slide{
       margin-left: 3rem;
       margin-right: 3rem;
       display: -webkit-box;
