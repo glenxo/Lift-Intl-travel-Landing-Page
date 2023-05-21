@@ -995,7 +995,7 @@ html body.parallax section#home.home section#home h3{
       gap: 3rem;
       -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
-      background: var(--color-darker);
+      background: #1111112a;
       border-radius: 1rem;
       -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
       box-shadow: 0 0.5rem 1rem #11111131;
@@ -1011,14 +1011,21 @@ html body.parallax section#home.home section#home h3{
       height: auto;
     }
   
-    html body.parallax section#member.member div.image-grid h3{
-  
-    font-weight: bolder;
+    div.member h4{
+      font-weight: 100;
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
     color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-    font-weight: 200;
-    font-size: 1vw;  }
+    text-shadow: 0.3px 0.3px 1.3px rgb(0, 0, 0);   
+    font-size: 0.9rem;  
+  }
+
+  div.member h3{
+    font-weight: 100;
+  -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+  color: #414141cc;
+  text-shadow: 0.3px 0.3px 1.3px rgb(0, 0, 0);   
+  font-size: 1.2rem;  
+}
       
     html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-931b091f2f6ec91d.swiper-wrapper div.swiper-slide.swiper-slide-active div.member h4{
       -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
