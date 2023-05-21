@@ -39,6 +39,18 @@ window.addEventListener('scroll', () => {
   prevScrollPos = currentScrollPos;
 });
 
+var swiper = new Swiper('.swiper-container', {
+  loop: true, // Enable infinite loop
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+
+
 
 const links = document.querySelectorAll("a");
 

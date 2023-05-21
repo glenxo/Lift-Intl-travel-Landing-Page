@@ -481,10 +481,9 @@ html body.parallax section#home.home section#home h3{
   /* PRE-HOME SECTION ENDS*/
   /* PREVIEW SECTION STARTS */
   
-  html body.parallax section#preview.preview img{
-    width: 300%;
-    height: 300%;
-    margin-top: 0%;
+  #preview img{
+    width: 200%;
+    height: 200%;
   }
   
   .preview {
@@ -751,7 +750,14 @@ html body.parallax section#home.home section#home h3{
   }
   
   /*HEADER SECTION ENDS*/
+
+
+
   /*SERVICES SECTION STARTS*/
+
+  html body.parallax section#services.services{
+    margin-top: 50%;
+  }
   
   .services .box-container {
     display: -ms-grid;
@@ -824,6 +830,20 @@ html body.parallax section#home.home section#home h3{
   /*SERVICES SECTION ENDS*/
   
   /*TEAM-MEMBERS SECTION STARTS*/
+
+  .swiper-container {
+    width: 30%;
+    height: 500px;
+  }
+
+  /* Set slide item styles */
+  .swiper-slide {
+    background-size: cover;
+    background-position: fixed;
+  }
+
+
+
 
   .image-grid {
     display: flex;
@@ -912,7 +932,114 @@ html body.parallax section#home.home section#home h3{
   /*TEAM-MEMBERS SECTION ENDS*/
   
   
+    /*MEMBERS SECTION STARTS*/
+
+    .image-grid {
+      display: flex;
+      justify-content: center;
+    }
+    
+    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-bb00fa1ca10a135b7.swiper-wrapper div.swiper-slide.swiper-slide-active,
+    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-610c74107acfc2a57e.swiper-wrapper div.swiper-slide.swiper-slide-active div.member{
+      font-weight: bolder;
+      -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+      color: #414141cc;
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); 
+      font-size: 0.5vw;
+      margin: 5px 0;
+      text-align: center;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 3rem;
+
+    }
+
+
+
+
+
+    .member {
+
+      margin: 10px;
+    }
+    
+    .member img {
+      width: 200px; /* Adjust the width as needed */
+      height: auto;
+    }
+    
+    .member h3, .member p {
+      font-weight: bolder;
+      -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+      color: #414141cc;
+      text-shadow: 1px 1px 3px rgb(0, 0, 0); 
+      font-size: 2.5vw;
+      margin: 5px 0;
+    }
+    
   
+    .image-grid img {
+      width: 75px; /* Adjust the width as needed */
+      
+    }
+  
+
+    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-a68561618bb2f8b0.swiper-wrapper div.swiper-slide{
+      height: auto;
+      margin: 10px;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 3rem;
+      -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+      background: var(--color-darker);
+      border-radius: 1rem;
+      -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+      box-shadow: 0 0.5rem 1rem #11111131;
+      padding: 3rem 2rem;
+    }
+
+    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-a68561618bb2f8b0.swiper-wrapper div.swiper-slide.swiper-slide-next div.member.aos-init.aos-animate img{
+      width: 50px; /* Adjust the width as needed */
+      height: auto;
+    }
+  
+    html body.parallax section#member.member div.image-grid h3{
+  
+    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
+    font-size: 1vw;  }
+      
+    html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-931b091f2f6ec91d.swiper-wrapper div.swiper-slide.swiper-slide-active div.member h4{
+      -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+      color: #414141cc;
+      text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+      font-weight: 100;
+      font-size: 1rem; 
+
+  
+    }
+
+
+
+
+    /*MEMBERS SECTION ENDS*/
+
   /*PAYMENT INFO STARTS*/
   html body.parallax div.payment{
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
@@ -943,7 +1070,7 @@ html body.parallax section#home.home section#home h3{
     }
     
     #presentation h2 {
- 
+
       text-align: center;
       font-size: 1rem;
       color: var(--color-casper2);
@@ -1001,7 +1128,6 @@ html body.parallax section#home.home section#home h3{
       font-size: 2.5rem;
       color: var(--color-casper2);
     }
-
 
     html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest,
     html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp,
