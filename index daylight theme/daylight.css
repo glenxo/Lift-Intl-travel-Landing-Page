@@ -616,6 +616,20 @@ html body.parallax section#home.home section#home h3{
   }
   
   .destination .box-container .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: 0 0.5rem 1rem rgba(8, 8, 8, 0.144);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+    box-shadow: 0 0.5rem 1rem #00000021;
+    padding: 0.5rem 0.7rem;
     margin-bottom: 1rem;
     -webkit-column-break-inside: avoid;
     break-inside: avoid;
@@ -628,26 +642,34 @@ html body.parallax section#home.home section#home h3{
     z-index: -10;
     filter: brightness(85%);
   }
+
+  div.box-container div.box.aos-init.aos-animate span strong{
+    -webkit-text-stroke: 1.0px rgba(69, 187, 65, 0.493);
+    color: rgb(95, 182, 99);
+    text-shadow: 1px 1px 3px #0b8b703f;  
+  }
   
   .destination .box-container .box span {
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    color: #2e2e2ecc;
+    text-shadow: 0.5px 0.5px 1.5px #00000006;   
     font-weight: 200;
-      margin-top: 2rem;
-      margin-bottom: 3rem;
+      margin-top: -1rem;
+      margin-bottom: 1rem;
       font-size: 1rem;
       border-radius: 5rem;
-      line-height: 1rem;
-      letter-spacing: 0px;
+      line-height: 1.5rem;
+      letter-spacing: 0.7px;
       text-transform: none;
   }
   
   .destination .box-container .box h3 {
+    margin-top: -10rem;
+    margin-bottom: -10rem;
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-    font-weight: 200;
+    color: #414141;
+    text-shadow: 1px 1px 3px #00000031;   
+    font-weight: 700;
     font-size: 1.5rem;
   }
 
@@ -688,7 +710,7 @@ html body.parallax section#home.home section#home h3{
     width: 30rem;
     background: linear-gradient(
       to right,
-      #8a4bc5,
+      #4bc551,
       #1498c0cc,
       #7346afc0,
       #add8e600
@@ -863,14 +885,28 @@ html body.parallax section#home.home section#home h3{
 
   
   html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate h4{
+        margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: 0 0.5rem 1rem #08080831;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+    box-shadow: 0 0.5rem 1rem #00000028;
+    padding: 0.5rem 0.7rem;
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
     color: #414141cc;
     text-shadow: 0.5px 0.5px 1.5px rgb(0, 0, 0);   
     font-weight: 100;
     font-size: 1.1rem; 
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
   }
 
 
@@ -932,13 +968,14 @@ html body.parallax section#home.home section#home h3{
   }
   
   .team-member img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     object-fit: cover;
     border-radius: 50%;
   }
   
   .team-member h3 {
+    
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 3rem;
