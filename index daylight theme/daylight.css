@@ -1228,17 +1228,60 @@ html body.parallax section#home.home section#home h3{
     /*MEMBERS SECTION ENDS*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /*SERVICES SECTION STARTS*/
 
   html body.parallax section#services.services{
-    margin-top: 50%;
+    margin-top: 20%;
   }
   
   .services .box-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: #1111112a;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(32rem, 1fr)) [auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    -ms-grid-columns: (minmax(12rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     gap: 1.5rem;
   }
   
