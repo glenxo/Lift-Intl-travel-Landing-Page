@@ -26,7 +26,7 @@ Pallete
     --color-kimberly: #6f5f90;
     --color-kimberly2: #6f5f90d7;
     --color-ship-cove: #758eb7;
-    --color-casper: #a5cad2;
+    --color-casper: #afafaf;
     --color-casper2: #dff9ff;
     --color-dark: #262229;
     --color-darker: #26222993;
@@ -499,7 +499,6 @@ html body.parallax section#home.home section#home h3{
                   flex-wrap: wrap;
                   gap: 3rem;
                   background: 0 0.5rem 1rem #252525de;
-                  border-radius: 1rem;
                   -webkit-box-shadow: 0 0.5rem 1rem #31313128;
                   box-shadow: 0 0.5rem 1rem #00000098;
                   padding: 3rem 2rem;
@@ -514,7 +513,6 @@ html body.parallax section#home.home section#home h3{
                   background-position: center;
                   display: flex;
                   min-height: 80vh;
-                  align-items: center;
                   justify-content: center;
                   padding-bottom: 5rem;
                 }
@@ -1339,6 +1337,7 @@ html body.parallax section#home.home section#home h3{
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     gap: 1.5rem;
     margin-top: 10%;
+    margin-bottom: 5%;
   }
   
   .services .box-container {
@@ -1368,38 +1367,47 @@ html body.parallax section#home.home section#home h3{
   }
   
   .services .box-container .box {
-    background: var(--color-strikemaster2);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: #1111110a;
     border-radius: 1rem;
-    border: 0.2rem solid var(--color-geraldine);
-    padding: 3rem;
-    text-align: center;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(12rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1.5rem;
   }
-  
-  .services .box-container .box:hover {
-    background: var(--color-darker);
-    border-radius: 1rem;
-    border: 0.2rem solid var(--color-casper2);
-    padding: 3rem;
-    text-align: center;
-  }
-  
-  .services .box-container .box:hover {
-    border: 0.2rem solid var(--color-casper);
-  }
-  
+
   .services .box-container .box i {
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
     color: #414141cc;
     text-shadow: 1px 1px 3px rgb(0, 0, 0);   
     font-weight: 200;
     font-size: 2rem;
-    color: var(--color-geraldine);
+    color: rgb(0, 0, 0); 
     margin-bottom: 2rem;
   }
   
+  html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3,
   .services .box-container .box h3 {
-    font-size: 2rem;
-    color: var(--color-casper);
+    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: rgb(19, 19, 19);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
   }
   
   .services .heading h1 {
@@ -1431,7 +1439,7 @@ html body.parallax section#home.home section#home h3{
   .services .box-container .box p {
     padding: 1rem 0;
     font-size: 1rem;
-    color: var(--color-casper2);
+    color: var(--color-dark);
     line-height: 2;
   }
   
@@ -1482,17 +1490,26 @@ html body.parallax section#home.home section#home h3{
   
   .footer .box-container .box .logo {
     padding-bottom: 10rem;
-  
-  }
-  
-
-  html body.parallax section#contact.footer div.box-container div.box.aos-init h3{
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0); 
+    color: #9e814b;
         font-size: 3rem;
-
   }
+  
+
+  html body.parallax section#contact.footer div.box-container div.box.aos-init h4{
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #9e814b;
+        font-size: 3rem;
+  }
+
+
+  html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate img{
+    width: 30%;
+    height: auto;
+  }
+
+
+
   
   .footer .box-container .box p {    color: var(--color-casper2);
     padding: 1rem 0;
@@ -1513,12 +1530,11 @@ html body.parallax section#home.home section#home h3{
   }
   
   .footer .box-container .box .share a {
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4rem;
-    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
     border-radius: 50%;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     border: 0.2rem solid var(--color-geraldine);
     color: var(--color-kimberly);
     background: var(--color-geraldine);
@@ -1532,7 +1548,7 @@ html body.parallax section#home.home section#home h3{
   }
   
   .footer .box-container .box .links {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--color-casper2);
     padding: 1rem 0;
     display: block;
@@ -1558,7 +1574,7 @@ html body.parallax section#home.home section#home h3{
   .credit {
     background: var(--color-dark);
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     padding: 2rem 1rem;
     color: var(--color-casper);
   }
