@@ -486,38 +486,38 @@ html body.parallax section#home.home section#home h3{
     height: 200%;
   }
   
-  .preview {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 3rem;
-    background: 0 0.5rem 1rem #5e5e5e5e;
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem #80808028;
-    box-shadow: 0 0.5rem 1rem #5e5e5e31;
-    padding: 3rem 2rem;
-    text-align: center;
-    margin: 10px;
-    margin: 1rem auto;
-    margin-top: -70rem;
-    width: 80%;
-    border-radius: 1rem;  
-    padding: 3rem 2rem;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    min-height: 80vh;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 5rem;
-  }
+                .preview {
+                  margin-left: 3rem;
+                  margin-right: 3rem;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+                  gap: 3rem;
+                  background: 0 0.5rem 1rem #252525de;
+                  border-radius: 1rem;
+                  -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+                  box-shadow: 0 0.5rem 1rem #00000098;
+                  padding: 3rem 2rem;
+                  text-align: center;
+                  margin: 10px;
+                  margin: 1rem auto;
+                  margin-top: -70rem;
+                  width: 80%;
+                  border-radius: 1rem;  
+                  padding: 3rem 2rem;
+                  background-size: cover;
+                  background-position: center;
+                  display: flex;
+                  min-height: 80vh;
+                  align-items: center;
+                  justify-content: center;
+                  padding-bottom: 5rem;
+                }
   
   .preview span {
     -webkit-text-stroke: 1.0px rgba(49, 49, 49, 0.493);
@@ -594,10 +594,10 @@ html body.parallax section#home.home section#home h3{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 3rem;
-    background: 0 0.5rem 1rem #5e5e5e31;
+    background: 0 0.5rem 1rem #252525de;
     border-radius: 1rem;
-    -webkit-box-shadow: 0 0.5rem 1rem #80808028;
-    box-shadow: 0 0.5rem 1rem #5e5e5e31;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+    box-shadow: 0 0.5rem 1rem #00000098;
     padding: 3rem 2rem;
     text-align: center;
     margin: 10px;
@@ -650,22 +650,31 @@ html body.parallax section#home.home section#home h3{
     font-weight: 200;
     font-size: 1.5rem;
   }
-  
+
   .destination .heading h1 {
-    
+    font-weight: bolder;
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
+    color: rgb(206, 206, 206);
     text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-    font-weight: 100;
-    font-size: 3rem;
-    margin-top: 1rem;
+    font-size: 3rem; 
     margin-bottom: -5%;
   }
 
   html body.parallax section.destination div.heading h1#destination.aos-init.aos-animate{
-    background-image: url(/);
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #11111177;
+    box-shadow: 0 0.5rem 1rem #1111117a;
+    padding: 3rem 2rem;
   }
   
   /*DESTINATION SECTION ENDS*/
@@ -750,100 +759,8 @@ html body.parallax section#home.home section#home h3{
   }
   
   /*HEADER SECTION ENDS*/
-
-
-
-  /*SERVICES SECTION STARTS*/
-
-  html body.parallax section#services.services{
-    margin-top: 50%;
-  }
-  
-  .services .box-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(32rem, 1fr)) [auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
-    gap: 1.5rem;
-  }
-  
-  .services .box-container .box {
-    background: var(--color-strikemaster2);
-    border-radius: 1rem;
-    border: 0.2rem solid var(--color-geraldine);
-    padding: 3rem;
-    text-align: center;
-  }
-  
-  .services .box-container .box:hover {
-    background: var(--color-darker);
-    border-radius: 1rem;
-    border: 0.2rem solid var(--color-casper2);
-    padding: 3rem;
-    text-align: center;
-  }
-  
-  .services .box-container .box:hover {
-    border: 0.2rem solid var(--color-casper);
-  }
-  
-  .services .box-container .box i {
-    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-    font-weight: 200;
-    font-size: 2rem;
-    color: var(--color-geraldine);
-    margin-bottom: 2rem;
-  }
-  
-  .services .box-container .box h3 {
-    font-size: 2rem;
-    color: var(--color-casper);
-  }
-  
-  .services .heading h1 {
-    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-    font-weight: 200;
-    font-size: 5vw;
-  }
-  
-  .services .box-container .box p {
-    padding: 1rem 0;
-    font-size: 1rem;
-    color: var(--color-casper2);
-    line-height: 2;
-  }
-  
-  .services .box-container .box a {
-    padding: 1rem 0;
-    font-size: 1rem;
-    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-    font-weight: 200;
-    line-height: 2;
-  }
-  
-  /*SERVICES SECTION ENDS*/
   
   /*TEAM-MEMBERS SECTION STARTS*/
-
-  .swiper-container {
-    width: 30%;
-    height: 500px;
-  }
-
-  /* Set slide item styles */
-  .swiper-slide {
-    background-size: cover;
-    background-position: fixed;
-  }
-
-
-
 
   .image-grid {
     display: flex;
@@ -851,8 +768,8 @@ html body.parallax section#home.home section#home h3{
   }
 
   html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member{
-    margin-left: 3rem;
-    margin-right: 3rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -877,15 +794,19 @@ html body.parallax section#home.home section#home h3{
     height: auto;
   }
   
-  .team-member h3, .team-member p {
+  
+  .team-member h3{
     font-weight: bolder;
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-    color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0); 
-    font-size: 2.5vw;
+    color: rgb(206, 206, 206);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-size: 1vw;
     margin: 5px 0;
   }
   
+
+
+
 
   .image-grid img {
     width: 300px; /* Adjust the width as needed */
@@ -893,35 +814,97 @@ html body.parallax section#home.home section#home h3{
     margin: 10px;
   }
 
+  
   html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate h3{
+    margin-left: 15rem;
+    margin-right: 15rem;
     margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
+    
+  }
 
+
+  html body.parallax section#team-member.team-member{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: 0 0.5rem 1rem #252525de;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+    box-shadow: 0 0.5rem 1rem #00000098;
+    padding: 3rem 2rem;
   }
 
 
 
 
-  html body.parallax section#team-member.team-member div.image-grid h3{
-
-  font-weight: 200;
-  -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
-  color: #414141cc;
-  text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-  font-weight: 200;
-  font-size: 1vw;  
-  margin-bottom: 40px;
-}
-
+  
   html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate h4{
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
     color: #414141cc;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    text-shadow: 0.5px 0.5px 1.5px rgb(0, 0, 0);   
     font-weight: 100;
-    font-size: 1rem; 
+    font-size: 1.1rem; 
     padding-left: 20%;
     padding-right: 20%;
-
+    margin-bottom: 40px;
   }
+
+
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h5{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: 0 0.5rem 1rem #080808de;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+    box-shadow: 0 0.5rem 1rem #00000098;
+    padding: 0.5rem 0.7rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 0.5px 0.5px 1.5px rgb(0, 0, 0);   
+    font-size: 1.2rem; 
+  }
+
+
+
+
+
+
+
+
 
   html body.parallax section#team-member.team-member div.image-grid p{
     font-weight: bolder;
@@ -929,7 +912,8 @@ html body.parallax section#home.home section#home h3{
     color: #414141cc;
     text-shadow: 1px 1px 3px rgb(0, 0, 0);   
     font-weight: 200;
-    font-size: 1vw;  }
+    font-size: 1vw;  
+  }
 
   html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate div.team-member div.share{
     font-weight: bolder;
@@ -939,10 +923,176 @@ html body.parallax section#home.home section#home h3{
     font-weight: 200;
     font-size: 2rem;
   }
+
+
+
+    
+  .team-member {
+    margin: 30px;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+  }
+  
+  .team-member p {
+    font-size: 8rem;
+  }
+
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h3,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate h3{
+      margin-top: 2px;
+      margin-bottom: 2px;
+      font-size: 2rem;
+    }
+
+    
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h4,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate h4{ 
+      -webkit-text-stroke: 1.0px rgba(49, 49, 49, 0.699);
+      color: #414141cc;
+      text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+      font-weight: 200;
+      font-size: 1rem;
+
+    }
+
+
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member p,
+    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate p{
+      margin-top: -13%;
+      margin-bottom: -13%;
+      font-size: 1rem;
+    }
+
+  html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3{
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--color-casper2);
+  }
+
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-youtube,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-linkedin,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-facebook-f,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-twitter,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate div.share a.fab.fa-twitter,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-instagram{
+      height: 3rem;
+      width: 3rem;
+      line-height: 2.5rem;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      border: 0.2rem solid var(--color-darker);
+
+      background: var(--color-ship-cove);
+      color: var(--color-casper2);
+      margin-right: 0.5rem;
+      text-align: center;
+  }
+
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-youtube:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-linkedin:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-facebook-f:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-twitter:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate div.share a.fab.fa-twitter:hover,
+  html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-instagram:hover {
+      border: 0.2rem solid  var(--color-casper);
+      color: var(--color-kimberly);
+      background: var(--color-casper2);
+    }
+
+
+  
   /*TEAM-MEMBERS SECTION ENDS*/
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     /*MEMBERS SECTION STARTS*/
+
+    .swiper-container {
+    
+      width: 20%;
+      height: 400px;
+      margin-right: 10rem;    }
+  
+    /* Set slide item styles */
+    .swiper-slide {
+      background-size: cover;
+      background-position: fixed;
+    }
+  
+
+    .member {
+
+      margin: 10px;
+    }
+    
+    .member img {
+      border-radius: 50%;
+      border-color: #ffff;
+      width: 100px; /* Adjust the width as needed */
+      height: auto;
+    }
+  
+  
+
+
+    html body.parallax section#member.member{
+      margin-top: 150px;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 3rem;
+      background: 0 0.5rem 1rem #252525e8;
+      border-radius: 1rem;
+      -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+      box-shadow: 0 0.5rem 1rem #00000098;
+      padding: 3rem 2rem;
+    }
+
+
 
     .image-grid {
       display: flex;
@@ -951,7 +1101,6 @@ html body.parallax section#home.home section#home h3{
     
     html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-bb00fa1ca10a135b7.swiper-wrapper div.swiper-slide.swiper-slide-active,
     html body.parallax section#member.member div.box-container div.swiper-container.swiper-initialized.swiper-horizontal.swiper-backface-hidden div#swiper-wrapper-610c74107acfc2a57e.swiper-wrapper div.swiper-slide.swiper-slide-active div.member{
-      font-weight: bolder;
       -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
       color: #414141cc;
       text-shadow: 1px 1px 3px rgb(0, 0, 0); 
@@ -969,22 +1118,6 @@ html body.parallax section#home.home section#home h3{
     }
 
 
-
-
-
-    .member {
-
-      margin: 10px;
-    }
-    
-    .member img {
-      border-radius: 50%;
-      border-color: #ffff;
-      width: 150px; /* Adjust the width as needed */
-      height: auto;
-    }
-
-
     
     .member h3, .member p {
       font-weight: bolder;
@@ -995,7 +1128,31 @@ html body.parallax section#home.home section#home h3{
       margin: 5px 0;
     }
     
-    html body.parallax section#member.member div.box-container div.box.aos-init.aos-animate h3{}
+    html body.parallax section#member.member div.box-container div.box.aos-init.aos-animate h3{
+      font-weight: bolder;
+      -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+      color: rgb(206, 206, 206);
+      text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+      font-size: 3rem; 
+      margin-left: 20rem;
+      margin-right: 20rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      gap: 3rem;
+      -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+      background: var(--color-darker);
+      border-radius: 1rem;
+      -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+      box-shadow: 0 0.5rem 1rem #11111131;
+      padding: 3rem 2rem; 
+    }
 
     html body.parallax section#member.member div.box-container div.box.aos-init.aos-animate h4{
       -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
@@ -1070,6 +1227,83 @@ html body.parallax section#home.home section#home h3{
 
     /*MEMBERS SECTION ENDS*/
 
+
+      /*SERVICES SECTION STARTS*/
+
+  html body.parallax section#services.services{
+    margin-top: 50%;
+  }
+  
+  .services .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .services .box-container .box {
+    background: var(--color-strikemaster2);
+    border-radius: 1rem;
+    border: 0.2rem solid var(--color-geraldine);
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .services .box-container .box:hover {
+    background: var(--color-darker);
+    border-radius: 1rem;
+    border: 0.2rem solid var(--color-casper2);
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .services .box-container .box:hover {
+    border: 0.2rem solid var(--color-casper);
+  }
+  
+  .services .box-container .box i {
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
+    font-size: 2rem;
+    color: var(--color-geraldine);
+    margin-bottom: 2rem;
+  }
+  
+  .services .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--color-casper);
+  }
+  
+  .services .heading h1 {
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
+    font-size: 5vw;
+  }
+  
+  .services .box-container .box p {
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: var(--color-casper2);
+    line-height: 2;
+  }
+  
+  .services .box-container .box a {
+    padding: 1rem 0;
+    font-size: 1rem;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 200;
+    line-height: 2;
+  }
+  
+  /*SERVICES SECTION ENDS*/
+
   /*PAYMENT INFO STARTS*/
   html body.parallax div.payment{
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
@@ -1090,125 +1324,7 @@ html body.parallax section#home.home section#home h3{
     /*PAYMENT INFO ENDS*/
   
   
-    
-    #presentation {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    
-    #presentation h2 {
 
-      text-align: center;
-      font-size: 1rem;
-      color: var(--color-casper2);
-    }
-    
-    .team-member {
-      margin: 30px;
-    }
-    
-    .team-member img {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-    
-    .team-member h3 {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      font-size: 3rem;
-    }
-    
-    .team-member p {
-      font-size: 8rem;
-    }
-
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h3,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate h3{
-        margin-top: 2px;
-        margin-bottom: 2px;
-        font-size: 2rem;
-      }
-
-      
-      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h4,
-      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate h4{ 
-        -webkit-text-stroke: 1.0px rgba(49, 49, 49, 0.699);
-        color: #414141cc;
-        text-shadow: 1px 1px 3px rgb(0, 0, 0);   
-        font-weight: 200;
-        font-size: 1rem;
-
-      }
-
-
-      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member p,
-      html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate p{
-        margin-top: -13%;
-        margin-bottom: -13%;
-        font-size: 1rem;
-      }
-  
-    html body.parallax section#services.services div.box-container div.box.aos-init.aos-animate h3{
-      text-align: center;
-      font-size: 2.5rem;
-      color: var(--color-casper2);
-    }
-
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-youtube,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-linkedin,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-facebook-f,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-twitter,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate div.share a.fab.fa-twitter,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-instagram{
-        height: 4rem;
-        width: 4rem;
-        line-height: 4rem;
-        font-size: 2rem;
-        border-radius: 50%;
-        font-size: 1.7rem;
-        border: 0.2rem solid var(--color-geraldine);
-
-        background: var(--color-kimberly);
-        color: var(--color-casper);
-        margin-right: 0.5rem;
-        text-align: center;
-    }
-
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-pinterest:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-whatsapp:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-youtube:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-linkedin:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-facebook-f:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-twitter:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member.aos-init.aos-animate div.share a.fab.fa-twitter:hover,
-    html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member div.share a.fab.fa-instagram:hover {
-        border: 0.2rem solid  var(--color-casper);
-        color: var(--color-kimberly);
-        background: var(--color-geraldine);
-      }
-
-    html body.parallax section#team-member.team-member div.box-container div.box.aos-init.aos-animate i.fas.fa-globe{
-        height: 4rem;
-        width: 4rem;
-        line-height: 4rem;
-        font-size: 2rem;
-        border-radius: 50%;
-        font-size: 1.7rem;
-        border: 0.2rem solid var(--color-geraldine);
-        color: var(--color-kimberly);
-        background: var(--color-geraldine);
-        margin-right: 0.5rem;
-        text-align: center;
-    }
-  
-    
   
   /*  FOOTER SECTION STARTS*/
   
