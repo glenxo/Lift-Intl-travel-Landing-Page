@@ -1678,7 +1678,7 @@ html body.parallax section#home.home section#home h3{
 
       .home {
         margin: 0 auto;
-        margin-top: 17rem;
+        margin-top: 0rem;
         margin-bottom: 0px;  
         width: 90%;
         border-radius: 1rem;
@@ -1715,7 +1715,9 @@ html body.parallax section#home.home section#home h3{
 
 
 
-
+      html body.parallax section#preview.preview div.content div.flex-container p.aos-init.aos-animate span.aos-init.aos-animate{
+        margin-top: 20%;
+      }
 
 
 
@@ -1738,31 +1740,9 @@ html body.parallax section#home.home section#home h3{
       html body.parallax section#preview.preview div.content div.flex-container p.aos-init.aos-animate{
         padding-left: 0%;
         padding-right: 15%;
-        margin-top: 40rem;
+        margin-top: 50rem;
       }
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     @keyframes spin {
       0% {
         transform: rotateY(0deg);
