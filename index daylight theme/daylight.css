@@ -1827,6 +1827,9 @@ html body.parallax section#home.home section#home h3{
 
  
     .destination .heading img {
+      background: 0 0.5rem 1rem #080808;
+      -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+      box-shadow: 0 0.5rem 1rem #0000004b;
       margin-bottom: 15rem;
     }
     
@@ -1876,12 +1879,27 @@ html body.parallax section#home.home section#home h3{
 
     
     .destination .box-container .box h2 {
-      font-size: 1rem;
-      font-weight: bold;
-      margin-top: 1rem;
-      margin-bottom: 2rem;
-      color: var(--color-dark);
-  
+      margin-left: 0rem;
+      margin-right: 0rem;
+      margin-bottom: 5px;
+      margin-top: 10;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      background: 0 0.5rem 1rem #080808;
+      border-radius: 1rem;
+      -webkit-box-shadow: 0 0.5rem 1rem #31313115;
+      box-shadow: 0 0.5rem 1rem #00000017;
+      padding: 0.5rem 0.7rem;
+      -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+      color: #414141cc;
+      text-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.075);   
+      font-weight: 600;
+      font-size: 1.2rem; 
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
 
