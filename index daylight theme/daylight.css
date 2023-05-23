@@ -1583,6 +1583,10 @@ html body.parallax section#home.home section#home h3{
     .destination .box-container .box h2 {
       display: none;
   }
+
+  html body.parallax section#preview.preview div.content div.flex-container div.imgbox img{
+    display: none;
+  }
 }
   
   
@@ -1660,7 +1664,12 @@ html body.parallax section#home.home section#home h3{
       html body.parallax section#preview.preview div.content div.flex-container img{
         display: none;
       }
-  
+      
+
+      div.imgbox img{
+        position: relative;
+      }
+
       #home {
         position: relative;
         height: 100vh; /* Adjust the height as needed */
@@ -1669,7 +1678,7 @@ html body.parallax section#home.home section#home h3{
 
       .home {
         margin: 0 auto;
-        margin-top: 15rem;
+        margin-top: -17rem;
         margin-bottom: 0px;  
         width: 90%;
         border-radius: 1rem;
@@ -1694,29 +1703,64 @@ html body.parallax section#home.home section#home h3{
       .home .content {
         text-align: center;
       }
-    
-      
-      .home .content p {
-        max-width: 60rem;
-        font-size: 1.4rem;
-        color: var(--color-ship-cove);
-        line-height: -0.5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      html body.parallax section#preview.preview div.content div.flex-container div.imgbox img{
+        position: relative;
+        width: 475%;
+        height: auto;
+        display: block; 
+        background: 0 0.5rem 1rem #252525de;
+        border-radius: 0.3rem;
+        -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+        box-shadow: 0 0.5rem 1rem #00000098;
+            }
+
+
+      html body.parallax section#preview.preview div.content div.flex-container p.aos-init.aos-animate{
+        padding-left: 0%;
+        padding-right: 15%;
+                      margin-top: 45rem;
       }
     
 
-      html body.parallax section#preview.preview div.content div.flex-container p.aos-init.aos-animate{
-        padding-left: 15%;
-        padding-right: 15%;
-      }
-    
-      #home .title {
-      display: flex;
-      align-items: center;
-    }
-    
-    #home img {
-      display: none;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     @keyframes spin {
       0% {
@@ -1738,6 +1782,8 @@ html body.parallax section#home.home section#home h3{
     
     }
     
+
+
     html body.parallax section#home.home section#home h1.title {
       font-weight: bolder;
       -webkit-text-stroke: 1.0px rgb(255, 255, 255);
