@@ -1651,50 +1651,113 @@ html body.parallax section#home.home section#home h3{
         margin-top: -10rem;
       }
     
-      .home {
-        margin-top: -2rem;
+
+
+
+
+      /*HOME SECTION STARTS*/
+
+      html body.parallax section#preview.preview div.content div.flex-container img{
+        display: none;
       }
-    
-      .home .content {
-        margin-top: 60%;
-      }  
+  
+      #home {
+        position: relative;
+        height: 100vh; /* Adjust the height as needed */
+      }
+      
+
+      .home {
+        margin: 0 auto;
+        margin-top: 15rem;
+        margin-bottom: 0px;  
+        width: 90%;
+        border-radius: 1rem;
+        /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
+          background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url() no-repeat;*/
+        background-size: cover;
+        background-position: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 80vh;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-bottom: 5rem;
+      }
       
       .home .content {
-        margin-bottom: 130%;
+        text-align: center;
       }
     
-      .home .grid-container {
-        margin-top: 10%;
-      }
-    
-      .home .content span {
-        -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-        background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bolder;
-        margin-top: 5rem;
-        }
-    
-      .home .content h3 {
-        letter-spacing: 15px;
-        -webkit-text-stroke: 0.4px rgb(255, 255, 255);
-        background: -webkit-linear-gradient(rgb(153, 243, 255),rgb(161, 74, 243), rgb(255, 0, 234));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bolder;
-        margin-top: 4%;
-        font-size: 2.3vw;
-        display: block;  }
-    
+      
       .home .content p {
-        display: none;
+        max-width: 60rem;
+        font-size: 1.4rem;
+        color: var(--color-ship-cove);
+        line-height: -0.5;
       }
     
-      .home .content a {
-        display: none;
+
+      html body.parallax section#preview.preview div.content div.flex-container p.aos-init.aos-animate{
+        padding-left: 15%;
+        padding-right: 15%;
       }
     
+      #home .title {
+      display: flex;
+      align-items: center;
+    }
+    
+    #home img {
+      display: none;
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotateY(0deg);
+      }
+      100% {
+        transform: rotateY(360deg);
+      }
+    }
+    
+    
+    
+    
+    html body.parallax section#home.home section#home h1.title img{
+      animation: spin 12s linear infinite;
+      width: 5%;
+      height: 0.3%;
+      margin-top: 0%;
+    
+    }
+    
+    html body.parallax section#home.home section#home h1.title {
+      font-weight: bolder;
+      -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+      color: #ffffffcc;
+      text-shadow: 2px 2px 4px rgb(0, 0, 0);
+      font-size: 2.5vw;
+      margin-top: -90%;
+      z-index: 1;
+    }
+    
+    html body.parallax section#home.home section#home h3{
+      letter-spacing: 22px;
+      -webkit-text-stroke: 2.0px rgb(255, 255, 255);
+      color: #000000;
+          text-shadow: 3px 3px 5px rgb(0, 0, 0);
+      font-weight: 100;
+      margin-top: 2%;
+      font-size: 1rem;
+    }
+      
 
     
       /*CHATBOX SECTION STARTS ENDS*/
@@ -1723,7 +1786,7 @@ html body.parallax section#home.home section#home h3{
     .destination .heading h3 {
       font-weight: bolder;
       font-size: 30vw;
-      margin-top: 5rem;
+      margin-top: 0rem;
     }
     
     .destination .heading span {
@@ -1731,40 +1794,78 @@ html body.parallax section#home.home section#home h3{
     }
     
     
-    
-    .destination .box-container .box h2 {
-        margin-top: 0rem;
-        margin-bottom: 5rem;
-        font-size: 2rem;
-    }
-    
-    .destination .box-container .box h3 {
-      margin-top: 0rem;
-      margin-bottom: 1.5rem;
-      font-size: 3.4rem;
-    }
-
     .destination .box-container .box span {
       font-size: 1rem;
       font-weight: 250;
-      color: var(--color-casper2);
+      color: var(--color-dark);
     }
   
     .destination .box-container .box h3 {
-      margin-top: 2.8rem;
-      margin-bottom: 2rem;
-      font-size: 3.4rem;
+      margin-top: -5rem;
+      margin-bottom: -5rem;
+      font-size: 2rem;
     } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     .destination .box-container .box h2 {
       font-size: 1rem;
       font-weight: bold;
       margin-top: 1rem;
       margin-bottom: 2rem;
-      color: var(--color-casper2);
-      -webkit-text-stroke: 0.3px rgb(17, 227, 255);
+      color: var(--color-dark);
   
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     .destination .box-container {
       display: flex;
