@@ -39,18 +39,20 @@ window.addEventListener('scroll', () => {
   prevScrollPos = currentScrollPos;
 });
 
-let swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper(".swiper", {
+  direction: "horizontal",
   loop: true,
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
   pagination: {
-    el: '.swiper-pagination',
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    prevEl: ".swiper-button-next",
+    nextEl: ".swiper-button-prev",
+    },
+  scrollbar: {
+    el: ".swiper-scrollbar",
   },
 });
-
-
 
 const links = document.querySelectorAll("a");
 
