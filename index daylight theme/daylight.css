@@ -1701,6 +1701,7 @@ html body.parallax section#home.home section#home h3{
       }
       
       .home .content {
+
         text-align: center;
       }
 
@@ -1776,8 +1777,8 @@ html body.parallax section#home.home section#home h3{
     
     html body.parallax section#home.home section#home h1.title img{
       animation: spin 12s linear infinite;
-      width: 5%;
-      height: 0.3%;
+      width: 15%;
+      height: auto;
       margin-top: 0%;
     
     }
@@ -1789,17 +1790,17 @@ html body.parallax section#home.home section#home h3{
       -webkit-text-stroke: 1.0px rgb(255, 255, 255);
       color: #ffffffcc;
       text-shadow: 2px 2px 4px rgb(0, 0, 0);
-      font-size: 2.5vw;
-      margin-top: -90%;
+      font-size: 4.5vw;
+      margin-top: -220%;
       z-index: 1;
     }
     
     html body.parallax section#home.home section#home h3{
-      letter-spacing: 22px;
-      -webkit-text-stroke: 2.0px rgb(255, 255, 255);
-      color: #000000;
-          text-shadow: 3px 3px 5px rgb(0, 0, 0);
-      font-weight: 100;
+      letter-spacing: 6px;
+      -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+      color: #ffffffcc;
+      text-shadow: 2px 2px 4px rgb(0, 0, 0);
+      font-weight: 50;
       margin-top: 2%;
       font-size: 1rem;
     }
