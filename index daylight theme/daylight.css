@@ -1678,7 +1678,7 @@ html body.parallax section#home.home section#home h3{
 
       .home {
         margin: 0 auto;
-        margin-top: -17rem;
+        margin-top: 17rem;
         margin-bottom: 0px;  
         width: 90%;
         border-radius: 1rem;
@@ -1856,28 +1856,6 @@ html body.parallax section#home.home section#home h3{
       font-size: 2rem;
     } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     .destination .box-container .box h2 {
       margin-left: 0rem;
       margin-right: 0rem;
@@ -1902,36 +1880,6 @@ html body.parallax section#home.home section#home h3{
       padding-right: 1rem;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     .destination .box-container {
       display: flex;
       flex-wrap: wrap;
@@ -1945,12 +1893,6 @@ html body.parallax section#home.home section#home h3{
       z-index: -10;
       }
 
-
-
-
-      
-
-
   /*TEAM-MEMBERS SECTION STARTS*/
 
   .image-grid {
@@ -1960,8 +1902,8 @@ html body.parallax section#home.home section#home h3{
 
 
   html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
     margin-bottom: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2075,10 +2017,11 @@ html body.parallax section#home.home section#home h3{
       font-weight: 100;
     font-size: 1.1rem; 
           padding-left: 3rem;
-      padding-right: 3rem;
+          padding-right: 3rem;
+          padding-top: 3rem;
+          padding-bottom: 3rem;
     margin-bottom: 5px;
   }
-
 
   html body.parallax section#team-member.team-member div.image-grid.aos-init.aos-animate div.team-member h5{
     margin-left: 3rem;
