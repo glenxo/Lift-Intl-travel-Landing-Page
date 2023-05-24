@@ -2061,7 +2061,7 @@ html body.parallax section#reviews.reviews{
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 3rem;
-  background: 0 0.5rem 1rem #080808de;
+  background: 0 0.5rem 1rem #08080800;
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem #31313128;
   box-shadow: 0 0.5rem 1rem #00000098;
@@ -2086,7 +2086,7 @@ html body.parallax section#reviews.reviews{
   gap: 1rem;
   -ms-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
-  background: var(--color-darker);
+  background: #11111128;
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
   box-shadow: 0 0.1rem 0.3rem #111111;
@@ -2095,11 +2095,103 @@ html body.parallax section#reviews.reviews{
 
 .swiper img {
   border: 0.1rem solid var(--);
-  width: 20px;
-  height: 30px;
+  width: 10px;
+  height: auto;
+  }
+
+
+
+
+
+
+  .reviews h1 {
+    margin-left: 2rem;
+    margin-right: auto;
+    margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: rgb(206, 206, 206);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    background: var(--color-darker);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #1111112a;
+    box-shadow: 0 0.5rem 1rem #11111131;
+    padding: 3rem 2rem;
+      font-size: 3rem;
+  }
+
+
+
+  html body.parallax section#reviews.reviews div.swiper.swiper-initialized.swiper-horizontal.aos-init.aos-animate div#swiper-wrapper-e6a5ac1814168891.swiper-wrapper div.swiper-slide.slide.swiper-slide-active h3,
+  .reviews h3 {
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.281); 
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+    display: block;
+  }
   
+  .reviews h4 {
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.281); 
+    font-weight: bolder;
+    font-size: 1rem;
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   
-}
+  .reviews .slide p {
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #414141cc;
+    text-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.281); 
+    font-weight: bolder;
+    font-size: 4rem;
+  
+    display: block;
+  }
+  
+  .reviews .slide img {
+    background: 0 0.5rem 1rem #080808de;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313128;
+    box-shadow: 0 0.5rem 1rem #00000098;
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    margin: 1rem 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .swiper-scrollbar .swiper-scrollbar-vertical {
   background-color: var(--color-strikemaster2);
@@ -2129,9 +2221,8 @@ div.swiper-button-next::after {
 }
 
   .swiper-button-pre img {
-  padding-left: 0%;
-  width: 1600px;
-  height: 900px;
+  width: 100px;
+  height: auto;
 }
 
 .reviews .swiper-pagination .swiper-button-prev img {
