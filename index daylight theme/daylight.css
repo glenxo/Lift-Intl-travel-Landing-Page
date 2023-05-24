@@ -1536,6 +1536,12 @@ html body.parallax section#reviews.reviews{
       display: block;
     }
 
+
+
+    html body.parallax div.branding a.nav-brand img{
+      width: 100px;
+      height: auto;
+    }
     
       .header .navbar a {
         -webkit-text-stroke: 1.0px rgb(255, 255, 255);
@@ -2052,7 +2058,7 @@ html body.parallax section#reviews.reviews{
 html body.parallax section#reviews.reviews{
   margin-left: 3rem;
   margin-right: 3rem;
-  display: -webkit-box;
+    display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
@@ -2074,6 +2080,7 @@ html body.parallax section#reviews.reviews{
 }
 
 .swiper {
+  margin-bottom: 3rem;
   width: 300px;
   height: 420px;
   margin-top: 20px;
@@ -2142,6 +2149,11 @@ html body.parallax section#reviews.reviews{
     display: block;
   }
   
+
+
+
+
+  html body.parallax section#reviews.reviews div.swiper.swiper-initialized.swiper-horizontal.aos-init.aos-animate div#swiper-wrapper-9d283f7b905c8c73.swiper-wrapper div.swiper-slide.slide.swiper-slide-active h4,
   .reviews h4 {
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
     color: #414141cc;
@@ -2151,9 +2163,14 @@ html body.parallax section#reviews.reviews{
     display: block;
     padding-left: 10%;
     padding-right: 10%;
+        margin-top: -15rem;
+    margin-bottom: -15rem;
   }
   
   .reviews .slide p {
+    margin-top: -15rem;
+    margin-bottom: -15rem;
+
     -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
     color: #414141cc;
     text-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.281); 
@@ -2193,23 +2210,6 @@ html body.parallax section#reviews.reviews{
 
 
 
-.swiper-scrollbar .swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar-vertical {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-  background-color: var(--color-strikemaster2);
-  color: var(--color-casper2);
-  border-color: #20bdad;
-}
 
 div.swiper-button-prev::after {
   color: #20bdad00;
@@ -2225,10 +2225,14 @@ div.swiper-button-next::after {
   height: auto;
 }
 
+
+html body.parallax section#reviews.reviews div.swiper.swiper-initialized.swiper-horizontal.aos-init.aos-animate div.swiper-button-prev,
 .reviews .swiper-pagination .swiper-button-prev img {
-  margin-left: 20px;
-  
+  margin-left: -10px;
+  color: #20bdad;
+
 }
+
 
 
 
@@ -2347,29 +2351,6 @@ div.swiper-button-next::after {
 
       
       /*SERVICES SECTION ENDS*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   }
 
