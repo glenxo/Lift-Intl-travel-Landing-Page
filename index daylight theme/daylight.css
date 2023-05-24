@@ -1100,8 +1100,8 @@ html body.parallax section#reviews.reviews{
 
 
 .reviews h1 {
-  margin-left: 20rem;
-  margin-right: 13rem;
+  margin-left: 22rem;
+  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
