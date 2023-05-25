@@ -48,6 +48,7 @@ Pallete
   }
   
 
+
   html body.parallax div.slider.slick-initialized.slick-slider.slick-dotted div.slick-list.draggable div.slick-track{
     width: 50%;
     height: 50%;
@@ -151,7 +152,7 @@ html body.parallax div.branding a.nav-brand img{
   
   
   .bar-menu a {
-    padding: 10px 12px;
+    padding: 2px 4px;
     padding-right: 5%;
     padding-left: 5%;
     font-weight: bolder;
@@ -1474,9 +1475,7 @@ html body.parallax section#reviews.reviews{
   
   
     @media only screen and (min-width: 668px) and (max-width: 2023px) {
-    .preview-outer video {
-      display: none;
-    }
+
   
     .destination .box-container .box h2 {
       display: none;
@@ -1496,6 +1495,27 @@ html body.parallax section#reviews.reviews{
   
   @media (max-width: 780px) and (max-width: 768px) {
     
+
+    html{ 
+      text-transform: none important!; 
+    }
+
+    html body.parallax section.bar-menu a{
+
+
+
+    background: 0 0.5rem 1rem #080808;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 1rem #31313115;
+    box-shadow: 0 0.5rem 1rem #00000017;
+    padding: 0.5rem 0.7rem;
+    -webkit-text-stroke: 1.0px rgba(128, 128, 128, 0.493);
+    color: #ffffffcc;
+    text-shadow: 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.753);   
+    font-weight: 600;
+    font-size: 1.2rem; 
+
+  }
     body.active {
       padding-left: 0;
       z-index: 10;
@@ -1584,7 +1604,7 @@ html body.parallax section#reviews.reviews{
         margin: 0 auto;
         margin-top: 0rem;
         margin-bottom: 0px;  
-        width: 90%;
+        width: 50%;
         border-radius: 1rem;
         /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
           background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url() no-repeat;*/
@@ -1656,39 +1676,7 @@ html body.parallax section#reviews.reviews{
       }
     }
     
-    
-    
-    
-    html body.parallax section#home.home section#home h1.title img{
-      animation: spin 12s linear infinite;
-      width: 15%;
-      height: auto;
-      margin-top: 0%;
-    
-    }
-    
 
-
-    html body.parallax section#home.home section#home h1.title {
-      font-weight: bolder;
-      -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-      color: #ffffffcc;
-      text-shadow: 2px 2px 4px rgb(0, 0, 0);
-      font-size: 4.5vw;
-      margin-top: -360%;
-      z-index: 1;
-    }
-    
-    html body.parallax section#home.home section#home h3{
-      letter-spacing: 5px;
-      -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-      color: #ffffffcc;
-      text-shadow: 2px 2px 4px rgb(0, 0, 0);
-      font-weight: 50;
-      margin-top: 2%;
-      font-size: 1rem;
-    }
-      
 
     
       /*CHATBOX SECTION STARTS ENDS*/
@@ -1797,7 +1785,6 @@ html body.parallax section#reviews.reviews{
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 3rem;
     background: 0 0.5rem 1rem #252525de;
     border-radius: 1rem;
     -webkit-box-shadow: 0 0.5rem 1rem #31313128;
