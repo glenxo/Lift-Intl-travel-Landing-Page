@@ -3,18 +3,23 @@
 
 
 :root{
-
-   --main-color:#ff0;
-
+   --main-color:rgba(209, 209, 209, 0.384);
    --light-white:rgba(255,255,255,.5);
-
    --light-black:rgba(0,0,0,.3);
-
    --light-bg:rgba(255,255,255,.1);
-
    --white:#fff;
-
    --black:#000;
+   --color-geraldine: #ff951c;
+   --color-geraldine1: #eb569cc2;
+   --color-strikemaster: #8a5082;
+   --color-strikemaster2: #8a50825f;
+   --color-kimberly: #6f5f90;
+   --color-kimberly2: #6f5f90d7;
+   --color-ship-cove: #758eb7;
+   --color-casper: #afafaf;
+   --color-casper2: #dff9ff;
+   --color-dark: #262229;
+   --color-darker: #26222993;
 
 }
 
@@ -31,8 +36,6 @@
    outline: none; border: none;
 
    text-decoration: none;
-
-   text-transform: capitalize;
 
    scrollbar-color: var(--main-color) var(--black);
 
@@ -132,6 +135,7 @@ section{
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     list-style: none;
@@ -155,7 +159,7 @@ section{
   
   #slideshow li img {
     width: 100%;
-    height: 100%;
+    height: 110%;
     object-fit: cover;
   }
   
@@ -248,16 +252,22 @@ section{
 
 
 .header .flex .logo{
-
+    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    color: #ffffffcc;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
    font-size: 2.5rem;
-
-   color: var(--main-color);
+   margin-left: 2rem;
 
 }
 
 
 
 .header .flex .navbar a{
+
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    color: #ffffffcc;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
    margin-left: 2rem;
 
@@ -268,6 +278,7 @@ section{
    transition: .2s linear;
 
 }
+
 
 
 
@@ -292,6 +303,31 @@ section{
 }
 
 
+  @keyframes spin {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  
+  
+  
+  html body header.header.aos-init.aos-animate section.flex img{
+    animation: spin 12s linear infinite;
+    width: 5%;
+    height: 0.3%;
+    margin-top: 0%;
+  
+  }
+
+
+  section.flex{
+    padding: -12rem;
+
+  }
 
 
 
@@ -317,15 +353,19 @@ section{
 
    padding: 2rem;
 
-   width: 50rem;
+   width: 35rem;
 
-   backdrop-filter: blur(.4rem);
+   backdrop-filter: blur(.2rem);
 
 }
 
 
 
 .home .flex form h3{
+    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    color: #ffffffcc;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
    font-size: 2.5rem;
 
@@ -340,8 +380,16 @@ section{
 
 
 .home .flex form p{
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    font-weight: 50;
+    margin-top: 1%;
 
    padding-top: 1rem;
+
+   text-align: center;
+
 
    font-size: 1.7rem;
 
@@ -374,6 +422,7 @@ section{
 
 
 .home .flex form .box::placeholder{
+    
 
    color: var(--light-white);
 
@@ -383,7 +432,7 @@ section{
 
 .about{
 
-   background: url('../images/about-bg.jpg') no-repeat rgba(0,0,0,.5);
+   background: url('/main/pexels-esdras-jaimes-10550114.jpg') no-repeat rgba(0,0,0,.5);
 
    background-position: center;
 
@@ -1217,7 +1266,32 @@ section{
 
 @media (max-width:768px){
 
+    #home .title {
+        display: flex;
+        align-items: center;
+      }
+      
 
+      
+      @keyframes spin {
+        0% {
+          transform: rotateY(0deg);
+        }
+        100% {
+          transform: rotateY(360deg);
+        }
+      }
+      
+      
+      
+      
+      html body header.header.aos-init.aos-animate section.flex img{
+        animation: spin 12s linear infinite;
+        width: 10%;
+        height: auto;
+        margin-top: 0%;
+      }
+    
 
    #menu-btn{
 
