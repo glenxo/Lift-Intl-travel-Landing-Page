@@ -185,6 +185,19 @@ section{
 
 
 
+    .button {
+      margin-top: 10%;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+
 .btn{
 
    display: block;
@@ -868,6 +881,7 @@ section{
 
 .destinations{
 
+
    background: url('/main/pexels-zaetaflow-sec-4012039.jpg') no-repeat rgba(0,0,0,.5);
 
    background-position: center;
@@ -875,7 +889,7 @@ section{
    background-attachment: fixed;
 
    background-size: cover;
-
+ 
    background-blend-mode: multiply;
 
 }
@@ -924,7 +938,56 @@ section{
 
 
 
-.destinations .grid .box h3{
+
+
+
+
+
+
+
+   div:nth-child(2) > h3 > span > strong,
+   div:nth-child(1) > h3 strong{ 
+   -webkit-text-stroke: 0.5px rgb(255, 234, 3);
+   color: #91ff78;
+   text-shadow: 1px 1px 3px #00000031;   
+   font-weight: 700;
+   font-size: 2rem;
+   padding: 2%;
+
+
+}
+
+
+
+   div:nth-child(2) > h3,  
+   div:nth-child(1) > h3{
+   -webkit-text-stroke: 0.5px rgb(201, 201, 201);
+   color: #d3d6d2;
+   text-shadow: 1px 1px 3px #00000031;   
+   font-weight: 500;
+   font-size: 1.5rem;
+   padding: 2%;
+}
+
+
+
+
+   .destinations .grid .box h3{
+         -webkit-text-stroke:  0.5px rgb(255, 255, 255);   
+         color: #ffffff;
+
+      display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    display: block;  
 
    position: absolute;
 
