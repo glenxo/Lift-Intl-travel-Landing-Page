@@ -167,20 +167,16 @@ section{
 
 
 
-.heading{
-
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-   font-size: 7rem;
-
-   color: var(--white);
-
-   text-transform: uppercase;
-
-   text-align: center;
-
-   margin-bottom: 4rem;
-
+.heading {
+    font-weight: bolder;
+    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
 
@@ -879,6 +875,7 @@ section{
 
 
 
+
 .destinations{
 
 
@@ -935,6 +932,8 @@ section{
    object-fit: cover;
 
 }
+
+
 
 
 
@@ -1043,6 +1042,36 @@ section{
    opacity: 1;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1258,44 +1287,23 @@ section{
 
 
 
-.contact .credit{
 
-   text-align: center;
-
-   font-size: 2rem;
-
-   padding-top: 1.5rem;
-
-   padding-bottom: 2rem;
-
-   color: var(--light-white);
-
-}
-
-
-
-.contact .credit span{
-
-   color: var(--main-color);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.credit {
+    
+    background-image: url(/main/pexels-richard-rojas-15097661.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    text-align: center;
+    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    color: var(--color-casper);
+  }
+  
+  .credit span {
+    color: var(--color-geraldine);
+  }
+  
+  
+  
 
 
 
