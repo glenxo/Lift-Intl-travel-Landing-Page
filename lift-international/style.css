@@ -1340,6 +1340,98 @@ section{
 
 
 
+
+
+   div:nth-child(20) > h3 > span > strong,
+   div:nth-child(19) > h3 > span > strong,
+   div:nth-child(18) > h3 > span > strong,
+   div:nth-child(17) > h3 > span > strong,
+   div:nth-child(16) > h3 > span > strong,
+   div:nth-child(15) > h3 > span > strong,
+   div:nth-child(14) > h3 > span > strong,
+   div:nth-child(13) > h3 > span > strong,
+   div:nth-child(12) > h3 > span > strong,
+   div:nth-child(11) > h3 > span > strong,
+   div:nth-child(10) > h3 > span > strong,
+   div:nth-child(9) > h3 > span > strong,
+   div:nth-child(8) > h3 > span > strong,
+   div:nth-child(7) > h3 > span > strong,
+   div:nth-child(6) > h3 > span > strong,
+   div:nth-child(5) > h3 > span > strong,
+   div:nth-child(4) > h3 > span > strong,
+   div:nth-child(3) > h3 > span > strong,
+   div:nth-child(2) > h3 > span > strong,
+   div:nth-child(1) > h3 strong{ 
+   -webkit-text-stroke: 0.5px rgb(255, 234, 3);
+   color: #91ff78;
+   text-shadow: 1px 1px 3px #00000031;   
+   font-weight: 700;
+   font-size: 2rem;
+   padding: 4%;
+}
+
+
+
+   div:nth-child(20) > h3,  
+   div:nth-child(19) > h3,  
+   div:nth-child(18) > h3,  
+   div:nth-child(17) > h3,  
+   div:nth-child(16) > h3,  
+   div:nth-child(15) > h3,  
+   div:nth-child(14) > h3,  
+   div:nth-child(13) > h3,  
+   div:nth-child(12) > h3,  
+   div:nth-child(11) > h3,
+   div:nth-child(10) > h3,
+   div:nth-child(9) > h3,
+   div:nth-child(8) > h3,
+   div:nth-child(7) > h3,
+   div:nth-child(6) > h3,
+   div:nth-child(5) > h3,
+   div:nth-child(4) > h3,
+   div:nth-child(3) > h3,  
+   div:nth-child(2) > h3,  
+   div:nth-child(1) > h3{
+   -webkit-text-stroke: 0.5px rgb(201, 201, 201);
+   color: #d3d6d2;
+   text-shadow: 1px 1px 3px #00000031;   
+   font-weight: 500;
+   font-size: 1.5rem;
+   padding: 4%;
+}
+
+
+
+
+   .destinations .grid .box h3{
+   -webkit-text-stroke:  0.5px rgb(255, 255, 255);   
+   color: #ffffff;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   text-align: center;
+   display: block;  
+   position: absolute;
+   top: 0; left: 0;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--light-black);
+   backdrop-filter: blur(.4rem);
+   transition: .2s linear;
+   opacity: 0;
+}
+
+
+
+
 @media (max-width:768px){
 
     #home .title {

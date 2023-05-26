@@ -1,5 +1,3 @@
-
-
 let navbar = document.querySelector('.header .flex .navbar');
 
 
@@ -32,6 +30,7 @@ document.querySelectorAll('input[type="number"]').forEach(inputNumber => {
 
 
 
+
 AOS.init({
 
    duration: 400,
@@ -39,7 +38,6 @@ AOS.init({
    delay: 200,
 
 });
-
 
 document.addEventListener("DOMContentLoaded", function () {
     const slideshowItems = document.querySelectorAll('#slideshow li');
@@ -57,4 +55,3 @@ document.addEventListener("DOMContentLoaded", function () {
       // No effects on destination section's image
     });
   });
-  
