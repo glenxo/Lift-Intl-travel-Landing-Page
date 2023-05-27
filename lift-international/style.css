@@ -1820,6 +1820,40 @@ html body div#enterDetails button#insert:hover{
       
    
    }
+
+     
+  html body div.container.tours div#intro.credit{
+   padding:3rem 2rem;
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+   text-align: center;
+   padding-right: 4rem;
+   padding-left: 4rem;   
+   margin-right: 4rem;
+   margin-left: 4rem;
+  }
+
+  html body div#blog.credit{
+   padding:3rem 2rem;
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+   text-align: center;
+   padding-right: 4rem;
+   padding-left: 4rem;   
+   margin-right: 4rem;
+   margin-left: 4rem;
+  }
+
 }
 
 
