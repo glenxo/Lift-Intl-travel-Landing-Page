@@ -499,8 +499,7 @@ section{
 
 }
 
-
-
+html body section.grid div.box.aos-init.aos-animate div.price span,
 .about .details .box h3{
 
    padding-bottom: 1rem;
@@ -818,7 +817,7 @@ section{
 }
 
 
-
+html body section.grid div.box.aos-init.aos-animate img.image,
 .tours .grid .box .image{
 
    height: 20rem;
@@ -1225,7 +1224,6 @@ html body div#enterDetails,
 }
 
 
-
 .contact .grid .box i{
 
    height: 5rem;
@@ -1349,6 +1347,20 @@ html body div#enterDetails{
 
 }
 
+
+html body section.grid div.box.aos-init.aos-animate h3.name{
+   text-align: center;
+
+   font-size: 2rem;
+
+   color: var(--white);
+
+   padding-top: 3rem;
+   padding-bottom: 1rem;
+}
+
+html body section.grid div.box.aos-init.aos-animate p.price span,
+html body section.grid div.box.aos-init.aos-animate p.address,
 html body div#enterDetails h4,
 html body div#enterDetails p,
 html body div.row form.aos-init.aos-animate p{
@@ -1565,6 +1577,16 @@ html body div#enterDetails button#insert:hover{
   }
 
 
+
+  html body section.grid div.box.aos-init.aos-animate p{
+
+   padding: .5rem 0;
+
+   font-size: 1.7rem;
+
+   color: var(--main-color);
+
+}
 
 
 
@@ -1813,10 +1835,10 @@ html body div#enterDetails button#insert:hover{
 
 
    html body div#enterDetails{
-      padding-right: 4rem;
-      padding-left: 4rem;   
-      margin-right: 4rem;
-      margin-left: 4rem;
+      padding-right: 1rem;
+      padding-left: 1rem;   
+      margin-right: 2rem;
+      margin-left: 2rem;
       
    
    }
@@ -1832,8 +1854,8 @@ html body div#enterDetails button#insert:hover{
    backdrop-filter: blur(.4rem);
 
    text-align: center;
-   padding-right: 4rem;
-   padding-left: 4rem;   
+   padding-right: 2rem;
+   padding-left: 2rem;   
    margin-right: 4rem;
    margin-left: 4rem;
   }
@@ -1854,6 +1876,16 @@ html body div#enterDetails button#insert:hover{
    margin-left: 4rem;
   }
 
+
+  html body section.grid div.box.aos-init.aos-animate p{
+
+   padding: .5rem 0;
+
+   font-size: 1.3rem;
+
+   color: var(--main-color);
+
+}
 }
 
 
