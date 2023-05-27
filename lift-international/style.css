@@ -876,6 +876,9 @@ section{
 
 
 
+
+
+
 .destinations{
 
 
@@ -1069,7 +1072,7 @@ section{
 
 
 
-
+/*contact styling also used for call part of the booking section*/
 
 
 
@@ -1529,9 +1532,37 @@ html body div#enterDetails button#insert:hover{
   }
   
   
-  
+  html body div.container.tours div#intro.credit{
+   padding:3rem 2rem;
 
+   background-color: var(--light-bg);
 
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+   text-align: center;
+   padding-right: 14rem;
+   padding-left: 14rem;   
+   margin-right: 14rem;
+   margin-left: 14rem;
+  }
+
+  html body div#blog.credit{
+   padding:3rem 2rem;
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+   text-align: center;
+   padding-right: 14rem;
+   padding-left: 14rem;   
+   margin-right: 14rem;
+   margin-left: 14rem;
+  }
 
 
 
