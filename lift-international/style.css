@@ -1288,6 +1288,178 @@ section{
 
 
 
+
+.row{
+
+   display: flex;
+
+   flex-wrap: wrap;
+
+   gap: 2rem;
+
+   padding-right: 14rem;
+   padding-left: 14rem;
+
+}
+
+
+
+.row .map{
+
+   width: 100%;
+
+   flex: 1 1 40rem;
+
+   padding: 2rem;
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+}
+
+
+
+.row form{
+
+   flex: 1 1 40rem;
+
+   padding: 2rem;
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+}
+
+
+.row form{
+
+   flex: 1 1 40rem;
+
+   padding: 2rem;
+
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+}
+
+html body div.row form.aos-init.aos-animate p{
+   text-align: center;
+
+   font-size: 1.5rem;
+
+   color: var(--white);
+
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+
+
+.row form h3{
+
+   text-align: center;
+
+   font-size: 2.5rem;
+
+   color: var(--white);
+
+   padding-bottom: 1rem;
+
+}
+
+
+
+
+html body div.row form.aos-init.aos-animate input#enterAddress,
+html body div.row form.aos-init.aos-animate input#enterTime,
+html body div.row form.aos-init.aos-animate input#enterAmount,
+html body div.row form.aos-init.aos-animate input#enterDate,
+.row form .box{
+
+   width: 100%;
+
+   margin: 1rem 0;
+
+   border-radius: .5rem;
+
+   background-color: var(--light-black);
+
+   padding: 1.4rem;
+
+   font-size: 1.8rem;
+
+   color: var(--white);
+
+   text-transform: none;
+
+}
+
+
+.row form .box::placeholder{
+
+   color: var(--light-white);
+
+}
+
+
+
+.row form textarea{
+
+   height: 15rem;
+
+   resize: none;
+
+}
+
+
+
+
+
+.contact .grid{
+
+   margin: 3rem 0;
+
+   display: grid;
+
+   grid-template-columns: repeat(auto-fit, 30rem);
+
+   justify-content: center;
+
+   gap: 1.5rem;
+
+}
+
+
+
+.grid .box{
+
+   padding: 1rem 0.5rem;
+
+   background-color: var(--light-bg);
+
+   border-radius: .5rem;
+
+   backdrop-filter: blur(.4rem);
+
+   text-align: center;
+
+}
+
+
+
+
+
+
+
 .credit {
     
     background-image: url(/main/pexels-richard-rojas-1597661.jpg);
@@ -1441,6 +1613,15 @@ section{
 
 
 @media (max-width:768px){
+
+
+
+
+
+   html body div.row{
+      margin-left: -12rem;
+      margin-right: -12rem;
+   }
 
     #home .title {
         display: flex;
