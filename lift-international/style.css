@@ -1206,7 +1206,7 @@ section{
 }
 
 
-
+html body div#enterDetails,
 .contact .grid .box{
 
    padding:3rem 2rem;
@@ -1287,18 +1287,12 @@ section{
 
 
 
-
-
-.row{
-
-   display: flex;
-
-   flex-wrap: wrap;
-
-   gap: 2rem;
-
+html body div#enterDetails{
    padding-right: 14rem;
-   padding-left: 14rem;
+   padding-left: 14rem;   
+   margin-right: 14rem;
+   margin-left: 14rem;
+   
 
 }
 
@@ -1352,6 +1346,8 @@ section{
 
 }
 
+html body div#enterDetails h4,
+html body div#enterDetails p,
 html body div.row form.aos-init.aos-animate p{
    text-align: center;
 
@@ -1363,7 +1359,7 @@ html body div.row form.aos-init.aos-animate p{
    padding-bottom: 1rem;
 }
 
-
+html body div#enterDetails h1,
 .row form h3{
 
    text-align: center;
@@ -1379,10 +1375,33 @@ html body div.row form.aos-init.aos-animate p{
 
 
 
-html body div.row form.aos-init.aos-animate input#enterAddress,
-html body div.row form.aos-init.aos-animate input#enterTime,
-html body div.row form.aos-init.aos-animate input#enterAmount,
-html body div.row form.aos-init.aos-animate input#enterDate,
+
+html body div#enterDetails input#enterText{
+
+   width: 100%;
+
+   margin: 1rem 0;
+
+   border-radius: .5rem;
+
+   background-color: var(--light-black);
+
+   padding: 6.4rem;
+
+   font-size: 1.8rem;
+
+   color: var(--white);
+
+   text-transform: none;
+
+}
+
+html body div#enterDetails input#enterEmail,
+html body div#enterDetails input#enterAddress,
+html body div#enterDetails input#enterName,
+html body div#enterDetails input#enterTime,
+html body div#enterDetails input#enterAmount,
+html body div#enterDetails input#enterDate,
 .row form .box{
 
    width: 100%;
@@ -1400,6 +1419,41 @@ html body div.row form.aos-init.aos-animate input#enterDate,
    color: var(--white);
 
    text-transform: none;
+
+}
+
+
+html body div#enterDetails button#insert{
+   display: block;
+
+   border-radius: .5rem;
+
+   padding: 1.2rem 3rem;
+
+   background: var(--main-color);
+
+   color: var(--black);
+
+   cursor: pointer;
+
+   text-align: center;
+
+   width: 100%;
+
+   font-size: 1.8rem;
+
+   margin-top: 1rem;
+
+   transition: .2s linear;
+}
+
+
+
+html body div#enterDetails button#insert:hover{
+
+   background: var(--black);
+
+   color: var(--white);
 
 }
 
@@ -1618,10 +1672,6 @@ html body div.row form.aos-init.aos-animate input#enterDate,
 
 
 
-   html body div.row{
-      margin-left: -12rem;
-      margin-right: -12rem;
-   }
 
     #home .title {
         display: flex;
@@ -1730,6 +1780,15 @@ html body div.row form.aos-init.aos-animate input#enterDate,
 
 
 
+
+   html body div#enterDetails{
+      padding-right: 4rem;
+      padding-left: 4rem;   
+      margin-right: 4rem;
+      margin-left: 4rem;
+      
+   
+   }
 }
 
 

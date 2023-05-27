@@ -263,96 +263,11 @@
 
        <p class="address">Paris, France</p>
 
-
-    </div>
-
-
-
- </section>
-
-
-
-
-
-
-
- <div class="row">
-
-
-
-
-
-    <div id="enterDetails">
-
-
-       <h3>Book this Experience</h3>
-
-       <input type="text" name="name" required maxlength="50" placeholder="Enter your name" class="box">
-
-       <input id="enterDate" type="date">
-
-       <input id="enterTime" type="time"> 
-
-       <h4>Location Pick Up</h4> 
-       <input id="enterAddress" placeholder="Hotel Pick Up" type="address">
-
-
-       <input id="enterAmount" placeholder="Amount of Travelers" type="number">
-
-       <input type="email" name="email" required maxlength="50" placeholder="Enter your email" class="box">
-
-       <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="Enter your number" class="box">
-
-       <p>
-         Customize your experience with us based on pre-designed activities. 
-         Type in the box what would you like to experience & we will take care.
-       </p>
-       <textarea name="message" class="box" required maxlength="1000" cols="30" rows="10"></textarea>
-
-
-       <p>Once all details are entered a booking confirmation message will display and 
-         you will be redirected to PagueloFacil Cart to purchase the experience.</p>
-        </div>
-        <button id="insert">Book this Experience</button>
-
-
-
- </div>
-
-
-
-
-
-
-
-
+      </div>
 
 
 
    </section>
-</div>
-<!-- tours section ends -->
-<div class="credit" id="footer">
-   Thank you for choosing Lift-International and
-   we hope you have a great experience while you are here. *All the images found on this website are a combination of 
-   photographs taken by our travelers, the website programmer, and stock photos used to illustrate the topics on the page. 
-   The rights to all images found on this website are reserved.
-
-   While we strive to provide accurate and high-quality images to accompany our content, 
-   we cannot guarantee that all images will accurately represent the topics discussed. 
-   Some images may be used for illustrative purposes only and may not depict actual events or individuals.
-   
-   Furthermore, we respect the intellectual property rights of all photographers and artists,
-   and any unauthorized use of these images is strictly prohibited. If you believe that any image 
-   found on our website infringes upon your intellectual property rights, please contact us immediately 
-   and we will take appropriate action to address your concerns.<br />
-   
-   Thank you for your understanding and cooperation. all rights
-   reserved.
- </div>
-
-
- 
 
  <div id="enterDetails">
     <h1>Book this Experience</h1>
@@ -423,7 +338,7 @@
 
   let insertBtn = document.querySelector("#insert");
 function InsertData() {
-  set(ref(db, "Panama City Tour/" + enterName.value), {
+  set(ref(db, "Private tour/" + enterName.value), {
       Date: enterDate.value,
       Time: enterTime.value,
       Email: enterEmail.value,
@@ -448,9 +363,9 @@ function InsertData() {
   });
 }
 insertBtn.addEventListener("click", InsertData);
-
-
 </script>
+
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <!-- custom js file link  -->
 <script src="script.js"></script>
