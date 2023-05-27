@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+
+:root{
+   --main-color:rgba(209, 209, 209, 0.384);
+   --light-white:rgba(255,255,255,.5);
+   --light-black:rgba(0,0,0,.3);
+   --light-bg:rgba(255,255,255,.1);
+   --white:#fff;
+   --black:#000;
+   --color-geraldine: #ff951c;
+   --color-geraldine1: #eb569cc2;
+   --color-strikemaster: #8a5082;
+   --color-strikemaster2: #8a50825f;
+   --color-kimberly: #6f5f90;
+   --color-kimberly2: #6f5f90d7;
+   --color-ship-cove: #758eb7;
+   --color-casper: #afafaf;
+   --color-casper2: #dff9ff;
+   --color-dark: #262229;
+   --color-darker: #26222993;
+
+}
+
+
+
+*{
+
+   font-family: 'Comfortaa', cursive;
+
+   margin: 0; padding: 0;
+
+   box-sizing: border-box;
+
+   outline: none; border: none;
+
+   text-decoration: none;
+
+   scrollbar-color: var(--main-color) var(--black);
+
+   scrollbar-width: thin;
+
+}
+
+
+
+
+
+
+
+
+.tours{
+
+   background: url('/main/pexels-esdras-jaimes-10550114.jpg') no-repeat rgba(0,0,0,.5);
+
+   background-position: center;
+
+   background-attachment: fixed;
+
+   background-size: cover;
+
+   background-blend-mode: multiply;
+
+}
+
