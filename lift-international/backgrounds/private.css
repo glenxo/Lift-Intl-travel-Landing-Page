@@ -15,3 +15,11 @@
 
 }
 
+body {
+    background-image: url("/lift-international/media/private/20140601-STRIP-slide-O11B-superJumbo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(.8rem);
+ 
+ 
+  }
