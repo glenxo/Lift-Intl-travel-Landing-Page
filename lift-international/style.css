@@ -754,7 +754,7 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
 
    display: grid;
 
-   grid-template-columns: repeat(auto-fit, 35rem);
+   grid-template-columns: repeat(auto-fit, 75rem);
 
    align-items: flex-start;
 
@@ -820,7 +820,7 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
 html body section.grid div.box.aos-init.aos-animate img.image,
 .tours .grid .box .image{
 
-   height: 20rem;
+   height: 40rem;
 
    width: 100%;
 
@@ -1355,10 +1355,13 @@ html body section.grid div.box.aos-init.aos-animate h3.name{
 
    color: var(--white);
 
-   padding-top: 3rem;
-   padding-bottom: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 0.5rem;
 }
 
+
+html body div#blog.credit.aos-init.aos-animate,
+html body div.container.tours section.grid div.box.aos-init.aos-animate div#home.credit,
 html body section.grid div.box.aos-init.aos-animate p.price span,
 html body section.grid div.box.aos-init.aos-animate p.address,
 html body div#enterDetails h4,
@@ -1370,8 +1373,8 @@ html body div.row form.aos-init.aos-animate p{
 
    color: var(--white);
 
-   padding-top: 2rem;
-   padding-bottom: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 0.5rem;
 }
 
 html body div#enterDetails h1,
@@ -1829,6 +1832,36 @@ html body div#enterDetails button#insert:hover{
 
       font-size: 3rem;
 
+   }
+
+
+   html body section.grid div.box.aos-init.aos-animate img.image,
+.tours .grid .box .image{
+
+   height: 20rem;
+
+   width: 100%;
+
+   object-fit: cover;
+
+   border-radius: .5rem;
+
+   margin-bottom: 2rem;
+
+}
+
+   .tours .grid{
+
+      display: grid;
+   
+      grid-template-columns: repeat(auto-fit, 35rem);
+   
+      align-items: flex-start;
+   
+      justify-content: center;
+   
+      gap: 1.5rem;
+   
    }
 
 

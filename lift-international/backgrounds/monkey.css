@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+.tours{
+
+   background: url('/main/pexels-esdras-jaimes-10550114.jpg') no-repeat rgba(0,0,0,.5);
+
+   background-position: center;
+
+   background-attachment: fixed;
+
+   background-size: cover;
+
+   background-blend-mode: multiply;
+
+}
+
