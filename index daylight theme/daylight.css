@@ -1473,8 +1473,8 @@ html body.parallax section#reviews.reviews{
   /*MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
   
   
-    @media only screen and (min-width: 668px) and (max-width: 2023px) {
-    .preview-outer video {
+    @media only screen and (min-width: 769px) and (max-width: 2023px) {
+ {
       display: none;
     }
   

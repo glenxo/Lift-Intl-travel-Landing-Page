@@ -171,9 +171,9 @@ section{
     font-weight: bolder;
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     color: #ffffff;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7rem;
+    font-size: 4rem;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 4rem;
@@ -342,7 +342,7 @@ section{
 
 .home .flex{
 
-   min-height: calc(100vh - 10rem);
+   min-height: calc(40vh - 20rem);
 
    display: flex;
 
@@ -362,9 +362,9 @@ section{
 
    padding: 2rem;
 
-   width: 35rem;
+   width: 55rem;
 
-   backdrop-filter: blur(.2rem);
+   backdrop-filter: blur(.0.1rem);
 
 }
 
@@ -376,7 +376,7 @@ section{
     color: #ffffffcc;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
-   font-size: 2.5rem;
+   font-size: 3rem;
 
    color: var(--white);
 
@@ -386,12 +386,25 @@ section{
 
 }
 
+.custom-font {
+   font-family: 'Playfair Display', serif;
+   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+   color: #ffffffcc;
+   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
+  font-size: 3.5rem;
+
+  color: var(--white);
+
+  padding-bottom: 1rem;
+
+  text-align: center;
+ }
 
 .home .flex form p{
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     color: #ffffff;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);   
+    text-shadow: 1.5px 1.5px 3.2px rgb(0, 0, 0);   
     font-weight: 50;
     margin-top: 1%;
 
@@ -399,10 +412,15 @@ section{
 
    text-align: center;
 
+   font-family: Geneva;
+
 
    font-size: 1.7rem;
 
    color: var(--light-white);
+
+   margin-bottom: 1rem;
+
 
 }
 
@@ -435,8 +453,38 @@ section{
 
    color: var(--light-white);
 
+   
+
 }
 
+
+html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form a button{
+
+   display: block;
+
+   border-radius: .5rem;
+
+   padding: 0.2rem 2rem;
+
+   background: var(--main-color);
+
+   color: var(--black);
+
+   cursor: pointer;
+
+   text-align: center;
+
+   width: 30%;
+
+   font-size: 1.8rem;
+
+   margin-top: 1rem;
+
+   transition: .2s linear;
+
+   margin: 0 auto;
+
+}
 
 
 .about{
@@ -1603,7 +1651,12 @@ html body div#enterDetails button#insert:hover{
 /* media queries  */
 
 
-
+@media only screen and (min-width: 769px) and (max-width: 2023px){
+   html body header.header.aos-init.aos-animate section.flex img{
+        display: none;
+      }
+   }
+      
 @media (max-width:991px){
 
 
@@ -1834,6 +1887,59 @@ html body div#enterDetails button#insert:hover{
 
    }
 
+
+   html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form a button{
+
+      display: block;
+   
+      border-radius: .5rem;
+   
+      padding: 0.2rem 2rem;
+   
+      background: var(--main-color);
+   
+      color: var(--black);
+   
+      cursor: pointer;
+   
+      text-align: center;
+   
+      width: 40%;
+   
+      font-size: 1.5rem;
+   
+      margin-top: 1rem;
+   
+      transition: .2s linear;
+   
+      margin: 0 auto;
+   
+   }
+
+.home .flex form h3{
+   font-size: 2rem;
+}
+
+
+.custom-font {
+   font-family: 'Playfair Display', serif;
+   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+   color: #ffffffcc;
+   text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+  font-size: 2.5rem;
+
+  color: var(--white);
+
+  padding-bottom: 1rem;
+
+  text-align: center;
+ }
+
+
+.home .flex form p{
+   font-size: 1.3rem;
+}
 
    html body section.grid div.box.aos-init.aos-animate img.image,
 .tours .grid .box .image{
