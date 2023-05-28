@@ -356,15 +356,14 @@ section{
 
 .home .flex form{
 
-   background-color: var(--light-bg);
 
-   border-radius: .5rem;
+   border-radius: 15rem;
 
    padding: 2rem;
 
    width: 55rem;
 
-   backdrop-filter: blur(.0.1rem);
+   backdrop-filter: blur(.1.8rem);
 
 }
 
