@@ -1,6 +1,6 @@
 .tours{
 
-   background: url('/main/pexels-esdras-jaimes-10550114.jpg') no-repeat rgba(0,0,0,.5);
+   background: url('') no-repeat rgba(0,0,0,.5);
 
    background-position: center;
 
@@ -13,7 +13,7 @@
 }
 
 body {
-   background-image: url("/lift-international/media/monkey/pexels-rodolfo-quirós-14678550.jpg");
+   background-image: url("");
    background-repeat: no-repeat;
    background-size: cover;
    backdrop-filter: blur(.8rem);

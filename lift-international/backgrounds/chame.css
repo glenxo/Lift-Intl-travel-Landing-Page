@@ -1,0 +1,22 @@
+.tours{
+
+    background: url('') no-repeat rgba(0,0,0,.5);
+ 
+    background-position: center;
+ 
+    background-attachment: fixed;
+ 
+    background-size: cover;
+ 
+    background-blend-mode: multiply;
+ 
+ }
+ 
+ body {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(.8rem);
+ 
+ 
+  }
