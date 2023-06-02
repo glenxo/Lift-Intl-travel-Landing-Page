@@ -97,13 +97,13 @@
    
    let insertBtn = document.querySelector("#insert");
    function InsertData() {
-   set(ref(db, "Message Box/" + enterName.value), {
+   set(ref(db, "1 Message Box/" + enterName.value), {
          Email: enterEmail.value,
          Name: enterName.value,
          Text: enterText.value
       })
    .then(() => {
-      alert("Your Message has been sent successfully");
+      alert("Thank you for reaching out! We have received your message and will respond to you within the next 24 hours. We appreciate your patience and look forward to assisting you.");
          enterEmail.value = "";
          enterName.value = "";
          enterText.value = "";
@@ -113,7 +113,9 @@
          alert(error);
    });
    }
+
    insertBtn.addEventListener("click", InsertData);
+   
    </script>
 </section>
 </div>
