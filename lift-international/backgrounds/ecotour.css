@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('') no-repeat rgba(0,0,0,.5);
+    background: url('/lift-international/media/ecotour/360_F_179157481_vJimMdZ0KPZTM8B0i3CJf0KgRZQQ0a5m.jpg') no-repeat rgba(0,0,0,.5);
  
     background-position: center;
  
@@ -13,10 +13,14 @@
  }
  
  body {
-    background-image: url("");
+    background-image: url("/lift-international/media/ecotour/f1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(.8rem);
  
  
   }
+
+  html body section.grid div.box.aos-init.aos-animate p{
+   color: #ffffff;
+}
