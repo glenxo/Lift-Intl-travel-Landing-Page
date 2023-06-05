@@ -20,3 +20,8 @@
  
  
   }
+
+
+  html body section.grid div.box.aos-init.aos-animate p{
+   color: #ffffff;
+}
