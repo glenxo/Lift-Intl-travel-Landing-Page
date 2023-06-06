@@ -403,7 +403,7 @@ section{
 .home .flex form p{
     -webkit-text-stroke: 1.0px rgb(255, 255, 255);
     color: #ffffff;
-    text-shadow: 1.5px 1.5px 3.2px rgb(0, 0, 0);   
+    text-shadow: 1.7px 1.7px 3.2px rgb(0, 0, 0);   
     font-weight: 50;
     margin-top: 1%;
 
@@ -414,7 +414,7 @@ section{
    font-family: Geneva;
 
 
-   font-size: 1.7rem;
+   font-size: 2rem;
 
    color: var(--light-white);
 
