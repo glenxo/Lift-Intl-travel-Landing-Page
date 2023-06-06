@@ -1761,16 +1761,26 @@ html body div#enterDetails button#insert:hover{
 
 
 
+   html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form p span.custom-font{   
+     font-size: 4.5rem;
+}
+   
+    html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form p{
+      font-size: 2rem;
+      padding: 8%;
+   }
 
+
+   html body header.header.aos-init.aos-animate section.flex div#menu-btn.fas.fa-bars{
+      display: none;
+   }
 
 
     #home .title {
         display: flex;
         align-items: center;
       }
-      
 
-      
       @keyframes spin {
         0% {
           transform: rotateY(0deg);
