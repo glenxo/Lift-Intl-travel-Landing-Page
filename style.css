@@ -1762,11 +1762,12 @@ html body div#enterDetails button#insert:hover{
 
 
    html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form p span.custom-font{   
-     font-size: 4.5rem;
+     font-size: 3rem;
+     margin-top: -18px;
 }
    
     html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form p{
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding: 8%;
    }
 
