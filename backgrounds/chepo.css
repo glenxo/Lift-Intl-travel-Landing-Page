@@ -1,0 +1,28 @@
+.tours{
+
+    background: url('/lift-international/media/chepo/panama-city-bayano-lake-canyoning-day-tour-1144369.jpg') 
+    
+    no-repeat rgba(0,0,0,.5);
+ 
+    background-position: center;
+ 
+    background-attachment: fixed;
+ 
+    background-size: cover;
+ 
+    background-blend-mode: multiply;
+ 
+ }
+ 
+ body {
+    background-image: url("/lift-international/media/chepo/Promtur_0113_5d44012e-ac65-4bcc-bd00-5fc0a3a70912\ \(copy\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(.3rem);
+ 
+ 
+  }
+  
+   html body section.grid div.box.aos-init.aos-animate p{
+   color: #ffffff;
+}

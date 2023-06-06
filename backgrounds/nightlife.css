@@ -1,0 +1,17 @@
+.tours{
+    background: url('/lift-international/media/nightlife/pexels-manud-7489649.jpg') no-repeat rgba(0,0,0,.5);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+ 
+ }
+ 
+ body {
+    background-image: url("/lift-international/media/nightlife/pexels-esdras-jaimes-10550636.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(.4rem);
+ 
+ 
+  }

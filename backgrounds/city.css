@@ -1,0 +1,44 @@
+.tours{
+
+    background: url('/lift-international/media/city/pexels-esdras-jaimes-10550636.jpg') no-repeat rgba(0,0,0,.5);
+ 
+    background-position: center;
+ 
+    background-attachment: fixed;
+ 
+    background-size: cover;
+ 
+    background-blend-mode: multiply;
+ 
+ }
+ 
+ body {
+    background-image: url("/lift-international/media/city/pexels-harnett-a-solis-14027205\ \(copy\).jpg");
+    background-repeat: no-repeat;
+    background-size: 280% auto;    
+    backdrop-filter: blur(.0rem);
+ 
+ 
+  }
+
+  html body div.container.tours section.grid div.box.aos-init.aos-animate div#home.credit h4 ul li a{
+   color: #ffffff;
+  }
+
+    html body section.grid div.box.aos-init.aos-animate p{
+   color: #ffffff;
+}
+
+
+
+@media (max-width:991px){
+   body {
+      background-image: url("/lift-international/media/city/pexels-harnett-a-solis-14027205\ \(copy\).jpg");
+      background-repeat: no-repeat;
+      background-size: 1000% auto;    
+      backdrop-filter: blur(.0rem);
+   
+   
+    }
+  
+ }
