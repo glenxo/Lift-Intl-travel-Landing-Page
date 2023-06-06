@@ -391,7 +391,7 @@ section{
    color: #ffffffcc;
    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 
   color: var(--white);
 
@@ -401,9 +401,12 @@ section{
  }
 
 .home .flex form p{
-    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
     color: #ffffff;
-    text-shadow: 1.7px 1.7px 3.2px rgb(0, 0, 0);   
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);   
+    text-shadow: 3px 3px 6px rgb(0, 0, 0)rgb(0, 0, 0);   
+    text-shadow: 3px 3px 6px rgb(0, 0, 0)rgb(0, 0, 0);   
+
     font-weight: 50;
     margin-top: 1%;
 
@@ -414,7 +417,7 @@ section{
    font-family: Geneva;
 
 
-   font-size: 2rem;
+   font-size: 2.3rem;
 
    color: var(--light-white);
 
