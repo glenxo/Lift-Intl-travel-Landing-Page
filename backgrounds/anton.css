@@ -23,6 +23,41 @@ body {
 
 
 
+ html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
+   font-size: 2rem;
+color: #000000;
+}  
+
+
+
+
+body > section > div:nth-child(1) > h3,
+body > section > div:nth-child(4) > h3,
+body > section > div:nth-child(3) > h3,
+body > section > div:nth-child(2) > h3{
+   font-size: 2.4rem;
+color: #000000;
+font-weight: 1000;
+}
+
+html body section.grid div.box p{
+font-size: 1.6rem;
+padding-left: 10%;
+padding-right: 10%;
+color: #000000;
+}
+
+ span{
+  font-size: 2.5rem;
+color: #000000;
+}
+
+body > section.grid img{
+height: 50%;
+width: 80%;
+border-radius: 1.5%;
+}
+
  html body section.grid div.box.aos-init.aos-animate p{
    color: #ffffff;
 }

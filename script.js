@@ -1,19 +1,13 @@
 let navbar = document.querySelector('.header .flex .navbar');
 
 
-
 document.querySelector('#menu-btn').onclick = () =>{
-
    navbar.classList.toggle('active');
-
 }
 
 
-
 window.onscroll = () =>{
-
    navbar.classList.remove('active');
-
 }
 
 
@@ -33,9 +27,9 @@ document.querySelectorAll('input[type="number"]').forEach(inputNumber => {
 
 AOS.init({
 
-   duration: 400,
+   duration: 100,
 
-   delay: 200,
+   delay: 50,
 
 });
 

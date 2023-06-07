@@ -869,6 +869,7 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
 }
 
 
+
 html body section.grid div.box.aos-init.aos-animate img.image,
 .tours .grid .box .image{
 
@@ -926,7 +927,9 @@ html body section.grid div.box.aos-init.aos-animate img.image,
 
 
 
-
+.grid h4 {
+   font-size: 1.3rem;
+}
 
 
 
