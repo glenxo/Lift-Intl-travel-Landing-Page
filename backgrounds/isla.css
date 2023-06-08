@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('/lift-international/media/isla/IMG_6.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/IMG_6.jpg') no-repeat rgba(0,0,0,.5);
  
     background-position: center;
  
@@ -13,7 +13,7 @@
  }
  
  body {
-    background-image: url("/lift-international/media/isla/IMG_6.jpg");
+    background-image: url("/main/IMG_3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(.3rem);
@@ -21,14 +21,51 @@
  
   }
 
+
+  html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
+   font-size: 2rem;
+color: #ffffff;
+}  
+
+
+
+
+body > section > div:nth-child(1) > h3,
+body > section > div:nth-child(4) > h3,
+body > section > div:nth-child(3) > h3,
+body > section > div:nth-child(2) > h3{
+   font-size: 2.4rem;
+color: #ffffff;
+font-weight: bolder;
+}
+
+html body section.grid div.box p{
+font-size: 1.6rem;
+padding-left: 10%;
+padding-right: 10%;
+color: #ffffff;
+}
+
+ span{
+  font-size: 2.5rem;
+color: #ffffff;
+}
+
+body > section.grid img{
+height: 50%;
+width: 80%;
+border-radius: 1.5%;
+}
+
+
     html body div#enterDetails,
   html body section.grid div.box.aos-init.aos-animate h3.name,
   html body div#blog.credit.aos-init.aos-animate p,
   html body section.grid div.box.aos-init.aos-animate p{
    font-weight: 100;
-   -webkit-text-stroke: 1.0px rgb(22, 21, 21);
-   color: #000000;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.185);
+   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+   color: #ffffff;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.185);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 1.5rem;
    text-align: center;
@@ -47,16 +84,16 @@ html body div#enterDetails input#enterEmail,
 html body div#enterDetails input#enterTime,
 html body div#footer.credit,
 html body section.grid div.box.aos-init.aos-animate p.address{
-   -webkit-text-stroke: 1.0px rgb(22, 21, 21);
-   color: #000000;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.185);
+   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+   color: #ffffff;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.185);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html body section.grid div.box.aos-init.aos-animate div.price span{
-   -webkit-text-stroke: 1.0px rgb(22, 21, 21);
-   color: #000000;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.185);
+   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
+   color: #ffffff;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.185);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding-bottom: 20px;
    font-size: 3rem;

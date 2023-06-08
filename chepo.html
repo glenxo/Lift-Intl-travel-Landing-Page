@@ -18,12 +18,12 @@
    <section class="flex">
       <a class="logo"><img src="/main/Rectangle 2.png" alt="">lift-International.</a>
       <nav class="navbar">
-        <a href="https://lift-international.com/lift-international/index.html">home</a>
-        <a href="https://lift-international.com/lift-international/lift-international-about-us.html">about</a>
-        <a href="https://lift-international.com/lift-international/lift-international-tours.html">short trips</a>
-        <a href="https://lift-international.com/lift-international/lift-international-destinations.html">destinations</a>
-        <a href="https://lift-international.com/lift-international/lift-international-contact.html">contact</a>
-     </nav>
+         <a href="https://lift-international.com/index.html">home</a>
+         <a href="https://lift-international.com/about-us.html">about</a>
+         <a href="https://lift-international.com/tours.html">short trips</a>
+         <a href="https://lift-international.com/destinations.html">destinations</a>
+         <a href="https://lift-international.com/contact.html">contact</a>
+      </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
    </section>
 </header>
@@ -34,7 +34,7 @@
    <section class="grid">
     <div class="box" data-aos="fade-up">
        <p class="price"><i class="fas fa-dollar-sign"></i><span>250</span></p>
-       <img src="/lift-international/media/chepo/bayano-caves-lake-panama-00957-2.jpg.optimal.jpg" alt="" class="image">
+       <img src="/main/bayano-caves-lake-panama-00957-2.jpg.optimal.jpg" alt="" class="image">
        <h3 class="name">Panama</h3>
        <p class="address">PTY 507, Panama City</p>
        <div class="credit" id="home">
@@ -55,7 +55,7 @@
 <section class="grid">
  <div class="box" data-aos="fade-up">
     <div class="price"><i class="fas fa-dollar-sign"></i><span>Places & activities we will take you while you're in <br/>Chepo Town</span></div>
-    <img src="/lift-international/media/chepo/Promtur_0113_5d44012e-ac65-4bcc-bd00-5fc0a3a70912.jpg" class="image" alt="">
+    <img src="/main/Promtur_0113_5d44012e-ac65-4bcc-bd00-5fc0a3a70912.jpg" class="image" alt="">
     <h3 class="name">Chagres National Park</h3>
     <p class="address">Panama city, Banking zone, Via espana</p>
     <p>Embark on an exciting guided tour of the Chagres National Park, situated close to Chepo, 
@@ -70,7 +70,7 @@
       </p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/chepo/panama-city-bayano-lake-canyoning-day-tour-1144369.jpg" class="image" alt="">
+    <img src="/main/panama-city-bayano-lake-canyoning-day-tour-1144369.jpg" class="image" alt="">
     <h3 class="name">Lake & Bayano Caves</h3>
     <p class="address">Panama city, Calle 50</p>
     <p>When visiting Chepo, make sure to indulge in the local cuisine. You'll find many delicious dishes 
@@ -84,7 +84,7 @@
     </p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/chepo/maxresdefault.jpg" class="image" alt="">
+    <img src="/main/maxresdefault.jpg" class="image" alt="">
     <h3 class="name">Feast of San Cristobal</h3>
     <p class="address">Panama city, 53rd St ave</p>
     <p>If you're planning a visit to Chepo, don't miss out on the chance to attend some of the 
@@ -98,7 +98,7 @@
       Be sure to check the dates of these festivals and plan accordingly so you don't miss out on the fun.</p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/chepo/IMG_20210805_121406.jpg" class="image" alt="">
+    <img src="/main/IMG_20210805_121406.jpg" class="image" alt="">
     <h3 class="name">Embera and Wounaan indigenous communities</h3>
     <p class="address">Panama city, Calle 50 - Casa La Guama</p>
     <p>If you're interested in learning about the indigenous communities of Panama, 
@@ -201,7 +201,7 @@ function InsertData() {
       Text: enterText.value
   })
   .then(() => {
-    alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Home page.");
+   alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Destinations page.");
       enterDate.value = "";
       enterTime.value = "";
       enterEmail.value = "";
@@ -209,7 +209,7 @@ function InsertData() {
       enterAmount.value = "";
       enterAddress.value = "";
       enterText.value = "";
-      window.location.replace("http://127.0.0.1:5501/lift-international/index.html");
+      window.location.replace("https://lift-international.com/destinations.html");
   })
   .catch(error => {
       alert(error);

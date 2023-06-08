@@ -10,7 +10,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
    <!-- custom css file link  -->
    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="/lift-international/backgrounds/isla.css">
+   <link rel="stylesheet" href="/backgrounds/isla.css">
 </head>
 <body>
 <!-- header section starts  -->
@@ -18,12 +18,12 @@
    <section class="flex">
       <a class="logo"><img src="/main/Rectangle 2.png" alt="">lift-International.</a>
       <nav class="navbar">
-        <a href="https://lift-international.com/lift-international/index.html">home</a>
-        <a href="https://lift-international.com/lift-international/lift-international-about-us.html">about</a>
-        <a href="https://lift-international.com/lift-international/lift-international-tours.html">short trips</a>
-        <a href="https://lift-international.com/lift-international/lift-international-destinations.html">destinations</a>
-        <a href="https://lift-international.com/lift-international/lift-international-contact.html">contact</a>
-     </nav>
+         <a href="https://lift-international.com/index.html">home</a>
+         <a href="https://lift-international.com/about-us.html">about</a>
+         <a href="https://lift-international.com/tours.html">short trips</a>
+         <a href="https://lift-international.com/destinations.html">destinations</a>
+         <a href="https://lift-international.com/contact.html">contact</a>
+      </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
    </section>
 </header>
@@ -32,14 +32,12 @@
 <div class="container tours">
    <h1 class="heading" data-aos="zoom-in"> Isla Grande Experience</h1>
    <section class="grid">
-    <div class="box" data-aos="fade-up">
+    <div class="box">
        <p class="price"><i class="fas fa-dollar-sign"></i><span>150</span></p>
-       <img src="/lift-international/media/isla/islagrande.jpeg" alt="" class="image">
-       <h3 class="name">Panama</h3>
-       <p class="address">PTY 507, Panama City</p>
+       <img src="/main/islagrande.jpeg" alt="" class="image">
        <div class="credit" id="home">
          <span
-         ><br/>A 6hr 45min and up tour <br/>to the pacific <br/> side of the country. </span>
+         ><br/>A 6hr 45min and up tour <br/>to the pacific <br/> side of the country. </span><br/><br/>
          
          <h4   
          >  A one-way trip for <strong>$150 </strong> for 1 or 2 guests + $30 for the 3rd passenger, 
@@ -54,9 +52,9 @@
 </div>
 <!-- tours section ends -->
 <section class="grid">
- <div class="box" data-aos="fade-up">
-    <div class="price"></i><span>Important hings to consider when you visit Isla Grande</span></div>
-    <img src="/isla grande tour/media/IMG_6.jpg" class="image" alt="">
+ <div class="box">
+    <div class="price"></i><span>When you visit Isla Grande</span><br/><br/></div>
+    <img src="/main/IMG_6.jpg" class="image" alt="">
     <h3 class="name">Avoid touching or stepping on coral reefs or other marine life to protect their habitats</h3>
     <p class="address">Panama city, Banking zone, Via espana</p>
     <p>
@@ -73,8 +71,8 @@
 
     </p>
  </div>
- <div class="box" data-aos="fade-up">
-    <img src="/isla grande tour/media/the_house_from__565713514.jpg" class="image" alt="">
+ <div class="box">
+    <img src="/main/the_house_from__565713514.jpg" class="image" alt="">
     <h3 class="name">Bring cash as there are limited ATMs on the island</h3>
     <p class="address">Panama city, Calle 50</p>
     <p>
@@ -92,8 +90,8 @@
 
     </p>
  </div>
- <div class="box" data-aos="fade-up">
-    <img src="/isla grande tour/media/IMG_2.jpg" class="image" alt="">
+ <div class="box">
+    <img src="/main/IMG_2.jpg" class="image" alt="">
     <h3 class="name">Apply sunscreen and insect repellent to protect your skin from the sun and bugs</h3>
     <p class="address">Panama city, 53rd St ave</p>
     <p>
@@ -112,8 +110,8 @@
 
     </p>
  </div>
- <div class="box" data-aos="fade-up">
-    <img src="/isla grande tour/media/IMG_4.jpg"  class="image" alt="">
+ <div class="box">
+    <img src="/main/IMG_4.jpg"  class="image" alt="">
     <h3 class="name">Enjoy the local culture and customs of the island's Afro-Panamanian community</h3>
     <p class="address">Panama city, Calle 50 - Casa La Guama</p>
     <p>
@@ -226,7 +224,7 @@ function InsertData() {
       Text: enterText.value
   })
   .then(() => {
-    alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Home page.");
+    alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Destinations page.");
       enterDate.value = "";
       enterTime.value = "";
       enterEmail.value = "";
@@ -234,7 +232,7 @@ function InsertData() {
       enterAmount.value = "";
       enterAddress.value = "";
       enterText.value = "";
-      window.location.replace("http://127.0.0.1:5501/lift-international/index.html");
+      window.location.replace("https://lift-international.com/destinations.html");
   })
   .catch(error => {
       alert(error);

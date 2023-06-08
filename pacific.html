@@ -18,12 +18,12 @@
    <section class="flex">
       <a class="logo"><img src="/main/Rectangle 2.png" alt="">lift-International.</a>
       <nav class="navbar">
-        <a href="https://lift-international.com/lift-international/index.html">home</a>
-        <a href="https://lift-international.com/lift-international/lift-international-about-us.html">about</a>
-        <a href="https://lift-international.com/lift-international/lift-international-tours.html">short trips</a>
-        <a href="https://lift-international.com/lift-international/lift-international-destinations.html">destinations</a>
-        <a href="https://lift-international.com/lift-international/lift-international-contact.html">contact</a>
-     </nav>
+         <a href="https://lift-international.com/index.html">home</a>
+         <a href="https://lift-international.com/about-us.html">about</a>
+         <a href="https://lift-international.com/tours.html">short trips</a>
+         <a href="https://lift-international.com/destinations.html">destinations</a>
+         <a href="https://lift-international.com/contact.html">contact</a>
+      </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
    </section>
 </header>
@@ -223,7 +223,7 @@ function InsertData() {
       Text: enterText.value
   })
   .then(() => {
-    alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Home page.");
+   alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Destinations page.");
       enterDate.value = "";
       enterTime.value = "";
       enterEmail.value = "";
@@ -231,7 +231,7 @@ function InsertData() {
       enterAmount.value = "";
       enterAddress.value = "";
       enterText.value = "";
-      window.location.replace("http://127.0.0.1:5501/lift-international/index.html");
+      window.location.replace("https://lift-international.com/destinations.html");
   })
   .catch(error => {
       alert(error);

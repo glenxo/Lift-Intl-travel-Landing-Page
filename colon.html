@@ -18,12 +18,12 @@
    <section class="flex">
       <a class="logo"><img src="/main/Rectangle 2.png" alt="">lift-International.</a>
       <nav class="navbar">
-        <a href="https://lift-international.com/lift-international/index.html">home</a>
-        <a href="https://lift-international.com/lift-international/lift-international-about-us.html">about</a>
-        <a href="https://lift-international.com/lift-international/lift-international-tours.html">short trips</a>
-        <a href="https://lift-international.com/lift-international/lift-international-destinations.html">destinations</a>
-        <a href="https://lift-international.com/lift-international/lift-international-contact.html">contact</a>
-     </nav>
+         <a href="https://lift-international.com/index.html">home</a>
+         <a href="https://lift-international.com/about-us.html">about</a>
+         <a href="https://lift-international.com/tours.html">short trips</a>
+         <a href="https://lift-international.com/destinations.html">destinations</a>
+         <a href="https://lift-international.com/contact.html">contact</a>
+      </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
    </section>
 </header>
@@ -34,7 +34,7 @@
    <section class="grid">
     <div class="box" data-aos="fade-up">
        <p class="price"><i class="fas fa-dollar-sign"></i><span>150</span></p>
-       <img src="/lift-international/media/colon/AguaClara-1024x683.jpg" alt="" class="image">
+       <img src="/main/AguaClara-1024x683.jpg" alt="" class="image">
        <h3 class="name">Panama</h3>
        <p class="address">PTY 507, Panama City</p>
        <div class="credit" id="home">
@@ -57,7 +57,7 @@
 <section class="grid">
  <div class="box" data-aos="fade-up">
     <div class="price"></i><span>We will take you to...</span></div>
-    <img src="/lift-international/media/colon/panamanian-food-ceviche.jpg" class="image" alt="">
+    <img src="/main/panamanian-food-ceviche.jpg" class="image" alt="">
     <h3 class="name">Colon local cuisine</h3>
     <p class="address">Panama city, Banking zone, Via espana</p>
     <p>When visiting Colon City in Panama, be sure to indulge in the mouth-watering local cuisine. 
@@ -72,20 +72,21 @@
       flavors during your visit to Colon City.</p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/colon/40.jpg" class="image" alt="">
+    <img src="main/colon/40.jpg" class="image" alt="">
     <h3 class="name">Explore the Gatun Lake</h3>
     <p class="address">Panama city, Calle 50</p>
     <p>Exploring the Gatun Lake by boat is an unforgettable experience when visiting Colon City. 
       Consider taking a boat tour of the Gatun Lake to witness the magnificent Panama Canal up close 
       and personal, as well as catch a glimpse of the fascinating wildlife that inhabits the area, 
       including playful monkeys and colorful birds. <br/><br/>And with Lift-Intl, your travel experience is made 
-      even more convenient and enjoyable with our <a href="https://lift-international.com/lift-international/lift-international.monkey.html">Monkey Tour Experience </a> package that can be easily selected 
+      even more convenient and enjoyable with our <a href="https://lift-international.com/monkey.html">
+         Monkey Tour Experience </a> package that can be easily selected 
       on our website. Don't miss out on this incredible opportunity to witness one of the world's most 
       impressive engineering feats and get up close with some of Panama's exotic and fascinating wildlife. 
       Book your Monkey Tour Trip with Lift-Intl today and make memories that will last a lifetime!</p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/colon/COJeJu7UcAAkEE-.jpg" class="image" alt="">
+    <img src="/main/COJeJu7UcAAkEE-.jpg" class="image" alt="">
     <h3 class="name">Panama Canal Expansion Observation Center</h3>
     <p class="address">Panama city, 53rd St ave</p>
     <p>The Panama Canal Expansion Observation Center is a must-see attraction for anyone visiting Colon City. 
@@ -98,7 +99,7 @@
       engineering marvels, history, and stunning views.</p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/colon/media/8c.jpg" class="image" alt="">
+    <img src="/main/media/8c.jpg" class="image" alt="">
     <h3 class="name"Museum of Afro-Antillean History</h3>
     <p class="address">Panama city, Calle 50 - Casa La Guama</p>
     <p>The Museum of Afro-Antillean History in Colon City is a must-visit for those interested in learning 
@@ -201,7 +202,7 @@ function InsertData() {
       Text: enterText.value
   })
   .then(() => {
-    alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Home page.");
+   alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Destinations page.");
       enterDate.value = "";
       enterTime.value = "";
       enterEmail.value = "";
@@ -209,7 +210,7 @@ function InsertData() {
       enterAmount.value = "";
       enterAddress.value = "";
       enterText.value = "";
-      window.location.replace("http://127.0.0.1:5501/lift-international/index.html");
+      window.location.replace("https://lift-international.com/destinations.html");
   })
   .catch(error => {
       alert(error);

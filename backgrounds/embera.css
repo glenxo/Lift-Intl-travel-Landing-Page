@@ -1,6 +1,6 @@
 .tours{
 
-   background: url('/lift-international/media/embera/ecotour.jpg') no-repeat rgba(0,0,0,.5);
+   background: url('/main/ecotour.jpg') no-repeat rgba(0,0,0,.5);
 
    background-position: center;
 
@@ -13,7 +13,7 @@
 }
 
 body {
-   background-image: url("/lift-international/media/embera/IMG-20220816-WA0019.jpg");
+   background-image: url("/main/IMG-20220816-WA0019.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    backdrop-filter: blur(.3rem);
@@ -25,6 +25,38 @@ body {
    color: #ffffff;
 }
 
+html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
+  font-size: 2rem;
+color: #ffffff;
+}
+
+
+body > section.grid > div:nth-child(1),
+body > section.grid > div:nth-child(2),
+body > section.grid > div:nth-child(3),
+body > section.grid > div:nth-child(4),
+body > section.grid > div:nth-child(5) > h3{
+  font-size: 2.4rem;
+color: #ffffff;
+}
+
+html body section.grid div.box p{
+font-size: 1.6rem;
+padding-left: 10%;
+padding-right: 10%;
+color: #ffffff;
+}
+
+#canal > span{
+ font-size: 3rem;
+color: #ffffff;
+}
+
+body > section.grid img{
+height: 50%;
+width: 80%;
+border-radius: 1.5%;
+}
 
  html body div#blog.credit.aos-init.aos-animate img#images{
    width: auto; /* Change the value to adjust the width */

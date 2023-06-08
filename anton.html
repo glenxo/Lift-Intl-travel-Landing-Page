@@ -10,7 +10,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
    <!-- custom css file link  -->
    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="/lift-international/backgrounds/anton.css">
+   <link rel="stylesheet" href="/backgrounds/anton.css">
 </head>
 <body>
 <!-- header section starts  -->
@@ -18,12 +18,12 @@
    <section class="flex">
       <a class="logo"><img src="/main/Rectangle 2.png" alt="">lift-International.</a>
       <nav class="navbar">
-        <a href="https://lift-international.com/lift-international/index.html">home</a>
-        <a href="https://lift-international.com/lift-international/lift-international-about-us.html">about</a>
-        <a href="https://lift-international.com/lift-international/lift-international-tours.html">short trips</a>
-        <a href="https://lift-international.com/lift-international/lift-international-destinations.html">destinations</a>
-        <a href="https://lift-international.com/lift-international/lift-international-contact.html">contact</a>
-     </nav>
+         <a href="https://lift-international.com/index.html">home</a>
+         <a href="https://lift-international.com/about-us.html">about</a>
+         <a href="https://lift-international.com/tours.html">short trips</a>
+         <a href="https://lift-international.com/destinations.html">destinations</a>
+         <a href="https://lift-international.com/contact.html">contact</a>
+      </nav>
       <div id="menu-btn" class="fas fa-bars"></div>
    </section>
 </header>
@@ -33,8 +33,8 @@
    <h1 class="heading" data-aos="zoom-in"> El Valle de Anton (Blasted open Volcano)</h1>
    <section class="grid">
     <div class="box" data-aos="fade-up">
-       <p class="price"><i class="fas fa-dollar-sign"></i><span>650</span></p>
-       <img src="/lift-international/media/anton/slot-canyon-in-the-morning.jpg" alt="" class="image">
+       <p class="price"><i class="fas fa-dollar-sign"></i><span>250</span></p>
+       <img src="/main/slot-canyon-in-the-morning.jpg" alt="" class="image">
        <h3 class="name">Panama</h3>
        <p class="address">PTY 507, Panama City</p>
        <div class="credit" id="home">
@@ -54,7 +54,7 @@
 <section class="grid">
  <div class="box" data-aos="fade-up">
     <div class="price"><i class="fas fa-dollar-sign"></i><span>We will take you to...</span></div>
-    <img src="/lift-international/media/anton/5f368f6ae0ed8.jpeg" class="image" alt="">
+    <img src="/main/5f368f6ae0ed8.jpeg" class="image" alt="">
     <h3 class="name">El Nispero Zoo</h3>
     <p class="address">Panama city, Banking zone, Via espana</p>
     <p>Located in the heart of El Valle de Anton, the El Nispero Zoo and Botanical Garden is a must-visit 
@@ -73,7 +73,7 @@
       </p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/anton/chorro-macho.jpg" class="image" alt="">
+    <img src="/main/chorro-macho.jpg" class="image" alt="">
     <h3 class="name">El Chorro Macho waterfall</h3>
     <p class="address">Panama city, Calle 50</p>
     <p>El Valle de Anton in Panama is a paradise for nature lovers, and one of the must-visit places 
@@ -87,7 +87,7 @@
       to bring your swimwear and a towel for a comfortable and relaxing experience.</p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/anton/e0858c_80cb1a660f3b42a0be33ea54341de003~mv2.jpg" class="image" alt="">
+    <img src="/main/e0858c_80cb1a660f3b42a0be33ea54341de003~mv2.jpg" class="image" alt="">
     <h3 class="name">Butterfly Haven</h3>
     <p class="address">Panama city, 53rd St ave</p>
     <p>If you're looking for a unique and magical experience in El Valle de Anton, don't miss the Butterfly Haven.
@@ -100,7 +100,7 @@
         A visit to the Butterfly Haven is an experience you won't forget.</p>
  </div>
  <div class="box" data-aos="fade-up">
-    <img src="/lift-international/media/anton/horseback_riding_Panama-GAtun.jpg" class="image" alt="">
+    <img src="/main/horseback_riding_Panama-GAtun.jpg" class="image" alt="">
     <h3 class="name">Horseback riding</h3>
     <p class="address">Panama city, Calle 50 - Casa La Guama</p>
     <p>Exploring the beautiful El Valle de Anton in Central America can be a memorable experience, 
@@ -202,7 +202,7 @@ function InsertData() {
       Text: enterText.value
   })
   .then(() => {
-    alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, for payment you will be redirected to the Home page.");
+   alert("Your booking has been successfully added. Please check your email for confirmation within the next 24hrs from Lift-Intl. with all the necessary details regarding your booking. Thank you for choosing our service. Now, you will be redirected to the Destinations page.");
       enterDate.value = "";
       enterTime.value = "";
       enterEmail.value = "";
@@ -210,7 +210,7 @@ function InsertData() {
       enterAmount.value = "";
       enterAddress.value = "";
       enterText.value = "";
-      window.location.replace("http://127.0.0.1:5501/lift-international/index.html");
+      window.location.replace("https://lift-international.com/destinations.html");
   })
   .catch(error => {
       alert(error);

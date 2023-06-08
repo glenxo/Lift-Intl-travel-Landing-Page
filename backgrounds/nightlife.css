@@ -1,5 +1,5 @@
 .tours{
-    background: url('/lift-international/media/nightlife/pexels-manud-7489649.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/pexels-manud-7489649.jpg') no-repeat rgba(0,0,0,.5);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -8,10 +8,54 @@
  }
  
  body {
-    background-image: url("/lift-international/media/nightlife/pexels-esdras-jaimes-10550636.jpg");
+    background-image: url("/main/pexels-esdras-jaimes-10550636.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(.4rem);
  
  
   }
+
+  html body section.grid div.box span{
+   color:#fdad00; 
+   font-size: 1.5rem;
+ }
+
+ html body div.container.tours section.grid div.box div#home.credit,
+ html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
+   font-size: 2rem;
+color: #ffffff;
+}  
+
+
+
+body > section > div:nth-child(6) > h3,
+body > section > div:nth-child(5) > h3,
+body > section > div:nth-child(4) > h3,
+body > section > div:nth-child(3) > h3,
+body > section > div:nth-child(2) > h3,
+body > section > div:nth-child(1) > h3{
+   font-size: 2.4rem;
+color: #ffffff;
+font-weight: bolder;
+}
+
+html body section.grid div.box p{
+font-size: 1.6rem;
+padding-left: 10%;
+padding-right: 10%;
+color: #ffffff;
+}
+
+html body section.grid div.box div.price span,
+ span{
+  font-size: 2.5rem;
+color: rgb(255, 166, 0);
+}
+
+body > section.grid img{
+height: 50%;
+width: 80%;
+border-radius: 1.5%;
+}
+

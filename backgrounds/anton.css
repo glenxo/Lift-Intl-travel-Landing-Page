@@ -1,6 +1,6 @@
 .tours{
 
-   background: url('/lift-international/media/anton/el-valle-arcoiris-panama.jpg') 
+   background: url('/main/el-valle-arcoiris-panama.jpg') 
    
    no-repeat rgba(0,0,0,.5);
 
@@ -15,7 +15,7 @@
 }
 
 body {
-   background-image: url("/lift-international/media/anton/Cerro+La+Silla-27.jpg");
+   background-image: url("/main/Cerro+La+Silla-27.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    backdrop-filter: blur(.3rem);
