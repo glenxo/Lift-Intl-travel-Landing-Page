@@ -137,7 +137,7 @@
   
   .banner{
     min-height: 80vh;
-    background:url(https://scihparg.com/wp-content/uploads/2021/12/geometric-wallpaper.jpg) no-repeat;
+    background:url(/main/miraflores-visitors-center-499072.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -175,8 +175,10 @@
     grid-template-columns: 2.5fr 1fr;
     gap:1.5rem;
     background:rgb(212, 153, 153);
-    background-image: url(https://scihparg.com/wp-content/uploads/2021/12/geometric-wallpaper.jpg);
+    background:url(/main/AguaClara-1024x683.jpg) no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+
   }
   
   .container .posts-container .post{
@@ -386,14 +388,14 @@
   }
   
   .contact{
-    background-image: url(https://scihparg.com/wp-content/uploads/2021/12/geometric-wallpaper.jpg);
+    background:url(/main/panama-canal-5208586_960_720.jpg) no-repeat;
     background-attachment: fixed;  background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   
   .contact form{
-    background: #f7780a;
+    background: #52525285;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     margin:2rem auto;
@@ -431,7 +433,7 @@
   }
   
   .footer{
-    background-image: url(https://scihparg.com/wp-content/uploads/2021/12/geometric-wallpaper.jpg);
+    background:url(/main/miraflores-visitors-center-499072.jpg) no-repeat;
     background-attachment: fixed;
     display: flex;
     align-items: center;
