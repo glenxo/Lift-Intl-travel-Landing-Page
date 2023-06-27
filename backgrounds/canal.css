@@ -1,8 +1,6 @@
 .tours{
 
-   background: url('/main/0a.jpg') 
-   
-   no-repeat rgba(0,0,0,.5);
+   background: url('/main/pexels-victor-puente-7629244.jpg') no-repeat rgba(0,0,0,.5);
 
    background-position: center;
 
@@ -15,41 +13,43 @@
 }
 
 body {
-   background-image: url("/main/Cerro+La+Silla-27.jpg");
+   background-image: url("/main/pexels-rodolfo-quirós-1848728.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    backdrop-filter: blur(.3rem);
+
+
  }
 
+ html body section.grid div.box.aos-init.aos-animate p{
+   color: #ffffff;
+}
+
+html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
+  font-size: 2rem;
+color: #ffffff;
+}
 
 
- html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
-   font-size: 2rem;
-color: #000000;
-}  
-
-
-
-
-body > section > div:nth-child(1) > h3,
-body > section > div:nth-child(4) > h3,
-body > section > div:nth-child(3) > h3,
-body > section > div:nth-child(2) > h3{
-   font-size: 2.4rem;
-color: #000000;
-font-weight: 1000;
+body > section.grid > div:nth-child(1),
+body > section.grid > div:nth-child(2),
+body > section.grid > div:nth-child(3),
+body > section.grid > div:nth-child(4),
+body > section.grid > div:nth-child(5) > h3{
+  font-size: 2.4rem;
+color: #ffffff;
 }
 
 html body section.grid div.box p{
 font-size: 1.6rem;
 padding-left: 10%;
 padding-right: 10%;
-color: #000000;
+color: #ffffff;
 }
 
- span{
-  font-size: 2.5rem;
-color: #000000;
+#canal > span{
+ font-size: 3rem;
+color: #ffffff;
 }
 
 body > section.grid img{
@@ -58,28 +58,19 @@ width: 80%;
 border-radius: 1.5%;
 }
 
- html body section.grid div.box.aos-init.aos-animate p{
-   color: #ffffff;
-}
-.tours{
-
-    background: url('') no-repeat rgba(0,0,0,.5);
- 
-    background-position: center;
- 
-    background-attachment: fixed;
- 
-    background-size: cover;
- 
-    background-blend-mode: multiply;
- 
+ html body div#blog.credit.aos-init.aos-animate img#images{
+   width: auto; /* Change the value to adjust the width */
+   height: 650px; 
+   border-radius: 1%;
  }
- 
- body {
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(.8rem);
- 
- 
-  }
+
+
+ @media (max-width:991px){
+   html body div#blog.credit.aos-init.aos-animate img#images{
+      width: auto; /* Change the value to adjust the width */
+      height: 300px; 
+      border-radius: 0.7%;
+   
+    }
+   
+ }
