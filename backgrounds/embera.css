@@ -42,10 +42,6 @@ color: #ffffff;
 
 
 
-.reviews .slide {
-  text-align: center;
-  padding: 3rem;
-}
 
 .reviews .swiper-button-prev {
   width: max-content;
@@ -57,25 +53,18 @@ color: #ffffff;
   height: max-content;
 }
 
-.reviews .slide i {
-  font-size: 4rem;
-  color: var(--color-casper2);
-  margin-bottom: 1rem;
-}
-
-
 
 
 .reviews .slide img {
   height: 600px;
-  width: 980px;
+  width: auto;
   border-radius: 2%;
   margin: 1rem 0;
 }
 
 .swiper {
-  width: 1300px;
   height: 700px;
+  width: auto;
 }
 
 .swiper img {
@@ -355,6 +344,9 @@ border-radius: 1.5%;
  }
 
 
+/*MEDIA-Q*/
+
+
  @media (max-width:991px){
    html body div#blog.credit.aos-init.aos-animate img#images{
       width: auto; /* Change the value to adjust the width */
@@ -366,12 +358,12 @@ border-radius: 1.5%;
 
 .swiper {
   width: 300px;
-  height: 420px;
-  margin-top: 20px;
+  height: 520px;
+  margin-top: 10px;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center; 
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 1rem;
@@ -379,9 +371,7 @@ border-radius: 1.5%;
   flex-wrap: wrap-reverse;
   background: var(--color-darker);
   border-radius: 1rem;
-  -webkit-box-shadow: 0 0.1rem 0.3rem #1111114d;
-  box-shadow: 0 0.1rem 0.3rem #1111114d;
-  padding: 0.5rem 0.1rem;
+
 }
 
 .swiper img {

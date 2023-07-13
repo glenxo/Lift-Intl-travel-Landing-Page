@@ -15,8 +15,6 @@ document.querySelectorAll('input[type="number"]').forEach((inputNumber) => {
   };
 });
 
-
-
 AOS.init({
   duration: 100,
   delay: 50,
