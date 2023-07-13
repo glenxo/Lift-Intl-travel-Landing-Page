@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function () {
   const swiper = new Swiper(".swiper", {
     direction: "horizontal",
     loop: true,
@@ -7,22 +8,24 @@
     navigation: {
       prevEl: ".swiper-button-next",
       nextEl: ".swiper-button-prev",
-      },
+    },
     scrollbar: {
       el: ".swiper-scrollbar",
     },
   });
-  
-  (function () {
-    const parallaxElements = document.querySelectorAll(".parallax");
-    function parallax() {
-      const scrollTop = window.pageYOffset;
-      for (let i = 0; i < parallaxElements.length; i++) {
-        const element = parallaxElements[i];
-        const speed = element.getAttribute("data-parallax-speed");
-        element.style.backgroundPositionY = scrollTop * speed + "px";
-      }
-    }
-  
-    window.addEventListener("scroll", parallax);
-  })();
+
+  const slideshowItems = document.querySelectorAll("#slideshow li");
+  let currentItemIndex = 0;
+
+  function showNextItem() {
+    slideshowItems[currentItemIndex].classList.remove("active");
+    currentItemIndex = (currentItemIndex + 1) % slideshowItems.length;
+    slideshowItems[currentItemIndex].classList.add("active");
+  }
+
+  setInterval(showNextItem, 4000); // Change slide every 3 seconds (3000 milliseconds)
+
+  window.addEventListener("scroll", function () {
+    // No effects on destination section's image
+  });
+});
