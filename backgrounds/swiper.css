@@ -1,0 +1,237 @@
+.swipe .swiper-button-prev {
+    width: max-content;
+    height: max-content;
+}
+
+.swipe .swiper-button-next {
+    width: max-content;
+    height: max-content;
+}
+
+
+
+.swipe .slide img {
+    height: 600px;
+    width: auto;
+    border-radius: 0.5%;
+    margin: 1rem 0;
+}
+
+.swiper {
+    height: 700px;
+    width: auto;
+}
+
+.swiper img {
+    border: 0.1rem solid var(--);
+    width: 100px;
+    height: 300px;
+}
+
+.swiper-scrollbar .swiper-scrollbar-vertical {
+    background-color: var(--color-strikemaster2);
+    color: var(--color-casper2);
+    border-color: #20bdad;
+}
+
+.swiper-scrollbar-vertical {
+    background-color: var(--color-strikemaster2);
+    color: var(--color-casper2);
+    border-color: #20bdad;
+}
+
+.swiper-scrollbar {
+    background-color: var(--color-strikemaster2);
+    color: var(--color-casper2);
+    border-color: #20bdad;
+}
+
+div.swiper-button-prev::after {
+    color: #20bdad00;
+}
+
+div.swiper-button-next::after {
+    padding-left: 0%;
+    color: #20bdad00;
+}
+
+.swiper-button-pre img {
+    padding-left: 0%;
+    width: 1600px;
+    height: 900px;
+}
+
+.swipe .swiper-pagination .swiper-button-prev img {
+    margin-left: 20px;
+    
+}
+
+/*SWIPE SECTION STARTS*/
+
+.swipe .slide {
+    text-align: center;
+    padding: 3rem;
+}
+
+.swipe .swiper-button-prev {
+    width: max-content;
+    height: max-content;
+}
+
+.swipe .swiper-button-next {
+    width: max-content;
+    height: max-content;
+}
+
+
+.swipe h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+div.swiper-slide
+{
+    width: 300px;
+    height: 600px;
+    border-radius: 1%;
+    margin: 1rem 0;
+}
+
+.swiper .box{
+    width: 300px;
+    height: 100px;
+}
+
+.swiper img.box{
+    border: 0.1rem solid var(--);
+    width: 50px;
+    height: 50px;
+}
+
+.swiper-scrollbar .swiper-scrollbar-vertical {
+    background-color: var(--color-strikemaster2);
+    color: var(--color-casper2);
+    border-color: #20bdad;
+}
+
+.swiper-scrollbar-vertical {
+    background-color: var(--color-strikemaster2);
+    color: var(--color-casper2);
+    border-color: #20bdad;
+}
+
+.swiper-scrollbar {
+    background-color: var(--color-strikemaster2);
+    color: var(--color-casper2);
+    border-color: #20bdad;
+}
+
+div.swiper-button-prev::after {
+    color: #20bdad00;
+}
+
+div.swiper-button-next::after {
+    padding-left: 0%;
+    color: #20bdad00;
+}
+
+.swiper-button-pre img {
+    padding-left: 0%;
+    width: 600px;
+    height: 300px;
+}
+
+.swipe .swiper-pagination .swiper-button-prev img {
+    margin-left: 20px;
+    
+}
+
+div .swiper-pagination 
+.swiper-pagination-bullets 
+.swiper-pagination-vertical {
+    background-color: #e06e6e00;
+}
+
+div .swiper-scrollbar-drag {
+    background-color: var(--color-geraldine);
+}
+
+div .swiper-pagination-bullet {
+    background-color: #bd2a2000;
+}
+
+div.swiper-scrollbar.swiper-scrollbar-vertical {
+    background-color: #bd2a2000;
+}
+
+div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
+    background-color: #bd202000;
+}
+
+/*MEDIA-Q*/
+
+@media (max-width:991px){
+    /*swiper-scrollbar SECTION STARTS*/
+    .swiper {
+        width: 300px;
+        height: 520px;
+        margin-top: 10px;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; 
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 1rem;
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+        background: var(--color-darker);
+        border-radius: 1rem;
+    }
+
+    .swiper img {
+        border: 0.1rem solid var(--);
+        width: 20px;
+        height: 30px;
+    }
+
+    .swiper-scrollbar .swiper-scrollbar-vertical {
+        background-color: var(--color-strikemaster2);
+        color: var(--color-casper2);
+        border-color: #20bdad;
+    }
+
+    .swiper-scrollbar-vertical {
+        background-color: var(--color-strikemaster2);
+        color: var(--color-casper2);
+        border-color: #20bdad;
+    }
+
+    .swiper-scrollbar {
+        background-color: var(--color-strikemaster2);
+        color: var(--color-casper2);
+        border-color: #20bdad;
+    }
+
+    div.swiper-button-prev::after {
+        color: #20bdad00;
+    }
+
+    div.swiper-button-next::after {
+        padding-left: 0%;
+        color: #20bdad00;
+    }
+
+    .swiper-button-pre img {
+        padding-left: 0%;
+        width: 1600px;
+        height: 900px;
+    }
+
+    .swipe .swiper-pagination .swiper-button-prev img {
+        margin-left: 20px;
+    }
+}
