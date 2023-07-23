@@ -140,64 +140,82 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 /*MEDIA-Q*/
 
 @media (max-width:991px){
-    /*swiper-scrollbar SECTION STARTS*/
-    .swiper {
-        height: 600px;
-        width: auto;
-        margin-top: 10px;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center; 
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        gap: 1rem;
-        -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse;
-        background: var(--color-darker);
-        border-radius: 1rem;
-    }
 
-
-    div.swiper-slide:nth-child(4) > img:nth-child(1){
-        margin-left: 14%;
-    }
-
-
-
+    
+    
     .swipe .slide img {
-        height: 700px;
+        height: 800px;
         width: auto;
-        border-radius: 0.5%;
+        border-radius: 0.7%;
         margin: 1rem 0;
     }
     
     .swiper {
-        height: 710px;
+        height: 800px;
         width: auto;
     }
-
-
-    .swiper-button-pre img {
-        padding-left: 0%;
-        padding-right: 0%;
-        width: 700px;
-        height: auto;
-    }
-
+    
     .swiper img {
         border: 0.1rem solid var(--);
-        width: 20px;
+        width: 30px;
         height: auto;
     }
+    
 
+    /*SWIPE SECTION STARTS*/
+    
+    .swipe .slide {
+        text-align: center;
+        padding: 0rem;
+    }
+    
+
+    div.swiper-slide
+    {
+        width: 300px;
+        height: 600px;
+        border-radius: 1%;
+        margin: 1rem 0;
+    }
+    
+    .swiper .box{
+        width: 300px;
+        height: 100px;
+    }
+    
+    .swiper img.box{
+        border: 0.1rem solid var(--);
+        width: 20px;
+        height: 20px;
+    }
+    
+    div.swiper-button-prev::after {
+        color: #20bdad00;
+    }
+    
+    div.swiper-button-next::after {
+        padding-left: 0%;
+        color: #20bdad00;
+    }
+    
     .swiper-button-pre img {
         padding-left: 0%;
-        width: 1600px;
-        height: 900px;
+        width: 600px;
+        height: 300px;
     }
-
+    
     .swipe .swiper-pagination .swiper-button-prev img {
         margin-left: 20px;
+        
+    }
+    
+    div .swiper-pagination 
+    .swiper-pagination-bullets 
+    .swiper-pagination-vertical {
+        background-color: #ffffff00;
+    }
+    
+    div .swiper-scrollbar-drag {
+        background-color:  #ffffff;
     }
 }
