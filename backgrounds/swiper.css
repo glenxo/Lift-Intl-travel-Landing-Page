@@ -11,40 +11,24 @@
 
 
 .swipe .slide img {
-    height: 600px;
+    height: 1000px;
     width: auto;
     border-radius: 0.5%;
     margin: 1rem 0;
 }
 
 .swiper {
-    height: 700px;
+    height: 900px;
     width: auto;
 }
 
 .swiper img {
     border: 0.1rem solid var(--);
-    width: 100px;
-    height: 300px;
+    width: 30px;
+    height: auto;
 }
 
-.swiper-scrollbar .swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-}
 
-.swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-}
 
 div.swiper-button-prev::after {
     color: #20bdad00;
@@ -111,24 +95,6 @@ div.swiper-slide
     height: 50px;
 }
 
-.swiper-scrollbar .swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-}
-
-.swiper-scrollbar-vertical {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-}
-
-.swiper-scrollbar {
-    background-color: var(--color-strikemaster2);
-    color: var(--color-casper2);
-    border-color: #20bdad;
-}
-
 div.swiper-button-prev::after {
     color: #20bdad00;
 }
@@ -152,7 +118,7 @@ div.swiper-button-next::after {
 div .swiper-pagination 
 .swiper-pagination-bullets 
 .swiper-pagination-vertical {
-    background-color: #e06e6e00;
+    background-color: #ffffff00;
 }
 
 div .swiper-scrollbar-drag {
@@ -176,8 +142,8 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 @media (max-width:991px){
     /*swiper-scrollbar SECTION STARTS*/
     .swiper {
-        width: 300px;
-        height: 520px;
+        height: 600px;
+        width: auto;
         margin-top: 10px;
         display: flex;
         -webkit-box-align: center;
@@ -192,37 +158,37 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
         border-radius: 1rem;
     }
 
+
+    div.swiper-slide:nth-child(4) > img:nth-child(1){
+        margin-left: 14%;
+    }
+
+
+
+    .swipe .slide img {
+        height: 700px;
+        width: auto;
+        border-radius: 0.5%;
+        margin: 1rem 0;
+    }
+    
+    .swiper {
+        height: 710px;
+        width: auto;
+    }
+
+
+    .swiper-button-pre img {
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 700px;
+        height: auto;
+    }
+
     .swiper img {
         border: 0.1rem solid var(--);
         width: 20px;
-        height: 30px;
-    }
-
-    .swiper-scrollbar .swiper-scrollbar-vertical {
-        background-color: var(--color-strikemaster2);
-        color: var(--color-casper2);
-        border-color: #20bdad;
-    }
-
-    .swiper-scrollbar-vertical {
-        background-color: var(--color-strikemaster2);
-        color: var(--color-casper2);
-        border-color: #20bdad;
-    }
-
-    .swiper-scrollbar {
-        background-color: var(--color-strikemaster2);
-        color: var(--color-casper2);
-        border-color: #20bdad;
-    }
-
-    div.swiper-button-prev::after {
-        color: #20bdad00;
-    }
-
-    div.swiper-button-next::after {
-        padding-left: 0%;
-        color: #20bdad00;
+        height: auto;
     }
 
     .swiper-button-pre img {
