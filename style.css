@@ -253,38 +253,24 @@ section.flex {
   -webkit-text-stroke: 0.5px rgb(250, 250, 250);
   color: #ffffff;
   text-shadow: 1px 1px rgb(0, 0, 0);
-
-  font-weight: 180;
+ font-weight: 180;
   margin-top: 1%;
-
   padding-top: 1rem;
-
   text-align: center;
-
   font-family: Geneva;
-
   letter-spacing: 0.3em;
-
   font-size: 2.3rem;
-
   margin-bottom: 1rem;
 }
 
 .home .flex form .box {
   width: 100%;
-
   border-radius: 0.5rem;
-
   padding: 1.4rem;
-
   font-size: 1.8rem;
-
   color: var(--white);
-
   text-transform: none;
-
   background: var(--light-black);
-
   margin: 1rem 0;
 }
 
@@ -301,112 +287,74 @@ html
   a
   button {
   display: block;
-
   border-radius: 0.5rem;
-
   padding: 0.2rem 2rem;
-
   background: var(--main-color);
-
   color: var(--black);
-
   cursor: pointer;
-
   text-align: center;
-
   width: 30%;
-
   font-size: 1.8rem;
-
   margin-top: 1rem;
-
   transition: 0.2s linear;
-
   margin: 0 auto;
 }
 
 .about {
   background: url("/main/pexels-esdras-jaimes-10550114.jpg") no-repeat
     rgba(0, 0, 0, 0.5);
-
   background-position: center;
-
   background-attachment: fixed;
-
   background-size: cover;
-
   background-blend-mode: multiply;
 }
 
 .about .details {
   border-radius: 0.5rem;
-
   background: url("/main/pexels-caleb-jimenez-9482590.jpg") no-repeat
     rgba(0, 0, 0, 0.5);
-
   background-position: center;
-
   background-attachment: fixed;
-
   background-size: cover;
-
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
   padding: 2rem;
-
   min-height: 60vh;
-
   border-radius: 0.5rem;
 }
 
 .about .details .box {
   width: 50rem;
-
   background-color: var(--light-bg);
-
   padding: 3rem 2rem;
-
   text-align: center;
-
   backdrop-filter: blur(0.4rem);
-
   border-radius: 0.5rem;
 }
 
 html body section.grid div.box.aos-init.aos-animate div.price span,
 .about .details .box h3 {
   padding-bottom: 1rem;
-
   font-size: 2.5rem;
-
   color: var(--white);
 }
 
 .about .details .box p {
   padding: 1rem 0;
-
   font-size: 1.5rem;
-
   color: var(--light-white);
-
   line-height: 2;
 }
 
 .about .details .box .btn {
   display: inline-block;
-
   width: auto;
 }
 
 .about .grid {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, 30rem);
-
   align-items: flex-start;
 
   justify-content: center;
@@ -568,6 +516,9 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
 
   gap: 1.5rem;
 }
+
+
+
 
 .tours .grid .box {
   background-color: var(--light-bg);
