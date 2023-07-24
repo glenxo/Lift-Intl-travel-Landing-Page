@@ -54,7 +54,7 @@ div.swiper-button-next::after {
 
 .swipe .slide {
     text-align: center;
-    padding: 3rem;
+    padding: 0rem;
 }
 
 .swipe .swiper-button-prev {

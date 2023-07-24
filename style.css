@@ -550,6 +550,13 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
   background-blend-mode: multiply;
 }
 
+.name > strong:nth-child(1){
+  margin-left: -4.2rem;
+  margin-right: -4.2rem;
+  color: var(--main-color);
+
+}
+
 .tours .grid {
   display: grid;
 
@@ -1122,7 +1129,7 @@ html body div#enterDetails button#insert:hover {
 }
 
 .credit span {
-  color: var(--color-geraldine);
+  color: var(--color-casper2);
 }
 
 html body div.container.tours div#intro.credit {

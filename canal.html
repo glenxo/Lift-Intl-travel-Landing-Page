@@ -11,6 +11,8 @@
    <!-- custom css file link  -->
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="/backgrounds/canal.css">
+   <link rel="stylesheet" href="/backgrounds/swiper.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
 <!-- header section starts  -->
@@ -46,8 +48,67 @@
           Our commitment to discretion ensures a remarkable journey that will forever hold a special place in your memories..
        </div>
     </div>
- </section>
 </div>
+</section>
+<section class="swipe" id="swipe">
+   <h1 class="heading" data-aos="fade-up" data-aos-delay="75">More about this trip</h1>
+     <div>
+ 
+   </div>
+ 
+   <div class="swiper" data-aos="fade-up" data-aos-delay="50">
+     <!-- Additional required wrapper -->
+     <div class="swiper-wrapper">
+       <!-- Slides -->
+ 
+       <div class="swiper-slide slide">
+         <img
+           src="/main/embera-tour-waterfall.jpg"
+           alt=""
+         />
+       </div>
+ 
+       <div class="swiper-slide slide">
+         <img
+           src="/main/Untitled(19).png"
+           alt=""
+         />
+       </div>
+       <div class="swiper-slide slide">
+         <img
+           src="/main/"
+           alt=""
+         />
+       </div>
+ 
+       <div class="swiper-slide slide">
+         <img
+           src="/main/embera-village-day-tour-panama-wlelcome.jpg"
+           alt=""
+         />
+       </div>
+ 
+     </div>
+     <!-- If we need pagination -->
+     <div class="swiper-pagination">whats in here?</div>
+ 
+     <!-- If we need navigation buttons -->
+     <div class="swiper-button-next">
+       <img src="/main/Arrow 1.png" alt="" />
+     </div>
+     <div class="swiper-button-prev">
+       <img src="/main/Arrow 2.png" alt="" />
+     </div>
+ 
+     <!-- If we need scrollbar -->
+     <div class="swiper-scrollbar"></div>
+   </div>
+ 
+ </section>
+ 
+
+
+
 <!-- tours section ends -->
 <div class="credit" id="blog" data-aos="fade-up">
     Welcome to our exclusive private tour experience. <br/><br/>
@@ -185,5 +246,7 @@ insertBtn.addEventListener("click", InsertData);
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <!-- custom js file link  -->
 <script src="script.js"></script>
+<script src="display.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
