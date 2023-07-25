@@ -11,6 +11,8 @@
    <!-- custom css file link  -->
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="/lift-international/backgrounds/private.css">
+   <link rel="stylesheet" href="/backgrounds/swiper.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
 <!-- header section starts  -->
@@ -47,56 +49,86 @@
  </section>
 </div>
 <!-- tours section ends -->
-<div class="credit" id="blog" data-aos="fade-up">
-    Welcome to our exclusive private tour experience. <br/><br/>
-    With the utmost dedication to professionalism and confidentiality, 
-    we offer a unique opportunity to explore Panama's vibrant nightclub
-    culture and more while ensuring complete privacy for our esteemed 
-    customers. <br/>Our primary goal is to provide an incognito journey where 
-    you can immerse yourself in the captivating nightlife scene without
-    any concerns about privacy breaches. Join us 
-    for an unforgettable adventure while enjoying the vibrant energy 
-    of Panama's nightlife.
- </div>
-<section class="grid">
- <div class="box" data-aos="fade-up">
-    <div class="price"><i class="fas fa-dollar-sign"></i><span>We will take you to...</span></div>
-    <img src="" class="image" alt="">
-    <h3 class="name">Le Palace</h3>
-    <p class="address">Panama city, Banking zone, Via espana</p>
-    <p>
-
-
-    </p>
- </div>
- <div class="box" data-aos="fade-up">
-    <img src="" class="image" alt="">
-    <h3 class="name">Elite</h3>
-    <p class="address">Panama city, Calle 50</p>
-    <p>
-
-
-    </p>
- </div>
- <div class="box" data-aos="fade-up">
-    <img src="" class="image" alt="">
-    <h3 class="name">Le Palace</h3>
-    <p class="address">Panama city, 53rd St ave</p>
-    <p>
-
-
-    </p>
- </div>
- <div class="box" data-aos="fade-up">
-    <img src="" class="image" alt="">
-    <h3 class="name">Le Palace</h3>
-    <p class="address">Panama city, Calle 50 - Casa La Guama</p>
-    <p>
-.
-    </p>
- </div>
+<section class="swipe" id="swipe">
+   <h1 class="heading" data-aos="fade-up" data-aos-delay="75">More about this trip</h1>
+     <div>
+ 
+   </div>
+ 
+   <div class="swiper" data-aos="fade-up" data-aos-delay="50">
+     <!-- Additional required wrapper -->
+     <div class="swiper-wrapper">
+       <!-- Slides -->
+ 
+       <div class="swiper-slide slide">
+         <img
+           src="/main/embera-tour-waterfall.jpg"
+           alt=""
+         />
+       </div>
+ 
+       <div class="swiper-slide slide">
+         <img
+           src="/main/Untitled(19).png"
+           alt=""
+         />
+       </div>
+       <div class="swiper-slide slide">
+         <img
+           src="/main/"
+           alt=""
+         />
+       </div>
+ 
+       <div class="swiper-slide slide">
+         <img
+           src="/main/embera-village-day-tour-panama-wlelcome.jpg"
+           alt=""
+         />
+       </div>
+ 
+     </div>
+     <!-- If we need pagination -->
+     <div class="swiper-pagination">whats in here?</div>
+ 
+     <!-- If we need navigation buttons -->
+     <div class="swiper-button-next">
+       <img src="/main/Arrow 1.png" alt="" />
+     </div>
+     <div class="swiper-button-prev">
+       <img src="/main/Arrow 2.png" alt="" />
+     </div>
+ 
+     <!-- If we need scrollbar -->
+     <div class="swiper-scrollbar"></div>
+   </div>
+ 
  </section>
-<div id="enterDetails">
+ 
+ <!-- tours section ends -->
+ <section class="grid">
+    <div class="box">
+       <div class="price"></i><br/><br/>You will see it firsthand in this experience,
+          <strong><br/>guided by us.<br/><br/></strong></span></div>
+ 
+       <h3 class="name">
+          
+          Read our<strong>
+             <a href="http://127.0.0.1:5501/blog/city/city.blog.html" target="_blank">Blog</a>
+          </strong> for more information on the tribes         </span>
+       </h3>
+       <p class="address">Panama city, Banking zone, Via espana</p>
+       <p>When visiting the Embera Tribe in Panama, make sure to take a dip in the refreshing jungle 
+         waterfall or swim in the pristine river. The natural beauty of the surrounding forests and 
+         rivers are one of the main attractions of this experience. You can also participate in traditional 
+         activities like fishing, weaving baskets, and making handicrafts.  <br/><br/>Enjoy a traditional Embera meal, 
+         which usually consists of fresh fish, plantains, and other locally-sourced ingredients. Don't miss the 
+         opportunity to learn about the tribe's cultural heritage and daily practices from their community members, 
+         who are more than happy to share their knowledge and way of life.  <br/><br/>Take plenty of photos of the tribe's 
+         colorful clothing and intricate body paint, which are a unique reflection of their traditions and customs.
+         </p>
+    </div>
+    </section>
    <h1>Book this Experience</h1>
       <p>Once all details are entered a booking confirmation message will display and 
       you will be redirected to PagueloFacil Cart to purchase the experience.</p>
@@ -207,5 +239,7 @@ insertBtn.addEventListener("click", InsertData);
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <!-- custom js file link  -->
 <script src="script.js"></script>
+<script src="display.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
