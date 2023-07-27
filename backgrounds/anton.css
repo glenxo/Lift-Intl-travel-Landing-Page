@@ -29,7 +29,10 @@ color: #000000;
 }  
 
 
+#swipe > section > div > h3{
+   font-size: 2.5rem;
 
+}
 
 body > section > div:nth-child(1) > h3,
 body > section > div:nth-child(4) > h3,
@@ -41,15 +44,15 @@ font-weight: 1000;
 }
 
 html body section.grid div.box p{
-font-size: 1.6rem;
+font-size: 2rem;
 padding-left: 10%;
 padding-right: 10%;
-color: #000000;
+color: #ffffff;
 }
 
  span{
   font-size: 2.5rem;
-color: #000000;
+color: #ffffff;
 }
 
 body > section.grid img{

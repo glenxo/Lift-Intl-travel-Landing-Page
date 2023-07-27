@@ -1,4 +1,24 @@
 {
     "prettier.arrowParens": "avoid",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#4813b1",
+        "activityBar.background": "#4813b1",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#000000",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#4813b1",
+        "statusBar.background": "#350e83",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#4813b1",
+        "statusBarItem.remoteBackground": "#350e83",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#350e83",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#350e8399",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#350e83"
 }

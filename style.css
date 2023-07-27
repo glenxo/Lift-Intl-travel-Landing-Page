@@ -11,7 +11,7 @@
   --color-geraldine1: #eb569cc2;
   --color-strikemaster: #8a5082;
   --color-strikemaster2: #8a50825f;
-  --color-kimberly: #6f5f90;
+  --color-kimberly: #350e83;
   --color-kimberly2: #6f5f90d7;
   --color-ship-cove: #758eb7;
   --color-casper: #afafaf;
@@ -555,6 +555,8 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
 
 .tours .grid .box .price span {
   color: var(--white);
+    font-size: 3rem;
+
 }
 
 html body section.grid div.box.aos-init.aos-animate img.image,
@@ -595,7 +597,7 @@ html body section.grid div.box.aos-init.aos-animate img.image,
 }
 
 .grid h4 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 
 .destinations {
@@ -640,6 +642,8 @@ html body section.grid div.box.aos-init.aos-animate img.image,
 
   object-fit: cover;
 }
+
+
 
 
 div:nth-child(20) > h3 > span > strong,
