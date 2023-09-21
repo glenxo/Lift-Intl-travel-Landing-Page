@@ -239,6 +239,18 @@ section.flex {
   text-align: center;
 }
 
+html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init.aos-animate form p{
+  background-color: var(--light-bg);
+
+  padding: 2rem;
+
+  text-align: center;
+
+  backdrop-filter: blur(0.2rem);
+
+  border-radius: 0.5rem;
+}
+
 .custom-font {
   font-family: "Playfair Display", serif;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
