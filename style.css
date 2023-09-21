@@ -231,7 +231,7 @@ section.flex {
 .home .flex form h3 {
   font-weight: bolder;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
-  color: #ffffffcc;
+  color: #aa8bff;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   font-size: 3rem;
   color: var(--white);
