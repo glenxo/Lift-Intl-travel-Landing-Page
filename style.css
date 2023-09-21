@@ -406,6 +406,9 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
   transform: scale(1.1);
 }
 
+h1.heading:nth-child(2){
+  margin-top: 2%;
+}
 .reviews {
   background: url("/main/pexels-jesh-14737876(1).jpg") no-repeat
     rgba(0, 0, 0, 0.5);
