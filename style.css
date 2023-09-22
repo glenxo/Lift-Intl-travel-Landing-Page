@@ -476,15 +476,27 @@ h1.heading:nth-child(2){
   color: var(--white);
 }
 
+
+
 .reviews .grid .box p {
-  padding: 1rem 0;
-
-  line-height: 2;
-
-  color: var(--light-white);
-
-  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8) !important; /* Change color as needed */
+  font-size: 1.4rem !important;
 }
+
+html body div.container.reviews p{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  }
+
+  div.container:nth-child(3) > p:nth-child(2) > a:nth-child(1){
+    color: #ffffff;
+  }
 
 .reviews .grid .box .stars {
   margin-top: 1rem;
