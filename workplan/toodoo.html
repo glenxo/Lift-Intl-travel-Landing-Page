@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .blog-post {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .blog-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .blog-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .blog-content {
+            flex: 2;
+        }
+
+        /* CSS for expanded image */
+.expanded-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.expanded-image img {
+    max-width: 90%;
+    max-height: 90%;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>To Finish the Website...</h1>
+    </header>
+    <div class="container">
+        <h2>The following are some of the topics we need to approach to finish the site.</h2>
+        <p>Sup Bro! 
+            Can you to take a moment to read the instructions on each column and 
+            check out the images by clicking 
+            the links provided next to each image in every column. These links will lead 
+            you to our website, where you can get a firsthand feel for the concept we're 
+            working to protect. We genuinely value your thoughts and feedback, as they play 
+            a crucial role in helping us shape and improve our vision.</p> 
+        <div class="blog-post">
+ 
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-15-06.png" alt="Image 1">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-10-01.png" alt="Image 2">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-13-23.png" alt="Image 2">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+
+
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-15-49.png" alt="Image 2">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-17-02.png" alt="Image 2">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 5</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-17-17.png" alt="Image 2">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 6</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="/workplan/Screenshot from 2023-09-20 22-17-43.png" alt="Image 2">
+            </div>
+            <div class="blog-content">
+                <h2>Blog Post 7</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const images = document.querySelectorAll(".blog-image img");
+            const expandedImage = document.querySelector(".expanded-image");
+    
+            images.forEach(function (image) {
+                image.addEventListener("click", function () {
+                    const imageUrl = this.getAttribute("src");
+                    const expandedImg = document.createElement("img");
+                    expandedImg.setAttribute("src", imageUrl);
+                    expandedImage.innerHTML = "";
+                    expandedImage.appendChild(expandedImg);
+                    expandedImage.style.display = "flex";
+                });
+            });
+    
+            expandedImage.addEventListener("click", function () {
+                expandedImage.style.display = "none";
+            });
+        });
+    </script>
+    
+
+
+
+
+
+
+</body>
+</html>
