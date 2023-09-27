@@ -43,26 +43,18 @@
         .blog-content {
             flex: 2;
         }
-
-        /* CSS for expanded image */
-.expanded-image {
+/* CSS for expanded image */
+img.full-screen {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    display: none;
-    justify-content: center;
-    align-items: center;
     z-index: 1000;
+    cursor: zoom-out; /* Change cursor to indicate that the image can be closed */
 }
 
-.expanded-image img {
-    max-width: 90%;
-    max-height: 90%;
-    cursor: pointer;
-}
 
     </style>
 </head>
@@ -80,7 +72,9 @@
         <div class="blog-post">
 
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-15-06.png" alt="Image 1">
+                                                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-15-06.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
                 <h2>First Impressions!</h2>
@@ -95,10 +89,12 @@
         </div>
         <div class="blog-post">
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-10-01.png" alt="Image 2">
+                                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-10-01.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
-                <h2>Our face to the world</h2>
+                <h2>About Us Section</h2>
                 <p>I need you to write an "about us" but make this one shine! 
                     Just imagine what you'd love travelers 
                     to share about their overall experience. Set the bar high—our 
@@ -113,7 +109,9 @@
         <!-- Add more blog posts as needed -->
         <div class="blog-post">
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-13-23.png" alt="Image 2">
+                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-13-23.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
                 <h2>Info in details</h2>
@@ -132,7 +130,9 @@
 
         <div class="blog-post">
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-15-49.png" alt="Image 2">
+                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-15-49.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
                 <h2>What the traveler would expect from the experience</h2>
@@ -146,11 +146,14 @@
         <!-- Add more blog posts as needed -->
         <div class="blog-post">
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-17-02.png" alt="Image 2">
+    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-17-02.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
-                <h2>Blog Post 5</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, dui a commodo tristique, justo odio sollicitudin urna.</p>
+                <h2>We will take you to</h2>
+                <p>Please make a list of the places we would take travelers for their experiences for each package of trips
+                    like the example you see in the img.</p>
                 <a href="#">Read more</a>
                 </br></br></br></br></br></br></br></br></br></br>
                 </br></br></br></br>
@@ -159,7 +162,9 @@
         <!-- Add more blog posts as needed -->
         <div class="blog-post">
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-17-17.png" alt="Image 2">
+                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-17-17.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
                 <h2>Blog Post 6</h2>
@@ -171,7 +176,9 @@
         <!-- Add more blog posts as needed -->
         <div class="blog-post">
             <div class="blog-image">
-                <img src="/workplan/Screenshot from 2023-09-20 22-17-43.png" alt="Image 2">
+                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-09-20 22-17-43.png" alt="Image 2">
+    </a>
             </div>
             <div class="blog-content">
                 <h2>Blog Post 7</h2>
@@ -193,7 +200,28 @@
 
 
 
+    <!-- JavaScript for image expansion -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const expandImageLinks = document.querySelectorAll(".expand-image");
 
+            expandImageLinks.forEach(function (expandImageLink) {
+                const image = expandImageLink.querySelector("img");
+
+                expandImageLink.addEventListener("click", function (e) {
+                    e.preventDefault(); // Prevent the anchor link from navigating
+
+                    if (image.classList.contains("full-screen")) {
+                        // Image is in full-screen, return to normal
+                        image.classList.remove("full-screen");
+                    } else {
+                        // Image is not in full-screen, expand it
+                        image.classList.add("full-screen");
+                    }
+                });
+            });
+        });
+    </script>
 
 
 
