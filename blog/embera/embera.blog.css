@@ -182,7 +182,7 @@
     grid-template-columns: 2.5fr 1fr;
     gap:1.5rem;
     background:rgb(212, 153, 153);
-    background:url(/main/river-gc02a0d705_1280.jpg) no-repeat;
+    background:url(/main/Untitled\(21\).png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
@@ -225,11 +225,11 @@
   .container .posts-container .post .title{
     padding-top: 1.5rem;
     font-size: 2.5rem;
-    color:bisque;
+    color:rgb(255, 249, 241);
   }
   
   .container .posts-container .post .text{
-    color:bisque;
+    color:rgb(255, 250, 245);
     ;
     font-size: 1.6rem;
     line-height: 1.7;
