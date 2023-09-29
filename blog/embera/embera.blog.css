@@ -137,7 +137,7 @@
   }
   
   .banner{
-    min-height: 80vh;
+    min-height: 100vh;
     background:url(/main/pexels-luis-quintero-14017805\ \(copy\).jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -182,7 +182,7 @@
     grid-template-columns: 2.5fr 1fr;
     gap:1.5rem;
     background:rgb(212, 153, 153);
-    background:url(/main/Untitled\(21\).png) no-repeat;
+    background:rgb(240, 240, 240);
     background-attachment: fixed;
     background-size: cover;
 
@@ -406,7 +406,7 @@
   }
   
   .contact{
-    background:url(/main/panama-canal-5208586_960_720.jpg) no-repeat;
+    background:url(/main/pexels-zaetaflow-sec-3191175.jpg) no-repeat;
     background-attachment: fixed;  background-size: cover;
     background-position: center;
     background-attachment: fixed;
