@@ -48,13 +48,9 @@
          <div class="credit" id="home">
             <span
             ><br/>A 5-6hr and up tour <br/>to one of the largest<br/>indigenous communities in Panama</span><br/><br/>
-                <h4   
-            ><strong>$120 </strong>  x person · 5 hours 30 minutes and up.<br/>
-            This is an authentic Indian Village where the natives<br/> will share cultural background, crafts, <br/>
-            dance, the beauty of their people and enviorment.<br/> Included: fruit Snack with fried fish and chips,<br/> road 
-            and water transportation.
-            </h4>
-         </div>
+            <p id="languageText">Emberá Tribe, where the residents will share cultural background, crafts, dance, the beauty of their people and environment, you can swim under a Waterfall. Dress Code: Wear shoes that can get wet or water shoes, take bathing suit in a day pack and bring your towel. Note: Snack with fish and chips, fresh fruit, road and water transportation are included in the price. $140 x person (2 minimum) if only one (1) guest price is $150</p>
+            <button id="toggleButton">English/Espanol</button>
+          </div>
       </div>
     </div>
     </section>
@@ -365,6 +361,17 @@ function InsertData() {
 insertBtn.addEventListener("click", InsertData);
 </script>
 
+<script>
+  // JavaScript function to toggle between English and Spanish
+  document.getElementById("toggleButton").addEventListener("click", function() {
+      var paragraph = document.getElementById("languageText");
+      if (paragraph.textContent === "Emberá Tribe, where the residents will share cultural background, crafts, dance, the beauty of their people and environment, you can swim under a Waterfall. Dress Code: Wear shoes that can get wet or water shoes, take bathing suit in a day pack and bring your towel. Note: Snack with fish and chips, fresh fruit, road and water transportation are included in the price. $140 x person (2 minimum) if only one (1) guest price is $150.") {
+          paragraph.textContent = "ETribú Emberá, donde los residentes compartirán su cultura, artesanías, baile, la belleza de su gente y ambiente, podrás nadar bajo una cascada. Vestimenta: Utilizar zapatos que se puedan mojar o zapatos acuáticos, vestidos de baños en su bolsa/morral y trae tu toalla. Precio: $150.00 x persona (2 mínimo).";
+      } else {
+          paragraph.textContent = "Emberá Tribe, where the residents will share cultural background, crafts, dance, the beauty of their people and environment, you can swim under a Waterfall. Dress Code: Wear shoes that can get wet or water shoes, take bathing suit in a day pack and bring your towel. Note: Snack with fish and chips, fresh fruit, road and water transportation are included in the price. $140 x person (2 minimum) if only one (1) guest price is $150.";
+      }
+  });
+</script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <!-- custom js file link  -->
