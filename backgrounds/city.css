@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('/main/pexels-esdras-jaimes-10550636.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/pexels-luis-quintero-1681452.jpg') no-repeat rgba(0,0,0,.5);
  
     background-position: center;
  
@@ -13,7 +13,7 @@
  }
  
  body {
-    background-image: url("/main/pexels-luis-quintero-1681452.jpg");
+    background-image: url("/main/pexels-manud-7489918.jpg");
     background-repeat: no-repeat;
     background-size: 280% auto;    
     backdrop-filter: blur(.0rem);
