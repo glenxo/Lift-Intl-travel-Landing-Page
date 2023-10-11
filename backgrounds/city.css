@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('/lift-international/media/city/pexels-esdras-jaimes-10550636.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/pexels-luis-quintero-6333643.jpg') no-repeat rgba(0,0,0,.5);
  
     background-position: center;
  
@@ -13,7 +13,7 @@
  }
  
  body {
-    background-image: url("/lift-international/media/city/pexels-harnett-a-solis-14027205\ \(copy\).jpg");
+    background-image: url("/main/pexels-luis-quintero-1681453.jpg");
     background-repeat: no-repeat;
     background-size: 280% auto;    
     backdrop-filter: blur(.0rem);
@@ -33,7 +33,7 @@
 
 @media (max-width:991px){
    body {
-      background-image: url("/lift-international/media/city/pexels-harnett-a-solis-14027205\ \(copy\).jpg");
+      background-image: url("/main/pexels-luis-quintero-1681452.jpg");
       background-repeat: no-repeat;
       background-size: 1000% auto;    
       backdrop-filter: blur(.0rem);
