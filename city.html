@@ -35,15 +35,18 @@
    <h1 class="heading" data-aos="zoom-in"> Panama City Tour</h1>
    <section class="grid">
     <div class="box" data-aos="fade-up">
-       <p class="price"><span>25</span></p>
+       <p class="price"><span>$30</span></p>
        <img src="/main/pexels-luis-quintero-6333643.jpg" alt="" class="image">
        <h3 class="name">Panama</h3>
        <p class="address">PTY 507, Panama City</p>
        <div class="credit" id="home">
-          <strong>$25.00 </strong> x1 or 2 guests <br/>
-         + $6 after the 3rd · aprox. <br/> 2 hour up to 4hrs <br/><br/><br/>
-         #designateddriver for Metropolitan Area Wine and Dine, <br/>Clubbing, Bar Hopping, 
-         bachelor <br/>and bachlorette groups bar hopping fun. 
+          <strong>$30.00 </strong> <br/>
+
+         "For 1 or 2 guests, there is an additional charge of $5 per guest beyond the 3rd. <br/>
+         Our team at Lift-Intl comprises professional contracted drivers who operate under 
+         a 2-hour minimum service requirement.<br/><br/> We offer language skills and interpreter services, 
+         available upon request. Our drivers are known for their punctuality, and they can be easily 
+         reached, ensuring continuity in cases of unfinished business or follow-up requirements.". 
        </div>
     </div>
  </section>
@@ -250,7 +253,7 @@
 
   let insertBtn = document.querySelector("#insert");
 function InsertData() {
-  set(ref(db, "Nightlife/" + enterName.value), {
+  set(ref(db, "city-tour/" + enterName.value), {
       Date: enterDate.value,
       Time: enterTime.value,
       Email: enterEmail.value,
