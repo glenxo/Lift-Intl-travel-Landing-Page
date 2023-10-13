@@ -21,6 +21,12 @@
  
   }
 
+  section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(4){  
+   color: #ffffff;
+   
+
+}
+
   html body div.container.tours section.grid div.box.aos-init.aos-animate div#home.credit h4 ul li a{
    color: #ffffff;
   }
