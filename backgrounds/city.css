@@ -26,19 +26,23 @@
 }
 
 
+div.price{
+   color: #ffffff;
+   font-size: 2.7rem;
+   padding: 2rem;
+   margin-bottom: -60px;
+ }
+
 section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
    color: #ffffff;
    font-size: 1.7rem;
    padding: 2rem;
  }
 
- div.price{
-   color: #ffffff;
-   font-size: 2.7rem;
-   padding: 2rem;
+ h3.name:nth-child(2){
+   font-size: 2.3rem;
  }
  
-
 
   html body div.container.tours section.grid div.box.aos-init.aos-animate div#home.credit h4 ul li a{
    color: #ffffff;
