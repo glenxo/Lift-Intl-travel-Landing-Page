@@ -217,13 +217,19 @@
   }
 
 
-
-  span.address:nth-child(21),
-  span.address:nth-child(11),
-  span.address:nth-child(12){
+  div.post:nth-child(11) > span:nth-child(1),
+  div.post:nth-child(10) > span:nth-child(1),
+  div.post:nth-child(9) > span:nth-child(1),
+  div.post:nth-child(8) > span:nth-child(1),
+  div.post:nth-child(7) > span:nth-child(1),
+  div.post:nth-child(6) > span:nth-child(1),
+  div.post:nth-child(5) > span:nth-child(1),
+  div.post:nth-child(4) > span:nth-child(1),
+  div.post:nth-child(3) > span:nth-child(1),
+  div.post:nth-child(2) > span:nth-child(1){
     color: #ff5100;
     font-family: monospace;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     line-height: 1.7;
     padding:1rem 0;
   }
