@@ -139,7 +139,7 @@
   
   .banner{
     min-height: 100vh;
-    background:url(/main/pexels-luis-quintero-6333643.jpg) no-repeat;
+    background:url(/main/pexels-wendy-wei-1540406.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -199,7 +199,7 @@
   }
   
   .container .posts-container .post .image{
-    height: 40rem;
+    height: 65rem;
     width:100%;
     border-radius: .5rem;
     object-fit: cover;
@@ -234,6 +234,9 @@
     padding:1rem 0;
   }
 
+
+  .p-post,
+  div.box:nth-child(3),
   div.post:nth-child(1) > p:nth-child(1),
   div.post:nth-child(1) > p:nth-child(2),
   div.post:nth-child(1) > p:nth-child(3),
@@ -266,6 +269,10 @@
     line-height: 1.7;
     padding:1rem 0;
   }
+
+
+  div.box:nth-child(3)
+
 
   .container .posts-container .post .date{
     padding-top: 2rem;
