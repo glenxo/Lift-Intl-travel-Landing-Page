@@ -1,21 +1,16 @@
 .tours{
 
-    background: url('/main/pexels-luis-quintero-1681452.jpg') no-repeat rgba(0,0,0,.5);
- 
-    background-position: center;
- 
-    background-attachment: fixed;
- 
-    background-size: cover;
- 
-    background-blend-mode: multiply;
- 
- }
+   background: url('/main/pexels-richard-rojas-15097661(1).jpg') no-repeat rgba(0,0,0,.5);
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-blend-mode: multiply;
+  }
  
  body {
-    background-image: url("/main/pexels-manud-7489918.jpg");
+    background-image: url("/main/pexels-zaetaflow-sec-3195708.jpg");
     background-repeat: no-repeat;
-    background-size: 280% auto;    
+    background-size: 200%;    
     backdrop-filter: blur(.0rem);
  
  
@@ -24,6 +19,14 @@
   section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(4){  
    color: #ffffff;
 }
+
+
+
+section.grid:nth-child(4) > div:nth-child(1){
+   backdrop-filter: blur(1rem);
+}
+
+
 
 
 div.price{
@@ -35,12 +38,34 @@ div.price{
 
 section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
    color: #ffffff;
-   font-size: 1.7rem;
+   font-size: 2rem;
+   line-height: 2.8rem;
+   font-weight: 900;
    padding: 2rem;
  }
 
  h3.name:nth-child(2){
    font-size: 2.3rem;
+ }
+ 
+ h3.name:nth-child(2) > strong:nth-child(1) > a:nth-child(1){
+
+ }
+
+ @keyframes shine {
+   0% {
+     color: #ffdb58; /* Start with a bright color (e.g., yellow) */
+   }
+   50% {
+     color: #7700ff; /* Transition to a slightly brighter color */
+   }
+   100% {
+     color: #ffdb58; /* Return to the original color */
+   }
+ }
+ 
+ .shining-text {
+   animation: shine 2s linear infinite; /* Adjust the duration as needed */
  }
  
 
