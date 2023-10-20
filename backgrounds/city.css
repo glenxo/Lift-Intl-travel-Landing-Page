@@ -10,7 +10,7 @@
  body {
     background-image: url("/main/pexels-zaetaflow-sec-3195708.jpg");
     background-repeat: no-repeat;
-    background-size: 200%;    
+    background-size: 210%;    
     backdrop-filter: blur(.0rem);
  
  
@@ -54,18 +54,18 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
 
  @keyframes shine {
    0% {
-     color: #ffdb58; /* Start with a bright color (e.g., yellow) */
+     color: #ffdb58; 
    }
    50% {
-     color: #7700ff; /* Transition to a slightly brighter color */
+     color: #ff0000; 
    }
    100% {
-     color: #ffdb58; /* Return to the original color */
+     color: #58ff60; 
    }
  }
  
  .shining-text {
-   animation: shine 2s linear infinite; /* Adjust the duration as needed */
+   animation: shine 2s linear infinite; 
  }
  
 
