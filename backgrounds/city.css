@@ -48,7 +48,7 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
    font-size: 2.3rem;
  }
  
- h3.name:nth-child(2) > strong:nth-child(1) > a:nth-child(1){
+ h3.nme:nth-child(2) > strong:nth-child(1) > a:nth-child(1){
 
  }
 
@@ -85,8 +85,6 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
       background-repeat: no-repeat;
       background-size: 1000% auto;    
       backdrop-filter: blur(.0rem);
-   
-   
-    }
-  
+       }
+
  }
