@@ -29,7 +29,7 @@
   border: none;
   text-decoration: none;
   scrollbar-color: var(--main-color) var(--black);
-  scrollbar-width: thin;
+  scrollbar-width: thick;
 }
 
 html {
@@ -261,6 +261,8 @@ html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init
   padding-bottom: 1rem;
   text-align: center;
 }
+
+
 .home .flex form p {
   -webkit-text-stroke: 0.5px rgb(250, 250, 250);
   color: #ffffff;
@@ -313,7 +315,7 @@ html
 }
 
 .about {
-  background: url("/main/pexels-esdras-jaimes-10550114.jpg") no-repeat
+  background: url("/main/pexels-luis-quintero-1681452.jpg") no-repeat
     rgba(0, 0, 0, 0.5);
   background-position: center;
   background-attachment: fixed;
@@ -323,8 +325,7 @@ html
 
 .about .details {
   border-radius: 0.5rem;
-  background: url("/main/pexels-caleb-jimenez-9482590.jpg") no-repeat
-    rgba(0, 0, 0, 0.5);
+  background: url("/main/") no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -338,7 +339,7 @@ html
 
 .about .details .box {
   width: 50rem;
-  background-color: var(--light-bg);
+  background-color: #0000001e;
   padding: 3rem 2rem;
   text-align: center;
   backdrop-filter: blur(0.4rem);
@@ -354,7 +355,7 @@ html body section.grid div.box.aos-init.aos-animate div.price span,
 
 .about .details .box p {
   padding: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--light-white);
   line-height: 2;
 }
@@ -422,7 +423,7 @@ h1.heading:nth-child(2){
   margin-top: 2%;
 }
 .reviews {
-  background: url("/main/pexels-jesh-14737876(1).jpg") no-repeat
+  background: url("/main/pexels-luis-quintero-1681456.jpg") no-repeat
     rgba(0, 0, 0, 0.5);
 
   background-position: center;
@@ -505,7 +506,7 @@ html body div.container.reviews p{
 .reviews .grid .box .stars i {
   font-size: 1.8rem;
 
-  color: #bfa3ff;
+  color: #ffaea3;
 }
 
 .reviews .grid .box:hover {
