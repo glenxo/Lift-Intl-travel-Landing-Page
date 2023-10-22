@@ -32,6 +32,9 @@
   scrollbar-width: thick;
 }
 
+
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -315,7 +318,7 @@ html
 }
 
 .about {
-  background: url("/main/pexels-luis-quintero-1681452.jpg") no-repeat
+  background: url("/main/92bebaa1e5e37c38dc13ba643c8f8386.svg") no-repeat
     rgba(0, 0, 0, 0.5);
   background-position: center;
   background-attachment: fixed;
@@ -423,7 +426,7 @@ h1.heading:nth-child(2){
   margin-top: 2%;
 }
 .reviews {
-  background: url("/main/pexels-luis-quintero-1681456.jpg") no-repeat
+  background: url("/main/37882239712306556864ecf84e034d33.svg") no-repeat
     rgba(0, 0, 0, 0.5);
 
   background-position: center;
