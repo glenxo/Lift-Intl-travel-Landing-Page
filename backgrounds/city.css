@@ -16,6 +16,8 @@
  
   }
 
+
+
   section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(4){  
    color: #ffffff;
 }
@@ -77,6 +79,35 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
    color: #ffffff;
 }
 
+/* Add your existing CSS styles here */
+
+/* Style for the menu button */
+.menu-btn {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  
+}
+
+/* Style for the navigation menu */
+.navbar {
+  display: block; /* Initially visible for larger screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+      display: none; /* Initially hidden for smaller screens */
+  }
+
+  /* Show the menu button for smaller screens */
+  .menu-btn {
+      display: block;
+  }
+}
 
 
 @media (max-width:991px){
@@ -86,5 +117,7 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
       background-size: 1000% auto;    
       backdrop-filter: blur(.0rem);
        }
+
+       
 
  }

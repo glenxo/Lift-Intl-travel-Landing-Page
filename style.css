@@ -217,6 +217,10 @@ section.flex {
   padding: -12rem;
 }
 
+
+
+
+
 .home .flex {
   min-height: calc(40vh - 20rem);
   display: flex;
@@ -255,11 +259,11 @@ html body div.home div.container.home.aos-init.aos-animate section.flex.aos-init
 }
 
 .custom-font {
-  font-family: "Playfair Display", serif;
+  font-family: "Times New Romans", serif;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
   color: #ffffffcc;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
-  font-size: 4.5rem;
+  font-size: 5rem;
   color: var(--white);
   padding-bottom: 1rem;
   text-align: center;
