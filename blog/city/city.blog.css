@@ -191,7 +191,7 @@
   .container .posts-container .post{
     width:100%;
     padding:2rem;
-    background:var(--black2);
+    background:#fff9f1;
     border:var(--border);
     border-radius: .5rem;
     margin-bottom: 1.5rem;
@@ -225,11 +225,11 @@
   .container .posts-container .post .title{
     padding-top: 1.5rem;
     font-size: 2.5rem;
-    color:rgb(255, 249, 241);
+    color:#2e2e2e;
   }
   
   .container .posts-container .post .text{
-    color:rgb(255, 250, 245);
+    color:#2e2e2e;
     ;
     font-size: 1.6rem;
     line-height: 1.7;
@@ -259,8 +259,7 @@
   
   .container .posts-container .links a i{
     padding-right: .2rem;
-    color:bisque;
-  }
+    color:#2b2b2b;  }
   
   .container .posts-container .links a:hover{
     color:var(--orange);
@@ -274,15 +273,15 @@
     border:var(--border);
     border-radius: .5rem;
     overflow:hidden;
-    background: var(--black2);
+    background:#ffffffcc;
     margin-bottom: 1.5rem;
   }
   
   .container .sidebar .box .title{
     padding:1.5rem;
     font-size: 2rem;
-    color:bisque;
-    background:var(--black);
+    color:#2b2b2b;
+    background:#ffffffcc;
     text-transform: capitalize;
   }
   
@@ -305,7 +304,7 @@
   }
   
   .container .sidebar .box .about p{
-    color:var(--light-color);
+    color:#2b2b2b;
     font-size: 1.5rem;
     line-height: 1.5;
     padding:1rem;
@@ -321,7 +320,7 @@
     width: 4rem;
     border-radius: 50%;
     background:var(--black);
-    color:bisque;
+    color:#2b2b2b;
     font-size: 1.7rem;
     margin:0 .1rem;
   }
@@ -337,7 +336,7 @@
   .container .sidebar .box .category a{
     padding:.4rem 0;
     font-size: 1.5rem;
-    color:bisque;
+    color:#2b2b2b;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -345,8 +344,7 @@
   
   .container .sidebar .box .category a span{
     background:var(--light-color);
-    color:bisque;
-    border-radius: .5rem;
+    color:#2b2b2b;    color:#2b2b2b;    border-radius: .5rem;
     padding:.5rem;
   }
   
@@ -368,7 +366,7 @@
   }
   
   .container .sidebar .box .p-post a h3{
-    color:bisque;
+    color:#2b2b2b;
     font-size: 2rem;
     padding-bottom: 1rem;
   }
@@ -394,7 +392,7 @@
     display: inline-block;
     padding:1rem 1.5rem;
     font-size: 1.5rem;
-    color:bisque;
+    color:#2b2b2b;
     border-radius: .5rem;
     border:var(--border);
     margin:.5rem;
