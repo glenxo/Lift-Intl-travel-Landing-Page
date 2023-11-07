@@ -21,7 +21,7 @@
   section.grid:nth-child(3) > div:nth-child(1) > p:nth-child(3){  
    color: #ffffff;
       font-size: 2rem;
-
+      font-weight: bold;
 }
 
 
