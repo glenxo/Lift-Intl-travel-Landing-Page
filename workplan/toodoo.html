@@ -30,9 +30,24 @@
             margin-bottom: 20px;
         }
 
+        body > div > div:nth-child(13),
+        body > div > div:nth-child(11),
+        body > div > div:nth-child(12) > div.blog-image{
+            margin-bottom: 180px;
+        }
+
+        body > div > div:nth-child(12){
+            margin-bottom: -160px;
+        }
+        body > div > div:nth-child(10){
+            margin-bottom: -80px;
+        }
+
+
         .blog-image {
             flex: 1;
             margin-right: 20px;
+
         }
 
         .blog-image img {
@@ -42,6 +57,12 @@
 
         .blog-content {
             flex: 2;
+        }
+
+        body > div > div:nth-child(10) > div.blog-image > a > p{
+            color: #333;
+            padding: 8px;
+            text-align: center;
         }
 /* CSS for expanded image */
 img.full-screen {
@@ -79,28 +100,27 @@ img.full-screen {
     <div class="container">
         <h2>The following are some of the topics we need to approach to have the landing page finished.</h2>
         <p>Hi Godaddy Team 
-            Read the instructions on every column and also check out the images by clicking 
-            the links in every column so you can have some more guidance.
+            Read the instructions on every column and also check expand the img's by clicking them. 
             </br></br>IMPORTANT!</br>I dont expect any particular order to aproach 
             each taks but to comunicate as much and as quickly via mail to hsve them completed in timely manner.</br></br></br></p>
         
-            <h1>Apply for all experiences packages</h1>
+            <h1>The following task's apply for all experiences packages</h1>
             <p>In other words i will need you to apply the task's to all the items on the following list.</p>
-    <!-- Ordered List (Numbered) 
+    <!-- Ordered List (Numbered) -->
     <ol class="custom-list">
         <li>Tubing Los Cajones de Chame</li>
         <li>Pacific beaches up to Coronado</li>
         <li>Monkey Tour</li>
         <li>Embera Experience</li>
         <li>Deep Sea Pacific Fishing</li>
-                        <li>City Tour</li>
-                        <li>Colon\Aguas Claras Exp</li>
-                        <li>Panama Canal Exp</li>
-                        <li>Portobelo Exp</li>
-                        <li>Custom City Tour</li>
-                        <li>El Valle de Anton Exp</li>
-                        <li>Casco Viejo Walking tour</li>
-                        <li>Panama Nightlife</li>
+        <li>City Tour</li>
+        <li>Colon\Aguas Claras Exp</li>
+        <li>Panama Canal Exp</li>
+        <li>Portobelo Exp</li>
+        <li>Custom City Tour</li>
+        <li>El Valle de Anton Exp</li>
+        <li>Casco Viejo Walking tour</li>
+        <li>Panama Nightlife</li>
     </ol></br>
     I will take care of...
     <ul class="custom-list">
@@ -108,44 +128,46 @@ img.full-screen {
         <li>VIP services</li>
         <li>Affiliates</li>
     </ul></br></br>
-    Unordered List (Bulleted) -->
+    Unordered List (Bulleted)
 
 
     <div class="blog-post">
 
             <div class="blog-image">
                 Click on the img to expand
-                                                    <a href="#" class="expand-image">
+            <a href="#" class="expand-image">
         <img src="/workplan/Screenshot from 2023-11-07 01-42-49.png" alt="Image 2">
-    </a>
+
+            </a></br></br></br></br></br></br>
             </div>
             <div class="blog-content">
                 <h2>Blog font!</h2>
-                <p>The .
+                <p>The muticolor CSS code for the text animation needs to be 
+                    added to the all the trips on the list. The Root code can be 
+                    located in the "city.css" in the backgorunds folder.
 
                 </p>
                 <a href="https://lift-international.com/embera.html" target="_blank">https://lift-international.com/embera.html</a>
-</br></br></br></br></br></br></br>
+</br></br>
             </div>
         </div>
 
 
         <div class="blog-post">
             <div class="blog-image">Click on the img to expand
-                                    <a href="#" class="expand-image">
-        <img src="/workplan/Screenshot from 2023-11-07 01-43-13.png" alt="Image 2">
-                                    </a>
+            <a href="#" class="expand-image">
+
+        <img src="/workplan/Screenshot 2023-11-15 02.00.10.png" alt="Image 2"></a>
+
             </div>
             <div class="blog-content">
-                <h2>About Us Section</h2>
-                <p>I need you to write an "about us" but make this one shine! 
-                    I feel limited on instructions on this one because i know
-                    you will handle it great,. I need at least 70-100 words
-                    for page fitment.</p>
+                <p>For this animation i'm using @keyframes, just copy paste the same code to all the trips.
+
+                </p>
 
 
                 <a href="http://127.0.0.1:5501/about-us.html" target="_blank">https://lift-international.com/about-us.html</a>
-            </br></br></br></br></br></br></br>
+            </br>
             </div>
         </div>
 
@@ -156,6 +178,9 @@ img.full-screen {
         <img src="/workplan/Screenshot from 2023-11-07 01-45-18.png" alt="Image 2">
     </a>
             </div>
+
+
+     
             <div class="blog-content">
                 <h2>Info in details</h2>
                 <p>as you can see in the destinations page (as the rest of the pages), on PC when you hover the 
@@ -164,8 +189,32 @@ img.full-screen {
                     info in the same format as presented on the destinations page such as price, time and a short 
                     presentation of the experience.<p>
                 <a href="https://lift-international.com/destinations.html" target="_blank">https://lift-international.com/destinations.html</a>
-</br></br></br></br></br></br>
-</br></br></br></br>
+</br>
+</br></br></br></br></br></br></br></br></br>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+
+
+        <div class="blog-post">
+            <div class="blog-image">Click on the img to expand
+                    <a href="#" class="expand-image">
+        <img src="/workplan/Screenshot from 2023-11-07 01-43-13.png" alt="Image 2">
+    </a>
+            </div>
+
+
+
+                 
+            <div class="blog-content">
+                <p>as you can see in the destinations page (as the rest of the pages), on PC when you hover the 
+                    mouse over the pic the info is 
+                    displayed, but in cell phones it displays once 'one' click is applied ed. Less is more, please provide updated 
+                    info in the same format as presented on the destinations page such as price, time and a short 
+                    presentation of the experience.<p>
+                <a href="https://lift-international.com/destinations.html" target="_blank">https://lift-international.com/destinations.html</a>
+</br>
+</br></br></br></br></br></br></br></br></br>
             </div>
         </div>
         <!-- Add more blog posts as needed -->
@@ -177,6 +226,9 @@ img.full-screen {
         <img src="/workplan/Screenshot from 2023-11-07 02-00-18.png" alt="Image 2">
     </a>
             </div>
+
+
+
             <div class="blog-content">
                 <h2>What the traveler would expect from the experience</h2>
                 <p>On the Embera exp. HTML if you scroll will find the box containing the 
@@ -215,8 +267,7 @@ img.full-screen {
                 <h2>We will take you to</h2>
                 <p>Please make a list of the places we would take travelers for their experiences for each package of trips
                     like the example you see in the img.</p>
-                </br></br></br></br></br></br>
-                </br></br></br></br>
+
             </div>
         </div>
         <!-- Add more blog posts as needed -->
