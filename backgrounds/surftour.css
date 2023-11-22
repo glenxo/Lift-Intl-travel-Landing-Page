@@ -1,0 +1,96 @@
+.tours{
+
+    background: url('/main/Kelly-bocas-credit-justin-juarez2.jpg') no-repeat rgba(0,0,0,.5);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+   }
+  
+  body {
+     background-image: url("/main/pexels-zaetaflow-sec-10994905.jpg");
+     background-repeat: no-repeat;
+     background-size: 210%;    
+     backdrop-filter: blur(.0rem);
+  
+  
+   }
+ 
+ 
+ 
+   section.grid:nth-child(3) > div:nth-child(1) > p:nth-child(3){  
+    color: #ffffff;
+       font-size: 2rem;
+       font-weight: bold;
+ }
+ 
+ 
+ 
+ section.grid:nth-child(4) > div:nth-child(1){
+    backdrop-filter: blur(1rem);
+ }
+ 
+ 
+ 
+ 
+ div.price{
+    color: #ffffff;
+    font-size: 2.7rem;
+    padding: 2rem;
+    margin-bottom: -60px;
+  }
+ 
+ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 900;
+    padding: 2rem;
+  }
+ 
+  h3.name:nth-child(2){
+    font-size: 2.3rem;
+  }
+  
+  h3.nme:nth-child(2) > strong:nth-child(1) > a:nth-child(1){
+ 
+  }
+ 
+  @keyframes shine {
+    0% {
+      color: #ffdb58; 
+    }
+    50% {
+      color: #ff0000; 
+    }
+    100% {
+      color: #58ff60; 
+    }
+  }
+  
+  .shining-text {
+    animation: shine 2s linear infinite; 
+  }
+  
+ 
+   html body div.container.tours section.grid div.box.aos-init.aos-animate div#home.credit h4 ul li a{
+    color: #ffffff;
+   }
+ 
+     html body section.grid div.box.aos-init.aos-animate p{
+    color: #ffffff;
+ }
+ 
+ 
+ 
+ @media (max-width:991px){
+    body {
+       background-image: url("/main/pexels-luis-quintero-1681452.jpg");
+       background-repeat: no-repeat;
+       background-size: 1000% auto;    
+       backdrop-filter: blur(.0rem);
+        }
+ 
+        
+ 
+  }
