@@ -16,7 +16,17 @@
  
   }
 
+  #swipe{
+    background-color: var(--light-bg);
 
+    padding: 2rem;
+  
+    text-align: center;
+  
+    backdrop-filter: blur(0.4rem);
+  
+    border-radius: 0.5rem;
+  }
 
   section.grid:nth-child(3) > div:nth-child(1) > p:nth-child(3){  
    color: #ffffff;
