@@ -1,25 +1,28 @@
 .tours{
 
-   background: url('/main/pexels-richard-rojas-15097661(1).jpg') no-repeat rgba(0,0,0,.5);
-   background-position: center;
-   background-attachment: fixed;
-   background-size: cover;
-   background-blend-mode: multiply;
-  }
- 
- body {
-    background-image: url("/main/pexels-zaetaflow-sec-3195708.jpg");
-    background-repeat: no-repeat;
-    background-size: 210%;    
-    backdrop-filter: blur(.0rem);
- 
- 
+  background: url('/main/pexels-esdras-jaimes-11742904.jpg') no-repeat rgba(0, 0, 0, 0.3);   
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
   }
 
 
-  
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/main/pexels-luis-quintero-11962371 (copy).jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(0rem);
+}
+
+
+
+
   #swipe{
-    background-color: var(--light-bg);
+    background-color: #ffffff23;
 
     padding: 2rem;
   
@@ -100,7 +103,7 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
 
 @media (max-width:991px){
    body {
-      background-image: url("/main/pexels-luis-quintero-1681452.jpg");
+      background-image: url("/main/pexels-luis-quintero-11962371 (copy).jpg");
       background-repeat: no-repeat;
       background-size: 1000% auto;    
       backdrop-filter: blur(.0rem);
