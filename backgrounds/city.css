@@ -23,13 +23,9 @@
 
   #swipe{
     background-color: #ffffff23;
-
     padding: 2rem;
-  
     text-align: center;
-  
     backdrop-filter: blur(0.4rem);
-  
     border-radius: 0.5rem;
   }
 
