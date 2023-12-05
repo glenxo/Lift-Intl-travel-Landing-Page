@@ -1,6 +1,6 @@
 .tours{
 
-  background: url('/main/pexels-esdras-jaimes-11742904.jpg') no-repeat rgba(0, 0, 0, 0.3);   
+  background: url('/main/pexels-luis-quintero-1681452 (3rd copy).jpg') no-repeat rgba(0, 0, 0, 0.3);   
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -12,7 +12,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url("/main/pexels-luis-quintero-11962371 (copy).jpg");
+    background-image: url("/main/pexels-zaetaflow-sec-4012052.jpg");
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(0rem);
@@ -99,7 +99,7 @@ section.grid:nth-child(4) > div:nth-child(1) > p:nth-child(3){
 
 @media (max-width:991px){
    body {
-      background-image: url("/main/pexels-luis-quintero-11962371 (copy).jpg");
+      background-image: url("/main/pexels-zaetaflow-sec-4012052.jpg");
       background-repeat: no-repeat;
       background-size: 1000% auto;    
       backdrop-filter: blur(.0rem);
