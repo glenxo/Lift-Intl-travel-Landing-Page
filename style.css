@@ -541,6 +541,8 @@ html body div.container.reviews p{
 }
 
 
+
+
 .tours .grid {
   display: grid;
 
@@ -948,17 +950,6 @@ html body div#enterDetails {
   backdrop-filter: blur(0.4rem);
 }
 
-.row form {
-  flex: 1 1 40rem;
-
-  padding: 2rem;
-
-  background-color: var(--light-bg);
-
-  border-radius: 0.5rem;
-
-  backdrop-filter: blur(0.4rem);
-}
 
 html body section.grid div.box.aos-init.aos-animate h3.name {
   text-align: center;
@@ -970,6 +961,9 @@ html body section.grid div.box.aos-init.aos-animate h3.name {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
+
+
+
 
 html body div#blog.credit.aos-init.aos-animate,
 html
@@ -992,6 +986,10 @@ html body div.row form.aos-init.aos-animate p {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
+
+
+
+
 
 html body div#enterDetails h1,
 .row form h3 {
