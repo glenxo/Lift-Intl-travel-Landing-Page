@@ -197,6 +197,11 @@ section {
   display: none;
 }
 
+section.aos-init > form:nth-child(1) > p:nth-child(1) > img:nth-child(1){
+  animation: spin 12s linear infinite;
+  width: 100px;
+}
+
 @keyframes spin {
   0% {
     transform: rotateY(0deg);
