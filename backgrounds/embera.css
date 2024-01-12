@@ -21,13 +21,12 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    backdrop-filter: blur(.3rem);
-height: auto;
-width: 100%;
  }
 
  html body section.grid div.box.aos-init.aos-animate p{
    color: #ffffff;
 }
+
 
 html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
   font-size: 2rem;
