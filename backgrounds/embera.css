@@ -1,15 +1,9 @@
 .tours{
-
-   background: url('/main/ecotour.jpg') no-repeat rgba(0,0,0,.5);
-
-   background-position: center;
-
-   background-attachment: fixed;
-
-   background-size: cover;
-
-   background-blend-mode: multiply;
-
+  background: url('/main/ecotour.jpg') no-repeat rgba(0,0,0,.5);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 section.grid:nth-child(3) > div:nth-child(1) > h3:nth-child(3) > strong:nth-child(1) > a:nth-child(1){
@@ -23,12 +17,12 @@ section.grid:nth-child(3) > div:nth-child(1) > h3:nth-child(3) > strong:nth-chil
 }
 
 body {
-   background-image: url("/main/IMG-20220816-WA0019.jpg");
+   background-image: url("/main/ecotour.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    backdrop-filter: blur(.3rem);
-
-
+height: auto;
+width: 100%;
  }
 
  html body section.grid div.box.aos-init.aos-animate p{
