@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('/lift-international/media/pviejo/pviejo1.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/pviajo3.jpg') no-repeat rgba(0,0,0,.5);
  
     background-position: center;
  
@@ -13,15 +13,28 @@
  }
  
  body {
-    background-image: url("/lift-international/media/pviejo/pasillo-cabildo\ \(copy\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(.8rem);
- 
- 
-  }
+   background-image: url("/main/pviejo1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   backdrop-filter: blur(0rem);
+   height: 100vh; /* Ensure the body takes the full viewport height */
+   margin: 0;     /* Remove default body margin */
+}
+
 
 
   html body section.grid div.box.aos-init.aos-animate p{
    color: #ffffff;
 }
+
+
+
+@media (max-width:991px){
+   html body div#blog.credit.aos-init.aos-animate img#images{
+      width: auto; /* Change the value to adjust the width */
+      height: 300px; 
+      border-radius: 0.7%;
+   
+    }
+   
+ }
