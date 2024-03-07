@@ -1,5 +1,5 @@
 .tours{
-  background: url('/main/ecotour.jpg') no-repeat rgba(0,0,0,.5);
+  background: url('/main/ecotour.jpg') no-repeat rgba(0, 0, 0, 0.219);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -25,6 +25,10 @@ body {
 
  html body section.grid div.box.aos-init.aos-animate p{
    color: #ffffff;
+}
+
+body > section:nth-child(3) > div > p.address{
+  margin-top: -85px;
 }
 
 
@@ -77,6 +81,10 @@ border-radius: 1.5%;
       width: auto; /* Change the value to adjust the width */
       height: 300px; 
       border-radius: 0.7%;
+      }
+
+      body > section:nth-child(3) > div > p.address{
+        margin-top: -25px;
       }
   
  }
