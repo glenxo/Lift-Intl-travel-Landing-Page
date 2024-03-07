@@ -156,7 +156,6 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(0deg, transparent, var(--black));
   z-index: 1000;
 }
 
