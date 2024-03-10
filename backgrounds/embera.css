@@ -37,6 +37,10 @@ html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
 color: #ffffff;
 }
 
+body > section:nth-child(5) > div > h3{
+  font-size: 4rem;
+}
+
 
 
 body > section.grid > div:nth-child(1),
