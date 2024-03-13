@@ -42,7 +42,7 @@
         /* Style for the text */
         .image-text p {
             position: absolute;
-            top: 40%;
+            top: 38%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-family: Arial, sans-serif;
@@ -52,9 +52,25 @@
             padding: 10px 20px;
             border-radius: 5px;
         }
+
+        body > a > img{
+    position: absolute;
+    animation-play-state: paused !important;
+    filter: invert(1);
+    animation: none;
+    top: 0%;
+    right: 0%;
+    width: 10%; /* Adjust the size of the image */
+    height: auto;
+}
+        
     </style>
 </head>
 <body>
+    <a href="#" class="logo-btn">
+        <img src="/main/close.png" alt="">
+    </a>
+    
 
 <ul class="image-list">
     <li>
