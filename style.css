@@ -1166,7 +1166,32 @@ html body section.grid div.box.aos-init.aos-animate p {
   color: var(--main-color);
 }
 
+
+
+
+
+
+
 /* media queries  */
+
+
+
+
+
+
+
+@media (max-width:991px){
+
+  body > header > section > a:nth-child(3) > img{
+    position: absolute;
+    animation-play-state: paused !important;
+    filter: invert(1);
+    animation: none;
+    top: 0.1;
+    right: 0;
+  }
+ }
+
 
 @media only screen and (min-width: 769px) and (max-width: 2023px) {
   html body header.header.aos-init.aos-animate section.flex img {
@@ -1181,7 +1206,6 @@ html body section.grid div.box.aos-init.aos-animate p {
 
   .heading {
     font-size: 5rem;
-
     margin-bottom: 3rem;
   }
 }

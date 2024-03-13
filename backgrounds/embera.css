@@ -81,6 +81,7 @@ border-radius: 1.5%;
 
 
  @media (max-width:991px){
+
    html body div#blog.credit.aos-init.aos-animate img#images{
       width: auto; /* Change the value to adjust the width */
       height: 300px; 
