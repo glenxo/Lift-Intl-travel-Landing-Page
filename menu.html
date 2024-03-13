@@ -28,21 +28,67 @@
             text-decoration: none;
         }
         .image-list li img {
-            width: 100px; /* Adjust image size as needed */
+            width: 200px; /* Adjust image size as needed */
             height: auto;
             border: 1px solid #ccc; /* Optional: Add border for image */
             border-radius: 5px; /* Optional: Add border radius */
+        }
+
+        .image-text {
+            position: relative;
+            text-align: center;
+        }
+
+        /* Style for the text */
+        .image-text p {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.226); /* Semi-transparent background */
+            padding: 10px 20px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
 
 <ul class="image-list">
-    <li><a href="#item1"><img src="/main/23485783_e33d49.webp" alt="Image 1"></a></li>
-    <li><a href="#item2"><img src="/main/23485783_e33d49.webp" alt="Image 2"></a></li>
-    <li><a href="#item3"><img src="/main/23485783_e33d49.webp" alt="Image 3"></a></li>
-    <li><a href="#item4"><img src="/main/23485783_e33d49.webp" alt="Image 4"></a></li>
-    <li><a href="#item5"><img src="/main/23485783_e33d49.webp" alt="Image 5"></a></li>
+    <li>
+        <a href="#item1" class="image-text">
+            <img src="/main/23485783_e33d49.webp" alt="Image 1">
+            <p>Home</p>
+        </a>
+    </li>    
+    
+    <li>
+        <a href="#item1" class="image-text">
+            <img src="/main/23485783_e33d49.webp" alt="Image 1">
+            <p>Destinations</p>
+        </a>
+    </li>    
+    <li>
+        <a href="#item1" class="image-text">
+            <img src="/main/23485783_e33d49.webp" alt="Image 1">
+            <p>Contact us</p>
+        </a>
+    </li>    
+    <li>
+        <a href="#item1" class="image-text">
+            <img src="/main/23485783_e33d49.webp" alt="Image 1">
+            <p>About</p>
+        </a>
+    </li>    
+    <li>
+        <a href="#item1" class="image-text">
+            <img src="/main/23485783_e33d49.webp" alt="Image 1">
+            <p>Short Trips</p>
+        </a>
+    </li>    
+    
 </ul>
 
 <!-- Your hamburger menu content can go here -->
