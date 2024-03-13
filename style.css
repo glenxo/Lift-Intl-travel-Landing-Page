@@ -1187,10 +1187,24 @@ html body section.grid div.box.aos-init.aos-animate p {
     animation-play-state: paused !important;
     filter: invert(1);
     animation: none;
-    top: 0.1;
+    top: 0;
     right: 0;
   }
- }
+
+  .logo-btn {
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.logo-btn img {
+    display: block; /* Ensure the image fills the button */
+    width: 10%; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
 
 
 @media only screen and (min-width: 769px) and (max-width: 2023px) {

@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             closeButton.addEventListener('click', function() {
                 fullscreen.style.display = 'none';
             });
-
+            
             fullscreen.appendChild(imgClone);
             fullscreen.appendChild(closeButton);
             fullscreen.style.display = 'flex';
