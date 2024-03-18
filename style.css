@@ -14,7 +14,7 @@
   --color-kimberly: #350e83;
   --color-kimberly2: #6f5f90d7;
   --color-ship-cove: #758eb7;
-  --color-casper: #afafaf;
+  --color-casper: #cc9e21;
   --color-casper2: #dff9ff;
   --color-dark: #262229;
   --color-darker: #26222993;
@@ -1282,7 +1282,7 @@ div:nth-child(1) > h3 {
 
 .destinations .grid .box h3 {
   -webkit-text-stroke: 0.5px rgb(255, 255, 255);
-  color: #ffffff;
+  color: #b39823dede;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
