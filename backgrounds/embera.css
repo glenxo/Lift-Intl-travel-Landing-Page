@@ -88,6 +88,13 @@ border-radius: 1.5%;
       border-radius: 0.7%;
       }
 
+      #\#top > a > img{
+        width: 30%; /* Adjust the size of the image */
+        height: auto; 
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+
       body > section:nth-child(3) > div > p.address{
         margin-top: -25px;
       }

@@ -1185,10 +1185,11 @@ html body section.grid div.box.aos-init.aos-animate p {
   body > header > section > a:nth-child(3) > img{
     position: absolute;
     animation-play-state: paused !important;
-    filter: invert(1);
+    /*filter: invert(1);*/
     animation: none;
     top: 0;
     right: 0;
+    color: #ffa600;
   }
 
   .logo-btn {
@@ -1198,6 +1199,8 @@ html body section.grid div.box.aos-init.aos-animate p {
     cursor: pointer;
     padding: 0;
 }
+
+
 
 .logo-btn img {
     display: block; /* Ensure the image fills the button */
