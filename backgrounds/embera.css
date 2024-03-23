@@ -23,6 +23,10 @@ body {
    backdrop-filter: blur(.3rem);
  }
 
+ #\#top > a > img{
+  display: none;
+ }
+
  html body section.grid div.box.aos-init.aos-animate p{
    color: #ffffff;
 }
