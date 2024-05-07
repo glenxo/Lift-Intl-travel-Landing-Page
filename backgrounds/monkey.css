@@ -22,7 +22,7 @@ body {
  }
 
  html body section.grid div.box span{
-   color:#fdad00; 
+   color:#ca7403; 
    font-size: 1.5rem;
  }
 
@@ -33,7 +33,7 @@ color: #ffffff;
 }  
 
 
-
+body > section:nth-child(3) > div > div,
 body > section > div:nth-child(6) > h3,
 body > section > div:nth-child(5) > h3,
 body > section > div:nth-child(4) > h3,
