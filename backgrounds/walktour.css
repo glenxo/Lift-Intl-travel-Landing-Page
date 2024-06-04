@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('/main/promenade.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/promenade.jpg') no-repeat rgba(0, 0, 0, 0.068);
  
     background-position: center;
  
@@ -15,10 +15,10 @@
  }
  
  body {
-    background-image: url("/main/casco-viejo-panama-city_1.jpg");
+    background-image: url("/main/casco-viejo-panama-city_1 (copy).jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(.6rem);
+    backdrop-filter: blur(.3rem);
  
  
   }
@@ -30,7 +30,7 @@ color: #ffffff;
 }  
 
 
-
+body > div.container.tours > section > div > p > spand
 
 body > section > div:nth-child(1) > h3,
 body > section > div:nth-child(4) > h3,

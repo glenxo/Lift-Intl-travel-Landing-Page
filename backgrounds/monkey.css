@@ -1,6 +1,6 @@
 .tours{
 
-   background: url('/main/pexels-esdras-jaimes-10550114.jpg') no-repeat rgba(0,0,0,.5);
+   background: url('/main/pexels-esdras-jaimes-10550114.jpg') no-repeat rgba(0, 0, 0, 0.178);
 
    background-position: center;
 
@@ -13,10 +13,10 @@
 }
 
 body {
-   background-image: url("/main/pexels-rodolfo-quirós-14678550.jpg");
+   background-image: url("/main/plantation-walk-in-soberania-national-park-01154 (1).jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   backdrop-filter: blur(.8rem);
+   backdrop-filter: blur(.3rem);
 
 
  }
