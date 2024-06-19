@@ -48,6 +48,13 @@ padding-right: 10%;
 color: #ffffff;
 }
 
+#swipe > section > div > div{
+   font-size: 2.5rem;
+   padding-left: 10%;
+   padding-right: 10%;
+   color: #ffffff;
+}
+
  span{
    font-size: 2.5rem;
    gap: 6;
