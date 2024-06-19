@@ -2,23 +2,23 @@
     "prettier.arrowParens": "avoid",
     "liveServer.settings.port": 5501,
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#ae72a5",
-        "activityBar.background": "#ae72a5",
+        "activityBar.activeBackground": "#cb9456",
+        "activityBar.background": "#cb9456",
         "activityBar.foreground": "#15202b",
         "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#bec59a",
+        "activityBarBadge.background": "#cef0e0",
         "activityBarBadge.foreground": "#15202b",
-        "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#ae72a5",
-        "statusBar.background": "#96578d",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#ae72a5",
-        "statusBarItem.remoteBackground": "#96578d",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#96578d",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#96578d99",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#cb9456",
+        "statusBar.background": "#b67b38",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#8f612c",
+        "statusBarItem.remoteBackground": "#b67b38",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#b67b38",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#b67b3899",
+        "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#96578d"
+    "peacock.color": "#b67b38"
 }
