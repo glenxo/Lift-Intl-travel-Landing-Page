@@ -26,8 +26,27 @@
 
  html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
    font-size: 2rem;
-color: #ffffff;
+color: #705079;
 }  
+
+
+
+
+
+
+
+
+
+#swipe > section > div > p > img{
+   height: 100%;
+   width: 100%;
+   border-radius: 1.5%;
+}
+
+
+
+
+
 
 
 body > div.container.tours > section > div > p > spand
