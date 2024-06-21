@@ -1,17 +1,10 @@
 .tours{
 
     background: url('/main/promenade.jpg') no-repeat rgba(0, 0, 0, 0.068);
- 
     background-position: center;
- 
     background-attachment: fixed;
- 
     background-size: cover;
- 
     background-blend-mode: multiply;
-
-    
- 
  }
  
  body {
@@ -19,22 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(.3rem);
- 
- 
   }
-
-
- html body div.container.tours section.grid div.box div#home.credit h4 ul li a{
-   font-size: 2rem;
-color: #705079;
-}  
-
-
-
-
-
-
-
 
 
 #swipe > section > div > p > img{
@@ -44,61 +22,24 @@ color: #705079;
 }
 
 
-
-
-
-
-
-body > div.container.tours > section > div > p > spand
-
-body > section > div:nth-child(1) > h3,
-body > section > div:nth-child(4) > h3,
-body > section > div:nth-child(3) > h3,
-body > section > div:nth-child(2) > h3{
-   font-size: 2.4rem;
-color: #ffffff;
-font-weight: bolder;
-}
-
 html body section.grid div.box p{
 font-size: 1.6rem;
 padding-left: 10%;
 padding-right: 10%;
-color: #ffffff;
 }
 
 #swipe > section > div > div{
    font-size: 2.5rem;
    padding-left: 10%;
    padding-right: 10%;
-   color: #ffffff;
 }
 
  span{
    font-size: 2.5rem;
    gap: 6;
-   color: #ffffff;
 }
 
-body > section.grid img{
-height: 50%;
-width: 80%;
-border-radius: 1.5%;
-}
 
-  html body div#enterDetails,
-  html body section.grid div.box.aos-init.aos-animate h3.name,
-  html body div#blog.credit.aos-init.aos-animate p,
-  html body section.grid div.box.aos-init.aos-animate p{
-   font-weight: 100;
-   -webkit-text-stroke: 1.0px rgb(255, 255, 255);
-   color: #ffffff;
-   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.185);
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 1.5rem;
-   text-align: center;
-   margin-bottom: 4rem;
-}
 
 html body div#enterDetails p,
 html body div#enterDetails h4,
@@ -114,7 +55,7 @@ html body div#footer.credit,
 html body section.grid div.box.aos-init.aos-animate p.address{
    -webkit-text-stroke: 1.0px rgb(255, 255, 255);
    color: #ffffff;
-   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.185);
+   text-shadow: 2px 2px 4px rgba(22, 5, 5, 0.788);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
