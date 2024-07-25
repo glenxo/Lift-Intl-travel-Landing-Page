@@ -1,6 +1,6 @@
 .tours{
 
-    background: url('/lift-international/media/pacific/panama1_BG.jpg') no-repeat rgba(0,0,0,.5);
+    background: url('/main/panama1_BG.jpg') no-repeat rgba(0,0,0,.5);
  
     background-position: center;
  
@@ -13,7 +13,7 @@
  }
  
  body {
-    background-image: url("/lift-international/media/pacific/alessa-ciraulo-hBUQ3NmkwWw-unsplash.jpg");
+    background-image: url("/main/panama1_BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(.3rem);
