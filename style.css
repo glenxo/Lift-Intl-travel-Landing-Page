@@ -197,6 +197,27 @@ section {
   display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body > section > form > p:nth-child(1) > a > img,
 body > div > div > section > form > p:nth-child(1) > a > img{
   animation: spin 12s linear infinite;
   width: 100px;
