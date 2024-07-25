@@ -216,7 +216,7 @@ section {
 
 
 
-
+body > div.container.tours > section.flex.aos-init.aos-animate > form > p:nth-child(1) > a > img,
 body > section > form > p:nth-child(1) > a > img,
 body > div > div > section > form > p:nth-child(1) > a > img{
   animation: spin 12s linear infinite;
