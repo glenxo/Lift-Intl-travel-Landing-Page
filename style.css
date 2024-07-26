@@ -442,55 +442,38 @@ h1.heading:nth-child(2){
 .reviews {
   background: url("/main/37882239712306556864ecf84e034d33.svg") no-repeat
     rgba(0, 0, 0, 0.5);
-
   background-position: center;
-
   background-attachment: fixed;
-
   background-size: cover;
-
   background-blend-mode: multiply;
 }
 
 .reviews .grid {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, 35rem);
-
   align-items: flex-start;
-
   justify-content: center;
-
   gap: 1.5rem;
 }
 
 .reviews .grid .box {
   background-color: var(--light-bg);
-
   padding: 2rem;
-
   text-align: center;
-
   backdrop-filter: blur(0.4rem);
-
   border-radius: 0.5rem;
 }
 
 .reviews .grid .box img {
   height: 8rem;
-
   width: 8rem;
-
   border-radius: 50%;
-
   object-fit: cover;
-
   margin-bottom: 1rem;
 }
 
 .reviews .grid .box h3 {
   font-size: 2rem;
-
   color: var(--white);
 }
 
